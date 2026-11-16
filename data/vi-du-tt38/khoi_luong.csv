@@ -1,0 +1,7 @@
+stt,hang_muc,ma_hieu,cap_phoi,ten_cong_tac,don_vi,doan,khoi_luong,quy_doi,he_so_vl,he_so_nc,he_so_m,can_cu_he_so,don_gia_tron_goi,dien_giai,nguon_ban_ve,trang_thai
+1,Rãnh cáp,AB.25102,,,m3,,450.5,0.01,1,1,1,,,Ví dụ,BV-VD,xac_nhan
+2,Rãnh cáp,SA.32211,,,m,,120,1,1,1,1,,,Ví dụ,BV-VD,xac_nhan
+3,Rãnh cáp,AB.65120,,,m3,,380,0.01,1,1,1,,,Ví dụ,BV-VD,xac_nhan
+4,Móng cột,AF.11210,11.12323,"Bê tông móng M250 đá 1x2, độ sụt 6-8 cm",m3,,12.6,1,1,1,1,,,Ví dụ,BV-VD,xac_nhan
+5,Vận chuyển,SB.94311,,,m3,,25,1,1,1,1,,,Ví dụ,BV-VD,xac_nhan
+6,Vận chuyển,SB.94711,,Vận chuyển tiếp 6 km (6 lần 1 km),m3,,25,1,1,1,6,Hệ số 6 = 6 km tiếp theo theo định mức SB.947 (1000m tiếp theo),,Ví dụ,BV-VD,xac_nhan

@@ -1,0 +1,38 @@
+stt,khu_vuc_tuyen,xa_phuong,tinh,ly_trinh_goc,doan,tu_km,den_km,chieu,ma_vung_nhan_cong,can_cu_vung
+1,Khu vực 1,Phường Long Biên,Hà Nội,Km00-420 - Km0+300,1,-0.42,0.3,,HN-V1-KV1,QĐ 3461/QĐ-SXD (giữ theo CV 14502): Vùng I – Khu vực 1
+2,Khu vực 1,Xã Gia Lâm,Hà Nội,Km 00+300 - Km1+400 ; Km1+600 - Km1+800 HN-HP và Km 4+350 - Km6+200,1,0.3,1.4,,HN-V1-KV1,QĐ 3461/QĐ-SXD (giữ theo CV 14502): Vùng I – Khu vực 1
+2,Khu vực 1,Xã Gia Lâm,Hà Nội,Km 00+300 - Km1+400 ; Km1+600 - Km1+800 HN-HP và Km 4+350 - Km6+200,2,1.6,1.8,HN-HP,HN-V1-KV1,QĐ 3461/QĐ-SXD (giữ theo CV 14502): Vùng I – Khu vực 1
+2,Khu vực 1,Xã Gia Lâm,Hà Nội,Km 00+300 - Km1+400 ; Km1+600 - Km1+800 HN-HP và Km 4+350 - Km6+200,3,4.35,6.2,,HN-V1-KV1,QĐ 3461/QĐ-SXD (giữ theo CV 14502): Vùng I – Khu vực 1
+3,Khu vực 1,Xã Bát Tràng,Hà Nội,Km1+400 - Km1+600 HN-HP và Km1+800- Km4+350,1,1.4,1.6,HN-HP,HN-V1-KV1,QĐ 3461/QĐ-SXD (giữ theo CV 14502): Vùng I – Khu vực 1
+3,Khu vực 1,Xã Bát Tràng,Hà Nội,Km1+400 - Km1+600 HN-HP và Km1+800- Km4+350,2,1.8,4.35,,HN-V1-KV1,QĐ 3461/QĐ-SXD (giữ theo CV 14502): Vùng I – Khu vực 1
+4,Khu vực 1,Xã Phụng Công,Hưng Yên,Km6+200 - Km7+510,1,6.2,7.51,,HY-V2,CV 3385/SXD-KT&VLXD: Vùng II
+5,Khu vực 1,Xã Nghĩa Trụ,Hưng Yên,Km7+510 - Km10+100,1,7.51,10.1,,HY-V2,CV 3385/SXD-KT&VLXD: Vùng II
+6,Khu vực 1,Xã Văn Giang,Hưng Yên,Km10+100 - Km12+720,1,10.1,12.72,,HY-V2,CV 3385/SXD-KT&VLXD: Vùng II
+7,Khu vực 1,Xã Hoàn Long,Hưng Yên,Km12+720 - Km14+900,1,12.72,14.9,,HY-V2,CV 3385/SXD-KT&VLXD: Vùng II
+8,Khu vực 1,Xã Việt Yên,Hưng Yên,Km14+900 - Km20+280,1,14.9,20.28,,HY-V2,CV 3385/SXD-KT&VLXD: Vùng II
+9,Khu vực 1,Xã Yên Mỹ,Hưng Yên,Km20+280 - Km25+200,1,20.28,25.2,,HY-V2,CV 3385/SXD-KT&VLXD: Vùng II
+10,Khu vực 1,Xã Xuân Trúc,Hưng Yên,Km25+200 - Km27+051,1,25.2,27.051,,HY-V3,CV 3385/SXD-KT&VLXD: Vùng III
+11,Khu vực 1,Xã Phạm Ngũ Lão,Hưng Yên,Km27+051 - Km28+904 và Km31+391 - Km32+683 HP-HN,1,27.051,28.904,,HY-V3,CV 3385/SXD-KT&VLXD: Vùng III
+11,Khu vực 1,Xã Phạm Ngũ Lão,Hưng Yên,Km27+051 - Km28+904 và Km31+391 - Km32+683 HP-HN,2,31.391,32.683,HP-HN,HY-V3,CV 3385/SXD-KT&VLXD: Vùng III
+12,Khu vực 1,Xã Ân Thi,Hưng Yên,Km28+904 - Km31+391 và Km31+391 - Km32+683 HN-HP,1,28.904,31.391,,HY-V3,CV 3385/SXD-KT&VLXD: Vùng III
+12,Khu vực 1,Xã Ân Thi,Hưng Yên,Km28+904 - Km31+391 và Km31+391 - Km32+683 HN-HP,2,31.391,32.683,HN-HP,HY-V3,CV 3385/SXD-KT&VLXD: Vùng III
+13,Khu vực 2,Xã Thượng Hồng,Hải Phòng,Km32+683 đến km37+150,1,32.683,37.15,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+14,Khu vực 2,Xã Đường An,Hải Phòng,Km37+150 đến km39+650,1,37.15,39.65,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+15,Khu vực 2,Xã Nguyễn Lương Bằng,Hải Phòng,Km39+650 đến km 42+640,1,39.65,42.64,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+16,Khu vực 2,Xã Bình Giang,Hải Phòng,Km42+200 đến km44+420,1,42.2,44.42,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+17,Khu vực 2,Xã Yết Kiêu,Hải Phòng,Km 44+420 - Km47+415,1,44.42,47.415,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+18,Khu vực 2,Xã Gia Lộc,Hải Phòng,Km 47+415 đến 52+780,1,47.415,52.78,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+19,Khu vực 2,Xã Gia Phúc,Hải Phòng,Km 52+780 đến 54+070,1,52.78,54.07,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+20,Khu vực 2,Xã Tân Kỳ,Hải Phòng,Km 54+070 đến 58+420,1,54.07,58.42,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+21,Khu vực 2,Xã Tứ Kỳ,Hải Phòng,Km 58+420 đến km 59+700,1,58.42,59.7,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+22,Khu vực 2,Xã Đại Sơn,Hải Phòng,Km 59+700 đến km 61+120,1,59.7,61.12,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+23,Khu vực 2,Xã Chí Minh,Hải Phòng,Km 61+120 đến km64+900,1,61.12,64.9,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+24,Khu vực 2,Xã Hà Đông,Hải Phòng,Km 64+900 đến km72+900,1,64.9,72.9,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+25,Khu vực 3,Xã An Quang,Hải Phòng,Km 72+900 đến km 77+380,1,72.9,77.38,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+26,Khu vực 3,Xã An Khánh,Hải Phòng,Km 77+380 đến km 84+400,1,77.38,84.4,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+27,Khu vực 3,Xã An Lão,Hải Phòng,Km78+607 đến đến Km79+000 HP-HN,1,78.607,79.0,HP-HN,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+28,Khu vực 3,Xã Kiến Thụy,Hải Phòng,Km 84+400 đến km 91+100,1,84.4,91.1,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+29,Khu vực 3,Xã Kiến Minh,Hải Phòng,Km 91+100 đến km 93+750,1,91.1,93.75,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+30,Khu vực 3,Phường Dương Kinh,Hải Phòng,Km 93+750 đến Km 96+700,1,93.75,96.7,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+31,Khu vực 3,Phường Hải An,Hải Phòng,Km 96+700 đến km 103+120,1,96.7,103.12,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II
+32,Khu vực 3,Phường Đông Hải,Hải Phòng,Km 103+120 đến km 105+450,1,103.12,105.45,,,Chưa có văn bản phân vùng Hải Phòng trong skill — CV 7546 chỉ ghi Vùng I/II

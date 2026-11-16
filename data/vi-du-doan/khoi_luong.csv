@@ -1,0 +1,8 @@
+stt,hang_muc,ma_hieu,ten_cong_tac,don_vi,doan,khoi_luong,quy_doi,he_so_vl,he_so_nc,he_so_m,can_cu_he_so,don_gia_tron_goi,dien_giai,nguon_ban_ve,trang_thai
+1,Tuyến cáp,VD.10010,,m3,D1,600.25,0.01,1,1,1,,,Ví dụ,BV-VD,xac_nhan
+1,Tuyến cáp,VD.10010,,m3,D2,650.25,0.01,1,1,1,,,Ví dụ,BV-VD,xac_nhan
+2,Tuyến cáp,VD.30010,,m,D1,250,0.01,1,1,1,,,Ví dụ,BV-VD,xac_nhan
+2,Tuyến cáp,VD.30010,,m,D2,250,0.01,1,1,1,,,Ví dụ,BV-VD,xac_nhan
+3,Móng cột,VD.20010,,m3,D2,12.6,1,1,1,1,,,Ví dụ,BV-VD,xac_nhan
+1,Đảm bảo ATGT,TG,Đảm bảo ATGT trọn gói (VÍ DỤ),ca,D1,5,1,1,1,1,,1500000,Ví dụ,BV-VD,xac_nhan
+1,Đảm bảo ATGT,TG,Đảm bảo ATGT trọn gói (VÍ DỤ),ca,D2,6,1,1,1,1,,1500000,Ví dụ,BV-VD,xac_nhan

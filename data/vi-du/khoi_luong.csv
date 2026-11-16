@@ -1,0 +1,5 @@
+stt,hang_muc,ma_hieu,ten_cong_tac,don_vi,khoi_luong,quy_doi,he_so_vl,he_so_nc,he_so_m,can_cu_he_so,don_gia_tron_goi,dien_giai,nguon_ban_ve,trang_thai
+1,Nền đường,VD.10010,,m3,1250.5,0.01,1,1,1,,,Trung bình mặt cắt Km0+000-Km0+500,BV-ND-01,xac_nhan
+2,Móng cột ITS,VD.20010,,m3,12.6,1,1,1,1,,,6 móng x 1.4x1.0x1.5,BV-ITS-05,xac_nhan
+3,Tuyến ống cáp,VD.30010,,m,500,0.01,1,1,1,,,Km0+000-Km0+500,BV-CAP-02,xac_nhan
+4,Tuyến ống cáp,TG,Hố ga cáp đúc sẵn (báo giá trọn gói - VÍ DỤ),cái,5,1,1,1,1,,4500000,5 hố theo BV,BV-CAP-03,xac_nhan

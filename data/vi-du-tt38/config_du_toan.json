@@ -1,0 +1,49 @@
+{
+  "_ghi_chu": "Ty le ghi dang thap phan (6,2% -> 0.062). Moi ty le phai co can_cu. Gia tri mau duoi day lay tu PL III TT 36/2026 ban goc cho cong trinh GIAO THONG, chi phi XD truoc thue trong TMDT <= 40 ty, theo tuyen - PHAI KIEM TRA LAI theo cong trinh thuc te va bo phu luc hien hanh (CV 9947/BXD-VPB, QD 1538/QD-BXD).",
+  "du_an": "Dự án VÍ DỤ",
+  "cong_trinh": "Sửa chữa tuyến cáp VÍ DỤ",
+  "hang_muc": "Rãnh cáp, móng cột",
+  "loai_cong_trinh": "giao_thong",
+  "theo_tuyen": true,
+  "vung_nui_hai_dao": false,
+  "chi_phi_xd_truoc_thue_tmdt_ty": 5,
+  "dia_ban": "VÍ DỤ",
+  "thoi_diem_ap_gia": "2026-09",
+  "don_vi_tien": "dong",
+  "nguoi_lap": "",
+  "nguoi_chu_tri": "",
+  "ty_le": {
+    "chi_phi_chung": {
+      "gia_tri": 0.062,
+      "co_so": "T",
+      "can_cu": "Bang 3.3 PL III TT 36/2026 - giao thong, nac <=40 ty"
+    },
+    "cong_viec_khong_xd_kl": {
+      "gia_tri": 0.02,
+      "can_cu": "Bang 3.5 PL III TT 36/2026 - giao thong"
+    },
+    "thu_nhap_chiu_thue_tt": {
+      "gia_tri": 0.06,
+      "can_cu": "Bang 3.6 PL III TT 36/2026 - giao thong"
+    },
+    "nha_tam": {
+      "gia_tri": 0.022,
+      "can_cu": "Bang 3.7 PL III TT 36/2026 - theo tuyen, nac <=15 ty; cong thuc theo QD 1538/QD-BXD"
+    },
+    "thue_gtgt": {
+      "gia_tri": 0.08,
+      "can_cu": "VÍ DỤ - kiểm tra thuế suất hiện hành"
+    }
+  },
+  "he_so": {
+    "knc": {
+      "gia_tri": 1.0,
+      "can_cu": "Khong lam dem/ngay nghi"
+    },
+    "km": {
+      "gia_tri": 1.0,
+      "can_cu": "Km = 1 + g x (Knc - 1)"
+    }
+  },
+  "loai_ho_so": "sua_chua"
+}

@@ -1,0 +1,13 @@
+stt,hang_muc,ma_hieu,cap_phoi,ten_cong_tac,don_vi,doan,khoi_luong,quy_doi,he_so_vl,he_so_nc,he_so_m,can_cu_he_so,don_gia_tron_goi,dien_giai,nguon_ban_ve,trang_thai
+1,"Tập hợp, rà soát hồ sơ hoàn công",KS.KYSU,,Tập hợp hồ sơ hoàn công,công,K1,1,1,1,1,1,,,01 kỹ sư × 1 ngày,Nhiệm vụ khảo sát VÍ DỤ,xac_nhan
+2,"Tập hợp, rà soát hồ sơ hoàn công",KS.KYSU,,"Rà soát hồ sơ, lập phương án",công,K1,1,1,1,1,1,,,01 kỹ sư × 1 ngày,Nhiệm vụ khảo sát VÍ DỤ,xac_nhan
+3,Khảo sát hiện trường,KS.KYSU,,Kỹ sư khảo sát hiện trường – vị trí A (Km10),công,K1,0.5,1,1,1,1,,,"01 kỹ sư × 0,5 ngày – vị trí A",Nhiệm vụ khảo sát VÍ DỤ,xac_nhan
+4,Khảo sát hiện trường,KS.XE,,Xe bán tải phục vụ hiện trường – vị trí A,ca,K1,0.5,1,1,1,1,,,"0,5 ca – vị trí A",Nhiệm vụ khảo sát VÍ DỤ,xac_nhan
+5,Khảo sát hiện trường,DB.05CA,,Đảm bảo ATGT < 1/2 ca – vị trí A,lần,K1,1,1,1,1,1,,,1 lần – vị trí A,Nhiệm vụ khảo sát VÍ DỤ,xac_nhan
+6,Khảo sát hiện trường,KS.XEDBGT,,Xe đảm bảo giao thông – vị trí A,ca,K1,0.5,1,1,1,1,,,"0,5 ca – vị trí A",Nhiệm vụ khảo sát VÍ DỤ,xac_nhan
+7,Khảo sát hiện trường,KS.KYSU,,Kỹ sư khảo sát hiện trường – vị trí B (Km40),công,K2,2,1,1,1,1,,,02 kỹ sư × 1 ngày – vị trí B,Nhiệm vụ khảo sát VÍ DỤ,xac_nhan
+8,Khảo sát hiện trường,KS.XE,,Xe bán tải phục vụ hiện trường – vị trí B,ca,K2,1,1,1,1,1,,,1 ca – vị trí B,Nhiệm vụ khảo sát VÍ DỤ,xac_nhan
+9,Khảo sát hiện trường,DB.1CA,,Đảm bảo ATGT ≤ 1 ca – vị trí B,lần,K2,1,1,1,1,1,,,1 lần – vị trí B,Nhiệm vụ khảo sát VÍ DỤ,xac_nhan
+10,Khảo sát hiện trường,KS.XEDBGT,,Xe đảm bảo giao thông – vị trí B,ca,K2,1,1,1,1,1,,,1 ca – vị trí B,Nhiệm vụ khảo sát VÍ DỤ,xac_nhan
+11,"Khảo sát vật tư, thiết bị",KS.KYSU,,Kỹ sư khảo sát thị trường,công,K1,1,1,1,1,1,,,"02 kỹ sư × 0,5 ngày",Nhiệm vụ khảo sát VÍ DỤ,xac_nhan
+12,"Khảo sát vật tư, thiết bị",KS.XE,,Xe bán tải phục vụ khảo sát thị trường,ca,K1,0.5,1,1,1,1,,,"0,5 ca",Nhiệm vụ khảo sát VÍ DỤ,xac_nhan

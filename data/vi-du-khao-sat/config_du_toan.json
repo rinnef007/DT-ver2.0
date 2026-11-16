@@ -1,0 +1,90 @@
+{
+  "_ghi_chu": "VI DU du toan khao sat theo PL V TT 36/2026 (Bang 5.4), mau don vi: don gia chi tiet theo vung, lam tron tung buoc. GIA LA SO GIA.",
+  "du_an": "Dự án VÍ DỤ",
+  "cong_trinh": "Khảo sát phục vụ lập dự toán sửa chữa VÍ DỤ",
+  "hang_muc": "Khảo sát",
+  "loai_cong_trinh": "giao_thong",
+  "che_do_chi_phi": "tt36_khao_sat",
+  "mau_xuat": "doan_vung",
+  "lam_tron": "tung_buoc",
+  "quy_mo_nc_ty": 0.01,
+  "quy_mo_t_ty": 0.02,
+  "quy_mo_t_gt_tl_ty": 0.02,
+  "vung": [
+    {
+      "id": "V1",
+      "ten": "Vùng giá 1 (VÍ DỤ)"
+    },
+    {
+      "id": "V2",
+      "ten": "Vùng giá 2 (VÍ DỤ)"
+    }
+  ],
+  "doan": [
+    {
+      "id": "K1",
+      "ten": "Khu vực 1",
+      "vung": "V1"
+    },
+    {
+      "id": "K2",
+      "ten": "Khu vực 2",
+      "vung": "V2"
+    }
+  ],
+  "ty_le": {
+    "chi_phi_chung": {
+      "gia_tri": 0.7,
+      "co_so": "NC",
+      "can_cu": "Bảng 5.1 PL V TT 36/2026 — NC ≤ 1 tỷ"
+    },
+    "cong_viec_khong_xd_kl": {
+      "gia_tri": 0.06,
+      "can_cu": "Bảng 5.2 PL V TT 36/2026 — T ≤ 2 tỷ"
+    },
+    "thu_nhap_chiu_thue_tt": {
+      "gia_tri": 0.06,
+      "can_cu": "Mục 1.3 PL V TT 36/2026"
+    },
+    "lap_phuong_an_ks": {
+      "gia_tri": 0,
+      "can_cu": "VÍ DỤ: không lập phương án kỹ thuật khảo sát riêng — nêu lý do"
+    },
+    "lap_bao_cao_ks": {
+      "gia_tri": 0.03,
+      "can_cu": "Bảng 5.3 PL V TT 36/2026 — (T+GT+TL) ≤ 2 tỷ"
+    },
+    "nha_tam": {
+      "gia_tri": 0.02,
+      "can_cu": "Mục 1.6 PL V TT 36/2026"
+    },
+    "du_phong": {
+      "gia_tri": 0.1,
+      "can_cu": "Mục 1.7 PL V TT 36/2026 — tối đa 10%"
+    },
+    "thue_gtgt": {
+      "gia_tri": 0.08,
+      "can_cu": "VÍ DỤ - kiểm tra thuế suất hiện hành"
+    }
+  },
+  "ty_le_theo_ma": {
+    "DB.1CA": {
+      "lap_bao_cao_ks": {
+        "gia_tri": 0,
+        "can_cu": "VÍ DỤ: ĐBATGT, xe ĐBGT là chi phí phục vụ, không tính lập báo cáo — ghi lý do trong thuyết minh"
+      }
+    },
+    "DB.05CA": {
+      "lap_bao_cao_ks": {
+        "gia_tri": 0,
+        "can_cu": "VÍ DỤ: ĐBATGT, xe ĐBGT là chi phí phục vụ, không tính lập báo cáo — ghi lý do trong thuyết minh"
+      }
+    },
+    "KS.XEDBGT": {
+      "lap_bao_cao_ks": {
+        "gia_tri": 0,
+        "can_cu": "VÍ DỤ: ĐBATGT, xe ĐBGT là chi phí phục vụ, không tính lập báo cáo — ghi lý do trong thuyết minh"
+      }
+    }
+  }
+}

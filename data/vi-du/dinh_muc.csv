@@ -1,0 +1,13 @@
+ma_hieu,ten_cong_tac,don_vi,loai,ma_tn,ten_tn,don_vi_tn,hao_phi,nguon
+VD.10010,Đào nền đường bằng máy đào (VÍ DỤ),100m3,NC,NC-3.0,Nhân công bậc 3.0/7,công,0.85,VÍ DỤ - GIẢ (cấu trúc theo TT38/2026)
+VD.10010,Đào nền đường bằng máy đào (VÍ DỤ),100m3,M,M-DAO,Máy đào 1.25m3,ca,0.30,VÍ DỤ - GIẢ (cấu trúc theo TT38/2026)
+VD.10010,Đào nền đường bằng máy đào (VÍ DỤ),100m3,M,M-UI,Máy ủi 110CV,ca,0.05,VÍ DỤ - GIẢ (cấu trúc theo TT38/2026)
+VD.20010,Bê tông móng mác 250 (VÍ DỤ),m3,VL,VL-XM,Xi măng PCB40,kg,350,VÍ DỤ - GIẢ (cấu trúc theo TT38/2026)
+VD.20010,Bê tông móng mác 250 (VÍ DỤ),m3,VL,VL-CAT,Cát vàng,m3,0.48,VÍ DỤ - GIẢ (cấu trúc theo TT38/2026)
+VD.20010,Bê tông móng mác 250 (VÍ DỤ),m3,VL,VL-DA,Đá 1x2,m3,0.86,VÍ DỤ - GIẢ (cấu trúc theo TT38/2026)
+VD.20010,Bê tông móng mác 250 (VÍ DỤ),m3,VLK,,Vật liệu khác,%,1.0,VÍ DỤ - GIẢ (cấu trúc theo TT38/2026)
+VD.20010,Bê tông móng mác 250 (VÍ DỤ),m3,NC,NC-3.0,Nhân công bậc 3.0/7,công,1.64,VÍ DỤ - GIẢ (cấu trúc theo TT38/2026)
+VD.20010,Bê tông móng mác 250 (VÍ DỤ),m3,M,M-TRON,Máy trộn 250l,ca,0.095,VÍ DỤ - GIẢ (cấu trúc theo TT38/2026)
+VD.20010,Bê tông móng mác 250 (VÍ DỤ),m3,MK,,Máy khác,%,2.0,VÍ DỤ - GIẢ (cấu trúc theo TT38/2026)
+VD.30010,Lắp đặt ống HDPE D110 bảo vệ cáp (VÍ DỤ),100m,VL,VL-HDPE,Ống HDPE D110,m,101,VÍ DỤ - GIẢ (cấu trúc theo TT38/2026)
+VD.30010,Lắp đặt ống HDPE D110 bảo vệ cáp (VÍ DỤ),100m,NC,NC-3.5,Nhân công bậc 3.5/7,công,4.2,VÍ DỤ - GIẢ (cấu trúc theo TT38/2026)

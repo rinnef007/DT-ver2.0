@@ -1,0 +1,327 @@
+{
+  "_nguon": "TT 36/2026/TT-BXD (toan van ban nguoi dung cung cap 15/10/2026, da doi chieu) + dinh chinh QD 1538/QD-BXD 28/8/2026 (PL III ban goc ghi 'Bao duong' o Bang 3.4 va LT x T_GTGT - ap dung theo dinh chinh). PL V theo bo phu luc thay the CV 9947/BXD-VPB (khop ban nguoi dung cung cap). CV 9947 khong thay PL III.",
+  "_don_vi": "phan tram (%)",
+  "loai_cong_trinh": [
+    "dan_dung",
+    "di_tich",
+    "cong_nghiep",
+    "ham_thuy_dien_ham_lo",
+    "giao_thong",
+    "ham_giao_thong",
+    "nn_mt",
+    "duong_ham_nn_mt",
+    "htkt"
+  ],
+  "bang_3_2_chi_phi_chung_tmdt": {
+    "dan_dung": 7.3,
+    "di_tich": 11.6,
+    "cong_nghiep": 6.2,
+    "ham_thuy_dien_ham_lo": 7.3,
+    "giao_thong": 6.2,
+    "ham_giao_thong": 7.3,
+    "nn_mt": 6.1,
+    "duong_ham_nn_mt": 7.3,
+    "htkt": 5.5
+  },
+  "bang_3_3_chi_phi_chung_du_toan": {
+    "nac_ty_dong": [
+      40,
+      60,
+      100,
+      300,
+      500,
+      750,
+      1000,
+      null
+    ],
+    "dan_dung": [
+      7.3,
+      7.1,
+      6.7,
+      6.5,
+      6.2,
+      6.1,
+      6.0,
+      5.8
+    ],
+    "di_tich": [
+      11.6,
+      11.1,
+      10.3,
+      10.1,
+      9.9,
+      9.8,
+      9.6,
+      9.4
+    ],
+    "cong_nghiep": [
+      6.2,
+      6.0,
+      5.6,
+      5.3,
+      5.1,
+      5.0,
+      4.9,
+      4.6
+    ],
+    "ham_thuy_dien_ham_lo": [
+      7.3,
+      7.2,
+      7.1,
+      6.9,
+      6.7,
+      6.6,
+      6.5,
+      6.4
+    ],
+    "giao_thong": [
+      6.2,
+      6.0,
+      5.6,
+      5.3,
+      5.1,
+      5.0,
+      4.9,
+      4.6
+    ],
+    "ham_giao_thong": [
+      7.3,
+      7.2,
+      7.1,
+      6.9,
+      6.7,
+      6.6,
+      6.5,
+      6.4
+    ],
+    "nn_mt": [
+      6.1,
+      5.9,
+      5.5,
+      5.3,
+      5.1,
+      5.0,
+      4.8,
+      4.6
+    ],
+    "duong_ham_nn_mt": [
+      7.3,
+      7.2,
+      7.1,
+      6.9,
+      6.7,
+      6.6,
+      6.5,
+      6.4
+    ],
+    "htkt": [
+      5.5,
+      5.3,
+      5.0,
+      4.8,
+      4.5,
+      4.4,
+      4.3,
+      4.0
+    ]
+  },
+  "bang_3_4_chi_phi_chung_tren_nc": {
+    "nac_nc_ty_dong": [
+      15,
+      50,
+      100,
+      null
+    ],
+    "sua_chua_duong_bo_duong_sat_bao_hieu_hang_hai": [
+      66,
+      63,
+      60,
+      56
+    ],
+    "nn_mt_thu_cong": [
+      51,
+      48,
+      45,
+      42
+    ],
+    "lap_dat_thiet_bi_duong_day_tba": [
+      65,
+      62,
+      59,
+      55
+    ]
+  },
+  "he_so_vung_nui_bien_gioi_bien_hai_dao": 1.1,
+  "bang_3_5_cong_viec_khong_xd_kl": {
+    "dan_dung": 2.5,
+    "di_tich": 2.5,
+    "cong_nghiep": 2.0,
+    "ham_thuy_dien_ham_lo": 6.5,
+    "giao_thong": 2.0,
+    "ham_giao_thong": 6.5,
+    "nn_mt": 2.0,
+    "duong_ham_nn_mt": 6.5,
+    "htkt": 2.0
+  },
+  "bang_3_6_thu_nhap_chiu_thue_tt": {
+    "dan_dung": 5.5,
+    "di_tich": 5.5,
+    "cong_nghiep": 6.0,
+    "ham_thuy_dien_ham_lo": 6.0,
+    "giao_thong": 6.0,
+    "ham_giao_thong": 6.0,
+    "nn_mt": 5.5,
+    "duong_ham_nn_mt": 5.5,
+    "htkt": 5.5,
+    "lap_dat_thiet_bi_duong_day_tba": 6.0
+  },
+  "bang_3_7_nha_tam": {
+    "nac_ty_dong": [
+      15,
+      100,
+      500,
+      1000,
+      null
+    ],
+    "theo_tuyen": [
+      2.2,
+      2.0,
+      1.9,
+      1.8,
+      1.7
+    ],
+    "con_lai": [
+      1.1,
+      1.0,
+      0.95,
+      0.9,
+      0.85
+    ]
+  },
+  "_ghi_chu_di_tich": "Bang 3.5 va 3.6 khong tach rieng di tich; gia dinh theo dan dung - can kiem tra.",
+  "_bac_thang": "Cac bang co 'nac' + 'so_sanh': gia tri quy mo so voi tung nguong theo thu tu; 'le' = <=, 'lt' = < (vd Bang 6.1 '< 1; 1 - < 5; >= 5'). null = phan con lai.",
+  "bang_2_3_quan_ly_mua_sam_thiet_bi": {
+    "_co_so": "chi phí mua sắm thiết bị chưa GTGT, thiết bị công nghệ nhập khẩu (tỷ đồng)",
+    "nac": [
+      10000,
+      20000,
+      null
+    ],
+    "so_sanh": [
+      "lt",
+      "le",
+      null
+    ],
+    "ty_le": [
+      1.1,
+      1.0,
+      0.9
+    ]
+  },
+  "pl_ii_du_phong": {
+    "du_toan_cong_trinh_phat_sinh_toi_da": 5,
+    "du_toan_goi_thau_phat_sinh_toi_da": 5,
+    "tmdt_phat_sinh_toi_da": 15,
+    "du_toan_cong_viec_toi_da": 5
+  },
+  "bang_2_7_du_toan_cong_viec": {
+    "thu_nhap_chiu_thue_tt": 6,
+    "_ghi_chu": "TL = (Ctt + Ck) x 6%; du phong <= 5%"
+  },
+  "pl_v_khao_sat": {
+    "bang_5_1_chi_phi_chung_tren_nc": {
+      "_co_so": "NC trong T (tỷ đồng)",
+      "nac": [
+        1,
+        2,
+        null
+      ],
+      "so_sanh": [
+        "le",
+        "le",
+        null
+      ],
+      "ty_le": [
+        70,
+        65,
+        60
+      ]
+    },
+    "bang_5_2_khong_xd_kl_tren_t": {
+      "_co_so": "T (tỷ đồng)",
+      "nac": [
+        2,
+        3,
+        null
+      ],
+      "so_sanh": [
+        "le",
+        "le",
+        null
+      ],
+      "ty_le": [
+        6,
+        4.5,
+        3
+      ]
+    },
+    "thu_nhap_chiu_thue_tt": 6,
+    "bang_5_3_lap_phuong_an_ks": {
+      "_co_so": "T + GT + TL (tỷ đồng)",
+      "nac": [
+        2,
+        null
+      ],
+      "so_sanh": [
+        "le",
+        null
+      ],
+      "ty_le": [
+        2,
+        1.5
+      ]
+    },
+    "bang_5_3_lap_bao_cao_ks": {
+      "_co_so": "T + GT + TL (tỷ đồng)",
+      "nac": [
+        2,
+        null
+      ],
+      "so_sanh": [
+        "le",
+        null
+      ],
+      "ty_le": [
+        3,
+        2.5
+      ]
+    },
+    "nha_tam_tren_g_cong_gtgt": 2,
+    "du_phong_toi_da": 10,
+    "lap_nhiem_vu_ks_tren_du_toan_ks": 3,
+    "_ghi_chu": "Gks = G + GTGT + LT + Cdp; G = (T+GT+TL) + Cpvks; Cpvks = Cpabc + Ckpvks (di chuyen may, DBATGT, bao hiem - lap du toan). Du toan thi nghiem chuyen nganh lap tuong tu (phan III PL V)."
+  },
+  "pl_vi_tu_van": {
+    "bang_6_1_chi_phi_quan_ly_tren_cg": {
+      "_co_so": "chi phí chuyên gia (tỷ đồng)",
+      "nac": [
+        1,
+        5,
+        null
+      ],
+      "so_sanh": [
+        "lt",
+        "lt",
+        null
+      ],
+      "ty_le": [
+        55,
+        50,
+        45
+      ]
+    },
+    "thu_nhap_chiu_thue_tt_tren_cg_ql": 6,
+    "du_phong_toi_da_trong_tmdt": 10,
+    "du_phong_toi_da_trong_du_toan": 5
+  }
+}

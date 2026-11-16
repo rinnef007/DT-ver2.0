@@ -1,0 +1,52 @@
+# Sửa mã TT 38 trích sai do bảng trình bày theo khối
+
+Mã có dấu hiệu lỗi: 139; đã sửa 37 mã; giữ nguyên và đưa vào `ma_can_kiem_tra`: 102 mã.
+
+- AB.351: SỬA 1 mã (khớp 100% số cũ) — vd. AB.35110: Nhân công nhóm 1 41 công; Máy đào gầu dây 1,2m3 4.76 ca
+- AC.1112: GIỮ NGUYÊN (đoạn ['Cọc tre Cây chống']: 6 số ≠ 1×3) — AC.11121, AC.11122, AC.11120
+- AC.172: SỬA 3 mã (khớp 86% số cũ) — vd. AC.17211: Cọc bê tông 101 m; Vật liệu khác 2 %; Nhân công nhóm 2 4.04 công; Tàu đóng cọc búa 1,8 t 1.929 ca; Cần cẩu 25 t 1.929 ca; Tàu kéo 150 cv 0.135 ca
+- AC.3133: SỬA 5 mã (khớp 100% số cũ) — vd. AC.31331: Răng khoan đá 0.42 cái; Vật liệu khác 2 %; Nhân công nhóm 2 1.8 công; Máy khoan > 200KNm÷300KNm 0.15 ca; Cần cẩu 50 t 0.15 ca; Máy khác 2 %
+- AC.3233: SỬA 5 mã (khớp 100% số cũ) — vd. AC.32331: Răng khoan đá 0.42 cái; Vật liệu khác 2 %; Nhân công nhóm 2 1.6 công; Máy khoan > 200KNm÷300KNm 0.133 ca; Cần cẩu 25 t 0.133 ca; Máy khác 2 %
+- AC.3243: GIỮ NGUYÊN (đoạn ['Răng khoan đá', 'Vật liệu khác'] không có số) — AC.32433, AC.32432, AC.32434, AC.32435, AC.32431
+- AC.3244: GIỮ NGUYÊN (đoạn ['Răng khoan đá', 'Vật liệu khác'] không có số) — AC.32441, AC.32444, AC.32443, AC.32442, AC.32445
+- AD.112: SỬA 4 mã (khớp 100% số cũ) — vd. AD.11212: Cấp phối đá dăm 134 m3; Nhân công nhóm 2 2.5 công; Máy rải 50-60 m3/h 0.21 ca; Máy lu rung 25t (tải trọng tĩnh 12t) 0.501 ca; Máy lu bánh hơi 16t 0.12 ca; Máy lu bánh thép 10t 0.26 ca
+- AD.221: SỬA 4 mã (khớp 100% số cũ) — vd. AD.22111: Đá 4x6 13.19 m3; Đá 2x4 0.33 m3; Đá 1x2 0.33 m3; Đá 0,5x1 0.44 m3; Đá 0,15 ÷ 0,5 0.77 m3; Nhân công nhóm 2 5.34 công
+- AD.253: SỬA 3 mã (khớp 100% số cũ) — vd. AD.25310: Răng cào hợp kim 0.025 bộ; Hỗn hợp chất kết dính Polime PT2A2 420.4 kg; Nước 0.5 m3; Xi măng PC40 546.52 kg; Vật liệu khác 0.5 %; Nhân công nhóm 2 1.5 công
+- AD.822: SỬA 3 mã (khớp 100% số cũ) — vd. AD.82211: Vữa bê tông 0.85 m3; Vật liệu khác 2 %; Nhân công nhóm 2 5.11 công
+- AF.125: GIỮ NGUYÊN (đoạn ['Vật liệu khác']: 4 số ≠ 1×2) — AF.12510, AF.12520
+- AF.181: GIỮ NGUYÊN (đoạn ['Máy khác']: 2 số ≠ 1×1) — AF.18110
+- AF.615: GIỮ NGUYÊN (đoạn ['Thép tròn']: 4 số ≠ 1×12) — AF.61521, AF.61524, AF.61523, AF.61522
+- AF.633: GIỮ NGUYÊN (đoạn ['Thép tròn']: 2 đơn vị ≠ 1 tên) — AF.63310, AF.63320, AF.63330
+- AF.734: GIỮ NGUYÊN (đoạn ['Thép tròn']: 2 đơn vị ≠ 1 tên) — AF.73420, AF.73430, AF.73410
+- AF.7375: GIỮ NGUYÊN (đoạn ['Thép tròn']: 2 đơn vị ≠ 1 tên) — AF.73753, AF.73752, AF.73751
+- AF.88410: GIỮ NGUYÊN () — AF.88410
+- AG.114: GIỮ NGUYÊN (đoạn ['Vữa bê tông', 'Vật liệu khác']: 25 số ≠ 4×5) — AG.11440, AG.11410, AG.11420, AG.11450, AG.11430
+- AG.3262: SỬA 1 mã (khớp 100% số cũ) — vd. AG.32621: Que hàn 3.41 kg; Vật liệu khác 1 %; Nhân công nhóm 2 12.45 công; Máy hàn 23kW 0.852 cái; Cổng trục 90t 0.071 cái; Cần cẩu bánh xích 16t 0.213 cái
+- AG.416: GIỮ NGUYÊN (đoạn ['Nhân công nhóm 2']: 1 số ≠ 1×4) — AG.41620, AG.41640, AG.41630
+- AG.525: SỬA 2 mã (khớp 100% số cũ) — vd. AG.52510: Gỗ kê 0.026 m3; Vật liệu khác 5 %; Nhân công nhóm 2 2.44 công; Cần cẩu 40 t 0.33 ca; Máy khác 2 %
+- AG.612: GIỮ NGUYÊN (đoạn ['Sà lan 400 t']: 2 số ≠ 1×3) — AG.61220, AG.61210, AG.61230
+- AI.211: GIỮ NGUYÊN (đoạn ['Thép hình', 'Thép ống']: 4 số ≠ 2×10) — AI.21122, AI.21121
+- AI.611: GIỮ NGUYÊN (đoạn ['Bu lông']: 1 số ≠ 1×9) — AI.61151, AI.61161
+- AK.841: GIỮ NGUYÊN (đoạn ['Sơn phủ nội thất Sơn phủ ngoại thất']: 8 số ≠ 1×4) — AK.84113, AK.84114
+- AL.181: GIỮ NGUYÊN (đoạn ['Bầu cỏ Vetiver', 'bầu']: 2 số ≠ 2×2) — AL.18111, AL.18112
+- AL.551: SỬA 2 mã (khớp 100% số cũ) — vd. AL.55110: Cần khoan L=1,5m 0.024 cái; Mũi khoan 0.05 cái; Nhân công nhóm 2 8 công; Máy khoan xoay đập tự hành Φ105 mm 0.35 ca; Máy nén khí 660 m3/h 0.35 ca; Máy khác 5 %
+- AM.111: GIỮ NGUYÊN (đoạn ['Nhân công nhóm 1']: 5 số ≠ 1×3) — AM.11103, AM.11102, AM.11104
+- AM.1126: GIỮ NGUYÊN (khớp 0%) — AM.11261, AM.11262
+- AM.1127: GIỮ NGUYÊN (khớp 0%) — AM.11271, AM.11272
+- BB.7921: GIỮ NGUYÊN (đoạn ['Máy gia nhiệt D630'] không có số) — BB.79211, BB.79215, BB.79212, BB.79216, BB.79213, BB.79214
+- BB.831: GIỮ NGUYÊN (đoạn ['Lắp BU']: 5 số ≠ 1×29) — BB.83112, BB.83111, BB.83113, BB.83114
+- BB.833: GIỮ NGUYÊN (đoạn ['Mối nối mềm']: 6 số ≠ 1×26) — BB.83314, BB.83313, BB.83311, BB.83312
+- BB.863: GIỮ NGUYÊN (đoạn ['Phạm vi áp dụng và nội dung đã tính trong định mức: Hao phí vật liệu, nhân công, máy thi công gia công, lắp giá đỡ puli, xà puli được tính riêng theo yêu cầu kỹ thuật.'] không có số) — BB.86301, BB.86302, BB.86303, BB.86305, BB.86304
+- BB.916: GIỮ NGUYÊN (đoạn ['Thùng đun nước nóng']: 1 số ≠ 1×2) — BB.91601, BB.91602
+- CE.127: SỬA 1 mã (khớp 100% số cũ) — vd. CE.12710: Búa 2 kg 0.1 cái; Đục thép 0.1 cái; Đá mài đĩa 0.1 viên; Giấy ráp 1 tờ; Vật liệu khác 5 %; Kỹ sư 0.5 công
+- CE.129: SỬA 1 mã (khớp 100% số cũ) — vd. CE.12910: Thước thép 5m 0.04 cái; Thước thép 42m 0.04 cái; Vật liệu khác 5 %; Kỹ sư 0.46 công; Nhân công nhóm 3 1.12 công; Bộ thiết bị siêu âm 0.32 ca
+- DA.030: GIỮ NGUYÊN (đoạn ['Điện năng', 'Nước cất']: 4 đơn vị ≠ 19 tên) — DA.03006, DA.03008, DA.03007, DA.03009, DA.03020
+- DA.500: GIỮ NGUYÊN (đoạn ['Nhân công nhóm 4', 'Cân kỹ thuật']: 4 số ≠ 2×4) — DA.50003, DA.50001, DA.50002, DA.50004
+- DA.550: GIỮ NGUYÊN (đoạn ['Điện năng', 'kwh']: 3 số ≠ 2×7) — DA.55005, DA.55007, DA.55006
+- MS.072: GIỮ NGUYÊN (đoạn ['Tôn tráng kẽm dày 0,47mm', 'Vít M4x20']: 6 số ≠ 5×1) — MS.07201
+- SA.212: GIỮ NGUYÊN (đoạn ['Nhân công nhóm 1']: 6 số ≠ 1×13) — SA.21273, SA.21264, SA.21262, SA.21263, SA.21272
+- SE.113: GIỮ NGUYÊN (đoạn ['đường', 'Đá 1x2']: 4 số ≠ 2×20) — SE.11313, SE.11314, SE.11312, SE.11311
+- SE.353: SỬA 1 mã (khớp 100% số cũ) — vd. SE.35310: Tủ điều khiển giao thông 1 bộ; Nhân công nhóm 4 0.125 công; Công nhân 1.54 công
+- SE.354: SỬA 1 mã (khớp 100% số cũ) — vd. SE.35410: Vỏ tủ điều khiển giao thông 1 cái; Nhân công nhóm 4 0.06 công; Công nhân 1.22 công
+- SE.441: GIỮ NGUYÊN (đoạn ['Vật liệu Thanh giằng sắt 25 và phụ kiện', 'Nhân công nhóm 3'] không có số) — SE.44120, SE.44110
+- SF.316: GIỮ NGUYÊN (đoạn ['Nhân công nhóm 4']: 1 số ≠ 1×2) — SF.31610

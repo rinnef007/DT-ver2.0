@@ -1,0 +1,25 @@
+{
+  "_ghi_chu": "VÍ DỤ - SỐ LIỆU GIẢ. Tỷ lệ phải tra theo PL III TT 36/2026 và PL VIII TT 38/2026 cho công trình thật.",
+  "du_an": "Dự án VÍ DỤ", "cong_trinh": "Tuyến cáp VÍ DỤ", "loai_cong_trinh": "giao_thong", "theo_tuyen": true,
+  "chi_phi_xd_truoc_thue_tmdt_ty": 5, "mau_xuat": "doan_vung", "lam_tron": "tung_buoc",
+  "vung": [{"id": "V1", "ten": "Vùng ví dụ 1"}, {"id": "V2", "ten": "Vùng ví dụ 2"}],
+  "doan": [{"id": "D1", "ten": "Đoạn 1 Km0+000 - Km1+000", "vung": "V1"}, {"id": "D2", "ten": "Đoạn 2 Km1+000 - Km2+000", "vung": "V2"}],
+  "ty_le": {
+    "chi_phi_chung": {"gia_tri": 0.062, "co_so": "T", "can_cu": "Bảng 3.3 PL III TT 36/2026 - giao thông, ≤40 tỷ (ví dụ)"},
+    "cong_viec_khong_xd_kl": {"gia_tri": 0.02, "can_cu": "Bảng 3.5 PL III TT 36/2026 (ví dụ)"},
+    "thu_nhap_chiu_thue_tt": {"gia_tri": 0.06, "can_cu": "Bảng 3.6 PL III TT 36/2026 (ví dụ)"},
+    "nha_tam": {"gia_tri": 0.022, "can_cu": "Bảng 3.7 PL III TT 36/2026 - theo tuyến ≤15 tỷ (ví dụ)"},
+    "thue_gtgt": {"gia_tri": 0.08, "can_cu": "VÍ DỤ - kiểm tra thuế suất hiện hành"}
+  },
+  "ty_le_theo_ma": {},
+  "tong_hop": [
+    {"ma": "GXD", "stt": "1", "ten": "Chi phí xây dựng", "kieu": "tong", "gom": ["XD", "LT"], "dam": true},
+    {"ma": "XD", "stt": "1.1", "ten": "Chi phí xây dựng", "kieu": "hang_muc", "hang_muc": ["Tuyến cáp", "Móng cột"]},
+    {"ma": "LT", "stt": "1.2", "ten": "Chi phí nhà tạm để ở và điều hành thi công", "kieu": "ty_le", "ty_le": 0.022, "co_so": ["XD"], "can_cu": "Bảng 3.7 PL III TT 36/2026 (ví dụ)"},
+    {"ma": "QLDA", "stt": "2", "ten": "Chi phí quản lý dự án", "kieu": "ty_le", "ty_le": 0.03, "he_so": 1, "co_so": ["GXD"], "can_cu": "PL VIII TT 38/2026 - VÍ DỤ, tra bảng thật"},
+    {"ma": "TV", "stt": "3", "ten": "Chi phí tư vấn (ví dụ: khảo sát nhập giá trị)", "kieu": "gia_tri", "gia_tri": 10000000, "can_cu": "VÍ DỤ - quyết định phê duyệt"},
+    {"ma": "GK", "stt": "4", "ten": "Chi phí khác - Đảm bảo ATGT", "kieu": "hang_muc", "hang_muc": ["Đảm bảo ATGT"]},
+    {"ma": "DP", "stt": "5", "ten": "Chi phí dự phòng", "kieu": "ty_le", "ty_le": 0.05, "co_so": ["GXD", "QLDA", "TV", "GK"], "vat": "theo_co_so", "can_cu": "VÍ DỤ"},
+    {"ma": "TONG", "stt": "", "ten": "TỔNG CỘNG", "kieu": "tong", "gom": ["GXD", "QLDA", "TV", "GK", "DP"], "dam": true}
+  ]
+}

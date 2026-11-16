@@ -1,0 +1,19 @@
+{
+  "loai_file": "dinh_muc",
+  "sheet": "Sheet1",
+  "dong_tieu_de": 1,
+  "kieu": "phang",
+  "cot": {
+    "ma_hieu": "Mã hiệu",
+    "ten_cong_tac": "Tên công tác",
+    "don_vi": "Đơn vị",
+    "loai": "Loại",
+    "ma_tn": "Mã VT",
+    "ten_tn": "Tên vật tư",
+    "don_vi_tn": "ĐVT",
+    "hao_phi": "Hao phí"
+  },
+  "gia_tri_co_dinh": {"nguon": "TT38/2026 PL II (theo CV 9947)"},
+  "anh_xa_loai": {"Vật liệu": "VL", "Nhân công": "NC", "Máy thi công": "M"},
+  "_kieu_phan_cap": "Neu file co ma hieu o dong cha va hao phi o dong con, dat \"kieu\": \"phan_cap\" - script dien ma_hieu/ten/don_vi cua dong cha xuong cac dong con co ma_hieu trong."
+}

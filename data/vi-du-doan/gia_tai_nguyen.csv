@@ -1,0 +1,19 @@
+ma_tn,ten_tn,don_vi,loai,vung,don_gia,nguon,ngay_ap_dung,khu_vuc,ty_le_luong
+NC-3.0,Nhân công bậc 3.0/7,công,NC,V1,300000,VÍ DỤ - GIẢ,2026-09-01,Vùng ví dụ 1,
+NC-3.0,Nhân công bậc 3.0/7,công,NC,V2,255000,VÍ DỤ - GIẢ,2026-09-01,Vùng ví dụ 2,
+NC-3.5,Nhân công bậc 3.5/7,công,NC,V1,320000,VÍ DỤ - GIẢ,2026-09-01,Vùng ví dụ 1,
+NC-3.5,Nhân công bậc 3.5/7,công,NC,V2,272000,VÍ DỤ - GIẢ,2026-09-01,Vùng ví dụ 2,
+M-DAO,Máy đào 1.25m3,ca,M,V1,3500000,VÍ DỤ - GIẢ,2026-09-01,Vùng ví dụ 1,0.25
+M-DAO,Máy đào 1.25m3,ca,M,V2,3325000,VÍ DỤ - GIẢ,2026-09-01,Vùng ví dụ 2,0.25
+M-UI,Máy ủi 110CV,ca,M,V1,2800000,VÍ DỤ - GIẢ,2026-09-01,Vùng ví dụ 1,0.28
+M-UI,Máy ủi 110CV,ca,M,V2,2660000,VÍ DỤ - GIẢ,2026-09-01,Vùng ví dụ 2,0.28
+M-TRON,Máy trộn 250l,ca,M,V1,350000,VÍ DỤ - GIẢ,2026-09-01,Vùng ví dụ 1,0.60
+M-TRON,Máy trộn 250l,ca,M,V2,332500,VÍ DỤ - GIẢ,2026-09-01,Vùng ví dụ 2,0.60
+VL-XM,Xi măng PCB40,kg,VL,V1,1600,VÍ DỤ - GIẢ,2026-09-01,Vùng ví dụ 1,
+VL-XM,Xi măng PCB40,kg,VL,V2,1600,VÍ DỤ - GIẢ,2026-09-01,Vùng ví dụ 2,
+VL-CAT,Cát vàng,m3,VL,V1,450000,VÍ DỤ - GIẢ,2026-09-01,Vùng ví dụ 1,
+VL-CAT,Cát vàng,m3,VL,V2,450000,VÍ DỤ - GIẢ,2026-09-01,Vùng ví dụ 2,
+VL-DA,Đá 1x2,m3,VL,V1,420000,VÍ DỤ - GIẢ,2026-09-01,Vùng ví dụ 1,
+VL-DA,Đá 1x2,m3,VL,V2,420000,VÍ DỤ - GIẢ,2026-09-01,Vùng ví dụ 2,
+VL-HDPE,Ống HDPE D110,m,VL,V1,85000,VÍ DỤ - GIẢ,2026-09-01,Vùng ví dụ 1,
+VL-HDPE,Ống HDPE D110,m,VL,V2,85000,VÍ DỤ - GIẢ,2026-09-01,Vùng ví dụ 2,

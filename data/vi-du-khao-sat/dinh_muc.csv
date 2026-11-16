@@ -1,0 +1,14 @@
+ma_hieu,ten_cong_tac,don_vi,loai,ma_tn,ten_tn,don_vi_tn,hao_phi,he_so,can_cu_he_so,ly_do,nguon
+KS.KYSU,"Kỹ sư khảo sát (tập hợp, rà soát hồ sơ; khảo sát hiện trường; khảo sát thị trường)",công,NC,Kỹ sư,Kỹ sư,công,1,1,,,VÍ DỤ - dự toán theo công (không có định mức TT 38 tương ứng)
+KS.XE,Xe bán tải phục vụ khảo sát,ca,M,"Ô tô bán tải 1,5T","Ô tô bán tải 1,5T",ca,1,1,,,VÍ DỤ - dự toán theo công (không có định mức TT 38 tương ứng)
+KS.XEDBGT,Xe đảm bảo giao thông,ca,M,"Ô tô bán tải 1,5T","Ô tô bán tải 1,5T",ca,1,1,,,VÍ DỤ - dự toán theo công (không có định mức TT 38 tương ứng)
+DB.1CA,Đảm bảo ATGT ≤ 1 ca (VÍ DỤ),lần,VL,Chóp nón,Chóp nón,cái,20,0.02,"Luân chuyển vật tư ATGT — VÍ DỤ, ghi căn cứ thật khi lập",,VÍ DỤ - cấu trúc theo định mức ĐBATGT chuyên ngành
+DB.1CA,Đảm bảo ATGT ≤ 1 ca (VÍ DỤ),lần,VL,Đèn quay cảnh báo,Đèn quay cảnh báo,cái,4,0.02,"Luân chuyển vật tư ATGT — VÍ DỤ, ghi căn cứ thật khi lập",,VÍ DỤ - cấu trúc theo định mức ĐBATGT chuyên ngành
+DB.1CA,Đảm bảo ATGT ≤ 1 ca (VÍ DỤ),lần,VL,Biển báo tam giác,Biển báo tam giác,cái,2,0.02,"Luân chuyển vật tư ATGT — VÍ DỤ, ghi căn cứ thật khi lập",,VÍ DỤ - cấu trúc theo định mức ĐBATGT chuyên ngành
+DB.1CA,Đảm bảo ATGT ≤ 1 ca (VÍ DỤ),lần,VLK,,,%,5,1,,,VÍ DỤ - cấu trúc theo định mức ĐBATGT chuyên ngành
+DB.1CA,Đảm bảo ATGT ≤ 1 ca (VÍ DỤ),lần,NC,Nhân công nhóm 2,Nhân công nhóm 2,công,2.1,1,,,VÍ DỤ - cấu trúc theo định mức ĐBATGT chuyên ngành
+DB.05CA,Đảm bảo ATGT < 1/2 ca (VÍ DỤ),lần,VL,Chóp nón,Chóp nón,cái,20,0.01,"Luân chuyển vật tư ATGT — VÍ DỤ, ghi căn cứ thật khi lập",,VÍ DỤ - cấu trúc theo định mức ĐBATGT chuyên ngành
+DB.05CA,Đảm bảo ATGT < 1/2 ca (VÍ DỤ),lần,VL,Đèn quay cảnh báo,Đèn quay cảnh báo,cái,4,0.01,"Luân chuyển vật tư ATGT — VÍ DỤ, ghi căn cứ thật khi lập",,VÍ DỤ - cấu trúc theo định mức ĐBATGT chuyên ngành
+DB.05CA,Đảm bảo ATGT < 1/2 ca (VÍ DỤ),lần,VL,Biển báo tam giác,Biển báo tam giác,cái,2,0.01,"Luân chuyển vật tư ATGT — VÍ DỤ, ghi căn cứ thật khi lập",,VÍ DỤ - cấu trúc theo định mức ĐBATGT chuyên ngành
+DB.05CA,Đảm bảo ATGT < 1/2 ca (VÍ DỤ),lần,VLK,,,%,5,1,,,VÍ DỤ - cấu trúc theo định mức ĐBATGT chuyên ngành
+DB.05CA,Đảm bảo ATGT < 1/2 ca (VÍ DỤ),lần,NC,Nhân công nhóm 2,Nhân công nhóm 2,công,1.05,1,,,VÍ DỤ - cấu trúc theo định mức ĐBATGT chuyên ngành

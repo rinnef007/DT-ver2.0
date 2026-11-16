@@ -1,0 +1,131 @@
+# Báo cáo trích định mức TT 38/2026
+
+- Bảng đọc được: 2407; bảng không nhận dạng (cần xem tay): 117
+- Số mã định mức: 8879 — PL I: 439, PL II: 4410, PL III: 2140, PL IV: 469, PL V: 475, PL VI: 946
+- PL VII: 378 mã cấp phối vữa (1743 dòng) → cap_phoi_tt38.csv; 177 dòng hao hụt → hao_hut_tt38.csv. Các bảng PL VII khác (xây, trát, ván khuôn, hàn…) chưa trích.
+- PL VIII (chi phí QLDA, tư vấn) không trích bằng công cụ này.
+- Mã tài nguyên (`ma_tn`) = tên vật liệu/nhân công/máy như trong TT 38 — bảng giá phải dùng đúng tên này.
+- Mã trùng giữa các phụ lục được thêm hậu tố `@<phụ lục>`.
+- 61 mã nghi lệch dòng do ô gộp không đều → ma_can_kiem_tra.csv (soát S18 cảnh báo khi dùng).
+
+## Bảng không nhận dạng được (mã thuộc các bảng này chưa có trong dữ liệu — tra văn bản)
+- PL I · nhóm CK.41900 BẢN ĐỒ TỶ LỆ 1/500 · đoạn trước: Bảng quy định cấp phức tạp địa chất cho mỗi vùng khảo sát / MỤC LỤC
+- PL II · nhóm AB.51410 PHÁ ĐÁ NỔ MÌN BUỒNG TRÊN GIẾNG ĐIỀU ÁP TỪ TRÊN XUỐNG ĐƯỜNG K · đoạn trước: Chuẩn bị mặt bằng, định vị lỗ khoan, xác định chiều sâu lỗ khoan, khoan tạo lỗ, thông lỗ thổi rửa nghiệm thu lỗ khoan, n
+- PL II · nhóm AB.71200 NẠO VÉT BẰNG TÀU HÚT CÔNG SUẤT 1200 cv · đoạn trước: AB.71200 NẠO VÉT BẰNG TÀU HÚT CÔNG SUẤT 1200 cv / Đơn vị tính: 100m3
+- PL II · nhóm AB.71300 NẠO VÉT BẰNG TÀU HÚT CÔNG SUẤT 4170 cv · đoạn trước: AB.71300 NẠO VÉT BẰNG TÀU HÚT CÔNG SUẤT 4170 cv / Đơn vị tính: 100m3
+- PL II · nhóm AB.72100 NẠO VÉT BẰNG TÀU CUỐC BIỂN CÔNG SUẤT 2085 cv · đoạn trước: AB.72100 NẠO VÉT BẰNG TÀU CUỐC BIỂN CÔNG SUẤT 2085 cv / Đơn vị tính:100 m3
+- PL II · nhóm AC.21120 ĐÓNG CỌC DƯỚI NƯỚC · đoạn trước: Chuẩn bị, đưa cọc đến vị trí đóng, dựng cọc, chằng giữ cọc, lắp dựng tháo dỡ chụp đầu cọc, neo định vị cọc. Đóng cọc the
+- PL II · nhóm AC.25000 ÉP TRƯỚC CỌC BÊ TÔNG CỐT THÉP BẰNG MÁY ÉP CỌC 150T · đoạn trước: Thành phần công việc: Chuẩn bị, vận chuyển vật liệu trong phạm vi 30m. Di chuyển máy vào vị trí ép cọc, cẩu và định vị c
+- PL II · nhóm AD.42200 ĐẶT ĐƯỜNG SẮT CHÍNH TUYẾN, TRONG GA, CHUYÊN DÙNG KHỔ 1,435m; · đoạn trước: AD.42200 ĐẶT ĐƯỜNG SẮT CHÍNH TUYẾN, TRONG GA, CHUYÊN DÙNG KHỔ 1,435m; RAY P43; TÀ VẸT BÊ TÔNG DỰ ỨNG LỰC, TÀ VẸT BÊ TÔNG
+- PL II · nhóm AD.82300 LẮP ĐẶT CÁC LOẠI BIỂN BÁO HIỆU ĐƯỜNG SÔNG · đoạn trước: - Đá trộn nhựa pha dầu hoặc nhựa đặc / Đơn vị tính: 1 tấn
+- PL II · nhóm AD.82300 LẮP ĐẶT CÁC LOẠI BIỂN BÁO HIỆU ĐƯỜNG SÔNG · đoạn trước: - Đá trộn nhũ tương hoặc nhựa đường / Đơn vị tính: 1 tấn
+- PL II · nhóm AD.82300 LẮP ĐẶT CÁC LOẠI BIỂN BÁO HIỆU ĐƯỜNG SÔNG · đoạn trước: - Khoáng chất / Đơn vị tính: 1 tấn
+- PL II · nhóm AD.82300 LẮP ĐẶT CÁC LOẠI BIỂN BÁO HIỆU ĐƯỜNG SÔNG · đoạn trước: Đơn vị tính: 1 tấn / Đơn vị tính: 1 tấn
+- PL II · nhóm AD.82300 LẮP ĐẶT CÁC LOẠI BIỂN BÁO HIỆU ĐƯỜNG SÔNG · đoạn trước: Đơn vị tính: 1 tấn / Đơn vị tính: 1 tấn
+- PL II · nhóm AD.82300 LẮP ĐẶT CÁC LOẠI BIỂN BÁO HIỆU ĐƯỜNG SÔNG · đoạn trước: Đơn vị tính: 1 tấn / Đơn vị tính: 1 tấn
+- PL II · nhóm AD.82300 LẮP ĐẶT CÁC LOẠI BIỂN BÁO HIỆU ĐƯỜNG SÔNG · đoạn trước: - Nhựa bi tum / Đơn vị tính: 1 tấn
+- PL II · nhóm AD.82300 LẮP ĐẶT CÁC LOẠI BIỂN BÁO HIỆU ĐƯỜNG SÔNG · đoạn trước: Đơn vị tính: 1 tấn / Đơn vị tính: 1 tấn
+- PL II · nhóm AD.82300 LẮP ĐẶT CÁC LOẠI BIỂN BÁO HIỆU ĐƯỜNG SÔNG · đoạn trước: 3. CẤP PHỐI VẬT LIỆU NHỰA PHA DẦU / Đơn vị tính: 1 tấn
+- PL II · nhóm AD.82300 LẮP ĐẶT CÁC LOẠI BIỂN BÁO HIỆU ĐƯỜNG SÔNG · đoạn trước: 4. CẤP PHỐI VẬT LIỆU NHŨ TƯƠNG NHỰA ĐƯỜNG / Đơn vị tính: 1 tấn
+- PL II · nhóm AE.93000 XÂY GẠCH CHỊU LỬA LÒ NUNG · đoạn trước: 1.1. Định mức cấp phối vật liệu cho 1m3 vữa tam hợp cát vàng, cát mịn / 1.1.1. Vữa tam hợp cát vàng - cát có mô đun độ l
+- PL II · nhóm AE.93000 XÂY GẠCH CHỊU LỬA LÒ NUNG · đoạn trước: 1.1.1. Vữa tam hợp cát vàng - cát có mô đun độ lớn ML >2. / 1.1.2. Vữa tam hợp cát mịn - cát có mô đun độ lớn ML = 1,5 ÷
+- PL II · nhóm AE.93000 XÂY GẠCH CHỊU LỬA LÒ NUNG · đoạn trước: 1.1.2. Vữa tam hợp cát mịn - cát có mô đun độ lớn ML = 1,5 ÷ 2,0 / 1.1.3. Vữa tam hợp cát mịn - cát có mô đun độ lớn ML 
+- PL II · nhóm AE.93000 XÂY GẠCH CHỊU LỬA LÒ NUNG · đoạn trước: 1.2. Định mức cấp phối vật liệu cho 1m3 vữa xi măng cát vàng, cát mịn / 1.2.1. Vữa xi măng cát vàng - cát có mô đun độ l
+- PL II · nhóm AE.93000 XÂY GẠCH CHỊU LỬA LÒ NUNG · đoạn trước: 1.2.1. Vữa xi măng cát vàng - cát có mô đun độ lớn ML >2. / 1.2.2. Vữa xi măng cát mịn - cát có mô đun độ lớn ML = 1,5 ÷
+- PL II · nhóm AE.93000 XÂY GẠCH CHỊU LỬA LÒ NUNG · đoạn trước: 1.2.2. Vữa xi măng cát mịn - cát có mô đun độ lớn ML = 1,5 ÷ 2,0 / 1.2.3. Vữa xi măng cát mịn - cát có mô đun độ lớn ML 
+- PL II · nhóm AE.93000 XÂY GẠCH CHỊU LỬA LÒ NUNG · đoạn trước: 2.1. Định mức cấp phối vật liệu cho 1m3 vữa tam hợp cát vàng, cát mịn / 2.1.1. Vữa tam hợp cát vàng - cát có mô đun độ l
+- PL II · nhóm AE.93000 XÂY GẠCH CHỊU LỬA LÒ NUNG · đoạn trước: 2.1.1. Vữa tam hợp cát vàng - cát có mô đun độ lớn ML >2. / 2.1.2. Vữa tam hợp cát mịn - cát có mô đun độ lớn ML = 1,5 ÷
+- PL II · nhóm AE.93000 XÂY GẠCH CHỊU LỬA LÒ NUNG · đoạn trước: 2.1.2. Vữa tam hợp cát mịn - cát có mô đun độ lớn ML = 1,5 ÷ 2,0 / 2.1.3. Vữa tam hợp cát mịn - cát có mô đun độ lớn ML 
+- PL II · nhóm AE.93000 XÂY GẠCH CHỊU LỬA LÒ NUNG · đoạn trước: 2.2. Định mức cấp phối vật liệu cho 1m3 vữa xi măng cát vàng, cát mịn / 2.2.1. Vữa xi măng cát vàng - cát có mô đun độ l
+- PL II · nhóm AE.93000 XÂY GẠCH CHỊU LỬA LÒ NUNG · đoạn trước: 2.2.1. Vữa xi măng cát vàng - cát có mô đun độ lớn ML >2. / 2.2.2. Vữa xi măng cát mịn - cát có mô đun độ lớn ML = 1,5 ÷
+- PL II · nhóm AE.93000 XÂY GẠCH CHỊU LỬA LÒ NUNG · đoạn trước: 2.2.2. Vữa xi măng cát mịn - cát có mô đun độ lớn ML = 1,5 ÷ 2,0 / 2.2.3. Vữa xi măng cát mịn - cát có mô đun độ lớn ML 
+- PL II · nhóm AE.93000 XÂY GẠCH CHỊU LỬA LÒ NUNG · đoạn trước: III- ĐỊNH MỨC CẤP PHỐI VỮA XÂY, TRÁT BÊ TÔNG NHẸ / Đơn vị tính: 1m3
+- PL II · nhóm AF.33300 BÊ TÔNG DẦM CẦU THI CÔNG BẰNG PHƯƠNG PHÁP ĐÚC ĐẨY, ĐÚC HẪNG · đoạn trước: AF.33300 BÊ TÔNG DẦM CẦU THI CÔNG BẰNG PHƯƠNG PHÁP ĐÚC ĐẨY, ĐÚC HẪNG / Đơn vị tính: 1m3
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.1. Độ sụt 0,5 ÷ 1 cm / 1.1.1.1. Đá d max = 10mm (cỡ 0,5x1 cm)
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.1.1. Đá d max = 10mm (cỡ 0,5x1 cm) / 1.1.1.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ]
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.1.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ] / 1.1.1.3. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.1.3. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2 cm và (60 ÷ 30)% cỡ 2x4 cm ] / 1.1.1.4. Đá d max = 70mm [(40 ÷ 70)% cỡ 2x4 c
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.2. Độ sụt 2 ÷ 4 cm / 1.1.2.1. Đá d max = 10mm (cỡ 0,5x1 cm)
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.2.1. Đá d max = 10mm (cỡ 0,5x1 cm) / 1.1.2.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ]
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.2.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ] / 1.1.2.3. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.2.3. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2 cm và (60 ÷ 30)% cỡ 2x4 cm ] / 1.1.2.4. Đá d max = 70mm [(40 ÷ 70)% cỡ 2x4 c
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.3. Độ sụt 6 ÷ 8 cm / 1.1.3.1. Đá d max = 10mm (cỡ 0,5x1 cm)
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.3.1. Đá d max = 10mm (cỡ 0,5x1 cm) / 1.1.3.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ]
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.3.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ] / 1.1.3.3. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.3.3. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2 cm và (60 ÷ 30)% cỡ 2x4 cm ] / 1.1.3.4. Đá d max = 70mm [(40 ÷ 70)% cỡ 2x4 c
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.4. Độ sụt 10 ÷ 12 cm / 1.1.4.1. Đá d max = 10mm (cỡ 0,5x1 cm)
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.4.1. Đá d max = 10mm (cỡ 0,5x1 cm) / 1.1.4.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ]
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.4.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ] / 1.1.4.3. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.4.3. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2 cm và (60 ÷ 30)% cỡ 2x4 cm ] / 1.1.4.4. Đá d max = 70mm [(40 ÷ 70)% cỡ 2x4 c
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.5. Độ sụt 14 ÷ 17 cm / 1.1.5.1. Đá d max = 10mm (cỡ 0,5x1 cm)
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.5.1. Đá d max = 10mm (cỡ 0,5x1 cm) / 1.1.5.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ]
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.5.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ] / 1.1.5.3. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.5.3. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2 cm và (60 ÷ 30)% cỡ 2x4 cm ] / 1.1.5.4. Đá d max = 70mm [(40 ÷ 70)% cỡ 2x4 c
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.6. Độ sụt 18 ÷ 22 cm / 1.1.6.1. Đá d max = 20mm
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.1.6.1. Đá d max = 20mm / 1.1.6.2. Đá d max = 40mm
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.1. Độ sụt 0,5 ÷ 1 cm / 1.2.1.1. Đá d max = 10mm (cỡ 0,5x1 cm)
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.1.1. Đá d max = 10mm (cỡ 0,5x1 cm) / 1.2.1.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ]
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.1.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ] / 1.2.1.3. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.1.3. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2 cm và (60 ÷ 30)% cỡ 2x4 cm ] / 1.2.1.4. Đá d max = 70mm [(40 ÷ 70)% cỡ 2x4 c
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.2. Độ sụt 2 ÷ 4 cm / 1.2.2.1. Đá d max = 10mm (cỡ 0,5x1 cm)
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.2.1. Đá d max = 10mm (cỡ 0,5x1 cm) / 1.2.2.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ]
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.2.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ] / 1.2.2.3. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.2.3. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2 cm và (60 ÷ 30)% cỡ 2x4 cm ] / 1.2.2.4. Đá d max = 70mm [(40 ÷ 70)% cỡ 2x4 c
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.3. Độ sụt 6 ÷ 8 cm / 1.2.3.1. Đá d max = 10mm (cỡ 0,5x1 cm)
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.3.1. Đá d max = 10mm (cỡ 0,5x1 cm) / 1.2.3.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ]
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.3.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ] / Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2 cm và (6
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2 cm và (60 ÷ 30)% cỡ 2x4 cm ] / 1.2.3.4. Đá d max = 70mm [(40 ÷ 70)% cỡ 2x4 cm và (60 
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.4. Độ sụt 10 ÷ 12 cm / 1.2.4.1. Đá d max = 10mm (cỡ 0,5x1 cm)
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.4.1. Đá d max = 10mm (cỡ 0,5x1 cm) / 1.2.4.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ]
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.4.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ] / 1.2.4.3. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.4.3. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2 cm và (60 ÷ 30)% cỡ 2x4 cm ] / 1.2.4.4. Đá d max = 70mm [(40 ÷ 70)% cỡ 2x4 c
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.5. Độ sụt 14 ÷ 17 cm / 1.2.5.1. Đá d max = 10mm (cỡ 0,5x1 cm)
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.5.1. Đá d max = 10mm (cỡ 0,5x1 cm) / 1.2.5.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ]
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.5.2. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ] / 1.2.5.3. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.5.3. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2 cm và (60 ÷ 30)% cỡ 2x4 cm ] / 1.2.5.4. Đá d max = 70mm [(40 ÷ 70)% cỡ 2x4 c
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.6. Độ sụt 18 ÷ 22 cm / 1.2.6.1. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ]
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.2.6.1. Đá d max = 20mm [(40 ÷ 70)% cỡ 0,5x1 cm và (60 ÷ 30)% cỡ 1x2 cm ] / 1.2.6.2. Đá d max = 40mm [(40 ÷ 70)% cỡ 1x2
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.3. Cấp phối vữa bê tông sử dụng xi măng PCB 40 và xỉ hạt lò cao nghiền mịn S95 / 1.3.1. Độ sụt 12± 2 cm, đá d max = 20
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.3.1. Độ sụt 12± 2 cm, đá d max = 20mm / 1.3.2. Độ sụt 14± 2 cm, đá d max = 20mm
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.3.2. Độ sụt 14± 2 cm, đá d max = 20mm / 1.3.3. Độ sụt 16± 2 cm, đá d max = 20mm
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.3.3. Độ sụt 16± 2 cm, đá d max = 20mm / 1.3.4. Độ sụt 19± 1 cm, đá d max = 20mm
+- PL II · nhóm AF.89840 VÁN KHUÔN CỘT VUÔNG, CHỮ NHẬT · đoạn trước: 1.3.4. Độ sụt 19± 1 cm, đá d max = 20mm / 1.3.5. Độ xòe 60 ÷ 70 cm, đá d max = 10mm
+- PL II · nhóm AG.52400 LẮP DỰNG CẤU KIỆN BÊ TÔNG ĐÚC SẴN CẦU CẢNG TRÊN ĐẢO · đoạn trước: - Vận chuyển vật liệu, cấu kiện trong phạm vi 30m. / Đơn vị tính: 1 cái
+- PL II · nhóm AL.61100 LẮP DỰNG, THÁO DỠ DÀN GIÁO NGOÀI · đoạn trước: Thành phần công việc: / Chuẩn bị, bốc xếp vật liệu vào vận thăng lồng, vận chuyển vật liệu từ dưới mặt đất lên các tầng 
+- PL II · nhóm AL.61100 LẮP DỰNG, THÁO DỠ DÀN GIÁO NGOÀI · đoạn trước: Đơn vị tính: 10m3/1km / MỤC LỤC
+- PL III · nhóm AL.61100 LẮP DỰNG, THÁO DỠ DÀN GIÁO NGOÀI · đoạn trước: Gia công và lắp đặt chân bật, đục chèn trát, kéo rải dây, hàn cố định vào chân bật, sơn chống rỉ hoàn chỉnh. / Đơn vị tí
+- PL III · nhóm AL.61100 LẮP DỰNG, THÁO DỠ DÀN GIÁO NGOÀI · đoạn trước: Gia công và lắp đặt chân bật, đục chèn trát, kéo rải dây, hàn cố định vào chân bật, sơn chống rỉ hoàn chỉnh. / Đơn vị tí
+- PL III · nhóm BB.12100 LẮP ĐẶT CỐNG HỘP ĐƠN - ĐOẠN CỐNG DÀI 1,2m · đoạn trước: Tiếp theo / Đơn vị tính: 1 đoạn cống
+- PL III · nhóm BD.42400 LẮP ĐẶT THIẾT BỊ ĐIỀU KHIỂN BÁO ĐỘNG · đoạn trước: Quy định áp dụng định mức: Khoan tạo giếng vào đá cấp đặc biệt áp dụng định mức khoan giếng đá cấp I nhân hệ số 1,2 so v
+- PL IV · nhóm MI.06000 LẮP ĐẶT BỒN CHỨA (BÌNH BỂ) · đoạn trước: Chuẩn bị mặt bằng, vật liệu và dụng cụ thi công, kiểm tra thiết bị, vận chuyển trong phạm vi 30m, gia công lắp đặt, tháo
+- PL IV · nhóm MK.03200 LẮP ĐẶT TUABIN THỦY LỰC VÀ PHỤ KIỆN  50 TẤN · đoạn trước: (Tiếp theo) / Đơn vị tính: 1tấn
+- PL IV · nhóm ML.03200 LẮP ĐẶT MÁY PHÁT TUABIN THỦY LỰC  50 TẤN · đoạn trước: Chuẩn bị, kiểm tra thiết bị, vận chuyển trong phạm vi 30m, tổ hợp các cụm chi tiết, lắp đặt roto, stato, trục, nắp, máy 
+- PL IV · nhóm MN.02000 LẮP ĐẶT MÁY, THIẾT BỊ TẠO HÌNH · đoạn trước: MN.02000 LẮP ĐẶT MÁY, THIẾT BỊ TẠO HÌNH / Đơn vị tính: 1tấn
+- PL IV · nhóm MN.02000 LẮP ĐẶT MÁY, THIẾT BỊ TẠO HÌNH · đoạn trước: (Tiếp theo) / Đơn vị tính: 1tấn
+- PL IV · nhóm MO.01500 LẮP ĐẶT ĐƯỜNG ỐNG THÉP ÁP LỰC TRONG HẦM NHÀ MÁY THỦY ĐIỆN · đoạn trước: Chuẩn bị mặt bằng, vật liệu và dụng cụ thi công, kiểm tra ống, vận chuyển ống trong phạm vi 30m, lắp đặt, tháo dỡ, luân 
+- PL IV · nhóm MP.08300 LẮP ĐẶT THIẾT BỊ ĐO ĐỘ TÁCH NỀN, ĐO THẤM · đoạn trước: Chuẩn bị, kiểm tra thiết bị trước khi lắp đặt; gia công các tấm đệm, căn kê; vận chuyển máy và thiết bị trong phạm vi 30
+- PL IV · nhóm MQ.03000 LẮP ĐẶT MÁY NGHIỀN XÉ, ĐÁNH TƠI (NGHIỀN THỦY LỰC) · đoạn trước: MQ.03000 LẮP ĐẶT MÁY NGHIỀN XÉ, ĐÁNH TƠI (NGHIỀN THỦY LỰC) / Đơn vị tính: 1tấn
+- PL IV · nhóm MQ.08000 LẮP ĐẶT CÁC LOẠI MÁY NGHIỀN BỘT TINH · đoạn trước: MQ.08000 LẮP ĐẶT CÁC LOẠI MÁY NGHIỀN BỘT TINH / Đơn vị tính: 1tấn
+- PL IV · nhóm MQ.09000 LẮP ĐẶT CÁC LOẠI THIẾT BỊ GIA KEO · đoạn trước: MQ.09000 LẮP ĐẶT CÁC LOẠI THIẾT BỊ GIA KEO / Đơn vị tính: 1tấn
+- PL IV · nhóm MQ.10000 LẮP ĐẶT MÁY XEO, CÁN VÀ CUỘN · đoạn trước: MQ.10000 LẮP ĐẶT MÁY XEO, CÁN VÀ CUỘN / Đơn vị tính: 1tấn
+- PL IV · nhóm MS.05000 CÔNG TÁC SƠN · đoạn trước: Phạm vi áp dụng và nội dung đã tính trong định mức: Định mức chưa bao gồm hao phí vật liệu. / Đơn vị tính: 1m2
+- PL IV · nhóm MS.05000 CÔNG TÁC SƠN · đoạn trước: Đơn vị tính: 1m2 / Đơn vị tính: 1 m2
+- PL IV · nhóm MS.08000 GIA CÔNG VÀ BỌC NHÔM ĐƯỜNG ỐNG · đoạn trước: Bảng số 3: Hệ số điều chỉnh định mức nhân công vận chuyển máy trên các loại đường / MỤC LỤC
+- PL V · nhóm DA.05100 THÍ NGHIỆM PHẢN ỨNG KIỀM CỦA CỐT LIỆU ĐÁ, CÁT · đoạn trước: - Kiểm tra, nghiệm thu và bàn giao kết quả thí nghiệm. / Đơn vị tính: 1 chỉ tiêu
+- PL V · nhóm DA.10000 ÉP MẪU BÊ TÔNG, MẪU VỮA · đoạn trước: - Kiểm tra, nghiệm thu và bàn giao kết quả thí nghiệm. / Đơn vị tính: 1 chỉ tiêu
+- PL V · nhóm DA.10000 ÉP MẪU BÊ TÔNG, MẪU VỮA · đoạn trước: Quy định áp dụng định mức: Trường hợp ép mẫu bê tông kích thước 100x100x100 thì định mức được điều chỉnh với hệ số K=0,9
+- PL V · nhóm DA.10000 ÉP MẪU BÊ TÔNG, MẪU VỮA · đoạn trước: UỐN MẪU BÊ TÔNG / Đơn vị tính: 1 chỉ tiêu
+- PL V · nhóm DA.10000 ÉP MẪU BÊ TÔNG, MẪU VỮA · đoạn trước: ÉP MẪU VỮA / Đơn vị tính: 1 chỉ tiêu
+- PL V · nhóm DA.25000 THÍ NGHIỆM PHÂN TÍCH VẬT LIỆU BITUM · đoạn trước: Tiếp theo / Tiếp theo
+- PL V · nhóm DA.30000 THÍ NGHIỆM BÊ TÔNG NHỰA TÁI CHẾ · đoạn trước: - Kiểm tra, nghiệm thu và bàn giao kết quả thí nghiệm. / Đơn vị tính: 1 chỉ tiêu
+- PL V · nhóm DA.31000 THÍ NGHIỆM TÍNH NĂNG CƠ LÝ MÀNG SƠN · đoạn trước: - Kiểm tra, nghiệm thu và bàn giao kết quả thí nghiệm. / Đơn vị tính: 1 chỉ tiêu
+- PL V · nhóm DC.09000 THÍ NGHIỆM PHÂN TÍCH MẪU CLO - TRONG NGUYÊN LIỆU LÀM XI MĂNG · đoạn trước: Đơn vị tính: 1 chỉ tiêu / MỤC LỤC
+- PL VI · nhóm SB.21310 XÂY TƯỜNG THẲNG GẠCH AAC (20x30x60)cm · đoạn trước: SB.21310 XÂY TƯỜNG THẲNG GẠCH AAC (20x30x60)cm / Đơn vị tính: 1m3
+- PL VI · nhóm SB.22120 XÂY TƯỜNG THẲNG GẠCH AAC (10x10x60)cm · đoạn trước: SB.22120 XÂY TƯỜNG THẲNG GẠCH AAC (10x10x60)cm / Đơn vị tính: 1m3
+- PL VI · nhóm SB.34130 XÂY TƯỜNG GẠCH BÊ TÔNG (10x20x40)cm · đoạn trước: SB.34130 XÂY TƯỜNG GẠCH BÊ TÔNG (10x20x40)cm / Đơn vị tính: 1m3
+- PL VI · nhóm SB.41700 BÊ TÔNG GIA CỐ MÓNG, MỐ, TRỤ, MŨ MỐ, MŨ TRỤ CẦU BÊ TÔNG · đoạn trước: Chuẩn bị, sàng rửa, lựa chọn vật liệu, vận chuyển trong phạm vi 30m. Đổ, đầm và bảo dưỡng bê tông đảm bảo yêu cầu kỹ thu
+- PL VI · nhóm SB.85200 THAY THẾ LỚP BẢO ÔN ĐƯỜNG ỐNG (LỚP BỌC 25MM) · đoạn trước: SB.85200 THAY THẾ LỚP BẢO ÔN ĐƯỜNG ỐNG (LỚP BỌC 25MM) / Đơn vị tính: 10m
+- PL VI · nhóm SF.31800 CĂN CHỈNH ĐÈN TÍN HIỆU GIAO THÔNG (DO BÃO, LỐC XOÁY LÀM XOAY · đoạn trước: Đơn vị: 1 đèn / MỤC LỤC
+
+## Cập nhật 16/10/2026 — bộ đọc theo lưới ô
+Các bảng mã trong danh sách trên đã được đọc lại bằng `scripts/bo_sung_tt38_luoi.py` (xem `bao_cao_bo_sung_luoi.md`). Phần lớn bảng còn lại trong danh sách không có mã định mức (cấp phối, phân cấp, mục lục). Khối mã còn thiếu: AB.5141x, AB.713xx, AB.721xx, AC.211xx, AC.251xx/252xx, AD.422xx, AF.333xx, AF.421xx, AG.524xx, MO.015xx, MS.051xx/052xx, DA.051xx — tra văn bản.
