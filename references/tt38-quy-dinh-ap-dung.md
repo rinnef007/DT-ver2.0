@@ -34,7 +34,7 @@ Trong Skill: khai `"loai_ho_so": "sua_chua"` → script tự nhân 1,02/1,15/1,0
 - Trong Skill: cột `cap_phoi` của `khoi_luong.csv` (vd. `11.12323` = PC40, độ sụt 6÷8 cm, đá dmax 20 mm, mác 250). Script thay dòng "Vữa bê tông" bằng thành phần cấp phối × hao phí vữa. Tra mã: `dutoan.py tra --cap-phoi "PC40 6 ÷ 8 20mm 250"`.
 - Mác bê tông ↔ cấp độ bền (PL VII): 100 ↔ B7,5; 150 ↔ B10, B12,5; 200 ↔ B15; 250 ↔ B20; 300 ↔ B22,5; 350 ↔ B25, B27,5; 400 ↔ B30 … (xem bảng đầy đủ trong PL VII Chương I).
 
-## 4. Hao hụt vật liệu — PL VII Phần 2 (dữ liệu: `data/tt38/hao_hut_tt38.csv.gz`)
+## 4. Hao hụt vật liệu — PL VII Phần 2 (dữ liệu: `data/tt38/hao_hut_tt38.csv`)
 
 Dùng cho vật liệu **không** có trong định mức dự toán (tính theo thiết kế) hoặc khi lập định mức mới, quản lý vật tư:
 - 21.1000 hao hụt thi công theo % khối lượng gốc (vd. cáp các loại 1,0%; xi măng 1,0%; thép tròn cây 2,0%; thép tấm 5,0%; gạch thẻ 1,5%…).
@@ -53,13 +53,13 @@ Dùng cho vật liệu **không** có trong định mức dự toán (tính theo
 
 | File | Nội dung |
 |---|---|
-| `dinh_muc_tt38.csv.gz` | ~8.960 mã PL I–VI (bản thay thế CV 9947), từng dòng hao phí; `ma_tn` = tên tài nguyên đúng như TT 38 (bảng giá phải dùng đúng tên) |
-| `ma_can_kiem_tra.csv.gz` | 84 dòng: 79 mã cần đối chiếu văn bản (nghi lệch dòng do ô gộp không đều, bảng trình bày theo khối chưa đọc lại được, hoặc hai cách đọc cho số liệu khác nhau) và 5 mã chỉ ghi chú đơn vị 'Máy khác' — soát S18 cảnh báo khi dùng; cần dùng thì nhập hao phí đúng vào `dinh_muc.csv` của hồ sơ (định mức riêng được ưu tiên) |
-| `danh_muc_tai_nguyen_tt38.csv.gz` | **Danh mục tài nguyên** ~2.381 dòng (12 tên nhân công, ~908 máy, ~1.461 vật liệu): tên đúng như TT 38 (dùng làm `ma_tn` bảng giá), đơn vị, số mã dùng, phụ lục, ví dụ mã, cách viết khác của cùng tài nguyên (khâu tra giá coi là một), ghi chú tên chỉ có ở mã cần kiểm tra. Tra: `dutoan.py tra --tai-nguyen "máy lu" [--loai M]` |
+| `dinh_muc_tt38.csv` | ~8.960 mã PL I–VI (bản thay thế CV 9947), từng dòng hao phí; `ma_tn` = tên tài nguyên đúng như TT 38 (bảng giá phải dùng đúng tên) |
+| `ma_can_kiem_tra.csv` | 84 dòng: 79 mã cần đối chiếu văn bản (nghi lệch dòng do ô gộp không đều, bảng trình bày theo khối chưa đọc lại được, hoặc hai cách đọc cho số liệu khác nhau) và 5 mã chỉ ghi chú đơn vị 'Máy khác' — soát S18 cảnh báo khi dùng; cần dùng thì nhập hao phí đúng vào `dinh_muc.csv` của hồ sơ (định mức riêng được ưu tiên) |
+| `danh_muc_tai_nguyen_tt38.csv` | **Danh mục tài nguyên** ~2.381 dòng (12 tên nhân công, ~908 máy, ~1.461 vật liệu): tên đúng như TT 38 (dùng làm `ma_tn` bảng giá), đơn vị, số mã dùng, phụ lục, ví dụ mã, cách viết khác của cùng tài nguyên (khâu tra giá coi là một), ghi chú tên chỉ có ở mã cần kiểm tra. Tra: `dutoan.py tra --tai-nguyen "máy lu" [--loai M]` |
 | `bao_cao_sua_bang_khoi.md` | Kết quả đọc lại các bảng trình bày theo khối (`scripts/sua_tt38_bang_khoi.py`): mã đã sửa, mã giữ nguyên cần kiểm tra |
-| `danh_muc_ma_tt38.csv.gz` | Danh mục mã, tên, đơn vị, phụ lục, chương, nhóm |
-| `cap_phoi_tt38.csv.gz` | 378 mã cấp phối vữa bê tông (PCB30, PC40/PCB40, PCB40 + xỉ S95) và vữa xây trát PCB30 |
-| `hao_hut_tt38.csv.gz` | Bảng hao hụt PL VII Phần 2 |
+| `danh_muc_ma_tt38.csv` | Danh mục mã, tên, đơn vị, phụ lục, chương, nhóm |
+| `cap_phoi_tt38.csv` | 378 mã cấp phối vữa bê tông (PCB30, PC40/PCB40, PCB40 + xỉ S95) và vữa xây trát PCB30 |
+| `hao_hut_tt38.csv` | Bảng hao hụt PL VII Phần 2 |
 | `bao_cao_trich.md` | Số bảng đọc được và danh sách bảng bộ đọc chính chưa nhận dạng (phần lớn là bảng không có mã: cấp phối, phân cấp, mục lục) |
 | `bao_cao_bo_sung_luoi.md` | Kết quả đọc lại bằng bộ đọc theo lưới ô (`scripts/bo_sung_tt38_luoi.py`): mã thêm mới, mã gỡ khỏi danh sách kiểm tra, mã sửa tên/loại, mã hai cách đọc khác nhau, bảng còn chưa đọc được |
 | `so_sanh_ban_goc_cv9947.md` | So sánh bản ban hành và bản thay thế |

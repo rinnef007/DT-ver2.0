@@ -96,11 +96,9 @@ def cmd_tra(a):
             print("  [CHÚ Ý] Lý trình nằm ở đoạn chồng lấn giữa hai xã trong danh sách — kiểm tra lại ranh giới")
         return 0
     if a.tai_nguyen is not None:
-        import gzip
-        from dutoan_core import TT38_DIR
-        p = os.path.join(TT38_DIR, "danh_muc_tai_nguyen_tt38.csv.gz")
+        from dutoan_core import TT38_DIR, doc_csv
         tu = [bo_dau(t) for t in a.tai_nguyen.split()]
-        kq = [r for r in csv.DictReader(gzip.open(p, "rt", encoding="utf-8"))
+        kq = [r for r in (doc_csv(os.path.join(TT38_DIR, "danh_muc_tai_nguyen_tt38.csv")) or [])
               if (not a.loai or r["loai"] == a.loai.upper()) and all(any(w.startswith(t) for w in re.split(r"[\s,()/]+", bo_dau(r["ten_tn"] + " " + r["cach_viet_khac"]))) for t in tu)]
         def diem(r):
             w = set(re.split(r"[\s,()/]+", bo_dau(r["ten_tn"])))

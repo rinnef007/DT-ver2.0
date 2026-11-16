@@ -197,7 +197,7 @@ class DuLieu:
         self.pl_tt38 = {}
         self.hp_tt38 = {}
         self.ma_can_kiem_tra = {r["ma_hieu"]: r["ly_do"] for r in (doc_csv(os.path.join(TT38_DIR, "ma_can_kiem_tra.csv")) or [])} if dung_tt38 else {}
-        if dung_tt38 and os.path.exists(os.path.join(TT38_DIR, "dinh_muc_tt38.csv.gz")):
+        if dung_tt38 and (os.path.exists(os.path.join(TT38_DIR, "dinh_muc_tt38.csv")) or os.path.exists(os.path.join(TT38_DIR, "dinh_muc_tt38.csv.gz"))):
             self.co_tt38 = True
             for r in doc_csv(os.path.join(TT38_DIR, "dinh_muc_tt38.csv")) or []:
                 ma = r["ma_hieu"]

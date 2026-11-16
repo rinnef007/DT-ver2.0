@@ -6,11 +6,19 @@
 - Quy trình 7 bước, 13 script Python, dữ liệu TT 38 (~9.050 mã), 5 bộ ví dụ chạy thử.
 - Ngày rà soát pháp lý gần nhất: 16/10/2026.
 
-> Lưu ý về dữ liệu TT 38: 6 file `data/tt38/*.csv.gz` là file nhị phân (gzip) nên không đẩy được bằng
-> công cụ snapshot của Muse (chỉ đẩy file text UTF-8). 6 file này sẽ được tải lên repo bằng giao diện
-> web GitHub ngay sau commit baseline này. Script `dutoan_core.py` đọc được cả `.csv` và `.csv.gz`.
+> Lưu ý về dữ liệu TT 38: bản gốc v1 dùng 6 file `data/tt38/*.csv.gz` (gzip). Do công cụ
+> snapshot của Muse chỉ đẩy file text UTF-8, từ 16/11/2026 dữ liệu TT 38 trên repo chuyển
+> sang dạng CSV thường (giải nén từ đúng các file `.csv.gz` đó, nội dung không đổi).
+> Script `dutoan_core.py` đọc được cả `.csv` và `.csv.gz`.
 
 ## [Unreleased] — 2.0.0 (đang làm, theo PLAN-nang-cap-skill-DT-ver2.0.md)
+- Dữ liệu TT 38 trên repo chuyển từ `.csv.gz` sang `.csv` thường (6 file, nội dung không đổi),
+  để đẩy được bằng snapshot; script vẫn đọc được cả hai dạng.
+- Sửa lỗi v1: `dutoan_core.py` chỉ nạp định mức TT 38 khi có file `dinh_muc_tt38.csv.gz`
+  (kiểm tra sự tồn tại của `.csv.gz` rồi mới đọc `.csv`), nên với dữ liệu `.csv` thường
+  thì `tinh`/`tra` không thấy mã TT 38. Nay kiểm tra cả `.csv` và `.csv.gz`.
+- Sửa `dutoan.py tra --tai-nguyen`: trước đây mở trực tiếp file `.csv.gz` bằng gzip,
+  nay dùng `doc_csv` nên đọc được cả `.csv` và `.csv.gz`.
 - Rà soát lại pháp lý hệ 2026, đọc nguyên văn NĐ 206/2026.
 - Khép lỗ hổng dữ liệu TT 38 (79 mã cần kiểm tra, 14 khối mã, PL VII/VIII).
 - Thêm lớp học/thực hành và ví dụ Nhà để xe chuyển mã TT 38.
