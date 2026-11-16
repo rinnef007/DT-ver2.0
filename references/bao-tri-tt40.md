@@ -1,6 +1,6 @@
 # Chi phí bảo trì công trình — TT 40/2026/TT-BXD
 
-Nguồn: TT 40/2026/TT-BXD ngày 26/6/2026, hiệu lực 01/7/2026, thay TT 14/2021/TT-BXD. **[ĐÃ ĐỐI CHIẾU]** bản người dùng cung cấp ngày 15/10/2026. Căn cứ nội dung chi phí bảo trì: khoản 2 Điều 39 NĐ 207/2026/NĐ-CP; sửa chữa trong bảo trì: khoản 4 Điều 27 NĐ 217/2026/NĐ-CP. Hai nghị định này chưa đọc trực tiếp.
+Nguồn: TT 40/2026/TT-BXD ngày 26/6/2026, hiệu lực 01/7/2026, thay TT 14/2021/TT-BXD. **[ĐÃ ĐỐI CHIẾU]** bản người dùng cung cấp ngày 15/10/2026. Căn cứ nội dung chi phí bảo trì: khoản 2 Điều 39 NĐ 207/2026/NĐ-CP — **[ĐÃ ĐỐI CHIẾU]** (Công báo số 351, 27/6/2026); sửa chữa trong bảo trì: khoản 4 Điều 27 NĐ 217/2026/NĐ-CP — **[ĐÃ ĐỐI CHIẾU]** (toàn văn PDF chính thức UBND TP Hải Phòng).
 
 ## 1. Khi nào dùng TT 40, khi nào dùng TT 36
 
@@ -20,6 +20,14 @@ Nguồn: TT 40/2026/TT-BXD ngày 26/6/2026, hiệu lực 01/7/2026, thay TT 14/2
 ## 2. Tổng hợp chi phí bảo trì (Bảng 1 PL I)
 
 G_BT = G_BD (bảo dưỡng) + G_SC (sửa chữa) + G_K (công việc khác: quản lý của chủ sở hữu G_QL, kiểm tra, quan trắc, kiểm định, đánh giá an toàn, lập kế hoạch bảo trì hằng năm, lập/thẩm tra quy trình bảo trì, công việc khác theo luật chuyên ngành).
+
+### Chi tiết điểm c khoản 2 Điều 39 NĐ 207/2026 (nguyên văn — Công báo số 351, 27/6/2026) [ĐÃ ĐỐI CHIẾU]
+
+> "c) Chi phí các công việc khác trong kế hoạch bảo trì bao gồm một số hoặc toàn bộ chi phí cho các công việc sau: kiểm tra, quan trắc, kiểm định chất lượng, đánh giá an toàn công trình; lập kế hoạch bảo trì hằng năm; lập, thẩm tra (trường hợp chưa có quy trình bảo trì) hoặc điều chỉnh quy trình bảo trì CTXD; các chi phí thực hiện các công việc khác có liên quan theo quy định của pháp luật chuyên ngành (nếu có) và chi phí quản lý của chủ sở hữu, chủ sử dụng công trình."
+
+Cấu trúc chi phí bảo trì mà skill dùng (căn cứ k2 Điều 39 qua TT 40 Điều 2) là **đúng** theo nguyên văn; điểm mới cần nhớ: chi phí **lập / thẩm tra / điều chỉnh quy trình bảo trì** và **chi phí quản lý của chủ sở hữu, chủ sử dụng** đều thuộc G_K — đã nằm trong tổng hợp trên, không đổi công thức. TT 40/2026 Điều 2, Điều 5 viện dẫn đúng k2 Điều 39 NĐ 207.
+
+**Ghi chú:** TT 32/2026/TT-BXD (22/6/2026, hiệu lực 01/7/2026) hướng dẫn chi tiết NĐ 207, trong đó có quan trắc / kiểm định phục vụ bảo trì — [THEO NGUỒN THỨ CẤP], chưa đọc toàn văn.
 
 ## 3. Dự toán bảo dưỡng (PL II) và sửa chữa (PL III)
 

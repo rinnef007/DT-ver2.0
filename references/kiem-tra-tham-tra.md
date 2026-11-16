@@ -34,7 +34,7 @@ Dùng cho bước 6 (tự soát) và bước 7 (thẩm tra hồ sơ do tư vấn
 E1 ô lỗi · E2 liên kết file ngoài · E3 hàm tồn dư Google Sheets · E4 số lưu dạng chữ · E5 số nhập tay giữa công thức · E6 sheet ẩn có lỗi/tồn dư · E7 văn bản hết hiệu lực từ 01/7/2026 · E8 thuế suất GTGT không thống nhất · E9 ký hiệu LT cho chi phí không xác định được KL. Với hồ sơ có đơn giá chi tiết, chạy thêm `nhap_du_toan_excel.py` để tính lại từng khối và phát hiện công thức sai (TL, phạm vi % vật liệu khác); hồ sơ dự toán khảo sát dùng `nhap_ks_excel.py` (`references/du-toan-khao-sat.md` mục 5).
 
 ## B. Checklist thẩm tra thủ công
-1. **Hệ văn bản áp dụng**: hồ sơ lập theo NĐ 206 + TT 36/37/38/2026 hay thuộc diện chuyển tiếp theo NĐ 10/2021? Không trộn.
+1. **Hệ văn bản áp dụng**: hồ sơ lập theo NĐ 206 + TT 36/37/38/2026 hay thuộc diện chuyển tiếp theo NĐ 10/2021? Không trộn. Hồ sơ đã duyệt / đã nộp thẩm định trước 01/7/2026: áp **Điều 36 NĐ 206** (6 khoản — xem `references/can-cu-phap-ly.md` mục 2; đặc biệt k3 TMĐT tiếp tục thẩm định theo NĐ 206, k5 dự toán dừng thẩm định, trả lại hồ sơ để CĐT tự tổ chức thẩm định/phê duyệt) để xác định có thẩm định lại hay không.
 2. **Khối lượng**: đối chiếu bản vẽ; kiểm tra trùng/thiếu; quy ước giao cấu kiện; cấp đất, cự ly vận chuyển, độ chặt.
 3. **Mã định mức**: theo TT 38/2026 (đúng phụ lục: XD mới PL II, sửa chữa PL VI, lắp đặt PL III/IV); mức hao phí vật liệu đúng TT 38, không nhân thêm hao hụt không căn cứ; đúng biện pháp thi công đã duyệt; đúng quy cách; không trùng hao phí; hệ số có căn cứ.
 4. **Giá vật liệu**: theo công bố giá của địa bàn tại thời điểm lập; vật liệu không có trong công bố có đủ báo giá; cước vận chuyển đến hiện trường hợp lý.
@@ -43,6 +43,7 @@ E1 ô lỗi · E2 liên kết file ngoài · E3 hàm tồn dư Google Sheets · 
 7. **Thuế GTGT**: thuế suất áp dụng tại thời điểm lập — kiểm tra quy định thuế hiện hành (có thời kỳ giảm thuế).
 8. **Thiết bị vs. xây dựng**: thiết bị không nằm trong chi phí xây dựng; lắp đặt dùng định mức lắp đặt.
 9. **Số học**: cộng dồn, làm tròn, đơn vị (đồng / nghìn đồng).
+10. **Ranh giới kiểm toán hồ sơ (bước 8):** skill tính dự toán / TMĐT / giá gói thầu; quyết toán hợp đồng và quyết toán vốn đầu tư **không** thuộc phạm vi NĐ 206 (Điều 1 k2) mà thuộc NĐ 193/2026 (Điều 4, 5, 29 — k2 Điều 29 chưa đọc được nguyên văn đầy đủ, không trích câu hoàn chỉnh) + mẫu biểu TT 73/2026/TT-BTC (bãi bỏ TT 27/2025). Khi thẩm tra hồ sơ quyết toán, chỉ kiểm tra ranh giới và mẫu biểu, không áp công thức dự toán vào quyết toán.
 
 ## C. Mẫu bảng kết quả thẩm tra
 | STT | Nội dung | Giá trị đề nghị | Giá trị thẩm tra | Chênh lệch | Lý do | Căn cứ |

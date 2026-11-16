@@ -21,6 +21,14 @@ Lưu ý về vật liệu (đã đối chiếu văn bản TT 38 — chi tiết `
 
 Chi tiết khác: Định mức dự toán xây dựng công trình: Phụ lục II TT 38/2026/TT-BXD (thay TT 12/2021 và các TT sửa đổi); lắp đặt hệ thống kỹ thuật: Phụ lục III; khảo sát: Phụ lục I; các phụ lục khác theo danh mục của TT 38. Định mức chuyên ngành (viễn thông, điện, bảo dưỡng đường bộ…) chỉ dùng khi TT 38 không có công tác tương ứng; kiểm tra hiệu lực riêng và ghi lý do (script cảnh báo S15 khi nguồn định mức không phải TT 38). **Lưu ý CV 9947/BXD-VPB thay thế phụ lục TT 38 — dùng bộ dữ liệu theo phụ lục sau thay thế.**
 
+## Chuyển tiếp — NĐ 206/2026 Điều 36 [ĐÃ ĐỐI CHIẾU]
+
+Khi áp mã cho hồ sơ lập trước 01/7/2026, xác định trước hồ sơ thuộc trường hợp chuyển tiếp nào (chi tiết `references/can-cu-phap-ly.md` mục 2):
+
+- **Dự toán đã nộp thẩm định mà đến 01/7/2026 chưa có thông báo kết quả thẩm định (k5):** cơ quan chuyên môn **dừng thẩm định, trả lại hồ sơ**; chủ đầu tư tự tổ chức thẩm định, phê duyệt dự toán theo NĐ 206 — tức áp mã theo TT 38/2026, không dùng mã TT 12/2021 đã hết hiệu lực. Trường hợp đã có thông báo kết quả thẩm định thì tổng hợp ý kiến, cập nhật rồi thẩm định, phê duyệt theo NĐ 206.
+- **TMĐT đã nộp thẩm định mà đến 01/7/2026 chưa có kết quả (k3):** cơ quan chuyên môn tiếp tục thẩm định theo nội dung thẩm định của NĐ 206; chủ đầu tư cập nhật TMĐT theo NĐ 206 rồi trình thẩm định, phê duyệt.
+- **Khoảng trống:** Điều 36 không có quy định riêng cho gói thầu đã phát hành HSMT nhưng chưa ký hợp đồng — không tự điền quy tắc khi gặp trường hợp này.
+
 ## Cấu trúc mã hiệu
 Mã gồm phần chữ (chương/nhóm) và phần số (công tác, quy cách), ví dụ `AB.25102` = tiền tố bảng `AB.2510` + hậu tố cột `2` (cấp đất II). Khoảng 8.960 mã PL I–VI đã trích vào `data/tt38/` — tra bằng `dutoan.py tra`. Một số mã đã đổi so với TT 12/2021 (vd. bê tông móng AF.1121x → AF.11210/AF.11220 với vật liệu 'Vữa bê tông'; bê tông nền sửa chữa SB.4114x → SB.41140). Danh mục chương thực tế lấy từ dữ liệu: `python scripts/dutoan.py tra --data <dir> --chuong` liệt kê các tiền tố có trong bộ định mức đã nạp. Không đoán tên chương từ trí nhớ.
 

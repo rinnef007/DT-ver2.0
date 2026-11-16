@@ -31,6 +31,30 @@ Skill cho Claude (claude.ai, Claude Code) để **bóc khối lượng, áp mã 
 | Tra tỷ lệ | `dutoan.py ty-le` | QLDA (nội suy, hệ số), quản lý chủ sở hữu TT 40, khảo sát Bảng 5.1–5.3, tư vấn Bảng 6.1, mua sắm thiết bị Bảng 2.3 |
 | Tự soát | `dutoan.py soat` — 22 nhóm kiểm tra S01–S22 | Chặn khi thiếu giá, chưa xác nhận khối lượng, mẫu không phù hợp; cảnh báo tỷ lệ sai nấc, hệ số thiếu căn cứ, mã cần đối chiếu… |
 | Thẩm tra hồ sơ có sẵn | `soat_file_excel.py` (ô lỗi, liên kết ngoài, sheet ẩn, văn bản hết hiệu lực…); `nhap_du_toan_excel.py` (tính lại từng khối đơn giá, chỉ ra công thức sai); `nhap_ks_excel.py` (nhập hồ sơ khảo sát có sẵn, tính lại theo PL V, chỉ ra chênh lệch, tái lập bằng skill) | Báo cáo chênh lệch kèm căn cứ |
+| Tính giá ca máy | `scripts/gia_ca_may.py` theo PL IV TT 37/2026 (CCM = CKH + CSC + CNL + CNC + CCPK, giá chờ đợi, CCMĐC); `references/phuong-phap-gia-ca-may.md` | Mới ở v2.0 — hiện chỉ 3 máy mẫu kiểm chứng tay đến đồng; bảng đủ ~908 máy để v2.1 |
+| Chênh lệch vật tư | Sheet `CL_VT` trong file Excel xuất ra (giá gốc vs giá hiện tại) khi nhập `don_gia_goc` trong `gia_tai_nguyen.csv` | Mới ở v2.0 — chỉ mẫu `bang_3_8`; mẫu `doan_vung` chưa có (v2.1) |
+| Template Word | `templates/word/` (W1 thuyết minh/thẩm tra, W2 biên bản nghiệm thu, W3 tờ trình/quyết định/công văn), tạo bằng `scripts/tao_mau_word.py` | Mới ở v2.0 |
+
+## Phạm vi v2.0 — tính năng mới và việc chưa làm
+
+**Mới ở v2.0** (theo báo cáo đối chiếu GXD, `references/doi-chieu-gxd.md` mục 15):
+- Tính giá ca máy từ đầu theo PL IV TT 37/2026 (`scripts/gia_ca_may.py`, 3 máy mẫu kiểm chứng tay).
+- Sheet chênh lệch vật tư `CL_VT` khi có giá gốc (`don_gia_goc`).
+- `nhap_du_toan_excel.py` đọc được bố cục GXD (`--kieu gxd`); `soat_file_excel.py` thêm kiểm tra
+  E10/E11/E12 (công thức tổng hợp sai phạm vi, ô trống giữa công thức, nhãn mâu thuẫn công thức) và
+  liệt kê tọa độ ô lỗi ở sheet ẩn.
+- 3 template Word W1/W2/W3 (`templates/word/`).
+
+**Ngoài phạm vi v2.0 — làm ở v2.1:**
+- **Đơn giá tổng hợp (mã TH):** skill chưa có mô hình dữ liệu cho thành phần mã TH (hiện chỉ có chế
+  độ mã `TG` là một con số trọn gói, không lưu thành phần). Thiết kế đã viết ở
+  `references/thiet-ke-don-gia-tong-hop.md` (mô hình `don_gia_tong_hop.csv`, sheet `DG_TH`,
+  5 câu hỏi mở cần trả lời trước khi code) — code ở v2.1.
+- **Bảng giá ca máy đủ:** Mục V PL IV có khoảng 908 máy; v2.0 chỉ làm mẫu 3 máy. Trích đủ và đối
+  chiếu từng số với văn bản ở v2.1 (bảng GXD đã xuất có 827 máy, 18 máy chưa có nguyên giá).
+- Sheet `CL_VT` cho mẫu `doan_vung` (giá theo nhiều vùng — cần thiết kế riêng).
+- Thành phần nhân công vận hành máy ngoài "nhân công vận hành" và "lái xe" (thuyền trưởng, thủy thủ,
+  thợ máy…) chưa hỗ trợ trong `gia_ca_may.py` — máy đó được tính thiếu CNC và ghi cảnh báo.
 
 ### Chế độ chi phí (`che_do_chi_phi` trong config)
 
@@ -114,9 +138,12 @@ references/              Căn cứ pháp lý; phương pháp chi phí (TT 36); b
                          mẫu đơn vị; kiểm tra – thẩm tra
 scripts/                 dutoan.py (dòng lệnh), dutoan_core.py (tính toán, soát), xuat_excel*.py (xuất Excel),
                          soat_file_excel.py, nhap_du_toan_excel.py, nhap_ks_excel.py (thẩm tra),
+                         gia_ca_may.py (giá ca máy PL IV TT 37), tao_mau_word.py (template Word),
                          nhap_tt38_doc.py, sua_tt38_bang_khoi.py, doc_bang_luoi.py, bo_sung_tt38_luoi.py, lap_danh_muc_tai_nguyen.py (dữ liệu TT 38), boc_kl_dxf.py
 data/                    tt38/ (định mức), bang_ty_le_tt36_2026.json, bang_ty_le_tt40_2026.json,
-                         mau/ (mẫu file), vi-du*/ (ví dụ giá giả)
+                         mau/ (mẫu file), vi-du*/ (ví dụ giá giả), gia-ca-may/ (định mức ca máy mẫu + giá ca máy mẫu),
+                         nhan-cong/ (giá nhân công chuyển đổi)
+templates/word/          W1/W2/W3 (thuyết minh, biên bản, tờ trình/quyết định/công văn) + README cách dùng
 ```
 
 ## Nguyên tắc

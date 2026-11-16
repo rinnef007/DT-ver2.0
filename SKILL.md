@@ -13,7 +13,7 @@ Skill này giúp lập và kiểm tra dự toán chi phí xây dựng theo hệ 
 2. **Phép tính chạy bằng script** (`scripts/dutoan.py`), không tính nhẩm. File Excel xuất ra giữ công thức để kiểm tra ngược.
 3. **Mỗi số có nguồn:** cột `nguon` ghi văn bản, phụ lục, bảng, thời điểm công bố giá; khối lượng ghi bản vẽ và diễn giải; hệ số và tỷ lệ ghi căn cứ.
 4. **Phân biệt rõ** điều đã xác nhận, điều suy luận, điều còn thiếu: `[XÁC NHẬN]`, `[ĐỀ XUẤT]`, `[THIẾU DỮ LIỆU]`.
-5. **Căn cứ pháp lý thay đổi nhanh.** Trước khi lập hồ sơ thật, đọc `references/can-cu-phap-ly.md`; quá ngày rà soát ghi trong file thì tra cứu lại.
+5. **Căn cứ pháp lý thay đổi nhanh** (ngày rà soát gần nhất: **16/11/2026**). Trước khi lập hồ sơ thật, đọc `references/can-cu-phap-ly.md`; quá ngày rà soát ghi trong file thì tra cứu lại. **Lưu ý:** NĐ 206 Điều 36 không có quy định riêng cho gói thầu đã phát hành HSMT nhưng chưa ký hợp đồng — không tự điền quy tắc khi gặp trường hợp này. Từ **01/01/2027**, giá nhân công dùng bảng theo phương pháp mới khi Sở XD đã công bố (TT 37 Điều 2 k2); bảng chuyển đổi chỉ tạm thời đến hết 31/12/2026.
 6. **Dừng ở mỗi điểm xác nhận** (☐). Không gộp nhiều bước khi người dùng chưa đồng ý.
 7. **Theo mẫu của đơn vị khi có.** Người dùng đã có mẫu riêng (xem `references/mau-don-vi.md`): công trình tuyến, KL theo đoạn/xã, nhiều vùng giá, đơn giá chi tiết đầy đủ, làm tròn từng bước, TDT → dùng `mau_xuat: "doan_vung"`, `lam_tron: "tung_buoc"`.
 
@@ -27,7 +27,7 @@ Ghi vào `config_du_toan.json` (mẫu: `data/mau/config_du_toan.mau.json`, `data
 ☐ Xác nhận cấu hình và tỷ lệ tra theo PL III TT 36/2026 hoặc PL II TT 40/2026.
 
 ### Bước 1 — Dữ liệu nguồn
-`python scripts/dutoan.py kiemtra-dulieu --data <thư mục>`. Cấu trúc file: `references/chuan-bi-du-lieu.md`. Dữ liệu từ G8/Eta/F1: lệnh `chuyendoi` với file ánh xạ cột. Lấy từ một hồ sơ Excel cũ: `scripts/nhap_du_toan_excel.py` (mục 6 trong chuan-bi-du-lieu.md). Chạy thử bằng `data/vi-du/`, `data/vi-du-doan/`, `data/vi-du-tt38/`, `data/vi-du-tt40/`, `data/vi-du-khao-sat/` (giá giả; bộ TT 38/TT 40 dùng mã TT 38 thật, bộ TT 40 theo chế độ sửa chữa trong bảo trì, bộ khảo sát theo mẫu đơn vị).
+`python scripts/dutoan.py kiemtra-dulieu --data <thư mục>`. Cấu trúc file: `references/chuan-bi-du-lieu.md`. Dữ liệu từ G8/Eta/F1: lệnh `chuyendoi` với file ánh xạ cột. Lấy từ một hồ sơ Excel cũ: `scripts/nhap_du_toan_excel.py` (mục 6 trong chuan-bi-du-lieu.md). Chạy thử bằng `data/vi-du/`, `data/vi-du-doan/`, `data/vi-du-tt38/`, `data/vi-du-tt40/`, `data/vi-du-khao-sat/`, `data/vi-du-nha-de-xe/` (giá giả; bộ TT 38/TT 40 dùng mã TT 38 thật, bộ TT 40 theo chế độ sửa chữa trong bảo trì, bộ khảo sát theo mẫu đơn vị; bộ Nhà để xe — 41 dòng chuyển mã cũ sang TT 38, chế độ tt36, GXD sau thuế 287.562.073 đồng đã kiểm chứng đến đồng).
 ☐ Xác nhận bộ dữ liệu dùng để tính.
 
 ### Bước 2 — Bóc tách khối lượng
@@ -79,6 +79,7 @@ Mẫu đơn giá đầy đủ: đơn giá/đv KL = G / số đv định mức; t
 | `references/chuan-bi-du-lieu.md` | Bước 1; nạp dữ liệu; cấu hình |
 | `references/mau-bieu-excel.md` | Bước 5 |
 | `references/kiem-tra-tham-tra.md` | Bước 6, 7 |
+| `references/hoc-thuc-hanh.md` | Học / thực hành: lộ trình 7 chặng, bài tập kiểm tra được bằng script, 10 bẫy thường gặp |
 
 ## Trình bày với người dùng
 

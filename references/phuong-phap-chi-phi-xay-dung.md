@@ -107,3 +107,27 @@ Tất cả các bảng tỷ lệ TT 36 đã có trong `data/bang_ty_le_tt36_2026
 2. Công trình giao thông dạng tuyến (cao tốc, quốc lộ) → nhà tạm dùng dòng "theo tuyến".
 3. Chi phí XD dùng tính chi phí QLDA, tư vấn là T + GT + TL (chưa GTGT), không gồm LT (theo CV 12637/BXD-KTQLXD — [THEO NGUỒN THỨ CẤP], cần đọc bản gốc).
 4. Thẩm tra hồ sơ lập trước 01/7/2026: tỷ lệ và cấu trúc theo TT 11/2021 (nhà tạm nằm trong GT) — không trộn hai hệ.
+5. **QĐ 1538/QĐ-BXD đính chính TT 36 đã được áp dụng đúng trong file này** (xác nhận khi rà soát 16/11/2026, [ĐÃ ĐỐI CHIẾU]): công thức LT Bảng 3.8/3.9 là `GXDTT × tỷ lệ × (1 + TGTGT)`; Bảng 3.4 dòng 1 là "Sửa chữa đường bộ, đường sắt, hệ thống báo hiệu hàng hải". Không đổi công thức.
+
+## 5. Chi phí QLDA và chi phí tư vấn — NĐ 206 Điều 25, 26; NĐ 217 Điều 27 k4, Điều 48; NĐ 212
+
+### 5.1. Chi phí quản lý dự án — NĐ 206 Điều 25 [ĐÃ ĐỐI CHIẾU]
+Xác định theo hướng dẫn tại NĐ quy định chi tiết Luật XD về quản lý hoạt động XD (tức NĐ 217/2026); chỉ xác định phù hợp với thời gian, phạm vi công việc đã phê duyệt; xác định trên cơ sở định mức tỷ lệ % hoặc lập dự toán phù hợp với hình thức tổ chức QLDA, thời gian, quy mô, đặc điểm công việc. Nội dung gồm: lương cán bộ QLDA, tiền công lao động hợp đồng, phụ cấp, thưởng, phúc lợi, các khoản đóng góp (BHXH, BHYT, BHTN, kinh phí công đoàn…), ứng dụng KHCN, đào tạo, dịch vụ công cộng, vật tư văn phòng phẩm, thông tin/liên lạc, hội nghị, công tác phí, thuê mướn/sửa chữa/mua sắm tài sản phục vụ QLDA, chi phí khác và chi phí dự phòng.
+- **k3:** thuê tư vấn QLDA thì chi phí xác định bằng lập dự toán theo nội dung, khối lượng công việc thỏa thuận trong hợp đồng.
+- **k4:** hợp đồng EPC, nhà thầu thực hiện một số công việc QLDA thuộc trách nhiệm CĐT thì được hưởng một phần chi phí QLDA tương ứng.
+- **k5:** tổng chi phí QLDA (phần CĐT + tư vấn + nhà thầu) không vượt chi phí QLDA đã xác định, phê duyệt.
+
+### 5.2. Chi phí tư vấn xây dựng — NĐ 206 Điều 26 [ĐÃ ĐỐI CHIẾU]
+Xác định bằng định mức tỷ lệ % hoặc lập dự toán theo phạm vi/khối lượng công việc, kế hoạch gói thầu và chế độ, chính sách; hoặc ước tính theo điểm h k2 Điều 6 NĐ 206. Nội dung gồm: chi phí nhân công tư vấn, ứng dụng KHCN, quản lý hệ thống thông tin công trình, dịch vụ công cộng, vật tư văn phòng phẩm, thuê mướn/sửa chữa/mua sắm tài sản phục vụ tư vấn, chi phí quản lý của tổ chức tư vấn, chi phí khác, thu nhập chịu thuế tính trước, GTGT và chi phí dự phòng.
+- **k4:** CĐT / Ban QLDA đủ năng lực thực hiện một số công việc tư vấn thì được bổ sung chi phí thực hiện các công việc đó vào chi phí QLDA.
+- **k5:** chi phí thuê tư vấn nước ngoài theo Điều 27.
+- Định mức tỷ lệ QLDA, tư vấn: PL VIII TT 38 (Bảng 1.1 QLDA và các bảng tư vấn) — xem mục 3c; cách lập dự toán tư vấn khi chưa có định mức %: mục 3d (PL VI TT 36).
+
+### 5.3. Hình thức tổ chức QLDA — NĐ 217 Điều 44 k6, Điều 48 [ĐÃ ĐỐI CHIẾU]
+CĐT chọn 1 trong 3 hình thức: thuê tư vấn QLDA / lập Ban QLDA trực thuộc / **tự quản lý** (dùng pháp nhân của mình và bộ máy chuyên môn trực thuộc, ban hành quyết định giao quyền / trách nhiệm cụ thể; Giám đốc QLDA phải đáp ứng điểm b k5 Điều 45). Hình thức QLDA là đầu vào của cách xác định chi phí QLDA tại NĐ 206 Điều 25 (định mức % hay lập dự toán).
+
+### 5.4. Bảo trì không phải lập dự án ĐTXD — NĐ 217 Điều 27 k4 [ĐÃ ĐỐI CHIẾU]
+Công tác bảo trì thực hiện trên cơ sở thiết kế XD hiện có hoặc không cần thiết kế XD thì **không phải lập dự án ĐTXD** — căn cứ dùng TT 40 cho sửa chữa trong bảo trì (`references/bao-tri-tt40.md`).
+
+### 5.5. Cơ sở dữ liệu quốc gia về hoạt động xây dựng — NĐ 212 [ĐÃ ĐỐI CHIẾU Điều 4, Điều 57]
+Hệ thống thông tin, CSDL quốc gia về hoạt động XD tại https://csdlhdxd.gov.vn (Điều 4). NĐ 206 Điều 32 k3 / Điều 35 k4: Bộ XD, UBND cấp tỉnh tổ chức cập nhật hệ thống công cụ đã ban hành vào CSDL này. Điều 55 chuyển tiếp của NĐ 212 [CHƯA ĐỐI CHIẾU] — chưa đọc.

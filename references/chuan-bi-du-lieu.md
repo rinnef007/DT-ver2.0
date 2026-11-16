@@ -35,8 +35,11 @@ Script đọc các file CSV (UTF-8, dấu phẩy, dấu chấm thập phân) tro
 | ngay_ap_dung | ✔ | yyyy-mm-dd |
 | khu_vuc |  | Địa bàn, vùng |
 | ty_le_luong |  | Riêng ca máy: tỷ lệ tiền lương trong giá ca máy (g), dùng tính Km |
+| don_gia_goc |  | Giá gốc của vật liệu tại thời điểm lập giá gốc (đồng, chưa GTGT) — dùng xuất sheet `CL_VT` (mới ở v2.0). Chỉ điền cho vật liệu cần tính chênh lệch; để trống thì tài nguyên đó không có trong `CL_VT` |
 
 Mỗi cặp (`ma_tn`, `vung`) chỉ một dòng giá. Nhiều thời điểm: tách thư mục theo thời điểm.
+
+**Giá gốc để tính chênh lệch vật tư (CL_VT, mới ở v2.0):** khi hồ sơ cần bảng chênh lệch vật tư (vd. điều chỉnh giá theo hợp đồng, hoặc so sánh giá tại thời điểm lập với giá tại thời điểm lập dự toán gốc), điền cột `don_gia_goc` cho từng vật liệu — giá tại thời điểm gốc, cùng đơn vị và cùng nguồn gốc với `don_gia` (ghi rõ nguồn, ngày áp dụng của giá gốc trong cột `nguon`/`ngay_ap_dung` của dòng đó hoặc trong thuyết minh). Khi xuất, `dutoan.py tinh` tạo thêm sheet `CL_VT` theo đúng chỉ số của GXD (xem `references/mau-bieu-excel.md` mục A): khối lượng tổng hợp từ `HP_CT`, giá gốc [6] và giá hiện tại [7] tham chiếu `GIA_TN`, chênh lệch [8] = [7] − [6], TT chênh lệch [9] = [5] × [8], thành tiền [10] = [5] × [7], kèm tỷ trọng trong tổng vật liệu và trong chi phí trực tiếp. Tài nguyên không có `don_gia_goc` không xuất hiện trong `CL_VT`; "Vật liệu khác %" (VLK) không có giá gốc theo từng tài nguyên nên không có trong bảng này.
 
 **Nhóm nhân công (Bảng 3.1 PL III TT 37/2026, [ĐÃ ĐỐI CHIẾU])** — giá nhân công công bố theo nhóm, tên trong TT 38 là `Nhân công nhóm 1…4`:
 - Nhóm 1: chuẩn bị mặt bằng, phá dỡ – tháo dỡ, vệ sinh; phục vụ thi công (bốc xếp, vận chuyển, đóng bao, giàn giáo); đất, đá, cát (đào, đắp, bơm, nạo vét, xói hút, vận chuyển; không gồm phá đá nổ mìn).
@@ -47,6 +50,8 @@ Mỗi cặp (`ma_tn`, `vung`) chỉ một dòng giá. Nhiều thời điểm: t�
 Định mức chuyên ngành ban hành trước 01/7/2026 còn ghi theo bậc thợ (vd. 3,5/7) mà chưa chuyển đổi: chọn nhóm theo tính chất công tác (TT 37 Điều 2 k3) và ghi lý do trong `nguon`. Giá nhân công kỳ chuyển tiếp: bảng Sở XD chuyển đổi từ giá theo bậc (PL III mục I.4); giá khảo sát theo phương pháp mới áp dụng từ 01/01/2027.
 
 **Giá nhân công tham chiếu**: `data/nhan-cong/gia_nhan_cong_chuyen_doi_2026.csv` (Hà Nội, Hưng Yên, Hải Phòng — giá chuyển đổi theo nhóm, hiệu lực đến khi có văn bản thay thế). Trong config, mỗi vùng giá có thể gán `"nhan_cong": "<ma_vung>"` (vd. `HN-V1-KV1`, `HY-V2`, `HP-V1`); `can-gia --nhan-cong` điền sẵn giá nhân công, soát S22 cảnh báo khi bảng giá khác văn bản.
+
+**Mốc 01/01/2027** (TT 37 Điều 2 k2, [ĐÃ ĐỐI CHIẾU]): từ ngày này dùng bảng giá nhân công theo phương pháp mới khi Sở XD đã công bố; bảng chuyển đổi (k1) chỉ là tạm thời đến hết 31/12/2026. **QĐ 2036/2037/QĐ-SXD Hà Nội (26/10/2026)** công bố giá nhân công XD và giá ca máy Hà Nội — **chưa nhập vào `data/nhan-cong/`** cho đến khi xác định được đây là giá theo phương pháp mới hay giá chuyển đổi ([CHƯA ĐỐI CHIẾU] — chưa đọc nội dung QĐ).
 
 **Giá vật liệu, ca máy không đóng gói trong skill** (công bố giá thay đổi theo kỳ). Cách lập nhanh cho từng hồ sơ: chạy `dutoan.py can-gia` sau khi khối lượng và mã đã xác nhận → file có sẵn `ma_tn`, `ten_tn`, `don_vi`, `loai`, `vung` và cột `dung_o_ma` (để biết tài nguyên dùng ở mã nào); điền `don_gia`, `nguon`, `ngay_ap_dung` từ công bố giá kỳ hiện hành, lưu thành `gia_tai_nguyen.csv` (cột `dung_o_ma` được bỏ qua khi tính). Tài nguyên có hao phí = 0 ở mọi mã (bỏ có chủ ý, ghi `ly_do`) không cần giá. Dòng nào để trống `don_gia` thì `kiemtra-dulieu` báo lỗi — không để giá 0 cho tài nguyên có dùng.
 

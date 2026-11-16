@@ -12,6 +12,18 @@ Bố cục được nhận diện theo tiêu đề cột (không cố định v�
 - Sheet dự toán: TT | STT đơn giá | Mã hiệu | Hạng mục công việc | Đơn vị | Khối lượng (mỗi đoạn 1 cột) | Đơn giá (mỗi vùng) | Thành tiền …
   Đoạn → vùng giá nhận từ công thức thành tiền (vd. =ROUND($F6*$N6,0)).
 
+Chế độ GXD (--kieu gxd): đọc file theo bố cục phần mềm Dự toán GXD 2026 —
+- Sheet đơn giá: "Don gia XD" (19 cột: MÃ HIỆU ĐỊNH MỨC | MÃ HIỆU ĐƠN GIÁ | MSVT | TÊN CÔNG VIỆC / THÀNH PHẦN HAO PHÍ |
+  ĐƠN VỊ | KHỐI LƯỢNG | ĐỊNH MỨC HAO PHÍ | ĐƠN GIÁ VẬT TƯ | HỆ SỐ | THÀNH TIỀN …). Loại hao phí nhận theo tiền tố MSVT
+  (V… → VL, NC… → NC, M… → M); MÃ VỮA → cap_phoi; chỉ có 1 cột đơn giá nên 1 vùng giá duy nhất.
+- Sheet dự toán: "Du toan XD" (33 cột: STT | MÃ VỮA | MÃ HIỆU ĐỊNH MỨC | MÃ HIỆU ĐƠN GIÁ | NỘI DUNG CÔNG VIỆC | ĐƠN VỊ |
+  KHỐI LƯỢNG | YCKT | Kvlc | Kvlp | Knc1 | Knc2 | Knc3 | Km | ĐƠN GIÁ VL/VLP/NC/M | THÀNH TIỀN … | GHI CHÚ).
+  he_so_vl = Kvlc × Kvlp, he_so_m = Km; Knc1–3 CHƯA gộp (ý nghĩa chưa xác minh — giữ nguyên 3 cột trong báo cáo);
+  YCKT + ghi chú + diễn giải KL (cột Z–AF) → dien_giai; AF đối chiếu với H (khối lượng).
+- File GXD trống (template, 0 khối đơn giá, 0 công tác) thì báo rõ "bảng trống" và thoát mã 2, không tạo file dữ liệu rỗng.
+  Tỷ lệ C/TT/TL/GTGT của GXD nằm ở sheet THCP (không nhập ở chế độ này) nên bước đối chiếu đơn giá cuối sẽ báo thiếu
+  config và dừng sau khi đã ghi đủ dữ liệu + báo cáo — bổ sung tỷ lệ rồi chạy lại `dutoan.py tinh` để đối chiếu.
+
 Kết quả: dinh_muc.csv, gia_tai_nguyen.csv, khoi_luong.csv, config_du_toan.json, bao_cao_nhap.md.
 Số liệu trích từ file là số của hồ sơ đó — nguồn ghi rõ "trích từ file", không thay cho văn bản gốc.
 """
@@ -87,8 +99,15 @@ def doc_dgct(wv, ten_sheet, bc, wf=None):
     n_vung = cH - cF
     vung = OrderedDict()
     for k in range(n_vung):
-        ten = txt(ws.cell(r0 + 1, cF + k).value) or f"Vùng {k+1}"
-        vung[f"V{k+1}"] = ten
+        # N-5: tên vùng KHÔNG lấy từ dòng chỉ số "[n]" dưới tiêu đề (GXD ghi "[8]"… ở dòng này)
+        ten_o = txt(ws.cell(r0 + 1, cF + k).value)
+        if not ten_o or _la_chi_so(ten_o):
+            ten = f"Vùng {k + 1}"
+            bc.append(f"- Sheet {ten_sheet}: không đọc được tên vùng giá ở cột {get_column_letter(cF + k)} "
+                      f"(ô chứa {ten_o!r}) — tạm đặt '{ten}'")
+        else:
+            ten = ten_o
+        vung[f"V{k + 1}"] = ten
     blocks, cur, sec = [], None, None
     for r in range(r0 + 2, ws.max_row + 1):
         A, B, C, D, E = (ws.cell(r, c).value for c in (cA, cB, cC, cD, cE))
@@ -187,8 +206,26 @@ def doc_dt(wv, wf, ten_sheet, vung_ids):
     cG = cot_co(vals, "don gia", cK)
     cT = cot_co(vals, "thanh tien", cG)
     doan = OrderedDict()
-    for k, c in enumerate(range(cK, cG)):
-        doan[f"D{k+1}"] = {"ten": txt(ws.cell(r0 + 1, c).value) or f"Đoạn {k+1}", "cot": c, "vung": None}
+    # N-6: chỉ nhận cột KL khi tiêu đề cột chứa tên đoạn/xã cụ thể — không nhận mọi cột giữa KL và ĐG
+    # (bố cục GXD có YCKT, Kvlc/Kvlp, Knc1–3, Km ở giữa; dòng chỉ số "[n]" cũng không phải tên đoạn).
+    # Lưu ý: cột đoạn của bố cục skill cũng mang tiêu đề "Khối lượng" nên KHÔNG loại theo tiêu đề đó —
+    # cột KL đầu tiên (cK) chính là đoạn đầu tiên; cột GXD bị loại nhờ dòng chỉ số "[n]" ở hàng dưới tiêu đề.
+    _KHONG_PHAI_DOAN = {"yeu cau ky thuat", "chi dan ky thuat", "yckt", "kvlc", "kvlp",
+                        "knc1", "knc2", "knc3", "km"}
+    n_doan = 0
+    for c in range(cK, cG):
+        ten_o = txt(ws.cell(r0 + 1, c).value)
+        tieu_de_o = bo_dau(txt(ws.cell(r0, c).value))
+        if ten_o and _la_chi_so(ten_o):
+            continue
+        # tiêu đề có thể gộp bằng "/": "Yêu cầu kỹ thuật/Chỉ dẫn kỹ thuật" → tách từng phần rồi đối chiếu
+        if {p.strip() for p in tieu_de_o.split("/")} & _KHONG_PHAI_DOAN:
+            continue
+        n_doan += 1
+        doan[f"D{n_doan}"] = {"ten": ten_o or f"Đoạn {n_doan}", "cot": c, "vung": None}
+    if not doan:
+        # không có cột đoạn nào (vd. GXD: 1 cột khối lượng duy nhất) → 1 đoạn ngầm lấy từ cột KL
+        doan["D1"] = {"ten": "Toàn bộ", "cot": cK, "vung": None}
     gia_cols = {get_column_letter(cG + k): vid for k, vid in enumerate(vung_ids)}
     items = []
     for r in range(r0 + 2, ws.max_row + 1):
@@ -218,20 +255,202 @@ def doc_dt(wv, wf, ten_sheet, vung_ids):
     return hm, doan, items, tong
 
 
+def _la_chi_so(v):
+    """Giá trị chỉ số kiểu GXD: "[1]", "[1a]", "[6']", "[15]=[5]*[12]"… — đều bắt đầu bằng "["."""
+    return isinstance(v, str) and v.strip().startswith("[")
+
+
+def _la_dong_bo(ws, r):
+    """Dòng trống hoàn toàn hoặc dòng chỉ số [..] (hàng dưới tiêu đề của GXD)."""
+    vals = [ws.cell(r, c).value for c in range(1, ws.max_column + 1)]
+    co_gia_tri = [v for v in vals if v is not None and (not isinstance(v, str) or v.strip())]
+    if not co_gia_tri:
+        return True
+    return all(_la_chi_so(v) for v in co_gia_tri)
+
+
+# ----------------------------------------------------------------- bố cục GXD (--kieu gxd)
+def doc_dgct_gxd(wv, ten_sheet, bc, wf=None):
+    """Đọc sheet "Don gia XD" của GXD (19 cột) thành các khối đơn giá như doc_dgct.
+    Loại hao phí nhận theo tiền tố MSVT (V… → VL, NC… → NC, M… → M); GXD chỉ có 1 cột đơn giá
+    nên chỉ có 1 vùng giá (V1). Tỷ lệ C/TT/TL/GTGT không có trong sheet này (nằm ở THCP) nên
+    blocks có rates = {} — bước đối chiếu đơn giá cuối sẽ báo rõ và dừng sau khi đã ghi dữ liệu."""
+    ws = wv[ten_sheet]
+    r0, vals = tim_tieu_de(ws, ["ma hieu dinh muc", "ten cong viec"])
+    if not r0:
+        sys.exit(f"Không thấy dòng tiêu đề 'Mã hiệu định mức' / 'Tên công việc' trong sheet {ten_sheet} (chế độ GXD)")
+    cA = cot_co(vals, "stt") or 1
+    cDM = cot_co(vals, "ma hieu dinh muc")
+    cDG = cot_co(vals, "ma hieu don gia", cDM) if cDM else None
+    cMSVT = cot_co(vals, "msvt", cDM) if cDM else None
+    cTen = cot_co(vals, "ten cong viec")
+    cDVT = cot_co(vals, "don vi", cTen) if cTen else None
+    cHP = cot_co(vals, "dinh muc hao phi", cTen) if cTen else None
+    cGia = cot_co(vals, "don gia vat tu", cTen) if cTen else None
+    cHS = cot_co(vals, "he so", cGia) if cGia else None
+    cHPK = cot_co(vals, "hao phi khac", cGia) if cGia else None
+    cVua = cot_co(vals, "ma vua")
+    vung = OrderedDict([("V1", "Chung")])
+    blocks, cur = [], None
+    for r in range(r0 + 2, ws.max_row + 1):
+        if _la_dong_bo(ws, r):
+            continue
+        ma_dm = txt(ws.cell(r, cDM).value) if cDM else ""
+        msvt = txt(ws.cell(r, cMSVT).value) if cMSVT else ""
+        ten = txt(ws.cell(r, cTen).value) if cTen else ""
+        if ma_dm and not msvt:
+            if cDG:
+                ma_dg = txt(ws.cell(r, cDG).value)
+                if ma_dg and ma_dg != ma_dm:
+                    bc.append(f"- Dòng {r} (mã {ma_dm}): mã hiệu đơn giá ({ma_dg}) khác mã định mức — "
+                              f"lấy mã định mức làm ma_hieu, ghi mã đơn giá vào diễn giải")
+            stt_o = ws.cell(r, cA).value
+            cur = {"row": r, "stt": int(stt_o) if isinstance(stt_o, (int, float)) else len(blocks) + 1,
+                   "ma": ma_dm, "ten": ten, "dvkl": txt(ws.cell(r, cDVT).value) if cDVT else "",
+                   "E": 1.0, "lines": [], "rates": {},
+                   "dg": {"V1": so(ws.cell(r, cGia).value) if cGia else None},
+                   "cap_phoi": txt(ws.cell(r, cVua).value) if cVua else "",
+                   "ma_don_gia": txt(ws.cell(r, cDG).value) if cDG else ""}
+            blocks.append(cur)
+            continue
+        if cur is None or not msvt:
+            continue
+        if msvt.startswith("NC"):
+            loai = "NC"
+        elif msvt.startswith("M"):
+            loai = "M"
+        elif msvt.startswith("V"):
+            loai = "VL"
+        else:
+            bc.append(f"- Dòng {r} (mã {cur['ma']}): MSVT {msvt} không rõ loại (không bắt đầu bằng V/NC/M) — bỏ qua, cần xem lại")
+            continue
+        dvt = txt(ws.cell(r, cDVT).value) if cDVT else ""
+        hp = so(ws.cell(r, cHP).value) if cHP else None
+        if hp is None:
+            continue
+        if dvt == "%":
+            cur["lines"].append({"loai": "VLK" if loai == "VL" else "MK", "ma_tn": "", "ten_tn": ten, "dvt": "%",
+                                 "hp": hp, "hs": 1.0, "row": r, "sec": loai})
+            continue
+        gia = so(ws.cell(r, cGia).value) if cGia else None
+        hs = so(ws.cell(r, cHS).value, 1.0) if cHS else 1.0
+        cur["lines"].append({"loai": loai, "ma_tn": msvt, "ten_tn": ten, "dvt": dvt, "hp": hp,
+                             "hs": 1.0 if hs is None else hs, "gia": {"V1": gia}, "row": r})
+        if cHPK and ws.cell(r, cHPK).value not in (None, ""):
+            bc.append(f"- Dòng {r} (mã {cur['ma']}, {msvt}): có 'Hao phí khác' ({ws.cell(r, cHPK).value}) — "
+                      f"ý nghĩa cột này [CHƯA ĐỐI CHIẾU], chưa nhập")
+    return blocks, vung
+
+
+def doc_dt_gxd(wv, wf, ten_sheet, vung_ids, bc):
+    """Đọc sheet "Du toan XD" của GXD (33 cột) thành (hạng mục, đoạn, công tác, tổng).
+    GXD chỉ có 1 cột khối lượng → 1 đoạn ngầm "Toàn bộ". he_so_vl = Kvlc × Kvlp, he_so_m = Km;
+    Knc1–3 KHÔNG gộp (N-4: ý nghĩa chưa xác minh — giữ nguyên 3 cột trong báo cáo nhập).
+    Tổng trước/sau thuế của GXD nằm ở sheet THCP nên tong = {} (không nhập tổng từ đây)."""
+    ws, wsf = wv[ten_sheet], wf[ten_sheet]
+    r0, vals = tim_tieu_de(ws, ["ma hieu dinh muc", "noi dung cong viec"])
+    if not r0:
+        sys.exit(f"Không thấy tiêu đề 'Mã hiệu định mức' / 'Nội dung công việc' trong sheet {ten_sheet} (chế độ GXD)")
+    hm = ten_sheet
+    for r in range(1, r0):
+        for c in range(1, 4):
+            t = txt(ws.cell(r, c).value)
+            if bo_dau(t).startswith("hang muc"):
+                hm = t.split(":", 1)[-1].strip() or hm
+    cB = cot_co(vals, "stt") or 2
+    cVua = cot_co(vals, "ma vua")
+    cDM = cot_co(vals, "ma hieu dinh muc")
+    cDG = cot_co(vals, "ma hieu don gia", cDM) if cDM else None
+    cTen = cot_co(vals, "noi dung cong viec")
+    cDV = cot_co(vals, "don vi", cTen) if cTen else None
+    cKL = cot_co(vals, "khoi luong", cTen) if cTen else None
+    cYCKT = cot_co(vals, "yeu cau ky thuat", cKL) or cot_co(vals, "chi dan ky thuat", cKL) if cKL else None
+    cKvlc = cot_co(vals, "kvlc", cKL) if cKL else None
+    cKvlp = cot_co(vals, "kvlp", cKL) if cKL else None
+    cKnc1 = cot_co(vals, "knc1", cKL) if cKL else None
+    cKnc2 = cot_co(vals, "knc2", cKL) if cKL else None
+    cKnc3 = cot_co(vals, "knc3", cKL) if cKL else None
+    cKm = cot_co(vals, "km", cKL) if cKL else None
+    cDGvl = cot_co(vals, "don gia", cKL) if cKL else None
+    cTT = cot_co(vals, "thanh tien", cDGvl) if cDGvl else None
+    cGC = cot_co(vals, "ghi chu", cTT) if cTT else None
+    doan = OrderedDict([("D1", {"ten": "Toàn bộ", "cot": cKL, "vung": vung_ids[0] if vung_ids else None})])
+    items = []
+    for r in range(r0 + 2, ws.max_row + 1):
+        if _la_dong_bo(ws, r):
+            continue
+        ma = txt(ws.cell(r, cDM).value) if cDM else ""
+        if not ma:
+            continue
+        ten = txt(ws.cell(r, cTen).value) if cTen else ""
+        if not ten or "tong cong" in bo_dau(ten):
+            continue
+        stt_o = ws.cell(r, cB).value
+        stt_dg = int(stt_o) if isinstance(stt_o, (int, float)) else 0
+        kl = so(ws.cell(r, cKL).value, 0.0) if cKL else 0.0
+        kvlc = so(ws.cell(r, cKvlc).value) if cKvlc else None
+        kvlp = so(ws.cell(r, cKvlp).value) if cKvlp else None
+        hs_vl = (kvlc or 1.0) * (kvlp or 1.0)
+        if (kvlc is not None and kvlc != 1) or (kvlp is not None and kvlp != 1):
+            bc.append(f"- Dòng {r} ({ma}): he_so_vl = Kvlc × Kvlp = {hs_vl:g} (Kvlc={kvlc}, Kvlp={kvlp})")
+        km = so(ws.cell(r, cKm).value, 1.0) if cKm else 1.0
+        knc = {}
+        for k, c in (("Knc1", cKnc1), ("Knc2", cKnc2), ("Knc3", cKnc3)):
+            v = so(ws.cell(r, c).value) if c else None
+            if v is not None:
+                knc[k] = v
+        if knc and any(abs(v - 1) > 1e-12 for v in knc.values()):
+            bc.append(f"- Dòng {r} ({ma}): Knc1–3 = {knc} — CHƯA gộp vào he_so_nc (ý nghĩa từng hệ số chưa xác minh, "
+                      f"xem doi-chieu-gxd.md mục 2); giữ nguyên trong báo cáo này")
+        dg_tong = so(ws.cell(r, cTT - 1).value) if cTT else None
+        dg = {vid: dg_tong for vid in vung_ids}
+        dien = []
+        yckt = txt(ws.cell(r, cYCKT).value) if cYCKT else ""
+        if yckt:
+            dien.append(f"YCKT: {yckt}")
+        gc = txt(ws.cell(r, cGC).value) if cGC else ""
+        if gc:
+            dien.append(f"Ghi chú: {gc}")
+        z_af = [txt(ws.cell(r, c).value) for c in range(26, 33)]  # Z..AF: diễn giải KL dạng số
+        if any(z_af):
+            z, aa, ab, ac, ad, ae, af = z_af
+            dien.append(f"Diễn giải KL: {z or '?'}×({aa or '?'}×{ab or '?'}×{ac or '?'})×{ad or '?'} = {ae or '?'} → {af or '?'}")
+            if af and kl is not None and abs(so(af, kl) - kl) > 1e-9:
+                bc.append(f"- Dòng {r} ({ma}): KL toàn bộ ở cột AF ({af}) khác khối lượng cột H ({kl:g}) — đã lấy theo cột H, cần kiểm tra")
+        ma_dg = txt(ws.cell(r, cDG).value) if cDG else ""
+        if ma_dg and ma_dg != ma:
+            dien.append(f"Mã hiệu đơn giá: {ma_dg}")
+        items.append({"row": r, "tt": str(stt_dg), "stt_dg": stt_dg, "ma": ma, "ten": ten,
+                      "dv": txt(ws.cell(r, cDV).value) if cDV else "",
+                      "kl": OrderedDict([("D1", kl or 0.0)]), "dg": dg,
+                      "hs_vl": hs_vl, "hs_m": km or 1.0, "knc": knc,
+                      "cap_phoi": txt(ws.cell(r, cVua).value) if cVua else "",
+                      "dien_giai_gxd": "; ".join(dien)})
+    return hm, doan, items, {}
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--file", required=True)
     p.add_argument("--dgct", required=True, help="Tên sheet đơn giá chi tiết")
     p.add_argument("--dt", required=True, help="Các sheet dự toán, cách nhau bởi dấu phẩy")
     p.add_argument("--ra", required=True, help="Thư mục ghi bộ dữ liệu")
+    p.add_argument("--kieu", choices=["skill", "gxd"], default="skill",
+                   help="Bố cục file nguồn: skill (DGCT/DT của skill) hoặc gxd (Don gia XD / Du toan XD của GXD)")
+    p.add_argument("--vung", default="Chung", help="Tên vùng giá duy nhất khi --kieu gxd (GXD chỉ có 1 cột đơn giá)")
     p.add_argument("--xac-nhan", action="store_true", help="Đánh dấu khối lượng nhập là đã xác nhận (chỉ dùng khi tái lập đối chiếu)")
     a = p.parse_args()
     wv, wf, path = mo_file(a.file)
     ten_file = os.path.basename(a.file)
     bc = [f"# Báo cáo nhập từ `{ten_file}`", ""]
-    blocks, vung = doc_dgct(wv, a.dgct, bc, wf)
-    bc.append(f"- Sheet đơn giá chi tiết `{a.dgct}`: {len(blocks)} khối đơn giá, {len(vung)} vùng giá: " +
-              "; ".join(f"{k} = {v}" for k, v in vung.items()))
+    if a.kieu == "gxd":
+        blocks, vung = doc_dgct_gxd(wv, a.dgct, bc, wf)
+        vung["V1"] = a.vung
+        bc.append(f"- Sheet đơn giá chi tiết `{a.dgct}` (chế độ GXD): {len(blocks)} khối đơn giá, 1 vùng giá: V1 = {vung['V1']}")
+    else:
+        blocks, vung = doc_dgct(wv, a.dgct, bc, wf)
+        bc.append(f"- Sheet đơn giá chi tiết `{a.dgct}`: {len(blocks)} khối đơn giá, {len(vung)} vùng giá: " +
+                  "; ".join(f"{k} = {v}" for k, v in vung.items()))
 
     # mã hiệu duy nhất theo nội dung
     sig_to_key, key_of_row = {}, {}
@@ -298,8 +517,13 @@ def main():
     stt_to_row = {}
     for b in blocks:
         stt_to_row.setdefault(b["stt"], b["row"])
+    tong_items = 0
     for ten_sheet in [s.strip() for s in a.dt.split(",") if s.strip()]:
-        hm, doan, items, tong = doc_dt(wv, wf, ten_sheet, list(vung))
+        if a.kieu == "gxd":
+            hm, doan, items, tong = doc_dt_gxd(wv, wf, ten_sheet, list(vung), bc)
+        else:
+            hm, doan, items, tong = doc_dt(wv, wf, ten_sheet, list(vung))
+        tong_items += len(items)
         dem_tt = Counter(it["tt"] for it in items)
         trung_tt = sorted((t for t, n in dem_tt.items() if n > 1 and t), key=lambda x: (len(x), x))
         if trung_tt:
@@ -327,16 +551,35 @@ def main():
                 co_kl = [(next(iter(it["kl"])), 0.0)]
                 bc.append(f"  - Dòng {it['row']} ({it['ma']} – {it['ten'][:50]}): khối lượng bằng 0 ở mọi đoạn")
             for did, q in co_kl:
-                kl_rows.append({"stt": it["tt"] or str(it["stt_dg"]), "hang_muc": hm, "ma_hieu": key, "ten_cong_tac": it["ten"],
+                dien = it.get("dien_giai_gxd", "")
+                dien = (dien + "; " if dien else "") + f"Nhập từ {ten_file}, sheet {ten_sheet}, dòng {it['row']}"
+                kl_rows.append({"stt": it["tt"] or str(it["stt_dg"]), "hang_muc": hm, "ma_hieu": key,
+                                "cap_phoi": it.get("cap_phoi", ""), "ten_cong_tac": it["ten"],
                                 "don_vi": it["dv"], "doan": did, "khoi_luong": f"{q:g}", "quy_doi": f"{1/b['E']:.12g}",
-                                "he_so_vl": 1, "he_so_nc": 1, "he_so_m": 1, "can_cu_he_so": "", "don_gia_tron_goi": "",
-                                "dien_giai": f"Nhập từ {ten_file}, sheet {ten_sheet}, dòng {it['row']}",
+                                "he_so_vl": it.get("hs_vl", 1), "he_so_nc": 1, "he_so_m": it.get("hs_m", 1),
+                                "can_cu_he_so": "Kvlc × Kvlp (file GXD)" if it.get("hs_vl", 1) != 1 else "",
+                                "don_gia_tron_goi": "",
+                                "dien_giai": dien,
                                 "nguon_ban_ve": "Theo bảng khối lượng của hồ sơ",
                                 "trang_thai": "xac_nhan" if a.xac_nhan else "de_xuat"})
     for did, d in doan_all.items():
         if d["vung"] is None:
             bc.append(f"- Không xác định được vùng giá cho đoạn {did} ({d['ten']}) — gán vùng đầu tiên, cần kiểm tra")
             d["vung"] = next(iter(vung))
+
+    # N-2: bảng trống thì báo rõ, không tạo bộ dữ liệu rỗng
+    if not blocks and tong_items == 0:
+        bc.append("")
+        bc.append("## Kết luận: BẢNG TRỐNG — không có dữ liệu để nhập")
+        bc.append("- File này là template/mẫu trống (0 khối đơn giá, 0 công tác) hoặc các sheet không có dòng dữ liệu "
+                  "dưới tiêu đề. Không tạo dinh_muc.csv / gia_tai_nguyen.csv / khoi_luong.csv / config_du_toan.json.")
+        bc.append("- Cần file đã điền dữ liệu (khối đơn giá + bảng dự toán) rồi chạy lại lệnh nhập.")
+        os.makedirs(a.ra, exist_ok=True)
+        with open(os.path.join(a.ra, "bao_cao_nhap.md"), "w", encoding="utf-8") as f:
+            f.write("\n".join(bc) + "\n")
+        print("\n".join(bc))
+        print(f"\nĐã ghi báo cáo vào {a.ra}/bao_cao_nhap.md (không tạo file dữ liệu — bảng trống)")
+        return 2
 
     os.makedirs(a.ra, exist_ok=True)
     with open(os.path.join(a.ra, "dinh_muc.csv"), "w", encoding="utf-8", newline="") as f:
@@ -355,7 +598,7 @@ def main():
         for g in gia.values():
             w.writerow([g["ma_tn"], g["ten_tn"], g["don_vi"], g["loai"], g["vung"], f"{g['don_gia']:.12g}", g["nguon"], "", vung[g["vung"]], ""])
     with open(os.path.join(a.ra, "khoi_luong.csv"), "w", encoding="utf-8", newline="") as f:
-        cols = ["stt", "hang_muc", "ma_hieu", "ten_cong_tac", "don_vi", "doan", "khoi_luong", "quy_doi", "he_so_vl", "he_so_nc",
+        cols = ["stt", "hang_muc", "ma_hieu", "cap_phoi", "ten_cong_tac", "don_vi", "doan", "khoi_luong", "quy_doi", "he_so_vl", "he_so_nc",
                 "he_so_m", "can_cu_he_so", "don_gia_tron_goi", "dien_giai", "nguon_ban_ve", "trang_thai"]
         w = csv.DictWriter(f, fieldnames=cols)
         w.writeheader()
@@ -378,37 +621,61 @@ def main():
     }
     with open(os.path.join(a.ra, "config_du_toan.json"), "w", encoding="utf-8") as f:
         json.dump(cfg, f, ensure_ascii=False, indent=2)
+
+    def _ghi_bao_cao():
+        with open(os.path.join(a.ra, "bao_cao_nhap.md"), "w", encoding="utf-8") as f:
+            f.write("\n".join(bc) + "\n")
+
+    # N-1: ghi báo cáo TRƯỚC bước đối chiếu đơn giá — không để lỗi nap_config làm mất báo cáo
+    _ghi_bao_cao()
     # đối chiếu đơn giá khối: tính lại từ hao phí × giá theo PL III, so với đơn giá trong file
-    from dutoan_core import DuLieu, nap_config, don_gia_chi_tiet
-    dl = DuLieu(a.ra)
-    cfg_l = nap_config(os.path.join(a.ra, "config_du_toan.json"))
-    lech = []
-    for b in blocks:
-        if "key" not in b:
-            continue
-        r = {"ma_hieu": b["key"], "quy_doi": 1 / b["E"], "hs_vl": 1.0, "hs_nc": 1.0, "hs_m": 1.0, "dg_tg": None}
-        for v in vung:
-            got = don_gia_chi_tiet(dl, cfg_l, r, v)["DG"]
-            file_v = b["dg"].get(v)
-            if file_v is not None and abs(got - file_v) > 0.5:
-                lech.append(f"- Khối {b['ma']} (dòng {b['row']}), {v}: file {file_v:,.0f} — tính lại {got:,.0f} (chênh {got - file_v:+,.0f})")
-    bc.append("")
-    bc.append("## Đối chiếu đơn giá từng khối (tính lại theo PL III TT 36/2026, làm tròn từng bước)")
-    bc.extend(lech or ["- Tất cả khối khớp."])
+    try:
+        from dutoan_core import DuLieu, nap_config, don_gia_chi_tiet
+        dl = DuLieu(a.ra)
+        cfg_l = nap_config(os.path.join(a.ra, "config_du_toan.json"))
+        lech = []
+        for b in blocks:
+            if "key" not in b:
+                continue
+            r = {"ma_hieu": b["key"], "quy_doi": 1 / b["E"], "hs_vl": 1.0, "hs_nc": 1.0, "hs_m": 1.0, "dg_tg": None}
+            for v in vung:
+                got = don_gia_chi_tiet(dl, cfg_l, r, v)["DG"]
+                file_v = b["dg"].get(v)
+                if file_v is not None and abs(got - file_v) > 0.5:
+                    lech.append(f"- Khối {b['ma']} (dòng {b['row']}), {v}: file {file_v:,.0f} — tính lại {got:,.0f} (chênh {got - file_v:+,.0f})")
+        bc.append("")
+        bc.append("## Đối chiếu đơn giá từng khối (tính lại theo PL III TT 36/2026, làm tròn từng bước)")
+        bc.extend(lech or ["- Tất cả khối khớp."])
+    except SystemExit as e:
+        bc.append("")
+        bc.append("## Đối chiếu đơn giá từng khối — CHƯA ĐỐI CHIẾU ĐƯỢC")
+        bc.append(f"- Lỗi ở bước đối chiếu: {e}")
+        bc.append("- Dữ liệu đã ghi đủ (dinh_muc.csv, gia_tai_nguyen.csv, khoi_luong.csv, config_du_toan.json); "
+                  "bổ sung tỷ lệ còn thiếu vào config_du_toan.json rồi chạy `dutoan.py tinh` để đối chiếu.")
+        if a.kieu == "gxd":
+            bc.append("- Chế độ GXD: tỷ lệ C/TT/TL/GTGT nằm ở sheet THCP của file GXD, chưa nhập ở chế độ này — "
+                      "nhập tay tỷ lệ từ THCP vào config rồi tính lại.")
+        _ghi_bao_cao()
+        print("\n".join(bc))
+        print(f"\nĐã ghi bộ dữ liệu vào {a.ra} (chưa đối chiếu đơn giá — xem bao_cao_nhap.md)")
+        return 1
     bc.append("")
     bc.append("## Tổng trong file gốc (để đối chiếu sau khi tính lại)")
     for hm, t in tong_dt.items():
-        bc.append(f"- {hm}: trước thuế {t.get('truoc_thue')}, VAT {t.get('vat')}, sau thuế {t.get('sau_thue')}")
+        if t.get("truoc_thue") is None and t.get("vat") is None and t.get("sau_thue") is None:
+            bc.append(f"- {hm}: (tổng nằm ở sheet THCP của file gốc, chưa nhập)")
+        else:
+            bc.append(f"- {hm}: trước thuế {t.get('truoc_thue')}, VAT {t.get('vat')}, sau thuế {t.get('sau_thue')}")
     if rieng:
         bc.append("")
         bc.append("## Mã có tỷ lệ riêng (khác tỷ lệ phổ biến)")
         for k, v in rieng.items():
             bc.append(f"- {k}: " + ", ".join(f"{kk} = {vv['gia_tri']} ({vv.get('co_so','T')})" for kk, vv in v.items()))
-    with open(os.path.join(a.ra, "bao_cao_nhap.md"), "w", encoding="utf-8") as f:
-        f.write("\n".join(bc) + "\n")
+    _ghi_bao_cao()
     print("\n".join(bc))
     print(f"\nĐã ghi bộ dữ liệu vào {a.ra}")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

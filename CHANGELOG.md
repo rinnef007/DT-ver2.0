@@ -11,7 +11,7 @@
 > sang dạng CSV thường (giải nén từ đúng các file `.csv.gz` đó, nội dung không đổi).
 > Script `dutoan_core.py` đọc được cả `.csv` và `.csv.gz`.
 
-## [Unreleased] — 2.0.0 (đang làm, theo PLAN-nang-cap-skill-DT-ver2.0.md)
+## [2.0.0] — 2026-11-16
 - Dữ liệu TT 38 trên repo chuyển từ `.csv.gz` sang `.csv` thường (6 file, nội dung không đổi),
   để đẩy được bằng snapshot; script vẫn đọc được cả hai dạng.
 - `dinh_muc_tt38.csv` (13 MB) chia thành 3 phần `dinh_muc_tt38_p1..p3.csv` (17.506 +
@@ -23,8 +23,61 @@
   thì `tinh`/`tra` không thấy mã TT 38. Nay kiểm tra cả `.csv` và `.csv.gz`.
 - Sửa `dutoan.py tra --tai-nguyen`: trước đây mở trực tiếp file `.csv.gz` bằng gzip,
   nay dùng `doc_csv` nên đọc được cả `.csv` và `.csv.gz`.
-- Rà soát lại pháp lý hệ 2026, đọc nguyên văn NĐ 206/2026.
-- Khép lỗ hổng dữ liệu TT 38 (79 mã cần kiểm tra, 14 khối mã, PL VII/VIII).
-- Thêm lớp học/thực hành và ví dụ Nhà để xe chuyển mã TT 38.
-- Đối chiếu mẫu GXD/Excel/Word (`DutoanGXD1.xlsm`).
-- Thêm test chạy lại toàn bộ ví dụ.
+- Rà soát lại pháp lý hệ 2026 (16/11/2026, `references/can-cu-phap-ly.md`): sửa NĐ 206/2026
+  Điều 36 (k3 sửa đúng, bổ sung k5 — dự toán đã nộp thẩm định mà chưa có kết quả thì
+  dừng thẩm định, trả lại hồ sơ); bổ sung Luật 135/2025 Điều 73–76, NĐ 193/2026, TT 73/2026/TT-BTC,
+  NĐ 207/2026, NĐ 212/2026, NĐ 217/2026 (Điều 74 đã bãi bỏ bởi NĐ 347/2026), NĐ 347/2026,
+  TT 32/33/34/39/2026, NĐ 339/2026; ghi rõ khoảng trống: Điều 36 không quy định gói thầu đã
+  phát hành HSMT nhưng chưa ký hợp đồng. Mốc 01/01/2027: giá nhân công dùng bảng theo phương
+  pháp mới khi Sở XD đã công bố (TT 37 Điều 2 k2); bảng chuyển đổi chỉ tạm thời đến hết 31/12/2026.
+  QĐ 2036/2037/QĐ-SXD Hà Nội (26/10/2026) chưa nhập dữ liệu nhân công cho đến khi xác định phương pháp.
+- Khép lỗ hổng dữ liệu TT 38 theo đề xuất Giai đoạn 2 (`phase2-mdb-de-xuat.csv`,
+  2.994 dòng, đối chiếu với 4 bảng xuất GXD từ cơ sở dữ liệu TT 38 — xem
+  `phase2-mdb-doi-chieu.md`): THEM 2.041 / SUA 585 / XOA 368, áp ngày 16/11/2026
+  sau khi anh duyệt. Kết quả: `dinh_muc_tt38.csv` 52.517 → 54.190 dòng
+  (8.959 → 9.136 mã trong `danh_muc_ma`); đối chiếu lại với GXD:
+  MATCH 9.014, DIFF 58, SKILL_ONLY 11, GXD_ONLY 4 (trước: 8.059/836/64/181).
+  14 khối mã thiếu đã bổ sung đủ (AB.5141x, AB.713xx, AB.721xx, AC.211xx,
+  AC.251xx/252xx, AD.422xx, AF.333xx, AF.421xx, AG.524xx, MO.015xx, MS.051xx/052xx,
+  DA.051xx); 53 mã ảo bị xóa (trong đó AF.51121/22 thực chất là AF.81121/22
+  bị đọc nhầm 8 thành 5 — đã thêm lại đúng mã); 52 tên tài nguyên mới bổ sung
+  vào `danh_muc_tai_nguyen_tt38.csv` (tổng 2.433 mục); `ma_can_kiem_tra.csv`
+  83 → 6 mã (chỉ còn DA.50002/03, DB.10201, DB.17001/02, MS.07201 chưa kết luận).
+  Còn tồn tại: 58 mã DIFF (chủ yếu do GXD thiếu dòng hoặc trùng dòng),
+  4 mã GXD-only (AF.16120, AF.16210, AK.84211, AN.11311 — 2 mã sau GXD sai,
+  skill đúng nên không áp theo GXD), 11 mã skill-only (gồm AF.160120, AF.160210
+  và các mã có hậu tố @II). 3 mã GXD sai, giữ theo skill: BA.31002, AK.84211,
+  AN.11311.
+- Sửa quy ước dòng VLK/MK trong đề xuất: các dòng THEM của đề xuất ghi
+  `ma_tn` = "Vật liệu khác"/"Máy khác", trong khi quy ước v1 để trống
+  (dòng % tính theo tổng VL/M, không cần giá) — làm `soat` báo chặn S02 giả.
+  Đã chuẩn hóa 328 dòng (190 VLK + 138 MK) về `ma_tn` trống, khớp quy ước v1;
+  đối chiếu lại với GXD không đổi (MATCH 9.014).
+- Ví dụ Nhà để xe (`data/vi-du-nha-de-xe/`): sửa dòng 8 AF.51122 → AF.81122
+  (mã đúng TT 38; AF.51122 là mã ảo do đọc nhầm); thêm 3 giá tài nguyên VÍ DỤ
+  cho các dòng mới của đề xuất (Vận thăng 0,8 t 500.000 đ/ca, Máy khoan bê tông
+  300.000 đ/ca, Đinh, đinh vít 2.000 đ/cái); xóa dòng giá cho tên lỗi gộp
+  "Nhân công nhóm 2 Máy thi công" (tên đã sửa đúng thành "Nhân công nhóm 2").
+  GXD sau thuế: 280.339.863 → **287.562.073** (AF.11310 đủ NC/M, AK.12222 đủ
+  NC, AF.12510 có VL); `soat` 0 chặn, 0 cảnh báo. Tổng mới đã đối chiếu tay
+  4 dòng và tính lại bằng LibreOffice, khớp đến đồng.
+- Thêm lớp học/thực hành (`references/hoc-thuc-hanh.md`: lộ trình 7 chặng, 10 bài tập kiểm tra được
+  bằng script, 10 bẫy thường gặp) và ví dụ Nhà để xe chuyển mã TT 38 (`data/vi-du-nha-de-xe/`:
+  41 dòng, 38/41 dòng có mã TT 38, GXD sau thuế 280.339.863 đồng đã kiểm chứng đến đồng).
+- Đối chiếu mẫu GXD/Excel/Word (`references/doi-chieu-gxd.md`, 455 dòng): bảng map GXD → skill đầy đủ
+  (Du toan XD 33 cột, Don gia XD 19 cột, Ts, DMTL, THCP); `soat_file_excel.py` thêm kiểm tra E10
+  (SUM sai phạm vi so với nhãn), E11 (ô trống giữa công thức), E12 (nhãn mâu thuẫn công thức) và
+  E6 liệt kê tọa độ mẫu; `nhap_du_toan_excel.py` thêm chế độ `--kieu gxd`; script mới
+  `scripts/gia_ca_may.py` tính giá ca máy theo PL IV TT 37/2026 (3 máy mẫu kiểm chứng đến đồng);
+  sheet chênh lệch vật tư `CL_VT` trong `xuat_excel.py` (chỉ xuất khi có `don_gia_goc`); 3 template
+  Word tạo lại được bằng `scripts/tao_mau_word.py`; thiết kế đơn giá tổng hợp mã TH
+  (`references/thiet-ke-don-gia-tong-hop.md`, chỉ tài liệu — mã TH ngoài phạm vi v2.0, làm ở v2.1).
+- Thêm test tự động (`tests/`): kiểm thử soat/nhap trên fixture `DutoanGXD1.xlsm` (10 test) và
+  kiểm thử 6 ví dụ khớp tổng baseline đến đồng (`tests/test_examples.py`).
+- Sửa BA.31002 (kéo dây, cáp trên lưới đèn, PL III): Băng dính 1,63 → 1,00 cuộn; thêm
+  dòng Nhân công nhóm 3 = 1,63 công (dữ liệu gốc bỏ mất dòng NC nên 1,63 bị dồn lên
+  dòng Băng dính). Căn cứ: văn bản gốc TT 38/2026 PL III, TT 12/2021, và bảng xuất
+  `tbDinhMuc` từ cơ sở dữ liệu GXD (6 dòng, trùng khớp). Xóa BA.31002 khỏi
+  `ma_can_kiem_tra.csv`. Kiểm chứng sau sửa: `tra --ma BA.31002` ra đủ 7 dòng;
+  6 ví dụ chạy lại khớp đúng đến đồng (vi-du 140.434.146; tt38 87.295.481; doan
+  151.531.785; tt40 104.694.588; khao-sat 13.115.401; nha-de-xe 280.339.863).

@@ -247,7 +247,8 @@ class DuLieu:
             self.gia[(ma, vung)] = {"ma": ma, "vung": vung, "ten": r.get("ten_tn", ""), "don_vi": r.get("don_vi", ""),
                                     "loai": r.get("loai", "").upper(), "don_gia": dg, "nguon": r.get("nguon", ""),
                                     "ngay": r.get("ngay_ap_dung", ""), "khu_vuc": r.get("khu_vuc", ""),
-                                    "ty_le_luong": so(r.get("ty_le_luong"))}
+                                    "ty_le_luong": so(r.get("ty_le_luong")),
+                                    "don_gia_goc": so(r.get("don_gia_goc"))}
             self.ten_tn.setdefault(ma, (r.get("ten_tn", ""), r.get("don_vi", ""), r.get("loai", "").upper()))
 
         # cấp phối vữa (PL VII TT 38/2026), tuỳ chọn

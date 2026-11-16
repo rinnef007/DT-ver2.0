@@ -131,13 +131,23 @@ def xuat(path, dl, kl_rows, cfg, soat_kq, py, nhap=False):
             ma_dung.setdefault(r["ma_hieu"], True)
     tn_dung = dl.tai_nguyen_dung(set(ma_dung))
     vung0 = next(iter(ds_vung(cfg, dl)))
+    # X-1: tài nguyên có giá gốc (cột don_gia_goc trong gia_tai_nguyen.csv) → xuất sheet CL_VT
+    gia_goc = {}
+    for ma in tn_dung:
+        g0 = dl.gia_cua(ma, vung0)
+        if g0 and g0.get("don_gia_goc") is not None:
+            gia_goc[ma] = g0["don_gia_goc"]
+    has_goc = bool(gia_goc)
     ws = ws_gia
     _tieu_de(ws, "BẢNG GIÁ TÀI NGUYÊN (chưa thuế GTGT)", cfg, False)
-    _hdr(ws, 4, ["Mã TN", "Tên tài nguyên", "ĐVT", "Loại", "Đơn giá (đồng)", "Nguồn", "Ngày áp dụng", "Khu vực"],
-         [14, 40, 9, 7, 16, 50, 13, 14])
+    _hdr(ws, 4, ["Mã TN", "Tên tài nguyên", "ĐVT", "Loại", "Đơn giá (đồng)", "Nguồn", "Ngày áp dụng", "Khu vực"] +
+         (["Giá gốc (đồng)"] if has_goc else []),
+         [14, 40, 9, 7, 16, 50, 13, 14] + ([16] if has_goc else []))
     row = 5
+    gia_row = {}  # ma_tn -> dòng trong GIA_TN (để CL_VT tham chiếu)
     for ma, h in tn_dung.items():
         g = dl.gia_cua(ma, vung0)
+        gia_row[ma] = row
         _o(ws, f"A{row}", ma)
         _o(ws, f"B{row}", g["ten"] if g else h["ten_tn"], align=CANH_TRAI)
         _o(ws, f"C{row}", g["don_vi"] if g else h["don_vi_tn"], align=CANH_GIUA)
@@ -148,6 +158,9 @@ def xuat(path, dl, kl_rows, cfg, soat_kq, py, nhap=False):
         _o(ws, f"F{row}", g["nguon"] if g else "THIẾU", align=CANH_TRAI)
         _o(ws, f"G{row}", g["ngay"] if g else "", align=CANH_GIUA)
         _o(ws, f"H{row}", g["khu_vuc"] if g else "")
+        if has_goc:
+            _o(ws, f"I{row}", g["don_gia_goc"] if g and g.get("don_gia_goc") is not None else "",
+               F_NHAP, SO_TIEN, FILL_NHAP)
         row += 1
     gia_cuoi = max(row - 1, 5)
     RG_MA = f"GIA_TN!$A$5:$A${gia_cuoi}"
@@ -342,6 +355,40 @@ def xuat(path, dl, kl_rows, cfg, soat_kq, py, nhap=False):
     ws[f"E{row}"] = "TH_VT"
     ws[f"F{row}"] = "DT_CT"
     ws[f"G{row}"] = "Chênh lệch"
+
+    # ------------------------------------------------ CL_VT (X-1: chênh lệch vật tư gốc vs hiện tại)
+    # Chỉ xuất khi có don_gia_goc cho vật liệu; cột theo đúng chỉ số của GXD (TH vat tu XD):
+    # MSVT, tên, ĐVT, KL, giá gốc [6], giá hiện tại [7], chênh lệch [8]=[7]-[6],
+    # thành tiền chênh lệch [9]=[5]*[8], thành tiền [10]=[5]*[7], tỷ trọng.
+    # "Vật liệu khác %" (VLK) không có giá gốc theo từng tài nguyên nên không có trong bảng này.
+    cl_vt_ds = [(ma, h) for ma, h in tn_dung.items() if h["loai"] == "VL" and ma in gia_goc]
+    if cl_vt_ds:
+        ws = wb.create_sheet("CL_VT")
+        _tieu_de(ws, "BẢNG TỔNG HỢP VÀ TÍNH CHÊNH LỆCH VẬT TƯ (giá gốc so với giá tại thời điểm lập)", cfg, nhap)
+        _hdr(ws, 5, ["STT", "MSVT", "Tên vật tư", "ĐVT", "Khối lượng", "Giá gốc [6]", "Giá hiện tại [7]",
+                     "Chênh lệch [8]=[7]-[6]", "TT chênh lệch [9]=[5]*[8]", "Thành tiền [10]=[5]*[7]",
+                     "Tỷ trọng trong VL", "Tỷ trọng trong CP trực tiếp", "Nguồn"],
+             [6, 14, 42, 9, 14, 16, 16, 16, 18, 18, 12, 12, 40])
+        row = 6
+        for stt, (ma, h) in enumerate(cl_vt_ds, start=1):
+            gr = gia_row[ma]
+            _o(ws, f"A{row}", stt, align=CANH_GIUA)
+            _o(ws, f"B{row}", ma)
+            _o(ws, f"C{row}", h["ten_tn"], align=CANH_TRAI)
+            _o(ws, f"D{row}", h["don_vi_tn"], align=CANH_GIUA)
+            _o(ws, f"E{row}", f"=SUMIF(HP_CT!$C$5:$C${hp_cuoi},B{row},HP_CT!$F$5:$F${hp_cuoi})", fmt=SO_KL)
+            _o(ws, f"F{row}", f"=GIA_TN!I{gr}", fmt=SO_TIEN)
+            _o(ws, f"G{row}", f"=GIA_TN!E{gr}", fmt=SO_TIEN)
+            _o(ws, f"H{row}", f"=G{row}-F{row}", fmt=SO_TIEN)
+            _o(ws, f"I{row}", f"=E{row}*H{row}", fmt=SO_TIEN)
+            _o(ws, f"J{row}", f"=E{row}*G{row}", fmt=SO_TIEN)
+            _o(ws, f"K{row}", f"=IF(TH_VT!{vt_vl}=0,0,J{row}/TH_VT!{vt_vl})", fmt=PHAN_TRAM)
+            _o(ws, f"L{row}", f"=IF(TH_CPXD!$D$7=0,0,J{row}/TH_CPXD!$D$7)", fmt=PHAN_TRAM)
+            _o(ws, f"M{row}", f"=GIA_TN!F{gr}", align=CANH_TRAI)
+            row += 1
+        _o(ws, f"C{row}", "Cộng chênh lệch vật tư", F_DAM)
+        _o(ws, f"I{row}", f"=SUM(I6:I{row - 1})", F_DAM, SO_TIEN)
+        _o(ws, f"J{row}", f"=SUM(J6:J{row - 1})", F_DAM, SO_TIEN)
 
     # ------------------------------------------------ TH_CPXD (Bảng 3.8)
     ws = ws_th

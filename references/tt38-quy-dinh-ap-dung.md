@@ -49,11 +49,17 @@ Dùng cho vật liệu **không** có trong định mức dự toán (tính theo
 - PL II: công tác thủ công chỉ áp dụng khi không thi công được bằng máy; độ cao chuẩn ≤ 6 m, > 6 m tính thêm bốc xếp vận chuyển lên cao.
 - PL VI SB.94xxx vận chuyển phế thải: SB.941–944 trong phạm vi 1.000 m theo loại ô tô; SB.945–948 cho mỗi 1.000 m tiếp theo (nhân số km tiếp theo).
 
+## 5b. TT 37 Điều 2 k3 — chọn nhóm lao động khi định mức cũ chưa chuyển đổi; dự thảo TT sửa TT 38
+
+- **TT 37/2026 Điều 2 k3** [ĐÃ ĐỐI CHIẾU]: định mức trong bộ định mức chuyên ngành / địa phương ban hành trước 01/7/2026 chưa chuyển đổi sang nhóm lao động thì **chọn nhóm theo tính chất công việc** (Bảng 3.1 PL III TT 37). Đây là cơ chế dự phòng, không tự suy ra nhóm. Hạn chót TT 36 Điều 10 k1 (chuyển đổi định mức cũ sang nhóm lao động trước 01/9/2026) **đã qua**.
+- **Mốc 01/01/2027** (TT 37 Điều 2 k2): Sở XD tổ chức khảo sát, xác định giá nhân công XD theo phương pháp mới để công bố, **áp dụng từ 01/01/2027**; bảng chuyển đổi (k1) chỉ là tạm thời đến hết 31/12/2026. Xem `references/chuan-bi-du-lieu.md`.
+- **Dự thảo TT sửa đổi TT 38/2026** (Bộ XD lấy ý kiến, công bố 28/10/2026; chương trình soạn thảo QĐ 1759/QĐ-BXD 09/10/2026): sửa đổi định mức XD, định mức sửa chữa/bảo trì và định mức sử dụng vật liệu trong TT 38 — **chỉ là dự thảo, chưa ban hành tính đến 16/11/2026 — không áp dụng**; theo dõi lại trước khi chốt dữ liệu TT 38 (Giai đoạn 2).
+
 ## 6. Dữ liệu đã trích (`data/tt38/`)
 
 | File | Nội dung |
 |---|---|
-| `dinh_muc_tt38.csv` | ~8.960 mã PL I–VI (bản thay thế CV 9947), từng dòng hao phí; `ma_tn` = tên tài nguyên đúng như TT 38 (bảng giá phải dùng đúng tên) |
+| `dinh_muc_tt38.csv` (trên repo chia 3 phần `dinh_muc_tt38_p1..p3.csv`, gộp lại đúng bằng file gốc) | ~8.960 mã PL I–VI (bản thay thế CV 9947), từng dòng hao phí; `ma_tn` = tên tài nguyên đúng như TT 38 (bảng giá phải dùng đúng tên) |
 | `ma_can_kiem_tra.csv` | 84 dòng: 79 mã cần đối chiếu văn bản (nghi lệch dòng do ô gộp không đều, bảng trình bày theo khối chưa đọc lại được, hoặc hai cách đọc cho số liệu khác nhau) và 5 mã chỉ ghi chú đơn vị 'Máy khác' — soát S18 cảnh báo khi dùng; cần dùng thì nhập hao phí đúng vào `dinh_muc.csv` của hồ sơ (định mức riêng được ưu tiên) |
 | `danh_muc_tai_nguyen_tt38.csv` | **Danh mục tài nguyên** ~2.381 dòng (12 tên nhân công, ~908 máy, ~1.461 vật liệu): tên đúng như TT 38 (dùng làm `ma_tn` bảng giá), đơn vị, số mã dùng, phụ lục, ví dụ mã, cách viết khác của cùng tài nguyên (khâu tra giá coi là một), ghi chú tên chỉ có ở mã cần kiểm tra. Tra: `dutoan.py tra --tai-nguyen "máy lu" [--loai M]` |
 | `bao_cao_sua_bang_khoi.md` | Kết quả đọc lại các bảng trình bày theo khối (`scripts/sua_tt38_bang_khoi.py`): mã đã sửa, mã giữ nguyên cần kiểm tra |
