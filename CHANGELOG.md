@@ -14,6 +14,10 @@
 ## [Unreleased] — 2.0.0 (đang làm, theo PLAN-nang-cap-skill-DT-ver2.0.md)
 - Dữ liệu TT 38 trên repo chuyển từ `.csv.gz` sang `.csv` thường (6 file, nội dung không đổi),
   để đẩy được bằng snapshot; script vẫn đọc được cả hai dạng.
+- `dinh_muc_tt38.csv` (13 MB) chia thành 3 phần `dinh_muc_tt38_p1..p3.csv` (17.506 +
+  17.506 + 17.504 dòng, gộp lại đúng bằng file gốc, đã kiểm chứng từng dòng) vì file gộp
+  vượt giới hạn kích thước yêu cầu khi đẩy lên GitHub; `dutoan_core.py` đọc được cả file
+  gộp, file `.csv.gz`, hoặc 3 phần.
 - Sửa lỗi v1: `dutoan_core.py` chỉ nạp định mức TT 38 khi có file `dinh_muc_tt38.csv.gz`
   (kiểm tra sự tồn tại của `.csv.gz` rồi mới đọc `.csv`), nên với dữ liệu `.csv` thường
   thì `tinh`/`tra` không thấy mã TT 38. Nay kiểm tra cả `.csv` và `.csv.gz`.

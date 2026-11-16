@@ -197,18 +197,26 @@ class DuLieu:
         self.pl_tt38 = {}
         self.hp_tt38 = {}
         self.ma_can_kiem_tra = {r["ma_hieu"]: r["ly_do"] for r in (doc_csv(os.path.join(TT38_DIR, "ma_can_kiem_tra.csv")) or [])} if dung_tt38 else {}
-        if dung_tt38 and (os.path.exists(os.path.join(TT38_DIR, "dinh_muc_tt38.csv")) or os.path.exists(os.path.join(TT38_DIR, "dinh_muc_tt38.csv.gz"))):
-            self.co_tt38 = True
-            for r in doc_csv(os.path.join(TT38_DIR, "dinh_muc_tt38.csv")) or []:
-                ma = r["ma_hieu"]
-                self.pl_tt38[ma] = r.get("phu_luc", "")
-                self.hp_tt38.setdefault(ma, []).append((r["loai"], r["ten_tn"], float(r["hao_phi"])))
-                if ma in self.ma_rieng:
-                    continue
-                d = self.dinh_muc.setdefault(ma, {"ten": r["ten_cong_tac"], "don_vi": r["don_vi"], "nguon": r["nguon"], "hao_phi": [],
-                                                  "phu_luc": r.get("phu_luc", "")})
-                d["hao_phi"].append({"loai": r["loai"], "ma_tn": r["ma_tn"], "ten_tn": r["ten_tn"], "don_vi_tn": r["don_vi_tn"],
-                                     "hao_phi": float(r["hao_phi"]), "he_so": 1.0, "can_cu_he_so": ""})
+        if dung_tt38:
+            dm_tt38 = doc_csv(os.path.join(TT38_DIR, "dinh_muc_tt38.csv")) or []
+            if not dm_tt38:
+                # Dữ liệu trên repo chia thành 3 phần (dinh_muc_tt38_p1..p3.csv) vì
+                # file gộp 13 MB vượt giới hạn kích thước khi đẩy lên GitHub.
+                import glob
+                for p in sorted(glob.glob(os.path.join(TT38_DIR, "dinh_muc_tt38_p*.csv"))):
+                    dm_tt38 += doc_csv(p) or []
+            if dm_tt38:
+                self.co_tt38 = True
+                for r in dm_tt38:
+                    ma = r["ma_hieu"]
+                    self.pl_tt38[ma] = r.get("phu_luc", "")
+                    self.hp_tt38.setdefault(ma, []).append((r["loai"], r["ten_tn"], float(r["hao_phi"])))
+                    if ma in self.ma_rieng:
+                        continue
+                    d = self.dinh_muc.setdefault(ma, {"ten": r["ten_cong_tac"], "don_vi": r["don_vi"], "nguon": r["nguon"], "hao_phi": [],
+                                                      "phu_luc": r.get("phu_luc", "")})
+                    d["hao_phi"].append({"loai": r["loai"], "ma_tn": r["ma_tn"], "ten_tn": r["ten_tn"], "don_vi_tn": r["don_vi_tn"],
+                                         "hao_phi": float(r["hao_phi"]), "he_so": 1.0, "can_cu_he_so": ""})
         for ma, d in self.dinh_muc.items():
             if ma not in self.ma_rieng:
                 continue
