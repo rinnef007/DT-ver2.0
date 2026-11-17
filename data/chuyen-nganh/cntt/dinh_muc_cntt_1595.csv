@@ -1,0 +1,302 @@
+﻿ma_hieu,ten_cong_tac,don_vi,loai,ma_tn,ten_tn,don_vi_tn,hao_phi,he_so,can_cu_he_so,nguon,phu_luc,chuong
+02.10.01.01.01_1,Xác định các loại dữ liệu cần thu thập (Mức 1),01 bảng mô tả dữ liệu,NC,Nhóm 03 KS3 và 02 KS4,Nhóm 03 KS3 và 02 KS4,nhóm công,3.5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_2,Xác định các loại dữ liệu cần thu thập (Mức 2),01 bảng mô tả dữ liệu,NC,Nhóm 03 KS3 và 02 KS4,Nhóm 03 KS3 và 02 KS4,nhóm công,4.375,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_3,Xác định các loại dữ liệu cần thu thập (Mức 3),01 bảng mô tả dữ liệu,NC,Nhóm 03 KS3 và 02 KS4,Nhóm 03 KS3 và 02 KS4,nhóm công,5.075,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_1,Xác định các loại dữ liệu cần thu thập (Mức 1),01 bảng mô tả dữ liệu,VL,Giấy A4,Giấy A4,gram,0.3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_2,Xác định các loại dữ liệu cần thu thập (Mức 2),01 bảng mô tả dữ liệu,VL,Giấy A4,Giấy A4,gram,0.3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_3,Xác định các loại dữ liệu cần thu thập (Mức 3),01 bảng mô tả dữ liệu,VL,Giấy A4,Giấy A4,gram,0.3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_1,Xác định các loại dữ liệu cần thu thập (Mức 1),01 bảng mô tả dữ liệu,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_2,Xác định các loại dữ liệu cần thu thập (Mức 2),01 bảng mô tả dữ liệu,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_3,Xác định các loại dữ liệu cần thu thập (Mức 3),01 bảng mô tả dữ liệu,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_1,Xác định các loại dữ liệu cần thu thập (Mức 1),01 bảng mô tả dữ liệu,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,11.25,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_2,Xác định các loại dữ liệu cần thu thập (Mức 2),01 bảng mô tả dữ liệu,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,15,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_3,Xác định các loại dữ liệu cần thu thập (Mức 3),01 bảng mô tả dữ liệu,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,17.4,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_1,Xác định các loại dữ liệu cần thu thập (Mức 1),01 bảng mô tả dữ liệu,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.375,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_2,Xác định các loại dữ liệu cần thu thập (Mức 2),01 bảng mô tả dữ liệu,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_3,Xác định các loại dữ liệu cần thu thập (Mức 3),01 bảng mô tả dữ liệu,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.58,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_1,Xác định các loại dữ liệu cần thu thập (Mức 1),01 bảng mô tả dữ liệu,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.225,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_2,Xác định các loại dữ liệu cần thu thập (Mức 2),01 bảng mô tả dữ liệu,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_3,Xác định các loại dữ liệu cần thu thập (Mức 3),01 bảng mô tả dữ liệu,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.348,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_1,Xác định các loại dữ liệu cần thu thập (Mức 1),01 bảng mô tả dữ liệu,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_2,Xác định các loại dữ liệu cần thu thập (Mức 2),01 bảng mô tả dữ liệu,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.01.01_3,Xác định các loại dữ liệu cần thu thập (Mức 3),01 bảng mô tả dữ liệu,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_1,Lập kế hoạch thu thập dữ liệu (Mức 1),01 bản kế hoạch thu thập dữ liệu,NC,Nhóm 03 KS3,Nhóm 03 KS3,công,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_2,Lập kế hoạch thu thập dữ liệu (Mức 2),01 bản kế hoạch thu thập dữ liệu,NC,Nhóm 03 KS3,Nhóm 03 KS3,công,3.75,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_3,Lập kế hoạch thu thập dữ liệu (Mức 3),01 bản kế hoạch thu thập dữ liệu,NC,Nhóm 03 KS3,Nhóm 03 KS3,công,4.35,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_1,Lập kế hoạch thu thập dữ liệu (Mức 1),01 bản kế hoạch thu thập dữ liệu,VL,Giấy A4,Giấy A4,gram,0.16,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_2,Lập kế hoạch thu thập dữ liệu (Mức 2),01 bản kế hoạch thu thập dữ liệu,VL,Giấy A4,Giấy A4,gram,0.16,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_3,Lập kế hoạch thu thập dữ liệu (Mức 3),01 bản kế hoạch thu thập dữ liệu,VL,Giấy A4,Giấy A4,gram,0.16,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_1,Lập kế hoạch thu thập dữ liệu (Mức 1),01 bản kế hoạch thu thập dữ liệu,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_2,Lập kế hoạch thu thập dữ liệu (Mức 2),01 bản kế hoạch thu thập dữ liệu,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_3,Lập kế hoạch thu thập dữ liệu (Mức 3),01 bản kế hoạch thu thập dữ liệu,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_1,Lập kế hoạch thu thập dữ liệu (Mức 1),01 bản kế hoạch thu thập dữ liệu,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,6,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_2,Lập kế hoạch thu thập dữ liệu (Mức 2),01 bản kế hoạch thu thập dữ liệu,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,8,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_3,Lập kế hoạch thu thập dữ liệu (Mức 3),01 bản kế hoạch thu thập dữ liệu,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,9.28,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_1,Lập kế hoạch thu thập dữ liệu (Mức 1),01 bản kế hoạch thu thập dữ liệu,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.225,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_2,Lập kế hoạch thu thập dữ liệu (Mức 2),01 bản kế hoạch thu thập dữ liệu,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_3,Lập kế hoạch thu thập dữ liệu (Mức 3),01 bản kế hoạch thu thập dữ liệu,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.348,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_1,Lập kế hoạch thu thập dữ liệu (Mức 1),01 bản kế hoạch thu thập dữ liệu,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.075,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_2,Lập kế hoạch thu thập dữ liệu (Mức 2),01 bản kế hoạch thu thập dữ liệu,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.1,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_3,Lập kế hoạch thu thập dữ liệu (Mức 3),01 bản kế hoạch thu thập dữ liệu,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.116,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_1,Lập kế hoạch thu thập dữ liệu (Mức 1),01 bản kế hoạch thu thập dữ liệu,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_2,Lập kế hoạch thu thập dữ liệu (Mức 2),01 bản kế hoạch thu thập dữ liệu,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.02.01_3,Lập kế hoạch thu thập dữ liệu (Mức 3),01 bản kế hoạch thu thập dữ liệu,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_1,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 1),01 tài liệu hướng dẫn,NC,Nhóm 01 KS3 và 01 KS2,Nhóm 01 KS3 và 01 KS2,nhóm công,2,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_2,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 2),01 tài liệu hướng dẫn,NC,Nhóm 01 KS3 và 01 KS2,Nhóm 01 KS3 và 01 KS2,nhóm công,2.5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_3,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 3),01 tài liệu hướng dẫn,NC,Nhóm 01 KS3 và 01 KS2,Nhóm 01 KS3 và 01 KS2,nhóm công,2.9,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_1,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 1),01 tài liệu hướng dẫn,VL,Giấy A4,Giấy A4,gram,0.06,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_2,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 2),01 tài liệu hướng dẫn,VL,Giấy A4,Giấy A4,gram,0.06,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_3,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 3),01 tài liệu hướng dẫn,VL,Giấy A4,Giấy A4,gram,0.06,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_1,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 1),01 tài liệu hướng dẫn,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_2,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 2),01 tài liệu hướng dẫn,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_3,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 3),01 tài liệu hướng dẫn,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_1,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 1),01 tài liệu hướng dẫn,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,2.25,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_2,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 2),01 tài liệu hướng dẫn,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_3,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 3),01 tài liệu hướng dẫn,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,3.48,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_1,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 1),01 tài liệu hướng dẫn,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.045,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_2,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 2),01 tài liệu hướng dẫn,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.06,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_3,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 3),01 tài liệu hướng dẫn,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.0696,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_1,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 1),01 tài liệu hướng dẫn,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.0225,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_2,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 2),01 tài liệu hướng dẫn,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.03,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_3,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 3),01 tài liệu hướng dẫn,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.0348,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_1,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 1),01 tài liệu hướng dẫn,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_2,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 2),01 tài liệu hướng dẫn,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.03.01_3,Xây dựng tài liệu hướng dẫn thu thập dữ liệu (Mức 3),01 tài liệu hướng dẫn,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.01_1,Thu thập bản gốc (Mức 1),01 đơn vị tài liệu thô gốc,NC,Nhóm 01 KS1,Nhóm 01 KS1,công,0.008,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.01_2,Thu thập bản gốc (Mức 2),01 đơn vị tài liệu thô gốc,NC,Nhóm 01 KS1,Nhóm 01 KS1,công,0.01,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.01_3,Thu thập bản gốc (Mức 3),01 đơn vị tài liệu thô gốc,NC,Nhóm 01 KS1,Nhóm 01 KS1,công,0.012,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.01_1,Thu thập bản gốc (Mức 1),01 đơn vị tài liệu thô gốc,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.0054,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.01_2,Thu thập bản gốc (Mức 2),01 đơn vị tài liệu thô gốc,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.0072,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.01_3,Thu thập bản gốc (Mức 3),01 đơn vị tài liệu thô gốc,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.008352,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.01_1,Thu thập bản gốc (Mức 1),01 đơn vị tài liệu thô gốc,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.01_2,Thu thập bản gốc (Mức 2),01 đơn vị tài liệu thô gốc,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.01_3,Thu thập bản gốc (Mức 3),01 đơn vị tài liệu thô gốc,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.02,Photocopy tài liệu,01 Trang A4,NC,Nhóm 01 KS1,Nhóm 01 KS1,công,0.0008,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.02,Photocopy tài liệu,01 Trang A4,VL,Giấy A4,Giấy A4,gram,0.0022,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.02,Photocopy tài liệu,01 Trang A4,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.02,Photocopy tài liệu,01 Trang A4,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.0008,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.02,Photocopy tài liệu,01 Trang A4,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.03,Quét tài liệu (photocopy điện tử),01 Trang A4,NC,Nhóm 01 KS1,Nhóm 01 KS1,công,0.008,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.03,Quét tài liệu (photocopy điện tử),01 Trang A4,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.008,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.03,Quét tài liệu (photocopy điện tử),01 Trang A4,M,"Máy scan 0,025kW/h","Máy scan 0,025kW/h",ca,0.006,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.03,Quét tài liệu (photocopy điện tử),01 Trang A4,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.04,Sao chép vào các phương tiện lưu trữ,01 đơn vị dữ liệu thô gốc,NC,Nhóm 01 KS1,Nhóm 01 KS1,công,0.006,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.04,Sao chép vào các phương tiện lưu trữ,01 đơn vị dữ liệu thô gốc,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.02,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.04,Sao chép vào các phương tiện lưu trữ,01 đơn vị dữ liệu thô gốc,MK,,Máy khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.05_1,Ghi dữ liệu vào các đĩa cd/dvd (Đĩa CD),01 đĩa,NC,Nhóm 01 KS1,Nhóm 01 KS1,công,0.012,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.05_2,Ghi dữ liệu vào các đĩa cd/dvd (Đĩa DVD),01 đĩa,NC,Nhóm 01 KS1,Nhóm 01 KS1,công,0.02,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.05_1,Ghi dữ liệu vào các đĩa cd/dvd (Đĩa CD),01 đĩa,VL,Đĩa CD/DVD,Đĩa CD/DVD,cái,1,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.05_2,Ghi dữ liệu vào các đĩa cd/dvd (Đĩa DVD),01 đĩa,VL,Đĩa CD/DVD,Đĩa CD/DVD,cái,1,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.05_1,Ghi dữ liệu vào các đĩa cd/dvd (Đĩa CD),01 đĩa,M,"Máy tính để bàn 0,4kW","Máy tính để bàn 0,4kW",ca,0.06,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.05_2,Ghi dữ liệu vào các đĩa cd/dvd (Đĩa DVD),01 đĩa,M,"Máy tính để bàn 0,4kW","Máy tính để bàn 0,4kW",ca,0.16,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.05_1,Ghi dữ liệu vào các đĩa cd/dvd (Đĩa CD),01 đĩa,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.04.05_2,Ghi dữ liệu vào các đĩa cd/dvd (Đĩa DVD),01 đĩa,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.05.01,Tạo lập kho dữ liệu thô lưu trữ dưới dạng số,01 đơn vị dữ liệu thô gốc,NC,Nhóm 01 KS1,Nhóm 01 KS1,công,0.012,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.05.01,Tạo lập kho dữ liệu thô lưu trữ dưới dạng số,01 đơn vị dữ liệu thô gốc,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.012,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.05.01,Tạo lập kho dữ liệu thô lưu trữ dưới dạng số,01 đơn vị dữ liệu thô gốc,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.06.01,Giao nộp tài liệu giấy,01 đơn vị tài liệu thô gốc,NC,Nhóm 01 KS2,Nhóm 01 KS2,công,0.006,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.06.01,Giao nộp tài liệu giấy,01 đơn vị tài liệu thô gốc,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.0023,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.06.01,Giao nộp tài liệu giấy,01 đơn vị tài liệu thô gốc,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.001,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.06.01,Giao nộp tài liệu giấy,01 đơn vị tài liệu thô gốc,MK,,Máy khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.06.02,Giao nộp tài liệu số,01 đơn vị dữ liệu thô gốc,NC,Nhóm 01 KS2,Nhóm 01 KS2,công,0.004,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.06.02,Giao nộp tài liệu số,01 đơn vị dữ liệu thô gốc,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.004,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.06.02,Giao nộp tài liệu số,01 đơn vị dữ liệu thô gốc,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.001,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.01.06.02,Giao nộp tài liệu số,01 đơn vị dữ liệu thô gốc,MK,,Máy khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_1,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 1),01 tài liệu hướng dẫn,NC,Nhóm 03 KS3,Nhóm 03 KS3,nhóm công,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_2,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 2),01 tài liệu hướng dẫn,NC,Nhóm 03 KS3,Nhóm 03 KS3,nhóm công,3.75,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_3,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 3),01 tài liệu hướng dẫn,NC,Nhóm 03 KS3,Nhóm 03 KS3,nhóm công,4.35,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_1,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 1),01 tài liệu hướng dẫn,VL,Giấy A4,Giấy A4,gram,0.15,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_2,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 2),01 tài liệu hướng dẫn,VL,Giấy A4,Giấy A4,gram,0.15,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_3,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 3),01 tài liệu hướng dẫn,VL,Giấy A4,Giấy A4,gram,0.15,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_1,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 1),01 tài liệu hướng dẫn,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_2,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 2),01 tài liệu hướng dẫn,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_3,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 3),01 tài liệu hướng dẫn,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_1,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 1),01 tài liệu hướng dẫn,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,6.3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_2,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 2),01 tài liệu hướng dẫn,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,8.4,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_3,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 3),01 tài liệu hướng dẫn,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,9.744,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_1,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 1),01 tài liệu hướng dẫn,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.225,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_2,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 2),01 tài liệu hướng dẫn,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_3,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 3),01 tài liệu hướng dẫn,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.348,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_1,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 1),01 tài liệu hướng dẫn,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.15,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_2,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 2),01 tài liệu hướng dẫn,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.2,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_3,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 3),01 tài liệu hướng dẫn,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.232,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_1,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 1),01 tài liệu hướng dẫn,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_2,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 2),01 tài liệu hướng dẫn,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.01.01_3,Xây dựng tài liệu hướng dẫn đánh giá và phân loại dữ liệu (Mức 3),01 tài liệu hướng dẫn,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.01_1,Phân loại và đánh giá tài liệu giấy (Mức 1),01 đơn vị tài liệu thô gốc,NC,Nhóm 02 KS2,Nhóm 02 KS2,nhóm công,0.01,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.01_2,Phân loại và đánh giá tài liệu giấy (Mức 2),01 đơn vị tài liệu thô gốc,NC,Nhóm 02 KS2,Nhóm 02 KS2,nhóm công,0.0125,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.01_3,Phân loại và đánh giá tài liệu giấy (Mức 3),01 đơn vị tài liệu thô gốc,NC,Nhóm 02 KS2,Nhóm 02 KS2,nhóm công,0.0145,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.01_1,Phân loại và đánh giá tài liệu giấy (Mức 1),01 đơn vị tài liệu thô gốc,VL,Giấy A4,Giấy A4,gram,0.002,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.01_2,Phân loại và đánh giá tài liệu giấy (Mức 2),01 đơn vị tài liệu thô gốc,VL,Giấy A4,Giấy A4,gram,0.002,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.01_3,Phân loại và đánh giá tài liệu giấy (Mức 3),01 đơn vị tài liệu thô gốc,VL,Giấy A4,Giấy A4,gram,0.002,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.01_1,Phân loại và đánh giá tài liệu giấy (Mức 1),01 đơn vị tài liệu thô gốc,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.01_2,Phân loại và đánh giá tài liệu giấy (Mức 2),01 đơn vị tài liệu thô gốc,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.01_3,Phân loại và đánh giá tài liệu giấy (Mức 3),01 đơn vị tài liệu thô gốc,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.01_1,Phân loại và đánh giá tài liệu giấy (Mức 1),01 đơn vị tài liệu thô gốc,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.00525,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.01_2,Phân loại và đánh giá tài liệu giấy (Mức 2),01 đơn vị tài liệu thô gốc,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.007,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.01_3,Phân loại và đánh giá tài liệu giấy (Mức 3),01 đơn vị tài liệu thô gốc,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.00812,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.01_1,Phân loại và đánh giá tài liệu giấy (Mức 1),01 đơn vị tài liệu thô gốc,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.000375,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.01_2,Phân loại và đánh giá tài liệu giấy (Mức 2),01 đơn vị tài liệu thô gốc,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.0005,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.01_3,Phân loại và đánh giá tài liệu giấy (Mức 3),01 đơn vị tài liệu thô gốc,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.00058,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.01_1,Phân loại và đánh giá tài liệu giấy (Mức 1),01 đơn vị tài liệu thô gốc,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.01_2,Phân loại và đánh giá tài liệu giấy (Mức 2),01 đơn vị tài liệu thô gốc,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.01_3,Phân loại và đánh giá tài liệu giấy (Mức 3),01 đơn vị tài liệu thô gốc,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.02_1,Phân loại và đánh giá dữ liệu số (Mức 1),01 đơn vị dữ liệu thô gốc,NC,Nhóm 02 KS2,Nhóm 02 KS2,nhóm công,0.012,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.02_2,Phân loại và đánh giá dữ liệu số (Mức 2),01 đơn vị dữ liệu thô gốc,NC,Nhóm 02 KS2,Nhóm 02 KS2,nhóm công,0.015,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.02_3,Phân loại và đánh giá dữ liệu số (Mức 3),01 đơn vị dữ liệu thô gốc,NC,Nhóm 02 KS2,Nhóm 02 KS2,nhóm công,0.0174,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.02_1,Phân loại và đánh giá dữ liệu số (Mức 1),01 đơn vị dữ liệu thô gốc,VL,Giấy A4,Giấy A4,gram,0.002,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.02_2,Phân loại và đánh giá dữ liệu số (Mức 2),01 đơn vị dữ liệu thô gốc,VL,Giấy A4,Giấy A4,gram,0.002,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.02_3,Phân loại và đánh giá dữ liệu số (Mức 3),01 đơn vị dữ liệu thô gốc,VL,Giấy A4,Giấy A4,gram,0.002,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.02_1,Phân loại và đánh giá dữ liệu số (Mức 1),01 đơn vị dữ liệu thô gốc,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.02_2,Phân loại và đánh giá dữ liệu số (Mức 2),01 đơn vị dữ liệu thô gốc,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.02_3,Phân loại và đánh giá dữ liệu số (Mức 3),01 đơn vị dữ liệu thô gốc,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.02_1,Phân loại và đánh giá dữ liệu số (Mức 1),01 đơn vị dữ liệu thô gốc,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.006,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.02_2,Phân loại và đánh giá dữ liệu số (Mức 2),01 đơn vị dữ liệu thô gốc,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.008,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.02_3,Phân loại và đánh giá dữ liệu số (Mức 3),01 đơn vị dữ liệu thô gốc,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.00928,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.02_1,Phân loại và đánh giá dữ liệu số (Mức 1),01 đơn vị dữ liệu thô gốc,M,"Máy in laser công suất 0,6 kW/h","Máy in laser công suất 0,6 kW/h",ca,0.00045,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.02_2,Phân loại và đánh giá dữ liệu số (Mức 2),01 đơn vị dữ liệu thô gốc,M,"Máy in laser công suất 0,6 kW/h","Máy in laser công suất 0,6 kW/h",ca,0.0006,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.02_3,Phân loại và đánh giá dữ liệu số (Mức 3),01 đơn vị dữ liệu thô gốc,M,"Máy in laser công suất 0,6 kW/h","Máy in laser công suất 0,6 kW/h",ca,0.000696,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.02_1,Phân loại và đánh giá dữ liệu số (Mức 1),01 đơn vị dữ liệu thô gốc,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.02_2,Phân loại và đánh giá dữ liệu số (Mức 2),01 đơn vị dữ liệu thô gốc,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.02.02.02_3,Phân loại và đánh giá dữ liệu số (Mức 3),01 đơn vị dữ liệu thô gốc,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.03.01.01_1,Xây dựng cấu trúc dữ liệu đặc tả (Mức 1),01 cấu trúc dữ liệu đặc tả,NC,Nhóm 02 KS3 và 01 KS4,Nhóm 02 KS3 và 01 KS4,nhóm công,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.03.01.01_2,Xây dựng cấu trúc dữ liệu đặc tả (Mức 2),01 cấu trúc dữ liệu đặc tả,NC,Nhóm 02 KS3 và 01 KS4,Nhóm 02 KS3 và 01 KS4,nhóm công,6.25,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.03.01.01_3,Xây dựng cấu trúc dữ liệu đặc tả (Mức 3),01 cấu trúc dữ liệu đặc tả,NC,Nhóm 02 KS3 và 01 KS4,Nhóm 02 KS3 và 01 KS4,nhóm công,7.25,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.03.01.01_1,Xây dựng cấu trúc dữ liệu đặc tả (Mức 1),01 cấu trúc dữ liệu đặc tả,VL,Giấy A4,Giấy A4,gram,0.18,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.03.01.01_2,Xây dựng cấu trúc dữ liệu đặc tả (Mức 2),01 cấu trúc dữ liệu đặc tả,VL,Giấy A4,Giấy A4,gram,0.18,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.03.01.01_3,Xây dựng cấu trúc dữ liệu đặc tả (Mức 3),01 cấu trúc dữ liệu đặc tả,VL,Giấy A4,Giấy A4,gram,0.18,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.03.01.01_1,Xây dựng cấu trúc dữ liệu đặc tả (Mức 1),01 cấu trúc dữ liệu đặc tả,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.03.01.01_2,Xây dựng cấu trúc dữ liệu đặc tả (Mức 2),01 cấu trúc dữ liệu đặc tả,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.03.01.01_3,Xây dựng cấu trúc dữ liệu đặc tả (Mức 3),01 cấu trúc dữ liệu đặc tả,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.03.01.01_1,Xây dựng cấu trúc dữ liệu đặc tả (Mức 1),01 cấu trúc dữ liệu đặc tả,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,11.25,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.03.01.01_2,Xây dựng cấu trúc dữ liệu đặc tả (Mức 2),01 cấu trúc dữ liệu đặc tả,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,15,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.03.01.01_3,Xây dựng cấu trúc dữ liệu đặc tả (Mức 3),01 cấu trúc dữ liệu đặc tả,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,17.4,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.03.01.01_1,Xây dựng cấu trúc dữ liệu đặc tả (Mức 1),01 cấu trúc dữ liệu đặc tả,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.3375,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.03.01.01_2,Xây dựng cấu trúc dữ liệu đặc tả (Mức 2),01 cấu trúc dữ liệu đặc tả,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.45,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.03.01.01_3,Xây dựng cấu trúc dữ liệu đặc tả (Mức 3),01 cấu trúc dữ liệu đặc tả,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.522,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.03.01.01_1,Xây dựng cấu trúc dữ liệu đặc tả (Mức 1),01 cấu trúc dữ liệu đặc tả,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.03.01.01_2,Xây dựng cấu trúc dữ liệu đặc tả (Mức 2),01 cấu trúc dữ liệu đặc tả,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.03.01.01_3,Xây dựng cấu trúc dữ liệu đặc tả (Mức 3),01 cấu trúc dữ liệu đặc tả,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_1,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 1),01 tài liệu hướng dẫn nhập liệu,NC,Nhóm 02 KS3,Nhóm 02 KS3,nhóm công,4,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_2,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 2),01 tài liệu hướng dẫn nhập liệu,NC,Nhóm 02 KS3,Nhóm 02 KS3,nhóm công,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_3,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 3),01 tài liệu hướng dẫn nhập liệu,NC,Nhóm 02 KS3,Nhóm 02 KS3,nhóm công,5.8,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_1,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 1),01 tài liệu hướng dẫn nhập liệu,VL,Giấy A4,Giấy A4,gram,0.12,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_2,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 2),01 tài liệu hướng dẫn nhập liệu,VL,Giấy A4,Giấy A4,gram,0.12,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_3,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 3),01 tài liệu hướng dẫn nhập liệu,VL,Giấy A4,Giấy A4,gram,0.12,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_1,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 1),01 tài liệu hướng dẫn nhập liệu,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_2,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 2),01 tài liệu hướng dẫn nhập liệu,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_3,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 3),01 tài liệu hướng dẫn nhập liệu,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_1,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 1),01 tài liệu hướng dẫn nhập liệu,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,3.375,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_2,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 2),01 tài liệu hướng dẫn nhập liệu,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,4.5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_3,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 3),01 tài liệu hướng dẫn nhập liệu,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,5.22,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_1,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 1),01 tài liệu hướng dẫn nhập liệu,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.126,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_2,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 2),01 tài liệu hướng dẫn nhập liệu,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.168,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_3,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 3),01 tài liệu hướng dẫn nhập liệu,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.19488,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_1,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 1),01 tài liệu hướng dẫn nhập liệu,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.09,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_2,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 2),01 tài liệu hướng dẫn nhập liệu,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.12,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_3,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 3),01 tài liệu hướng dẫn nhập liệu,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.1392,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_1,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 1),01 tài liệu hướng dẫn nhập liệu,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_2,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 2),01 tài liệu hướng dẫn nhập liệu,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.01.01_3,Xây dựng tài liệu hướng dẫn nhập liệu (Mức 3),01 tài liệu hướng dẫn nhập liệu,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.02.01_1,Nhập dữ liệu có cấu trúc (Mức 1),01 Trường,NC,Nhóm 01 KS1,Nhóm 01 KS1,nhóm công,0.0024,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.02.01_2,Nhập dữ liệu có cấu trúc (Mức 2),01 Trường,NC,Nhóm 01 KS1,Nhóm 01 KS1,nhóm công,0.00307,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.02.01_3,Nhập dữ liệu có cấu trúc (Mức 3),01 Trường,NC,Nhóm 01 KS1,Nhóm 01 KS1,nhóm công,0.00384,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.02.01_1,Nhập dữ liệu có cấu trúc (Mức 1),01 Trường,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.00225,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.02.01_2,Nhập dữ liệu có cấu trúc (Mức 2),01 Trường,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.003,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.02.01_3,Nhập dữ liệu có cấu trúc (Mức 3),01 Trường,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.00348,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.02.01_1,Nhập dữ liệu có cấu trúc (Mức 1),01 Trường,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.02.01_2,Nhập dữ liệu có cấu trúc (Mức 2),01 Trường,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.02.01_3,Nhập dữ liệu có cấu trúc (Mức 3),01 Trường,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.02.02_1,Nhập dữ liệu phi cấu trúc (Mức 1),01 Trang A4,NC,Nhóm 01 KS1,Nhóm 01 KS1,công,0.045,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.02.02_2,Nhập dữ liệu phi cấu trúc (Mức 2),01 Trang A4,NC,Nhóm 01 KS1,Nhóm 01 KS1,công,0.0576,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.02.02_3,Nhập dữ liệu phi cấu trúc (Mức 3),01 Trang A4,NC,Nhóm 01 KS1,Nhóm 01 KS1,công,0.072,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.02.02_1,Nhập dữ liệu phi cấu trúc (Mức 1),01 Trang A4,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.0375,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.02.02_2,Nhập dữ liệu phi cấu trúc (Mức 2),01 Trang A4,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.05,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.02.02_3,Nhập dữ liệu phi cấu trúc (Mức 3),01 Trang A4,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.058,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.02.02_1,Nhập dữ liệu phi cấu trúc (Mức 1),01 Trang A4,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.02.02_2,Nhập dữ liệu phi cấu trúc (Mức 2),01 Trang A4,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.04.02.02_3,Nhập dữ liệu phi cấu trúc (Mức 3),01 Trang A4,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_1,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 1),01 tài liệu hướng dẫn,NC,Nhóm 02 KS3,Nhóm 02 KS3,nhóm công,3.5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_2,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 2),01 tài liệu hướng dẫn,NC,Nhóm 02 KS3,Nhóm 02 KS3,nhóm công,4.375,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_3,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 3),01 tài liệu hướng dẫn,NC,Nhóm 02 KS3,Nhóm 02 KS3,nhóm công,5.075,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_1,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 1),01 tài liệu hướng dẫn,VL,Giấy A4,Giấy A4,gram,0.14,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_2,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 2),01 tài liệu hướng dẫn,VL,Giấy A4,Giấy A4,gram,0.14,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_3,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 3),01 tài liệu hướng dẫn,VL,Giấy A4,Giấy A4,gram,0.14,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_1,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 1),01 tài liệu hướng dẫn,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_2,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 2),01 tài liệu hướng dẫn,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_3,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 3),01 tài liệu hướng dẫn,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_1,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 1),01 tài liệu hướng dẫn,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,2.25,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_2,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 2),01 tài liệu hướng dẫn,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_3,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 3),01 tài liệu hướng dẫn,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,3.48,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_1,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 1),01 tài liệu hướng dẫn,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.1575,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_2,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 2),01 tài liệu hướng dẫn,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.21,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_3,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 3),01 tài liệu hướng dẫn,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.2436,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_1,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 1),01 tài liệu hướng dẫn,M,"Máy photocopy 1,3kW","Máy photocopy 1,3kW",ca,0.1125,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_2,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 2),01 tài liệu hướng dẫn,M,"Máy photocopy 1,3kW","Máy photocopy 1,3kW",ca,0.15,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_3,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 3),01 tài liệu hướng dẫn,M,"Máy photocopy 1,3kW","Máy photocopy 1,3kW",ca,0.174,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_1,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 1),01 tài liệu hướng dẫn,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_2,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 2),01 tài liệu hướng dẫn,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.01.01_3,Xây dựng tài liệu hướng dẫn chuẩn hóa và chuyển đổi dữ liệu (Mức 3),01 tài liệu hướng dẫn,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.02.01_1,Chuẩn hóa dữ liệu (Mức 1),01 file tài liệu,NC,Nhóm 01 KS1,Nhóm 01 KS1,nhóm công,0.04,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.02.01_2,Chuẩn hóa dữ liệu (Mức 2),01 file tài liệu,NC,Nhóm 01 KS1,Nhóm 01 KS1,nhóm công,0.05,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.02.01_3,Chuẩn hóa dữ liệu (Mức 3),01 file tài liệu,NC,Nhóm 01 KS1,Nhóm 01 KS1,nhóm công,0.058,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.02.01_1,Chuẩn hóa dữ liệu (Mức 1),01 file tài liệu,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.03,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.02.01_2,Chuẩn hóa dữ liệu (Mức 2),01 file tài liệu,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.04,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.02.01_3,Chuẩn hóa dữ liệu (Mức 3),01 file tài liệu,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.0464,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.02.01_1,Chuẩn hóa dữ liệu (Mức 1),01 file tài liệu,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.02.01_2,Chuẩn hóa dữ liệu (Mức 2),01 file tài liệu,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.02.01_3,Chuẩn hóa dữ liệu (Mức 3),01 file tài liệu,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.01,Chuyển mã ký tự,01 file tài liệu,NC,Nhóm 01 KS1,Nhóm 01 KS1,công,0.04,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.01,Chuyển mã ký tự,01 file tài liệu,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.04,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.01,Chuyển mã ký tự,01 file tài liệu,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.02,Chuyển đổi khuôn dạng lưu trữ dữ liệu,01 file tài liệu,NC,Nhóm 01 KS1,Nhóm 01 KS1,công,0.008,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.02,Chuyển đổi khuôn dạng lưu trữ dữ liệu,01 file tài liệu,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.007,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.02,Chuyển đổi khuôn dạng lưu trữ dữ liệu,01 file tài liệu,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.03_1,Chuyển đổi cấu trúc dữ liệu (Mức 1),01 bảng mô tả dữ liệu,NC,Nhóm 02 KS2,Nhóm 02 KS2,nhóm công,15,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.03_2,Chuyển đổi cấu trúc dữ liệu (Mức 2),01 bảng mô tả dữ liệu,NC,Nhóm 02 KS2,Nhóm 02 KS2,nhóm công,18.75,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.03_3,Chuyển đổi cấu trúc dữ liệu (Mức 3),01 bảng mô tả dữ liệu,NC,Nhóm 02 KS2,Nhóm 02 KS2,nhóm công,21.75,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.03_1,Chuyển đổi cấu trúc dữ liệu (Mức 1),01 bảng mô tả dữ liệu,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,28.5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.03_2,Chuyển đổi cấu trúc dữ liệu (Mức 2),01 bảng mô tả dữ liệu,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,38,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.03_3,Chuyển đổi cấu trúc dữ liệu (Mức 3),01 bảng mô tả dữ liệu,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,44.08,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.03_1,Chuyển đổi cấu trúc dữ liệu (Mức 1),01 bảng mô tả dữ liệu,MK,,Máy khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.03_2,Chuyển đổi cấu trúc dữ liệu (Mức 2),01 bảng mô tả dữ liệu,MK,,Máy khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.03_3,Chuyển đổi cấu trúc dữ liệu (Mức 3),01 bảng mô tả dữ liệu,MK,,Máy khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.04.01_1,Nhận dạng dữ liệu có cấu trúc (Mức 1),01 Trường,NC,Nhóm 01 KS1,Nhóm 01 KS1,nhóm công,0.0024,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.04.01_2,Nhận dạng dữ liệu có cấu trúc (Mức 2),01 Trường,NC,Nhóm 01 KS1,Nhóm 01 KS1,nhóm công,0.00307,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.04.01_3,Nhận dạng dữ liệu có cấu trúc (Mức 3),01 Trường,NC,Nhóm 01 KS1,Nhóm 01 KS1,nhóm công,0.00384,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.04.01_1,Nhận dạng dữ liệu có cấu trúc (Mức 1),01 Trường,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.00225,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.04.01_2,Nhận dạng dữ liệu có cấu trúc (Mức 2),01 Trường,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.003,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.04.01_3,Nhận dạng dữ liệu có cấu trúc (Mức 3),01 Trường,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.00348,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.04.01_1,Nhận dạng dữ liệu có cấu trúc (Mức 1),01 Trường,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.04.01_2,Nhận dạng dữ liệu có cấu trúc (Mức 2),01 Trường,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.04.01_3,Nhận dạng dữ liệu có cấu trúc (Mức 3),01 Trường,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.04.02_1,Nhận dạng dữ liệu phi cấu trúc. (Mức 1),01 Trang A4,NC,Nhóm 01 KS1,Nhóm 01 KS1,công,0.045,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.04.02_2,Nhận dạng dữ liệu phi cấu trúc. (Mức 2),01 Trang A4,NC,Nhóm 01 KS1,Nhóm 01 KS1,công,0.0576,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.04.02_3,Nhận dạng dữ liệu phi cấu trúc. (Mức 3),01 Trang A4,NC,Nhóm 01 KS1,Nhóm 01 KS1,công,0.072,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.04.02_1,Nhận dạng dữ liệu phi cấu trúc. (Mức 1),01 Trang A4,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.0375,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.04.02_2,Nhận dạng dữ liệu phi cấu trúc. (Mức 2),01 Trang A4,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.05,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.04.02_3,Nhận dạng dữ liệu phi cấu trúc. (Mức 3),01 Trang A4,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,0.058,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.04.02_1,Nhận dạng dữ liệu phi cấu trúc. (Mức 1),01 Trang A4,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.04.02_2,Nhận dạng dữ liệu phi cấu trúc. (Mức 2),01 Trang A4,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.05.03.04.02_3,Nhận dạng dữ liệu phi cấu trúc. (Mức 3),01 Trang A4,MK,,Máy khác,%,3,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_1,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 1),01 tài liệu hướng dẫn,NC,Nhóm 03 KS4,Nhóm 03 KS4,nhóm công,3.5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_2,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 2),01 tài liệu hướng dẫn,NC,Nhóm 03 KS4,Nhóm 03 KS4,nhóm công,4.375,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_3,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 3),01 tài liệu hướng dẫn,NC,Nhóm 03 KS4,Nhóm 03 KS4,nhóm công,5.075,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_1,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 1),01 tài liệu hướng dẫn,VL,Giấy A4,Giấy A4,gram,0.12,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_2,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 2),01 tài liệu hướng dẫn,VL,Giấy A4,Giấy A4,gram,0.12,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_3,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 3),01 tài liệu hướng dẫn,VL,Giấy A4,Giấy A4,gram,0.12,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_1,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 1),01 tài liệu hướng dẫn,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_2,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 2),01 tài liệu hướng dẫn,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_3,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 3),01 tài liệu hướng dẫn,VLK,,Vật liệu khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_1,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 1),01 tài liệu hướng dẫn,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,6.75,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_2,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 2),01 tài liệu hướng dẫn,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,9,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_3,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 3),01 tài liệu hướng dẫn,M,"Máy tính để bàn công suất 0,4kW/h","Máy tính để bàn công suất 0,4kW/h",ca,10.44,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_1,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 1),01 tài liệu hướng dẫn,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.1575,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_2,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 2),01 tài liệu hướng dẫn,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.21,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_3,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 3),01 tài liệu hướng dẫn,M,"Máy in laser công suất 0,6kW/h","Máy in laser công suất 0,6kW/h",ca,0.2436,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_1,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 1),01 tài liệu hướng dẫn,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.1125,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_2,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 2),01 tài liệu hướng dẫn,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.15,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_3,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 3),01 tài liệu hướng dẫn,M,"Máy photocopy công suất 1,3kW/h","Máy photocopy công suất 1,3kW/h",ca,0.174,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_1,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 1),01 tài liệu hướng dẫn,MK,,Máy khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_2,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 2),01 tài liệu hướng dẫn,MK,,Máy khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6
+02.10.06.01.01_3,Lập tài liệu hướng dẫn kiểm tra dữ liệu đã tạo lập (Mức 3),01 tài liệu hướng dẫn,MK,,Máy khác,%,5,1,,QĐ 1595/QĐ-BTTTT – Tạo lập cơ sở dữ liệu CNTT,CNTT-1595,6

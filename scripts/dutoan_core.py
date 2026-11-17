@@ -258,6 +258,26 @@ class DuLieu:
                                                       "phu_luc": r.get("phu_luc", "")})
                     d["hao_phi"].append({"loai": r["loai"], "ma_tn": r["ma_tn"], "ten_tn": r["ten_tn"], "don_vi_tn": r["don_vi_tn"],
                                          "hao_phi": float(r["hao_phi"]), "he_so": 1.0, "can_cu_he_so": ""})
+        # Định mức chuyên ngành (data/chuyen-nganh/*/dinh_muc_*.csv): chỉ thêm mã chưa có trong hồ sơ và TT 38
+        self.bo_cn, self.ma_kt_cn, self.ghi_chu_cn = {}, {}, {}
+        if dung_tt38:
+            import glob
+            cn_dir = os.path.join(SKILL_ROOT, "data", "chuyen-nganh")
+            for f in sorted(glob.glob(os.path.join(cn_dir, "*", "dinh_muc_*.csv"))):
+                for r in doc_csv(f) or []:
+                    ma = r["ma_hieu"]
+                    if ma in self.ma_rieng or (ma in self.pl_tt38):
+                        continue
+                    self.bo_cn[ma] = r.get("nguon", "")
+                    d = self.dinh_muc.setdefault(ma, {"ten": r["ten_cong_tac"], "don_vi": r["don_vi"], "nguon": r["nguon"], "hao_phi": [],
+                                                      "phu_luc": r.get("phu_luc", "")})
+                    d["hao_phi"].append({"loai": r["loai"], "ma_tn": r["ma_tn"], "ten_tn": r["ten_tn"], "don_vi_tn": r["don_vi_tn"],
+                                         "hao_phi": float(r["hao_phi"]), "he_so": 1.0, "can_cu_he_so": ""})
+            for r in doc_csv(os.path.join(cn_dir, "ma_can_kiem_tra_chuyen_nganh.csv")) or []:
+                self.ma_kt_cn.setdefault(r["ma_hieu"], []).append(r["ly_do"])
+            for f in sorted(glob.glob(os.path.join(cn_dir, "*", "ghi_chu_*.csv"))):
+                for r in doc_csv(f) or []:
+                    self.ghi_chu_cn.setdefault(r["ma_hieu"], []).append(r["ghi_chu"])
         for ma, d in self.dinh_muc.items():
             if ma not in self.ma_rieng:
                 continue
@@ -981,6 +1001,20 @@ def soat(dl, kl_rows, cfg, ngay_lap=None):
                 g = dl.gia_cua(ma_tn, v)
                 if r and g and abs(g["don_gia"] - float(r["don_gia"])) > 0.5:
                     kq.append(("S22", "CANH_BAO", f"Giá {ma_tn} vùng {v}: {fmt(g['don_gia'])} khác {r['van_ban']} ({r['ten_vung']}: {fmt(float(r['don_gia']))})"))
+    # S23 — định mức chuyên ngành (CNTT, viễn thông)
+    cn_dung = sorted({m for m in ma_dung if m.split("+")[0] in getattr(dl, "bo_cn", {})})
+    if cn_dung:
+        bo = sorted({dl.bo_cn[m.split("+")[0]] for m in cn_dung})
+        kq.append(("S23", "THONG_TIN", f"{len(cn_dung)} mã dùng định mức chuyên ngành ({'; '.join(bo)}): chỉ dùng khi TT 38 không có công tác tương ứng, ghi căn cứ "
+                   "(CNTT: NĐ 224/2026 Điều 49 k4 điểm đ — định mức chuyên ngành là một trong các phương pháp; xem references/can-cu-phap-ly.md). "
+                   "Nhân công ghi theo cấp bậc thợ/kỹ sư — chọn nhóm nhân công theo tính chất công tác (TT 37 Điều 2 k3), ghi vào data/chuyen-nganh/anh_xa_nhan_cong.csv hoặc gia_tai_nguyen.csv"))
+        for m in cn_dung:
+            g = m.split("+")[0]; goc = g.split("_")[0]
+            for ld in dl.ma_kt_cn.get(g, []) + dl.ma_kt_cn.get(goc, []):
+                kq.append(("S23", "CANH_BAO", f"Mã {m}: {ld}"))
+            n = len(dl.ghi_chu_cn.get(goc, []) or dl.ghi_chu_cn.get(g[:-2] + "00", []))
+            if n:
+                kq.append(("S23", "THONG_TIN", f"Mã {m}: có {n} dòng ghi chú áp dụng (hệ số, điều kiện) trong data/chuyen-nganh — kiểm tra trước khi dùng"))
     sua_chua = (cfg or {}).get("loai_ho_so") == "sua_chua"
     for ma in ma_dung:
         goc0 = ma.split("+")[0]

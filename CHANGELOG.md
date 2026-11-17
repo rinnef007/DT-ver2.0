@@ -122,3 +122,16 @@
 - Dữ liệu mới `data/bao-hiem/`: tỷ lệ phí (‰) và loại khấu trừ PL III NĐ 220 (Mục I 149 dòng, Mục II 195 dòng),
   bảng mức khấu trừ M/N; câu hỏi mở về công tác sửa chữa, bảo trì. Chưa có lệnh tra (v2.1).
 - Kiểm chứng: 6 ví dụ khớp baseline đến đồng; 3 test dữ liệu nhân công đạt.
+
+## [2.1.0] — 2026-11-17
+- **Định mức chuyên ngành CNTT và viễn thông** (`data/chuyen-nganh/`): QĐ 1601/QĐ-BTTTT đã áp QĐ 1235/QĐ-BTTTT
+  (319 mã, 1.597 dòng), QĐ 1595/QĐ-BTTTT (61 mã, 301 dòng), CV 258/BTTTT-KHTC (2.133 mã, 12.419 dòng; 634/634 mã đề
+  mục có dữ liệu). Bảng định mức lấy từ file nhúng trong văn bản. Kèm ghi chú áp dụng theo mã, 138 mục cần kiểm tra,
+  bảng ánh xạ 64 tên nhân công theo cấp bậc (để trống nhóm), nhật ký trích. Quy ước mã cột: CV 258 điền 2 số cuối, CNTT
+  thêm `_n`.
+- `DuLieu` nạp các bộ chuyên ngành sau hồ sơ và TT 38 (không ghi đè). Soát mới **S23**: nguồn, căn cứ, mã cần kiểm
+  tra, ghi chú áp dụng.
+- Script `nhap_dinh_muc_chuyen_nganh.py`, `ap_qd1235.py` để tạo lại dữ liệu.
+- Căn cứ pháp lý: NĐ 224/2026/NĐ-CP (Điều 49 k4 đ: định mức chuyên ngành là một phương pháp xác định chi phí CNTT;
+  NĐ 45/2026 hết hiệu lực từ 01/7/2026, chuyển tiếp Điều 91), TT 39/2026/TT-BKHCN, QĐ 1601/1235/1595, CV 258,
+  QĐ 23/2005/QĐ-BBCVT hết hiệu lực. Chế độ chi phí dự án CNTT theo TT 39 chưa làm (v2.2).

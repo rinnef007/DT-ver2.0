@@ -1,0 +1,405 @@
+﻿ma_hieu,ghi_chu
+,"Bảng: BỘ THÔNG TIN VÀ TRUYỀN THÔNG ____________________ ĐỊNH MỨC XÂY DỰNG CƠ BẢN CÔNG TRÌNH BƯU CHÍNH, VIỄN THÔNG Công bố kèm theo Công văn số: 258/BTTTT-KHTC ngày 9 tháng 2 năm 2009 của Bộ Thông tin và Truyền thông HÀ NỘI - 2009"
+10.040000.00,"Ghi chú: - Đắp bờ bao chỉ được áp dụng cho các vị trí cần phải tát nước, vét bùn."
+21.010100.00,"Ghi chú: Nếu cự ly vận chuyển > 600 m, khi tăng thêm 100 m thì định mức liền kề được nhân thêm với hệ số k theo bảng hệ số dưới đây:"
+21.010100.00,"Bảng: Cự ly vận chuyển | 600<k ≤1200 | 1200<k ≤1800 | >1800 ; Hệ số | 1,12 | 1,09 | 1,05"
+21.020100.00,"Ghi chú: Nếu cự ly vận chuyển > 600 m, khi tăng thêm 100 m thì định mức liền kề được nhân thêm với hệ số k theo bảng hệ số dưới đây:"
+21.020100.00,"Bảng: Cự ly vận chuyển | 600<k ≤1200 | 1200<k ≤1800 | >1800 ; Hệ số | 1,12 | 1,09 | 1,05"
+21.030100.00,"Ghi chú: Nếu cự ly vận chuyển > 600 m, khi tăng thêm 100 m thì định mức liền kề được nhân thêm với hệ số k theo bảng hệ số dưới đây:"
+21.030100.00,"Bảng: Cự ly vận chuyển | 600<k ≤1200 | 1200<k ≤1800 | >1800 ; Hệ số | 1,12 | 1,09 | 1,05"
+21.030100.00,* Hệ số áp dụng: Cho công tác vận chuyển ở địa hình khác
+21.030100.00,"+ Định mức trên tính cho vận chuyển bằng gánh bộ, khiêng vác trong điều kiện độ dốc Ê 15o hoặc bùn nước có độ sâu Ê 20 cm. Nếu gặp địa hình khác thì định mức nhân công vận chuyển được áp dụng theo bảng hệ số sau:"
+21.030100.00,"Bảng: TT | Địa hình cho công tác vận chuyển | Hệ số ; 1 | Qua địa hình vùng cát khô. | 1,5 ; 2 | Qua suối, khe núi | 1,5 ; 3 | Bùn nước có độ sâu Ê 30 cm, hoặc đồi dốc Ê 20o | 1,5 ; 4 | Bùn nước có độ sâu Ê 40 cm, hoặc đồi dốc Ê 25o | 2,0 ; 5 | Bùn nước có độ sâu Ê 50 cm, hoặc đồi dốc Ê 30o | 2,5 ; 6 | Bùn nước có độ sâu Ê 60 cm, hoặc đồi dốc Ê 35o | 3,0 ; 7 | Đường dốc từ 36o đến 40o | 4,5 ; 8 | Núi cheo leo hiểm trở có độ dốc > 40o, đường mới khai thông hoặc nơi chưa có đường | 6,0"
+21.030100.00,"+ Vận chuyển bình ắc qui, máy nổ, anten vi ba áp dụng định mức vận chuyển thiết bị theo cấu kiện khối có cùng trọng lượng, trong cùng địa hình thì nhân công nhân với hệ số 1,2."
+21.030100.00,"+ Vận chuyển máy đo các loại, máy tính chuyên ngành áp dụng định mức vận chuyển thiết bị theo cấu kiện khối có cùng trọng lượng, trong cùng địa hình thì nhân công nhân với hệ số 1,5."
+21.030100.00,"+ Vận chuyển nước cất, dung dịch nạp ắc qui áp dụng định mức vận chuyển nước có cùng trọng lượng, trong cùng địa hình thì nhân công nhân với hệ số 1,5."
+21.030100.00,"+ Vận chuyển ống dẫn sóng vi ba, cáp đồng trục áp dụng định mức vận chuyển dây dẫn điện các loại có cùng trọng lượng, trong cùng địa hình thì nhân công nhân với hệ số 1,5."
+21.030100.00,"+ Vận chuyển bằng xe cải tiến, thuyền, bè mảng, ghe thì định mức nhân công tính bằng hệ số 0,6."
+21.030100.00,+ Cự ly vận chuyển bình quân gia quyền trên toàn tuyến (hoặc một đoạn tuyến) tùy theo biện pháp tổ chức thi công của từng công trình.
+21.030100.00,"+ Đối với những nơi có đường cho xe thi công vào được công trình thì không được tính vận chuyển vật liệu, vật tư, phụ kiện, các loại cấu kiện bằng thủ công."
+21.030100.00,"+ Đối với vận chuyển thủ công trong các nhà cao tầng : định mức trên tính cho vận chuyển ở mặt bằng tầng 1, nếu vận chuyển ở độ cao từ tầng 2 trở lên thì mỗi tầng cao thêm định mức nhân công được nhân với hệ số 1,1 so với định mức của tầng liền kề. Trường hợp vận chuyển bằng thang máy hoặc cần cẩu tháp (đối với công trình cao tầng) thì không áp dụng hệ số trên."
+22.010000.00,"Ghi chú: Nếu cự ly vận chuyển > 2 km, khi cự ly tăng thêm 1km thì định mức nhân hệ số 0,96 so với định mức liền kề."
+32.010200.00,Ghi chú:
+32.010200.00,"- Công tác đổ ụ quầy chân dây co, chân chống được tính như công tác đổ ụ quầy gốc cột đơn."
+32.080130.00,Ghi chú: Kích thước bể cáp
+32.080310.00,Ghi chú: Định mức lắp đặt cấu kiện trong bể Telenz cho cả loại đúc sẵn và đổ tại chỗ.
+32.080400.00,"Ghi chú: - Định mức trên áp dụng chung cho các loại bể Telenz có cùng kích cỡ khuôn và nắp thép (kể cả đúc sẵn hay đổ tại chỗ), bể dạng Siemens, bể phối cáp đúc sẵn."
+32.080500.00,Ghi chú: + Thiết kế chuẩn:
+32.080500.00,"- Thể tích bê tông loại tủ cáp phối loại 300x2 hoặc 600x2 là 0,11 m3"
+32.080500.00,"- Thể tích bê tông loại tủ cáp phối loại 1200x2 hoặc 1600x2 là 0,22 m3"
+32.080500.00,+ Đối với trường hợp đặc biệt bệ tủ có kích thước khác với thiết kế chuẩn định mức được phép nhân với hệ số theo tỷ lệ thể tích bệ tủ.
+32.120200.00,"Ghi chú: Loại G300 nắp bê tông, G300 Composite xây tường 110mm, G400 nắp bê tông và G300 nắp gang xám xây tường 220mm"
+33.010700.00,"Ghi chú: Đối với loại bể một tầng cống định mức được nhân với hệ số 0,5 của định mức hai và ba tầng cống."
+34.030100.00,Ghi chú:
+34.030100.00,- Bảng định mức tính cho cột sắt đơn
+34.030100.00,"- Đối với cột sắt đôi, bảng định mức được tính như cột sắt đơn, chỉ thay vật liệu phụ “tai co” bằng “côliê”"
+34.030200.00,Ghi chú:
+34.030200.00,- Bảng định mức tính cho cột bê tông đơn
+34.030200.00,"- Đối với cột bê tông đôi, bảng định mức được tính như cột bê tông đơn, chỉ thay vật liệu phụ “tai co” bằng “côliê”"
+34.040100.00,Ghi chú:
+34.040100.00,- Bảng định mức tính cho nối cột sắt đơn bằng sắt L
+34.040100.00,"- Đối với nối cột bê tông đơn bằng sắt L, bảng định mức được tính như cột sắt đơn, chỉ thay vật liệu phụ “Bu lông M14x45” bằng “bu lông M14x 140”"
+34.040200.00,Ghi chú:
+34.040200.00,- Bảng định mức tính cho nối cột sắt đôi bằng sắt L
+34.040200.00,"- Đối với nối cột bê tông đôi bằng sắt L, bảng định mức được tính như cột sắt đơn, chỉ thay vật liệu phụ “Bu lông M14x45” bằng “bu lông M14x 140”"
+34.090100.00,"Ghi chú: - Nếu lắp cột có chiều cao > 60 m , khi tăng thêm 10 m chiều cao lắp cột thì định mức nhân công được nhân hệ số 1,20 với trị số mức liền kề."
+34.090210.00,Ghi chú: Công tác lắp dựng cột thép áp dụng theo qui định sau:
+34.090210.00,"1- Đối với cột có chiều cao > 100 mét, khi tăng thêm 10 mét chiều cao định mức nhân công, máy thi công được nhân thêm hệ số 1,2 với trị số mức liền kề."
+34.090210.00,"2- Định mức tính trong điều kiện địa hình có độ dốc 15o, hoặc bùn nước có độ sâu 20 cm; trường hợp gặp địa hình khác thì định mức nhân công được nhân hệ số sau:"
+34.090210.00,"a- Đồi núi dốc 35o , hoặc bùn nước có độ sâu 50 cm hệ số: 1,20"
+34.090210.00,"b- Đồi núi dốc > 35o , hoặc bùn nước có độ sâu > 50 cm hệ số: 1,50"
+34.090210.00,"c- Vùng biển hải đảo: hệ số: 2,00"
+34.090300.00,"Ghi chú: Đối với cột có chiều cao > 100 m, khi tăng thêm 10 m chiều cao thì định mức nhân công được nhân thêm hệ số 1,2 với trị số mức liền kề."
+34.090400.00,Ghi chú:
+34.090400.00,"- Bảng định mức áp dụng cho công tác lắp đặt dây tiếp đất trên cột anten (từ đỉnh cột tới chân cột),"
+34.090400.00,-Hệ thống tiếp đất chống sét chôn ngầm cho cột anten được áp dụng như các bảng mức trong chương 6 (Lắp đặt hệ thống tiếp đất và chống sét).
+34.090400.00,"- Đối với cột có chiều cao > 100 m, khi tăng thêm 10 m chiều cao thì định mức nhân công được nhân thêm hệ số 1,2 với trị số mức liền kề."
+34.100100.00,Ghi chú:
+34.100100.00,"- Cầu cáp được lắp ở vị trí lắp đặt h >3 m thì định mức nhân công được nhân với hệ số 1,2."
+34.100100.00,"- Cầu cáp được lắp ở vị trí lắp đặt h <3 m thì định mức nhân công được nhân với hệ số 0,8."
+34.100200.00,Ghi chú:
+34.100200.00,"- Trường hợp thi công lắp đặt ở hải đảo , núi cao... thì định mức nhân công được nhân với hệ số 1,3."
+34.100200.00,"- Định mức nhân công trên tính cho vị trí lắp đặt cầu cáp ở độ cao 20 m (định mức chuẩn), nếu cầu cáp được lắp đặt ở độ cao < 20 m, thì định mức nhân công và máy thi công được tính bằng định mức chuẩn nhân với hệ số k, được tính theo bảng:"
+34.100200.00,"Bảng: Độ cao lắp đặt (h) | h < 3 m | 3 m h < 7 m | 7 m h < 10 m | 10 m h < 20 m ; Hệ số k | 0,55 | 0,6 | 0,7 | 0,8"
+34.100200.00,"- Nếu cầu cáp được lắp đặt ở độ cao >20 m, thì định mức nhân công và máy thi công được tính bằng định mức chuẩn nhân với hệ số k, được tính theo bảng:"
+34.100200.00,"Bảng: Độ cao lắp đặt (h) | 20m h<30m | 30mh<40m | 40mh<50m | 50mh<60m | 60mh<70m | 70mh<80m | h>80m ; Hệ số k | 1,2 | 1,3 | 1,4 | 1,5 | 1,6 | 1,8 | 2,1"
+34.100200.00,"- Trường hợp thi công cầu cáp liên tục có chiều dài >30 m và được đặt thẳng đứng theo trụ anten thì định mức nhân công đoạn > 30 m được nhân với hệ số k, được tính theo bảng:"
+34.100200.00,"Bảng: Độ cao lắp đặt (h) | 30m <h 40 m | 40m <h 50 m | h > 50 m ; Hệ số k | 0,9 | 0,8 | 0,7"
+35.010100.00,Ghi chú: - Tỷ lệ % vật liệu khác trong bảng mức không nhân trực tiếp theo số lượng ống.
+35.010200.00,Ghi chú: - Tỷ lệ % vật liệu khác trong bảng mức không nhân trực tiếp theo số lượng ống.
+35.010300.00,Ghi chú: - Tỷ lệ % vật liệu khác trong bảng mức không nhân trực tiếp theo số lượng ống.
+35.010400.00,Ghi chú: - Tỷ lệ % vật liệu khác trong bảng mức không nhân trực tiếp theo số lượng ống.
+35.010500.00,Ghi chú: Tỷ lệ % vật liệu khác trong bảng mức không nhân trực tiếp theo số lượng ống.
+35.010600.00,Ghi chú: Tỷ lệ % vật liệu khác trong bảng mức không nhân trực tiếp theo số lượng ống.
+35.020000.00,"Ghi chú: Định mức náy áp dụng cho cả công việc lấp hố rãnh cáp bằng cát, phân rải và đầm nén cát khi lắp đặt cáp đồng, cáp quang chôn trực tiếp và ống nhựa HDPE"
+35.040000.00,Ghi chú: Nút bịt có thể là nút tạm thời (trong thi công) hoặc nút bảo vệ ống.
+35.060200.00,Ghi chú: Bảng mức áp dụng trong trường hợp ống chôn nơi độ sâu không đạt tiêu chuẩn.
+35.070400.00,Ghi chú: Trong bảng định mức trên chưa tính đến công việc đào đất đặt máy khoan.
+35.080200.00,"Ghi chú : đối với loại ống HDPE ≤ 40 : định mức trên tính cho lắp đặt 1 ống , nếu lắp đặt tổ hợp từ 2 ống trở lên thì từ ống thứ 2 định mức nhân công sẽ nhân hệ số 0,6 so với lắp ống thứ tự liền kề."
+35.090110.00,Ghi chú:
+35.090110.00,"- Bảng định mức tính cho cáp đồng 0,4"
+35.090110.00,"- Nếu cáp đồng 0,5 - 0,65 được nhân hệ số k=1,1"
+35.090110.00,"- Nếu cáp đồng > 0,65 được nhân hệ số k=1,15"
+35.090210.00,Ghi chú:
+35.090210.00,"- Ở những vị trí trong cống bể có nước được tính thêm ca máy bơm nước là 0,1 ca/1km cáp (loại máy bơm 1,5 kw)"
+35.090210.00,"- Bảng định mức tính vật liệu phụ là “mỡ bôi trơn”, nếu dùng “dầu bôi trơn” thì tính như sau :"
+35.090220.00,"Ghi chú: - Bảng định mức trên tính chovật liệu phụ là “mỡ bôi trơn”, nếu dùng “dầu bôi trơn” thì tính theo bảng dưới đây:"
+35.090230.00,"Ghi chú: - Bảng định mức trên tính chovật liệu phụ là “mỡ bôi trơn”, nếu dùng “dầu bôi trơn” thì tính theo bảng dưới đây:"
+35.090240.00,Ghi chú:
+35.090240.00,- Lắp biển cáp tại bể sau khi kéo xong sợi cáp (nắp bể còn mở)
+35.090240.00,"- Đối với cáp đồng : lắp tại bể đầu, cuối, góc, bể thẳng cách bể lắp 1 biển."
+35.090240.00,- Đối với cáp quang : lắp tất cả các bể.
+35.090322.00,"Ghi chú: + Tấm bê tông kích thước 650x150x40 được quy đổi bằng 0,004 m3 bê tông cốt thép. Số tấm bê tông để đậy cho 1 km cáp (1539 tấm) tương đương 6,156 m3 bê tông cốt thép. Hao phí vật liệu để sản xuất 6,156 m3 bê tông cốt thép được tính như sau:"
+35.090322.00,"Bảng: Tên vật liệu | Đơn vị | Số lượng ; Xi măng PC30 | kg | 1988,4 ; Cát vàng | m3 | 2,90 ; Đá răm (1x2) | m3 | 5,43 ; Nước | m3 | 1,08 ; Thép d8 | kg | 1847"
+35.090322.00,+ Định mức trên chưa tính nhân công để sản xuất tấm đậy bê tông (công sản xuất tấm bê tông được tính theo định mức hiện hành của Nhà nước)
+35.090323.00,"Ghi chú: - Đối với việc kéo cáp quang (treo, trong cống bể hay chôn trực tiếp) các định mức trên tính cho độ dài cuộn cáp ≤ 2km, nếu cuộn cáp có chiều dài thêm 1 km thì định mức nhân công được nhân với hệ số k = 1,1 so với trị số định mức của cuộn cáp có chiều dài liền kề."
+35.090410.00,Ghi chú:
+35.090410.00,"- Ở những vị trí thi công có nước được tính thêm ca máy bơm nước là 0,1 ca/1km cáp (loại máy bơm 1,5 kw)"
+35.090410.00,"- Bảng định mức trên tính chovật liệu phụ là “mỡ bôi trơn”, nếu dùng “dầu bôi trơn” thì tính theo bảng dưới đây:"
+35.090420.00,Ghi chú:
+35.090420.00,"- Ở những vị trí thi công có nước được tính thêm ca máy bơm nước là 0,1 ca/1km cáp (loại máy bơm 1,5 kw)"
+35.090420.00,"- Bảng định mức trên tính chovật liệu phụ là “mỡ bôi trơn”, nếu dùng “dầu bôi trơn” thì tính theo bảng dưới đây:"
+35.090430.00,Ghi chú:
+35.090430.00,"- Ở những vị trí thi công có nước được tính thêm ca máy bơm nước là 0,1 ca/1km cáp (loại máy bơm 1,5 kw)"
+35.090430.00,"- Bảng định mức trên tính chovật liệu phụ là “mỡ bôi trơn”, nếu dùng “dầu bôi trơn” thì tính theo bảng dưới đây:"
+35.110000.00,"Ghi chú : Trường hợp bề rộng cống ≥ 30cm sẽ rảI thành 2 băng trên 1 tuyến. Mép của 2 băng sẽ dóng theo 2 mep của tuyến cống. Định mức nhân công khi rảI 2 băng được nhân hệ số 1,6."
+35.120400.00,"Ghi chú: + Tấm panel kích thước 1000x300x500 được quy đổi bằng 0,15 m3 bê tông cốt thép. Số tấm panel để đậy cho 100m cáp (50 tấm) tương đương 7,5 m3 bê tông cốt thép. Hao phí vật liệu để sản xuất 7,5 m3 bê tông cốt thép được tính như sau:"
+35.130210.00,Ghi chú:
+35.130210.00,- Những chỗ bể măng sông có nước thì bổ sung ca máy bơm nước.
+35.140220.00,"Ghi chú: - Trường hợp tủ có kích thước nhỏ hơn loại tủ 1200 x 2. (Kích thước 1145x755x295 mm) thì định mức nhân công nhân với hệ số k = 0,8."
+35.140400.00,Ghi chú:
+35.140400.00,- Định mức trên áp dụng cho việc lắp đặt vỏ tủ ở tường gạch và chưa tính đến phần đấu nối dây.
+35.140400.00,"- Nếu lắp đặt ở tường bê tông thì định mức nhân công và máy thi công được nhân hệ số 1,5."
+35.140520.00,Ghi chú :
+35.140520.00,"- Nếu lắp đặt ở tường bê tông thì định mức nhân công và máy thi công được nhân hệ số 1,5."
+35.140520.00,"- Nếu lắp đặt nổi trên tường thì định mức nhân công và máy thi công được nhân hệ số 0,5."
+35.140520.00,Chương 6
+36.020100.00,"Ghi chú: Nếu chiều dài L của điện cực tiếp đất thay đổi, thì nhân công được nhân hệ số như sau:"
+36.020100.00,"- Khi L tăng 0,5 m nhân hệ số 1,2 và giảm 0,5 m nhân hệ số 0,8"
+36.020100.00,"- Khi L tăng 1 m nhân hệ số 1,5 và giảm 1 m nhân hệ số 0,8"
+36.020210.00,"Ghi chú: Khi đường kính lỗ khoan tăng, nhân công được nhân hệ số như sau:"
+36.020210.00,"- Khi 70 mm < 100 mm, nhân với 1,15"
+36.020210.00,"- Khi 100 mm < 120 mm, nhân với 1,30"
+36.020210.00,"- Khi 120 mm < 150 mm, nhân với 1,50"
+36.020220.00,Ghi chú: - Chỉ áp dụng định mức này ở địa hình thi công không khoan được bằng thủ công
+36.020300.00,Ghi chú:
+36.020300.00,- Bảng định mức trên không bao gồm công đào đất.
+36.020300.00,"- Trường hợp điện cực tiếp đất dài hơn: 2,5 m < L 3,5 m định mức nhân công được nhân hệ số 1,5."
+36.050200.00,"Ghi chú: Bảng định mức này không bao gồm công đào đất ban đầu, đào đất mượn và công vận chuyển đất mượn ."
+36.060200.00,Ghi chú: Dây chống sét kim loại có thể là dây đồng hoặc lưỡng kim
+41.010300.00,"Ghi chú: Nếu lắp đặt cáp trong ống nổi thì định mức nhân công được nhân với hệ số 0,9."
+41.020100.00,"Ghi chú: - Nếu lắp đặt cáp trong ống nổi thì định mức nhân công được nhân hệ số 1,2"
+41.020100.00,"- Nếu lắp đặt cáp trong ống chìm thì định mức nhân công được nhân hệ số 1,5."
+41.020100.00,"- Định mức vật liệu phụ khi lắp đặt trong ống nổi hoặc ống chìm nhân hệ số 0,5"
+41.020200.00,Ghi chú:
+41.020200.00,"- Nếu lắp đặt cáp trong ống nổi thì định mức nhân công nhân hệ số 1,2"
+41.020200.00,"- Nếu lắp đặt cáp trong ống chìm thì định mức nhân công nhân hệ số 1,5"
+41.020300.00,"Ghi chú: Bảng định mức trên áp dụng cho cáp tín hiệu có thiết diện 0,35 mm2."
+41.020300.00,"- Nếu cáp tín hiệu có thiết diện 1 mm2 thì định mức nhân công và máy thi công nhân hệ số 1,2."
+41.020300.00,"- Nếu cáp tín hiệu có thiết diện > 1 mm2 thì định mức nhân công và máy thi công nhân hệ số 1,5."
+41.020300.00,"- Nếu lắp đặt cáp trong ống thì định mức nhân công nhân hệ số 1,2."
+41.040200.00,Ghi chú: 1 bloc: 100 đôi dây
+41.050200.00,Ghi chú :
+41.050200.00,"- Bảng định mức trên được áp dụng đối với lắp đặt anten ở vị trí có độ cao < 20m và trong điều kiện bình thường. Nếu trong điều kiện thi công phức tạp (do anten được lắp đặt ở vị trí có nhiều anten xung quanh, anten lắp đặt có kết cấu dễ vỡ, anten lắp đặt ở hải đảo, núi cao ..) thì định mức nhân công được nhân với hệ số 1,3."
+41.050200.00,"- Nếu anten được lắp đặt ở vị trí có độ cao lớn hơn hoặc bằng 20m, thì định mức nhân công được nhân với hệ số k như sau:"
+41.050200.00,"Bảng: Độ cao lắp đặt | Từ 20m-40m | Từ 40m-60m | Từ 60m-80m | Lớn hơn 80m ; Hệ số k | 1,2 | 1,5 | 1,8 | 2,1"
+41.050320.00,Ghi chú:
+41.050320.00,Nếu lắp đặt anten có đường kính khác thì định mức nhân công được tính hệ số sau:
+41.050320.00,"- Lắp đặt anten có đường kính < 2,4 m : nhân với hệ số 0,8."
+41.050320.00,"- Lắp đặt anten có đường kính < 4,0 m : nhân với hệ số 1,2."
+41.050320.00,"- Lắp đặt anten có đường kính < 6,0 m : nhân với hệ số 1,45."
+41.050330.00,Ghi chú: + Bảng định mức trên tính cho điều chỉnh anten ở độ cao <10 m
+41.050330.00,+ Nếu điều chỉnh ở các độ cao khác và đường kính anten khác định mức nhân công được điều chỉnh như sau :
+41.050330.00,"- Điều chỉnh anten ở độ cao <20 m : nhân với hệ số 1,2"
+41.050330.00,"- Điều chỉnh anten ở độ cao <30 m : nhân với hệ số 1,4"
+41.050330.00,"- Điều chỉnh anten ở độ cao <40 m : nhân với hệ số 1,6"
+41.050330.00,"- Điều chỉnh anten ở độ cao <70 m : nhân với hệ số 1,8"
+41.050330.00,"- Điều chỉnh anten có đường kính <2,4 m: nhân với hệ số 0,8"
+41.050330.00,"- Điều chỉnh anten có đường kính <4 m: nhân với hệ số 1,15"
+41.050330.00,"- Điều chỉnh anten có đường kính <6 m: nhân với hệ số 1,35"
+41.050400.00,Ghi chú:
+41.050400.00,"Nếu lắp đặt và điều chỉnh an ten ở độ cao >70 m , khi tăng thêm 10 m tiếp theo thì định mức nhân công được nhân hệ số 1,15 so với định mức ở độ cao thấp hơn liền kề."
+41.050530.00,Ghi chú:
+41.050530.00,"+ Cáp đa chức năng là những loại cáp gồm có cáp fiđơ và các cáp khác đi kèm như cáp nguồn, cáp tín hiệu, cáp điều khiển ..."
+41.050530.00,"+ Bảng định mức được áp dụng cho cáp fiđơ được lắp đặt trong điều kiện bình thường, nếu trong điều kiện thi công phức tạp (do fiđơ được lắp đặt ở vị trí nhiều anten xung quanh, đường đi cáp phức tạp, hoặc thi công ở hải đảo, núi cao) thì định mức nhân công được nhân với hệ số 1,3."
+41.060240.00,"Ghi chú: Định mức tính cho thiết bị máy đo dạng sóng cũng được áp dụng cho máy phát tín hiệu chuẩn, bộ khuếch đại hình, bộ khuếch đại tiếng."
+41.070120.00,"Ghi chú : a. Bảng định mức trên áp dụng cho thiết bị vi ba có cấu hình 1+0, các cấu hình khác định mức nhân công được nhân hệ số sau:"
+41.070120.00,"a1. Thiết bị vi ba có cấu hình 1+1: hệ số 1,5."
+41.070120.00,"a2. Thiết bị viba có cấu hình 2+1: hệ số 2,0."
+41.070120.00,"b. Trường hợp khối vô tuyến được lắp trên cột cao, nhân công trong bảng định mức trên được tính theo hệ số tương ứng với chiều cao như sau:"
+41.070120.00,"Bảng: Chiều cao cột (m) | h 20 | 20 < h 40 | 40 < h 60 | 60 < h 80 | h > 80 ; Hệ số | 1 | 1,2 | 1,5 | 1,8 | 2,2"
+41.110100.00,"Ghi chú : Định mức áp dụng cho các loại tổng đài lắp đặt trong nhà. Trường hợp lắp đặt trong container bảng định mức nhân hệ số k = 1,2"
+41.110200.00,"Ghi chú : Định mức áp dụng cho các loại tổng đài lắp đặt trong nhà. Trong trường hợp đặt trong container được nhân hệ số k= 1,2."
+41.110300.00,"Ghi chú : Định mức áp dụng cho các loại tổng đài lắp đặt trong nhà. Trong trường hợp đặt trong container được nhân hệ số k= 1,2."
+41.150130.00,"Ghi chú: - Bảng định mức trên áp dụng đối với các loại bàn khai thác và điều hành mạng (như: Bàn khai thác viên, bàn tính cước và hoà mạng, bàn quản lý điều hành mạng)."
+41.170100.00,Ghi chú:
+41.170100.00,+ Bảng định mức trên áp dụng đối với thiết bị tiếp cận thuê bao giao tiếp dây a-b với dung lượng chuẩn 480 đường dây thuê bao. Với các thiết bị có dung lượng khác thì nhân các hệ số điều chỉnh định mức như sau:
+41.170100.00,"- Cứ tăng thêm 120 số được nhân hệ số 1,2."
+41.170100.00,"- Cứ giảm đi 120 số được nhân hệ số 0,9."
+41.170100.00,+ Giới hạn tối đa của RT là 960 số.
+41.170100.00,+ Đối với thiết bị RT lắp đặt ngoài trời dùng bệ bê tông. Phần bệ bê tông được tính theo định mức bệ bê tông cho thiết bị tiếp cận thuê bao.
+41.170100.00,"+ Đối với thiết bị RT lắp đặt trong nhà, trạm dùng bệ sắt. Phần bệ sắt được tính theo như vật tư chính theo thiết kế."
+41.170200.00,Ghi chú: + Bảng định mức trên cho các thiết bị có dung lượng 480 line nếu các thiết bị có dung lượng khác thì áp dụng các hệ số điều chỉnh định mức như sau:
+41.170200.00,"- Cứ tăng thêm 120 số được nhân hệ số bằng 1,2."
+41.170200.00,"- Cứ giảm đi 120 số được nhân hệ số bằng 0,9."
+41.170200.00,+ Giới hạn tối đa của 1 RT theo định mức này là 960 số.
+41.170200.00,"+ Định mức của thiết bị đầu cuối phía tổng đài (Cot) được áp dụng cho thiết bị MSAN, DSLAM"
+41.170300.00,Ghi chú :
+41.170300.00,+ Bảng định mức trên áp dụng đối với thiết bị (Cot) có dung lượng chuẩn 40 số.
+41.170300.00,+ Các thiết bị có dung lượng khác 40 số được tính hệ số định mức như sau:
+41.170300.00,- Dung lượng lớn hơn 40 số thì phần lớn hơn 40 số được coi như lắp mới 1 thiết bị (Cot) với hệ số điều chỉnh dung lượng như trên.
+41.170300.00,"- Nếu giảm đi 12 số được nhân hệ số 0,95."
+41.170300.00,+ Bảng định mức áp dụng đối với công tác lắp đặt thiết bị (Rt) có dung lượng nhỏ hơn hay bằng 4 số.
+41.180100.00,Ghi chú:
+41.180100.00,+ Bảng định mức trên áp dụng đối với thiết bị BSC có dung lượng 10.890 số. Thiết bị BTS có dung lượng 2.250 số.
+41.180100.00,+ Nếu thiết bị BSC có dung lượng khác 10.890 số thì định mức được tính hệ số sau:
+41.180100.00,"- Thiết bị BSC có dung lượng nhỏ hơn 2250 số được nhân với hệ số 0,5."
+41.180100.00,"- Thiết bị BSC có dung lượng nhỏ hơn 3700 số được nhân với hệ số 0,6."
+41.180100.00,"- Thiết bị BSC có dung lượng nhỏ hơn 7300 số được nhân với hệ số 0,8."
+41.180100.00,"+ Thiết bị BTS có dung lượng nhỏ hơn 1025 số, thì định mức được nhân với hệ số bằng 0,80."
+41.190100.00,Ghi chú:
+41.190100.00,"+ Bảng định mức trên áp dụng đối với thiết bị trạm gốc dung lượng chuẩn 512 số, trạm lặp không rẽ, trạm lặp có rẽ, trạm đầu cuối thuê bao có dung lượng chuẩn 64 số."
+41.190100.00,+ Thiết bị có dung lượng khác thì định mức được nhân theo hệ số a sau:
+41.190100.00,"* Dung lượng: C=512 + n x 8. * Hệ số: a = 1 + n x 0,005 (áp dụng cho trạm gốc)"
+41.190100.00,"* Dung lượng: C=64 + n x 8. * Hệ số: a = 1 + n x 0,01 (áp dụng cho trạm lặp không rẽ)."
+41.190100.00,"* Dung lượng: C=64 + n x 8. * Hệ số: a = 1 + n x 0,015 (áp dụng cho trạm lặp có rẽ)"
+41.190100.00,"* Dung lượng: C=64 + n x 8. * Hệ số: a = 1 + n x 0,01 (áp dụng cho trạm đầu cuối thuê bao)"
+41.190100.00,"Trong đó n là số tự nhiên 1, 2, 3 ...."
+41.200200.00,Ghi chú:
+41.200200.00,"- Bảng định mức trên áp dụng đối với thiết bị trạm gốc có cấu hình 1+0. Nếu thiết bị trạm gốc có cấu hình 1+1: Nhân hệ số 1,5."
+41.200200.00,- Máy ghép kênh cơ sở 2 Mb/s được áp dụng như bảng định mức máy ghép kênh 2 Mb/s trạm đầu cuối của thiết bị truyền dẫn viba.
+41.220400.00,"Ghi chú: - Bảng định mức áp dụng cho các thiết bị mạng: Multilayer Switch ER16. Router (ERX-1410, M160)."
+41.220400.00,"- Bảng định mức áp dụng cho các thiết bị quản lý mạng: Dorado, HiQ9200 V4. HiQ4000 V3 MMA_T3. HiG1000 V3T. HiG1000 V2P. HiQ20, HiQ30/HiQ200 V1S. NetManager V5.1."
+41.231100.00,"Ghi chú : Định mức lắp đặt máy phát điện chưa tính đến công việc lắp đặt ống xả cho máy phát, sẽ được tính bổ sung theo thiết kế cho từng trường hợp cụ thể."
+41.231221.00,Ghi chú:
+41.231221.00,- Năng lượng điện hao phí tính cho thời gian nạp và phóng thử ắc qui trung bình là 20 giờ.
+41.231222.00,Ghi chú:
+41.231222.00,- Năng lượng điện hao phí tính cho thời gian nạp và phóng thử ắc qui trung bình là 20 giờ.
+41.240110.00,"Ghi chú: - Khi chiều cao của cột thu sét độc lập tăng, nhân công được phép điều chỉnh như sau:"
+41.240110.00,"+ Khi 30 m < h 50 m, nhân hệ số 1,3."
+41.240110.00,"+ Khi 50 m < h 70 m, nhân hệ số 1,5."
+41.240110.00,"+ Khi 70 m < h 100 m, nhân hệ số 1,7."
+41.280110.00,Ghi chú: Bảng định mức trên tính cho lắp đặt hiệu chỉnh thiết bị tăng âm có công suất tới 1000W. Nếu lắp đặt và hiệu chỉnh tăng âm công suất khác thì tính hệ số định mức sau:
+41.280110.00,"- Thiết bị tăng âm công suất 2000W định mức nhân công nhân với hệ số 1,2"
+41.280110.00,"- Thiết bị tăng âm công suất 3000W định mức được nhân với hệ số 1,3"
+41.280110.00,"- Thiết bị tăng âm công suất 4000W định mức được nhân với hệ số 1,4"
+41.280110.00,"- Thiết bị tăng âm công suất 5000W định mức được nhân với hệ số 1,5"
+41.280120.00,Ghi chú:
+41.280120.00,"+ Bảng định mức trên tính cho lắp đặt hiệu chỉnh loa trần - loa treo cột/tường ở độ cao h 3m. Nếu thi công ở độ cao , công suất khác được tính hệ số định mức sau:"
+41.280120.00,"- Ở độ cao h 6 m, định mức nhân công trên được nhân với hệ số 1,5."
+41.280120.00,"- Ở độ cao h > 6 m, định mức nhân công trên được nhân với hệ số 1,7."
+41.280120.00,+ Bảng định mức trên tính cho loa thùng có công suất 30w đến 100w
+41.280120.00,"- Với loa thùng công suất 500w, định mức nhân công được nhân hệ số 1,5."
+41.280120.00,+ Bảng định mức trên tính cho loa siêu trầm có công suất 1000w
+41.280120.00,"- Với loa siêu trầm 2000w, định mức trên được nhân với 1,2."
+41.280120.00,"- Với loa siêu trầm 3000w, định mức trên được nhân với 1,3."
+41.280120.00,"- Với loa siêu trầm 4000w, định mức trên được nhân với 1,4."
+41.280120.00,"- Với loa siêu trầm 5000w, định mức trên được nhân với 1,5."
+41.280300.00,Ghi chú: + Bảng định mức trên tính cho lắp đặt hiệu chỉnh bàn trộn 16 kênh (16 đầu vào). Khi số kênh thay đổi được tính hệ số sau:
+41.280300.00,"- Với bàn trộn 8 kênh, định mức được nhân hệ số 0,7"
+41.280300.00,"- Với bàn trộn 32 kênh, định mức được nhân hệ số 1,5"
+41.280300.00,"- Với bàn trộn 64 kênh, định mức được nhân hệ số 2,5"
+41.280500.00,"Ghi chú: Bảng định mức trên áp dụng cho thiết bị chia 4 đường, khi lắp đặt thiết bị chia 8 đường định mức được nhân với hệ số 1,5."
+42.020100.00,"Ghi chú: Bảng định mức áp dụng cho thiết bị trạm đầu cuối, thiết bị các trạm khác được nhân với hệ số sau:"
+42.020100.00,"- Trạm xen rẽ hệ số 1,20."
+42.020100.00,"- Trạm lặp hệ số 0,70."
+42.020200.00,"Ghi chú: Bảng định mức áp dụng cho thiết bị trạm đầu cuối, thiết bị các trạm khác được nhân với hệ số sau:"
+42.020200.00,"- Trạm xen rẽ hệ số 1,50."
+42.020200.00,"- Trạm lặp hệ số 0,12."
+42.050100.00,"Ghi chú: Bảng định mức áp dụng cho thiết bị Data node 128 E1, Cross Connect 16 E1, Modem 1 cổng, các thiết khác được nhân với hệ số sau:"
+42.050100.00,"- Data node > 128 E1 hệ số 1,5."
+42.050100.00,"- Cross Connect > 16 E1 hệ số 1,2."
+42.050100.00,- Modem >1 cổng hệ sô ương ứng với số cổng.
+42.060100.00,"Ghi chú : Bảng định mức trên áp dụng cho tổng đài Host có dung lượng 20.000 số, tổng đài vệ tinh và tổng đài độc lập có dung lượng 1024 số, đối với các tổng đài có dung lượng khác được nhân với các hệ số trong những bảng sau:"
+42.060100.00,"- Đối với tổng đài chuyển tiếp nội vùng (Tandem), đường trục quốc gia (Transit) có số trung kế tương đương với dung lượng hệ thống tổng đài Host, định mức cài đặt khai báo phần điều khiển được nhân với hệ số k = 1,1 so với tổng đài Host theo bảng hệ số."
+42.060100.00,"- Đối với tổng đài chuyển tiếp quốc tế (Gateway) có số trung kế tương đương với dung lượng hệ thống tổng đài Host, định mức cài đặt khai báo phần điều khiển được nhân với hệ số k = 1,2 so với tổng đài Host theo bảng hệ số"
+42.060100.00,"* Bảng hệ số áp dụng cho tổng đài Host, Tandem, Transit, Gateway"
+42.060100.00,"Bảng: Dung lượng hệ thống | ≤ 5.000 số | ≤ 10.000 số | ≤ 20.000 số | ≤ 30.000 số ; Dung lượng tổng đài Tandem,Transit, Gateway | ≤ 2500 trung kế | ≤ 5000 trung kế | ≤ 10000 trung kế | ≤ 15000 trung kế ; Hệ số | 0,65 | 0,8 | 1 | 1,24"
+42.060100.00,"Bảng: Dung lượng hệ thống | ≤ 40.000 số | ≤ 60.000 số | ≤ 80.000 số | ≤ 100.000 số | > 100.000 số ; Dung lượng tổng đài Tandem,Transit, Gateway | ≤ 20000 trung kế | ≤ 30000 trung kế | ≤ 40000 trung kế | ≤ 50000 trung kế | >50000 trung kế ; Hệ số | 1,47 | 1,7 | 1,93 | 2,16 | 2,35"
+42.060100.00,* Bảng hệ số áp dụng cho tổng đài vệ tinh
+42.060100.00,"Bảng: Dung lượng trước mở rộng | ≤ 512 số | ≤ 2048 số | ≤ 3072 số | ≤ 4096 số | ≤ 5120 số | > 5120 số ; Hệ số | 0,8 | 1,24 | 1,47 | 1,7 | 1,9 | 2,1"
+42.060100.00,Bảng hệ số áp dụng cho tổng đài độc lập
+42.060100.00,"Bảng: Dung lượng trước mở rộng | ≤ 128 số | ≤ 256 số | ≤ 512 số | ≤ 768 số | ≤ 2048 số | ≤ 3072 số | ≤ 4096 số | ≤ 5120 số | > 5120 số ; Hệ số | 0,3 | 0,47 | 0,67 | 0,85 | 1,24 | 1,47 | 1,7 | 1,93 | 2,15"
+42.060100.00,"- Trường hợp mở rộng: Trong trường hợp mở rộng phần điều khiển tổng đài HOST, Tandem, Transit, Gateway thì cứ mở rộng 1024 số (tương đương 256 trung kế của tổng đài Tandem, Transit, Gateway) được áp dụng hệ số k như sau:"
+42.060100.00,"Bảng: Dung lượng trước mở rộng | ≤ 5.000 số | ≤ 10.000 số | ≤ 20.000 số | ≤ 30.000 số | ≤ 40.000 số | ≤ 60.000 số | ≤ 80.000 số | ≤ 100.000 số | > 100.000 số ; Dung lượng t.đài Transit, Gateway trước mở rộng | ≤ 2500 t.kế | ≤ 5000 t.kế | ≤ 10000 t.kế | ≤ 15000 t.kế | ≤ 20000 t.kế | ≤ 30000 t.kế | ≤ 40000 t.kế | ≤ 50000 t.kế | > 50000 t.kế ; Hệ số | 0,12 | 0,1 | 0,08 | 0,06 | 0,05 | 0,045 | 0,04 | 0,035 | 0,03"
+42.060100.00,Trong trường hợp mở rộng phần điều khiển tổng đài vệ tinh thì cứ mở rộng 128 số được áp dụng hệ số k như sau:
+42.060100.00,"Bảng: Dung lượng trước mở rộng | ≤ 512 số | ≤ 1024 số | ≤ 2048 số | ≤ 3072 số | ≤ 4096 số | ≤ 5120 số | > 5120 số ; Hệ số | 0,06 | 0,05 | 0,04 | 0,03 | 0,025 | 0,02 | 0,015"
+42.060100.00,"+ Đối với tổng đài vệ tinh không người trực, định mức nhân hệ số 0,5"
+42.060210.00,"Ghi chú : Đối với tổng đài chuyển tiếp (Tandem, Transit), bảng định mức được nhân với hệ số k = 1,1"
+42.060210.00,"- Đối với tổng đài Gateway, bảng định mức được nhân với hệ số k = 1,2"
+42.060210.00,- Trong trường hợp mở rộng giá trung kế thì cứ mở rộng bốn luồng trung kế E1 được áp dụng hệ số k như sau:
+42.060210.00,"Bảng: Dung lượng trước mở rộng | ≤ 4E1 | ≤ 8 E1 | ≤ 16E1 | ≤ 32E1 | > 32 E1 ; Hệ số (k) | 0,3 | 0,25 | 0,13 | 0,06 | 0,05"
+42.060220.00,Ghi chú: - Trong trường hợp mở rộng giá thuê bao thì cứ mở rộng 128 số được áp dụng hệ số k như sau:
+42.060220.00,"Bảng: Dung lượng trước mở rộng | ≤ 128 số | ≤ 256 số | ≤ 512 số | ≤ 768 số | ≤ 1024 số | ≤ 2048 số | > 2048 số ; Hệ số | 0,24 | 0,18 | 0,12 | 0,09 | 0,07 | 0,06 | 0,05"
+42.090300.00,Ghi chú:
+42.090300.00,- Bảng định mức được áp dụng cho tổng đài đặt tại các POP cung cấp dịch vụ.
+42.090300.00,"- Đối với tổng đài làm thêm chức năng nút mạng trục thì định mức được nhân hệ số k = 1,25."
+42.100100.00,"Ghi chú: + Nếu thiết bị có dụng lượng khác 480 số, thì định mức được tính hệ số như sau :"
+42.100100.00,"- Khi tăng thêm 120 số so với dung lượng 480 số thì định mức nhân hệ số 1,2"
+42.100100.00,"- Khi giảm đi 120 số so với dung lượng 480 số thì định mức nhân hệ số 0,8"
+42.100200.00,Ghi chú:
+42.100200.00,+ Nếu thiết bị có dung lượng khác 480 số thì định mức được tính hệ số như sau :
+42.100200.00,"- Khi tăng thêm 120 số so với dung lượng 480 thì định mức nhân hệ số 1,2."
+42.100200.00,"- Khi giảm đi 120 số so với dung lượng 480 số thì định mức nhân hệ số 0,8."
+42.100200.00,"- Định mức của thiết bị đầu cuối phía tổng đài (Cot) được áp dụng cho thiết bị MSAN, DSLAM"
+42.140210.00,Ghi chú: Bảng định mức cài đặt chương trình áp dụng đối với tất cả các trường hợp dùng cho mạng quốc gia có qui mô tới 100.000 khách hàng (User).
+42.140220.00,"Ghi chú: - Bảng định mức được áp dụng đối với các thiết bị mạng: Router Cisco7000 và tương đương, Switch catalyst 5000 và tương đương, Access server có số cổng (port) modem tương đương từ 24 đến 96 E1, Rack modem có dung lượng 10 modem, Caching có dung lượng lưu trữ dưới 72 Gb, FireWall có số truy cập đồng thời dưới 50.000 khách hàng."
+42.140220.00,- Các thiết bị khác được áp dụng hệ số như sau:
+42.140220.00,"Router Cisco 2000 series và tương đương: nhân hệ số 0,4"
+42.140220.00,"Router Cisco 3000 series và tương đương: nhân hệ số 0,5"
+42.140220.00,"Router Cisco 4000 series và tương đương: nhân hệ số 0,7"
+42.140220.00,"Router Cisco 12000 series và tương đương: nhân hệ số 1,4"
+42.140220.00,"Switch Catalyst 2000 và tương đương: nhân hệ số 0,4"
+42.140220.00,"Switch Catalyst 3000 và tương đương: nhân hệ số 0,5"
+42.140220.00,"Switch Catalyst 6000 và tương đương: nhân hệ số 1,2"
+42.140220.00,"Switch Catalyst 8000 và tương đương: nhân hệ số 1,4"
+42.140220.00,"Access server có dung lượng dưới 8 E1: nhân hệ số 0,4"
+42.140220.00,"Access server có dung lượng 8 đến 12 E1: nhân hệ số 0,5"
+42.140220.00,"Caching có dung lượng lưu trữ từ 72Gb đến 144Gb: nhân hệ số 1,2"
+42.140220.00,"Caching có dung lượng lưu trữ từ 144Gb đến 288Gb: nhân hệ số 1,4"
+42.140220.00,"Caching có dung lượng lưu trữ lớn hơn 288 Gb: nhân hệ số 1,6"
+42.140220.00,"FireWall có số truy cập đồng thời 50.000 khách hàng: nhân hệ số 1,3"
+42.140220.00,"FireWall có số truy cập đồng thời 100.000 khách hàng: nhân hệ số 1,5"
+42.140220.00,"FireWall có số truy cập đồng thời 200.000 khách hàng: nhân hệ số 1,7"
+42.140220.00,"FireWall có số truy cập đồng thời lớn hơn 200.000 khách hàng: nhân hệ số 1,8"
+42.160100.00,"Ghi chú: - Trong bảng định mức, nhân công chưa tính tới công chuyên gia"
+42.160200.00,"Ghi chú: - Trong bảng định mức, nhân công chưa tính tới công chuyên gia"
+42.160300.00,"Ghi chú: - Trong bảng định mức, nhân công chưa tính tới công chuyên gia"
+42.160400.00,"Ghi chú: - Trong bảng định mức, nhân công chưa tính tới công chuyên gia"
+42.160500.00,"Ghi chú: - Trong bảng định mức, nhân công chưa tính tới công chuyên gia"
+42.160500.00,Chương 3
+43.020100.00,Ghi chú: Bảng định mức áp dụng chung cho các thiết bị truyền dẫn Viba và cáp quang.
+43.020210.00,Ghi chú:
+43.020210.00,+ Bảng định mức trên áp dụng đối với các thiết bị viba tốc độ 8 Mb/s.
+43.020210.00,"- Nếu thiết bị viba có tốc độ 2 Mb/s thì định mức nhân hệ số 0,80."
+43.020210.00,"- Nếu thiết bị viba tốc độ 4 Mb/s thì định mức nhân hệ số 0,90."
+43.020220.00,Ghi chú: + Đối với các thiết bị có tốc độ và cấu hình khác định mức được áp dụng theo hệ số sau:
+43.020220.00,"- Thiết bị Viba tốc độ 2 Mbit/s: Nhân hệ số 0,80"
+43.020220.00,"- Thiết bị Viba tốc độ 4 Mbit/s: Nhân hệ số 0,90"
+43.020220.00,"- Thiết bị cấu hình 1+1: Nhân hệ số 1,50"
+43.020310.00,Ghi chú:
+43.020310.00,"+ Bảng định mức trên áp dụng đối với các thiết bị viba tốc độ 34 Mb/s nếu thiết bị viba có tốc độ 16 Mb/s thì định mức nhân hệ số 0,8."
+43.020320.00,Ghi chú:
+43.020320.00,+ Bảng định mức trên áp dụng đối với các thiết bị trạm tốc độ 34Mb/s có cấu hình 0+1.
+43.020320.00,"- Nếu thiết bị viba có tốc độ 16 Mbit/s định mức nhân hệ số 0,80."
+43.020320.00,"- Nếu thiết bị viba có cấu hình 1+1 định mức nhân hệ số 1,50."
+43.020320.00,"- Nếu thiết bị viba có cấu hình 2+1 định mức nhân hệ số 2,00."
+43.020420.00,Ghi chú: + Bảng định mức trên áp dụng đối với các thiết bị trạm tốc độ 140Mb/s có cấu hình 0+1.
+43.020420.00,"- Thiết bị vi ba có cấu hình 1+1 định mức nhân hệ số 1,5."
+43.020420.00,"- Thiết bị vi ba có cấu hình 2+1 định mức nhân hệ số 2,0."
+43.020510.00,Ghi chú: + Bảng định mức trên áp dụng đối với đo thử có số luồng ≤ 8 luồng. Các số luồng khác thì định mức nhân công và máy thi công được nhân hệ số như sau:
+43.020510.00,"- Đo thử 16 luồng: bằng định mức của 8 luồng nhân hệ số 1,25."
+43.020510.00,"- Đo thử 21 luồng: bằng định mức của 8 luồng nhân hệ số 1,50."
+43.020510.00,"- Đo thử 63 luồng: bằng định mức của 8 luồng nhân hệ số 1,75."
+43.020510.00,- Đo thử > 63 luồng : bằng định mức của 8 luồng nhân hệ số 2.
+43.020530.00,Ghi chú:
+43.020530.00,"+ Bảng định mức trên áp dụng đối với thiết bị ở trạm đầu cuối, đối với thiết bị ở các trạm khác được tính hệ số sau:"
+43.020530.00,"- Trạm xen rẽ, định mức được nhân với hệ số 1,3."
+43.020530.00,"- Trạm lặp, định mức được nhân với hệ số 0,5."
+43.060100.00,"Ghi chú: - Bảng định mức trên áp dụng cho tổng đài Host, đối với tổng đài chuyển tiếp nội vùng (Tandem) và chuyển tiếp đường trục quốc gia (Transit) có số trung kế tương đương với dung lượng hệ thống tổng đài HOST (theo bảng dung lượng tương đương dưới đây), bảng định mức được nhân với hệ số k = 1,1"
+43.060100.00,"- Đối với tổng đài chuyển tiếp quốc tế (Gateway) có số trung kế tương đương với dung lượng hệ thống tổng đài HOST (theo bảng dung lượng tương đương dưới đây), bảng định mức được nhân với hệ số k = 1,3"
+43.060100.00,"* Bảng dung lượng tương đương giữa tổng đài Host và tổng đài Transit, Gateway"
+43.060100.00,"Bảng: Dung lượng hệ thống | ≤ 5.000 số | ≤ 10.000 số | ≤ 20.000 số | ≤ 30.000 số ; Dung lượng t.đài Tandem, Transit, Gateway | ≤ 2500 trung kế | ≤ 5000 trung kế | ≤ 10000 trung kế | ≤ 15000 trung kế"
+43.060100.00,"Bảng: Dung lượng hệ thống | ≤ 40.000 số | ≤ 60.000 số | ≤ 80.000 số | ≤ 100.000 số | > 100.000 số ; Dung lượng t.đài Tandem, Transit, Gateway | ≤ 20000 trung kế | ≤ 30000 trung kế | ≤ 40000 trung kế | ≤ 50000 trung kế | >50000 trung kế"
+43.060100.00,"- Trường hợp mở rộng: Trong trường hợp mở rộng phần điều khiển tổng đài HOST, Tandem, Transit, Gateway thì cứ mở rộng 1024 số (tương đương 256 trung kế của tổng đài Transit, Gateway) được áp dụng hệ số k như sau:"
+43.060100.00,"Bảng: Dung lượng trước mở rộng | ≤ 5.000 số | ≤ 10.000 số | ≤ 20.000 số | ≤ 30.000 số | ≤ 40.000 số | ≤ 60.000 số | ≤ 80.000 số | ≤ 100.000 số | > 100.000 số ; Dung lượng t.đài Tandem, Transit, Gateway trước mở rộng | ≤ 2500 t.kế | ≤ 5000 t.kế | ≤ 10000 t.kế | ≤ 15000 t.kế | ≤ 20000 t.kế | ≤ 30000 t.kế | ≤ 40000 t.kế | ≤ 50000 t.kế | > 50000 t.kế ; Hệ số | 0,12 | 0,1 | 0,08 | 0,06 | 0,05 | 0,045 | 0,04 | 0,035 | 0,03"
+43.060200.00,Ghi chú : - Bảng định mức áp dụng đối với giá trung kế tổng đài HOST.
+43.060200.00,"- Đối với tổng đài chuyển tiếp nội vùng (Tandem), chuyển tiếp đường trục quốc gia (Transit), bảng định mức được nhân với hệ số k = 1,2"
+43.060200.00,"- Đối với tổng đài chuyển tiếp quốc tế (Gateway), bảng định mức được nhân với hệ số k = 1,3"
+43.060200.00,- Trong trường hợp mở rộng giá trung kế thì cứ mở rộng bốn luồng trung kế E1 được áp dụng hệ số k như sau:
+43.060200.00,"Bảng: Dung lượng trước mở rộng | ≤ 4E1 | ≤ 8E1 | ≤ 16E1 | ≤ 32E1 | > 32E1 ; Hệ số (k) | 0,3 | 0,25 | 0,13 | 0,06 | 0,05"
+43.060300.00,Ghi chú : - Trong trường hợp mở rộng giá thuê bao thì cứ mở rộng 128 số được áp dụng hệ số k như sau:
+43.060300.00,"Bảng: Dung lượng trước mở rộng | ≤ 128 số | ≤ 256 số | ≤ 512 số | ≤ 768 số | ≤ 1024 số | ≤ 2048 số | >2048 số ; Hệ số (k) | 0,24 | 0,18 | 0,12 | 0,09 | 0,07 | 0,06 | 0,05"
+43.060400.00,Ghi chú : - Trong trường hợp mở rộng phần điều khiển tổng đài vệ tinh ứng với các mốc dung lượng cứ mở rộng 128 số được áp dụng hệ số k như sau:
+43.060400.00,"Bảng: Dung lượng trước mở rộng | ≤ 512 số | ≤ 1024 số | ≤ 2048 số | ≤ 3072 số | ≤ 4096 số | ≤ 5120 số | > 5120 số ; Hệ số | 0,06 | 0,05 | 0,04 | 0,03 | 0,025 | 0,02 | 0,015"
+43.060400.00,"- Đối với tổng đài vệ tinh không người trực, định mức nhân hệ số 0,5"
+43.060600.00,Ghi chú :
+43.060600.00,"- Định mức trên chỉ bao gồm phần cài đặt chương trình và kiểm tra các chức năng của tổng đài, chưa tính đến các thành phần công việc khác như lập trình, cài đặt các thiết bị ngoại vi."
+43.080100.00,"Ghi chú: - Bảng định mức kiểm tra, kết nối đo thử khai báo cấu hình tính cho tổng đài có dung lượng 20.000 số."
+43.080100.00,Đối với các tổng đài có dung lượng khác thì định mức được nhân hệ số k như sau:
+43.080100.00,"Bảng: Dung lượng tổng đài HOST | ≤ 30.000 số | ≤ 40.000 số | ≤ 60.000 số | ≤ 80.000 số | ≤ 100.000 số | > 100.000 số ; Hệ số | 1,2 | 1,4 | 1,7 | 2,0 | 2,3 | 2,5"
+43.110200.00,Ghi chú:
+43.110200.00,+ Nhân công trong định mức này đã bao gồm nhân công phối hợp thực hiện phía tổng đài.
+43.110200.00,+ Bảng định mức trên áp dụng đối với thiết bị COT có dung lượng 40 số. Nếu thiết bị có dung lượng khác 40 số thì sẽ áp dụng hệ số định mức như sau :
+43.110200.00,"- Khi giảm đi 12 số so với dung lửụùng 40 số thì nhân hệ số 0,95"
+43.110200.00,- Khi dung lượng lớn hơn 40 số thì phần lớn hơn 40 số được coi như lắp mới 1 thiết bị COT với hệ số điều chỉnh dung lượng như trên.
+43.110200.00,+ Bảng định mức trên áp dụng đối với thiết bị RT có dung lượng nhỏ hơn hoặc bằng 4 số.
+43.120000.00,Ghi chú:
+43.120000.00,"+ Bảng định mức trên áp dụng đối với thiết bị BSC có dung lượng 10890 số, thiết bị BTS có dung lượng 2250 số, thiết bị MSU có dung lượng 96 số."
+43.120000.00,+ Đối với thiết bị có dung lượng khác thì hệ số định mức tính như sau:
+43.120000.00,"- Thiết bị BSC có dung lượng < 2250 số nhân với hệ số 0,5"
+43.120000.00,"- Thiết bị BSC có dung lượng < 3700 số nhân với hệ số 0,6"
+43.120000.00,"- Thiết bị BSC có dung lượng < 7300 số nhân với hệ số 0,8"
+43.120000.00,- Nhân công bao gồm cả công phối hợp từ tổng đài để kiểm tra các dịch vụ thoại
+43.150210.00,Ghi chú:
+43.150210.00,+ Bảng định mức trên áp dụng cho các máy chủ với quy mô mạng: 25.000 khách hàng. Nếu quy mô mạng có dung lượng khác được tính theo hệ số như sau:
+43.150210.00,"- Quy mô mạng 50.000 khách hàng định mức nhân với hệ số 1,25."
+43.150210.00,"- Quy mô mạng 75.000 khách hàng định mức nhân với hệ số 1,50."
+43.150210.00,"- Quy mô mạng 100.000 khách hàng định mức nhân với hệ số 1,75."
+43.150210.00,"(Quy mô mạng được hiểu là số lượng khách hàng tối đa mạng có thể đáp ứng được trong điều kiện đảm bảo chất lượng các dịch vụ, công tác quản lý)."
+43.150220.00,"Ghi chú: - Bảng định mức được áp dụng đối với các thiết bị mạng: Router Cisco7000 và tương đương, Switch catalyst 5000 và tương đương, Access server có số cổng (port) modem tương đương từ 24 đến 96 E1, Rack modem có dung lượng 10 modem, Caching có dung lượng lưu trữ dưới 72 Gb, FireWall có số truy cập đồng thời dưới 50.000 khách hàng."
+43.150220.00,Các thiết bị khác được áp dụng hệ số như sau:
+43.150220.00,"Router Cisco 2000 series và tương đương: nhân hệ số 0,4"
+43.150220.00,"Router Cisco 3000 series và tương đương: nhân hệ số 0,5"
+43.150220.00,"Router Cisco 4000 series và tương đương: nhân hệ số 0,7"
+43.150220.00,"Router Cisco 12000 series và tương đương: nhân hệ số 1,4"
+43.150220.00,"Switch Catalyst 2000 và tương đương: nhân hệ số 0,4"
+43.150220.00,"Switch Catalyst 3000 và tương đương: nhân hệ số 0,5"
+43.150220.00,"Switch Catalyst 6000 và tương đương: nhân hệ số 1,2"
+43.150220.00,"Switch Catalyst 8000 và tương đương: nhân hệ số 1,4"
+43.150220.00,"Access server có dung lượng dưới 8 E1: nhân hệ số 0,4"
+43.150220.00,"Access server có dung lượng 8 đến 12 E1: nhân hệ số 0,5"
+43.150220.00,"Caching có dung lượng lưu trữ từ 72Gb đến 144Gb: nhân hệ số 1,2"
+43.150220.00,"Caching có dung lượng lưu trữ từ 144Gb đến 288Gb: nhân hệ số 1,4"
+43.150220.00,"Caching có dung lượng lưu trữ lớn hơn 288 Gb: nhân hệ số 1,6"
+43.150220.00,"FireWall có số truy cập đồng thời 50.000 khách hàng: nhân hệ số 1,3"
+43.150220.00,"FireWall có số truy cập đồng thời 100.000 khách hàng: nhân hệ số 1,5"
+43.150220.00,"FireWall có số truy cập đồng thời 200.000 khách hàng: nhân hệ số 1,7"
+43.150220.00,"FireWall có số truy cập đồng thời lơn hơn 200.000 khách hàng: nhân hệ số 1,8"
+43.160100.00,"Ghi chú: - Trong bảng định mức, nhân công chưa tính tới công chuyên gia"
+43.160100.00,"- Trong bảng mức chưa tính đến nhân công, ca máy của các bài đo cho các giao thức IP."
+43.160300.00,"Ghi chú: - Trong bảng định mức, nhân công chưa tính tới công chuyên gia"
+43.160400.00,"Ghi chú: - Trong bảng định mức, nhân công chưa tính tới công chuyên gia"
+43.160500.00,"Ghi chú: - Trong bảng định mức, nhân công chưa tính tới công chuyên gia"
+43.170000.00,"Ghi chú: - Trong bảng định mức chưa tính đến nhân công, ca máy của bài đo cho thủ tục IP, ADSL"
+43.180311.00,"Ghi chú : - Với hệ thống trang âm sử dụng nhiều chủng loại thiết bị có chức năng khác nhau (từ 5 chủng loại khác nhau trở lên), định mức nhân công được nhân hệ số 1,2."

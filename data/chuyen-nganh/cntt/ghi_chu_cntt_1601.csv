@@ -1,0 +1,22 @@
+﻿ma_hieu,ghi_chu
+01.02.01.01,Ghi chú:
+01.02.01.01,"- Công nhân 4/7*: Áp dụng nếu phải khoan xuyên tường, n: Độ dày tường- tính theo cm"
+01.02.01.01,- Trường hợp đi cáp vào ống đã có sẵn thì chỉ tính nhân công bằng 50% mục công nhân 4/7
+01.02.01.01,- Trường hợp lắp đặt vào hệ thống tường xây thô chỉ tính nhân công bằng 75%
+01.02.01.02,Ghi chú:
+01.02.01.02,"- Công nhân 4/7*: Áp dụng nếu phải khoan xuyên tường, n: Độ dày tường tính theo cm"
+01.02.01.02,- Trường hợp đi cáp vào ống đã có sẵn thì chỉ tính nhân công bằng 50% mục công nhân 4/7
+01.02.01.02,- Trường hợp lắp đặt vào hệ thống tường xây thô chỉ tính nhân công bằng 75%
+01.02.05.00,"Ghi chú: Trường hợp đặt ngầm, định mức nhân công nhân hệ số 1,5"
+01.03.05.03,Ghi chú: Áp dụng cho quy mô đến 1000 khách hàng.
+01.03.05.03,Quy mô dưới 10 000 khách hàng lấy theo hệ số cộng thêm cho từng 1000 khách hàng.
+01.03.05.03,Quy mô trên 10 000 khách hàng lấy theo hệ số cộng thêm cho từng 10 000 khách hàng
+01.08.02.02,"Ghi chú: Đối với hệ điều hành khác tính hệ số 1,2"
+01.08.03.04,"Ghi chú: Cài đặt trên hệ điều hành khác tính hệ số 1,2"
+01.08.05.00,"Ghi chú: Cài đặt trên hệ điều hành khác tính hệ số 1,2"
+01.08.05.00,Chương 9:
+01.08.05.00,CÀI ĐẶT PHẦN MỀM QUẢN LÝ (HỆ QUẢN TRỊ CƠ SỞ DỮ LIỆU) VÀ QUẢN TRỊ MẠNG
+01.10.01.00,"Ghi chú: Trường hợp cài đặt hệ mã nguồn mở được tính nhân công và máy móc thêm hệ số 1,2"
+01.10.02.00,Ghi chú:
+01.10.02.00,"Trường hợp cài đặt hệ mã nguồn mở được tính nhân công và máy móc thêm hệ số 1,2"
+01.10.02.00,"Việc cài đặt các phần mềm dùng chung (dạng đóng gói theo kit), phiên bản cài đặt trên workstation (enduser) được áp dụng tương đương."

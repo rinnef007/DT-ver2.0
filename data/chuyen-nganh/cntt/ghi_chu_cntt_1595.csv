@@ -1,0 +1,88 @@
+﻿ma_hieu,ghi_chu
+02.10.01.01.01,+ Hướng dẫn xác định mức độ phức tạp:
+02.10.01.01.01,Nếu các bảng dữ liệu chỉ có đối tượng dữ liệu chính cần quản lý hoặc có thêm 1 đối tượng phụ thì áp dụng Mức 1.
+02.10.01.01.01,Nếu các bảng dữ liệu có số lượng đối tượng phụ cần quản lý trong CSDL (được xác định bởi các khóa ngoại trong CSDL) từ 2 đến 4: Mức 2; từ 5 trở lên: Mức 3;
+02.10.01.02.01,+ Hướng dẫn xác định mức độ phức tạp:
+02.10.01.02.01,"Số bảng mô tả dữ liệu < 4: 30 điểm, từ 4 đến 8: 45 điểm, > 8: 70 điểm."
+02.10.01.02.01,"Hiện trạng dữ liệu gốc là tốt: 10 điểm, xấu 30 điểm."
+02.10.01.02.01,"Nếu tổng số điểm <= 55: Mức 1, từ 55 đến 85: Mức 2, >= 85: Mức 3"
+02.10.01.03.01,+ Hướng dẫn xác định mức độ phức tạp:
+02.10.01.03.01,"Số bảng mô tả dữ liệu < 4: 30 điểm , từ 4 đến 8: 45 điểm, > 8: 70 điểm"
+02.10.01.03.01,"Hiện trạng dữ liệu gốc là tốt: 10 điểm, xấu 30 điểm"
+02.10.01.03.01,"Nếu tổng số điểm <= 55: Mức 1, từ 55 đến 85: Mức 2, >= 85: Mức 3"
+02.10.01.04.01,+ Hướng dẫn xác định mức độ phức tạp:
+02.10.01.04.01,"Số bảng mô tả dữ liệu < 4: 30 điểm, từ 4 đến 8: 45 điểm, > 8: 70 điểm;"
+02.10.01.04.01,"Hiện trạng dữ liệu gốc: tốt: 10 điểm, xấu 30 điểm."
+02.10.01.04.01,"Nếu tổng số điểm <= 55: Mức 1, từ 55 đến 85: Mức 2, >= 85: Mức 3"
+02.10.01.04.02,+ Ghi chú
+02.10.01.04.02,"1. Trường hợp photocopy tài liệu xấu thì định mức lao động và máy móc, thiết bị được nhân với hệ số sau: k = 1,2"
+02.10.01.04.02,"2. Trường hợp photocopy các loại tài liệu có kích thước khác thì định mức lao động và máy móc, thiết bị được nhân với hệ số sau:"
+02.10.01.04.02,Tài liệu A3: k = 2
+02.10.01.04.02,Tài liệu A2: k = 8
+02.10.01.04.02,Tài liệu A1: k = 16
+02.10.01.04.02,Tài liệu A0: k = 32
+02.10.01.04.03,+ Ghi chú:
+02.10.01.04.03,"1. Trường hợp scan tài liệu xấu thì định mức lao động và máy móc, thiết bị được nhân với hệ số sau: k = 1,2"
+02.10.01.04.03,"2. Trường hợp scan các loại tài liệu có kích thước khác thì định mức lao động và máy móc, thiết bị được nhân với hệ số sau (so với 01 trang A4 đen trắng):"
+02.10.01.04.03,Trường hợp tài liệu A3: k = 2
+02.10.01.04.03,Trường hợp tài liệu A2: k = 4
+02.10.01.04.03,Trường hợp tài liệu A1: k = 8
+02.10.01.04.03,Trường hợp tài liệu A0: k = 16
+02.10.02.01.01,+ Hướng dẫn xác định mức độ phức tạp:
+02.10.02.01.01,"Số bảng mô tả dữ liệu < 4: 35 điểm, từ 4 đến 8: 50 điểm, > 8: 70 điểm;"
+02.10.02.01.01,"Ngôn ngữ: Tiếng Anh: 15 điểm, Ngôn ngữ khác: 30 điểm."
+02.10.02.01.01,"Nếu tổng số điểm <= 60: Mức 1, từ 60 đến 80: Mức 2, >= 80: Mức 3"
+02.10.02.02.01,+ Hướng dẫn xác định mức độ phức tạp:
+02.10.02.02.01,"Số bảng mô tả dữ liệu < 4: 35 điểm, từ 4 đến 8: 50 điểm, > 8: 70 điểm;"
+02.10.02.02.01,"Ngôn ngữ: Tiếng Anh: 15 điểm, Ngôn ngữ khác: 30 điểm."
+02.10.02.02.01,"Nếu tổng số điểm <= 60: Mức 1, từ 60 đến 80: Mức 2, >= 80: Mức 3"
+02.10.02.02.02,+ Hướng dẫn xác định mức độ phức tạp:
+02.10.02.02.02,"Số bảng mô tả dữ liệu < 4: 35 điểm, từ 4 đến 8: 50 điểm, > 8: 70 điểm;"
+02.10.02.02.02,"Ngôn ngữ: Tiếng Anh: 15 điểm, Ngôn ngữ khác: 30 điểm."
+02.10.02.02.02,"Nếu tổng số điểm <= 60: Mức 1, từ 60 đến 80: Mức 2, >= 80: Mức 3"
+02.10.03.01.01,+ Hướng dẫn xác định mức độ phức tạp:
+02.10.03.01.01,Nếu các bảng dữ liệu chỉ có đối tượng dữ liệu chính cần quản lý hoặc có thêm 1 đối tượng phụ thì áp dụng Mức 1.
+02.10.03.01.01,Nếu các bảng dữ liệu có số lượng đối tượng phụ cần quản lý trong CSDL (được xác định bởi các khóa ngoại trong CSDL) từ 2 đến 4: Mức 2; từ 5 trở lên: Mức 3;
+02.10.04.01.01,+ Hướng dẫn xác định mức độ phức tạp:
+02.10.04.01.01,"Số bảng mô tả dữ liệu < 4: 20 , từ 4 đến 8: 30, > 8: 50 điểm;"
+02.10.04.01.01,"Hiện trạng dữ liệu: Tốt: 10 điểm, Xấu: 20 điểm;"
+02.10.04.01.01,"Ngôn ngữ: Tiếng Anh: 20 điểm, Ngôn ngữ khác: 30 điểm"
+02.10.04.01.01,"Nếu tổng số điểm <= 60: Mức 1, từ 60 đến 80: Mức 2, >= 80: Mức 3"
+02.10.04.02.01,+ Hướng dẫn xác định mức độ phức tạp:
+02.10.04.02.01,Trường dữ liệu < 15 ký tự áp dụng Mức 1;
+02.10.04.02.01,Trường dữ liệu: từ 16 đến 50 ký tự áp dụng Mức 2;
+02.10.04.02.01,Trường dữ liệu > 50 ký tự áp dụng Mức 3.
+02.10.04.02.02,Ghi chú:
+02.10.04.02.02,+ 01 trang văn bản tương ứng 46 dòng x 70 ký tự/dòng
+02.10.04.02.02,"Trang tài liệu chỉ gồm các chữ cái, chữ số: Mức 1;"
+02.10.04.02.02,Trang tài liệu có bảng biểu kèm theo: Mức 2;
+02.10.04.02.02,"Trang tài liệu dạng đặc biệt có nhiều công thức toán học, hoặc các ký tự đặc biệt: Mức 3;"
+02.10.05.01.01,+ Hướng dẫn xác định mức độ phức tạp:
+02.10.05.01.01,"Số bảng mô tả dữ liệu < 4: 35 điểm, từ 4 đến 8: 50 điểm, > 8: 70 điểm;"
+02.10.05.01.01,"Ngôn ngữ: Tiếng Anh: 15 điểm, Ngôn ngữ khác: 30 điểm."
+02.10.05.01.01,"Nếu tổng số điểm <= 60: Mức 1, từ 60 đến 80: Mức 2, >= 80: Mức 3"
+02.10.05.02.01,+ Hướng dẫn xác định mức độ phức tạp:
+02.10.05.02.01,"Số bảng mô tả dữ liệu < 4: 20 điểm, từ 4 đến 8: 30 điểm, > 8: 40 điểm;"
+02.10.05.02.01,"Yêu cầu về độ chính xác của dữ liệu: Sai số theo quy định: 40 điểm, Chính xác tuyệt đối: 60 điểm;"
+02.10.05.02.01,"Nếu tổng số điểm <= 60: Mức 1, từ 60 đến 80: Mức 2, >= 80: Mức 3"
+02.10.05.03.01,+ Ghi chú
+02.10.05.03.01,"1. Trường hợp yêu cầu về độ chính xác của dữ liệu là Sai số theo quy định cho phép (được quy định trong tài liệu hướng dẫn) thì định mức lao động và máy móc, thiết bị được nhân với hệ số: k = 1,0."
+02.10.05.03.01,"2. Trường hợp yêu cầu về độ chính xác của dữ liệu là Chính xác tuyệt đối (được quy định trong tài liệu hướng dẫn) thì định mức lao động và máy móc, thiết bị được nhân với hệ số: k =1,5."
+02.10.05.03.03,+ Hướng dẫn xác định mức độ phức tạp:
+02.10.05.03.03,"Số lượng đối tượng phụ cần quản lý (được xác định bởi các khóa ngoại trong CSDL) có trong bảng mô tả dữ liệu từ 0 đến 2: 20, từ 3 đến 4: 30, từ 5 trở lên: 40;"
+02.10.05.03.03,"Yêu cầu về độ chính xác của dữ liệu: Sai số theo quy định: 40 điểm, Chính xác tuyệt đối: 60 điểm;"
+02.10.05.03.03,"Nếu tổng số điểm <= 60: Mức 1, từ 60 đến 80: Mức 2, >= 80: Mức 3"
+02.10.05.03.04.01,+ Hướng dẫn xác định mức độ phức tạp:
+02.10.05.03.04.01,Trường dữ liệu < 15 ký tự áp dụng Mức 1;
+02.10.05.03.04.01,Trường dữ liệu: từ 16 đến 50 ký tự áp dụng Mức 2;
+02.10.05.03.04.01,Trường dữ liệu > 50 ký tự áp dụng Mức 3.
+02.10.05.03.04.02,Ghi chú:
+02.10.05.03.04.02,+ 01 trang văn bản tương ứng 46 dòng x 70 ký tự/dòng
+02.10.05.03.04.02,"Trang tài liệu chỉ gồm các chữ cái, chữ số: Mức 1;"
+02.10.05.03.04.02,Trang tài liệu có bảng biểu kèm theo: Mức 2;
+02.10.05.03.04.02,"Trang tài liệu dạng đặc biệt có nhiều công thức toán học, hoặc các ký tự đặc biệt: Mức 3;"
+02.10.06.01.01,+ Hướng dẫn xác định mức độ phức tạp:
+02.10.06.01.01,"Số bảng mô tả dữ liệu < 4: 10 điểm, từ 4 đến 8: 15 điểm, > 8: 20 điểm;"
+02.10.06.01.01,"Yêu cầu về độ chính xác của dữ liệu: Sai số theo quy định: 20 điểm, Chính xác tuyệt đối: 50 điểm;"
+02.10.06.01.01,"Ngôn ngữ: Tiếng Anh: 20 điểm, Ngôn ngữ khác: 30 điểm;"
+02.10.06.01.01,"Nếu tổng số điểm <= 55: Mức 1, từ 55 đến 85: Mức 2, >= 85: Mức 3"
