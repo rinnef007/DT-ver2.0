@@ -92,6 +92,9 @@ def cmd_tra(a):
             print(f"  {r['xa_phuong']} ({r['tinh']}, {r['khu_vuc_tuyen']})" + (f" — chiều {r['chieu']}" if r["chieu"] else "")
                   + f" · lý trình: {r['ly_trinh_goc']}")
             print(f"    Vùng nhân công: {(mv + ' – ' + ten_vung.get(mv, '')) if mv else 'chưa xác định'} · {r['can_cu_vung']}")
+            mk = r.get("ma_vung_nhan_cong_khac") or ""
+            if mk:
+                print(f"    Phương án khác: {mk} – {ten_vung.get(mk, '')} · {r.get('can_cu_vung_khac', '')}")
         if len({r['xa_phuong'] for r in kq}) > 1 and not any(r["chieu"] for r in kq):
             print("  [CHÚ Ý] Lý trình nằm ở đoạn chồng lấn giữa hai xã trong danh sách — kiểm tra lại ranh giới")
         return 0

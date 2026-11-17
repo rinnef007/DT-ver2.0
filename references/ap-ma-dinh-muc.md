@@ -30,7 +30,7 @@ Khi áp mã cho hồ sơ lập trước 01/7/2026, xác định trước hồ s�
 - **Khoảng trống:** Điều 36 không có quy định riêng cho gói thầu đã phát hành HSMT nhưng chưa ký hợp đồng — không tự điền quy tắc khi gặp trường hợp này.
 
 ## Cấu trúc mã hiệu
-Mã gồm phần chữ (chương/nhóm) và phần số (công tác, quy cách), ví dụ `AB.25102` = tiền tố bảng `AB.2510` + hậu tố cột `2` (cấp đất II). Khoảng 8.960 mã PL I–VI đã trích vào `data/tt38/` — tra bằng `dutoan.py tra`. Một số mã đã đổi so với TT 12/2021 (vd. bê tông móng AF.1121x → AF.11210/AF.11220 với vật liệu 'Vữa bê tông'; bê tông nền sửa chữa SB.4114x → SB.41140). Danh mục chương thực tế lấy từ dữ liệu: `python scripts/dutoan.py tra --data <dir> --chuong` liệt kê các tiền tố có trong bộ định mức đã nạp. Không đoán tên chương từ trí nhớ.
+Mã gồm phần chữ (chương/nhóm) và phần số (công tác, quy cách), ví dụ `AB.25102` = tiền tố bảng `AB.2510` + hậu tố cột `2` (cấp đất II). 9.136 mã PL I–VI đã trích vào `data/tt38/` — tra bằng `dutoan.py tra`. Một số mã đã đổi so với TT 12/2021 (vd. bê tông móng AF.1121x → AF.11210/AF.11220 với vật liệu 'Vữa bê tông'; bê tông nền sửa chữa SB.4114x → SB.41140). Danh mục chương thực tế lấy từ dữ liệu: `python scripts/dutoan.py tra --data <dir> --chuong` liệt kê các tiền tố có trong bộ định mức đã nạp. Không đoán tên chương từ trí nhớ.
 
 ## Quy trình chọn mã
 1. Đọc **thành phần công việc** và **điều kiện áp dụng** của mã (trong thuyết minh chương), không chỉ tên công tác.

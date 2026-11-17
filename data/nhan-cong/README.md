@@ -1,14 +1,15 @@
 # Giá nhân công xây dựng chuyển đổi theo nhóm — giai đoạn chuyển tiếp TT 37/2026
 
-`gia_nhan_cong_chuyen_doi_2026.csv`: giá nhân công theo nhóm (Bảng 3.1 PL III TT 37/2026) do Sở Xây dựng chuyển đổi theo mục 4 Mục I PL III TT 37, áp dụng **từ 01/7/2026 đến khi có văn bản thay thế** (TT 37 Điều 2 k1; Sở XD công bố theo phương pháp mới từ 01/01/2027). Đơn vị: đồng/ngày công (8 giờ), chưa gồm các khoản bảo hiểm người sử dụng lao động nộp (đã tính trong chi phí chung), chưa gồm làm thêm giờ, ban đêm, nặng nhọc độc hại.
+`gia_nhan_cong_chuyen_doi_2026.csv` (tên file giữ nguyên để không đổi code; cột `phuong_phap` = `chuyen_doi` / `moi`, cột `ghi_chu_soat` là ghi chú S22 in ra khi hồ sơ dùng mã vùng đó): giá nhân công theo nhóm (Bảng 3.1 PL III TT 37/2026) do Sở Xây dựng chuyển đổi theo mục 4 Mục I PL III TT 37, áp dụng **từ 01/7/2026 đến khi có văn bản thay thế** (TT 37 Điều 2 k1; Sở XD công bố theo phương pháp mới từ 01/01/2027). Đơn vị: đồng/ngày công (8 giờ), chưa gồm các khoản bảo hiểm người sử dụng lao động nộp (đã tính trong chi phí chung), chưa gồm làm thêm giờ, ban đêm, nặng nhọc độc hại.
 
 Đây là dữ liệu tham chiếu, **không phải bảng giá của hồ sơ**: `can-gia --nhan-cong` dùng để điền sẵn giá nhân công; `soat` (S22) cảnh báo khi giá nhân công trong `gia_tai_nguyen.csv` khác văn bản. Khi Sở XD ban hành văn bản mới, cập nhật file này và ghi vào `references/can-cu-phap-ly.md`.
 
 | Tỉnh | Văn bản | Vùng / khu vực (`ma_vung`) |
 |---|---|---|
-| Hà Nội | CV 14502/SXD-KTXD ngày 02/7/2026 (Sở XD Hà Nội) | `HN-V1-KV1`, `HN-V1-KV2`, `HN-V2` — phạm vi khu vực theo QĐ 3461/QĐ-SXD ngày 22/12/2025 |
+| Hà Nội | CV 14502/SXD-KTXD ngày 02/7/2026 (Sở XD Hà Nội) — chuyển đổi | `HN-V1-KV1`, `HN-V1-KV2`, `HN-V2` — phạm vi khu vực theo QĐ 3461/QĐ-SXD ngày 22/12/2025 |
+| Hà Nội | QĐ 2036/QĐ-SXD ngày 26/10/2026 (Sở XD Hà Nội) — **phương pháp mới** | `HN-V1`, `HN-V2` — Vùng I = Vùng I KV1 + KV2 cũ; xem câu hỏi mở chọn văn bản tại `references/can-cu-phap-ly.md` mục 1 |
 | Hưng Yên | CV 3385/SXD-KT&VLXD ngày 02/7/2026 (Sở XD Hưng Yên) | `HY-V2`, `HY-V3`, `HY-V4` |
-| Hải Phòng | CV 7546/SXD-KTQLĐTXD ngày 07/7/2026 và phụ lục (Sở XD Hải Phòng) | `HP-V1`, `HP-V2` — công văn không quy định phạm vi vùng |
+| Hải Phòng | CV 7546/SXD-KTQLĐTXD ngày 07/7/2026 và phụ lục (Sở XD Hải Phòng) | `HP-V1`, `HP-V2` — phạm vi vùng theo QĐ 65/QĐ-SXD ngày 14/01/2026 |
 
 ## Phạm vi vùng / khu vực
 
@@ -22,14 +23,17 @@
 - Vùng III: các xã Hoàng Hoa Thám, Tiên Lữ, Tiên Hoa, Quang Hưng, Đoàn Đào, Tiên Tiến, Tống Trân, Lương Bằng, Nghĩa Dân, Hiệp Cường, Đức Hợp, Ân Thi, Xuân Trúc, Phạm Ngũ Lão, Nguyễn Trãi, Hồng Quang, Khoái Châu, Triệu Việt Vương, Việt Tiến, Chí Minh, Châu Ninh, Thái Thụy, Đông Thụy Anh, Bắc Thụy Anh, Thụy Anh, Nam Thụy Anh, Bắc Thái Ninh, Thái Ninh, Đông Thái Ninh, Nam Thái Ninh, Tây Thái Ninh, Tây Thụy Anh, Tiền Hải, Tây Tiền Hải, Ái Quốc, Đồng Châu, Đông Tiền Hải, Nam Cường, Hưng Phú, Nam Tiền Hải.
 - Vùng IV: các xã, phường còn lại.
 
-**Hải Phòng**: CV 7546 (theo chỉ đạo tại CV 8118/VP-XDCT ngày 03/7/2026 của Văn phòng UBND thành phố) chuyển đổi giá nhân công đang công bố sang nhóm theo khoản 4 Mục I PL III TT 37; công văn và phụ lục chỉ ghi Vùng I, Vùng II, **không có danh sách xã, phường** và không ghi ngày bắt đầu áp dụng. Phạm vi vùng giữ theo văn bản công bố giá nhân công Hải Phòng trước đó (chưa có trong skill) — ghi rõ căn cứ khi chọn vùng cho hồ sơ.
+**Hải Phòng** (QĐ 65/QĐ-SXD ngày 14/01/2026 — ghi chú phụ lục; CV 7546 chuyển đổi từ bảng giá QĐ 65 nên giữ phạm vi vùng này):
+- Vùng I: các phường Thuỷ Nguyên, Thiên Hương, Hoà Bình, Nam Triệu, Bạch Đằng, Lưu Kiếm, Lê Ích Mộc, Hồng Bàng, Hồng An, Ngô Quyền, Gia Viên, Lê Chân, An Biên, Hải An, Đông Hải, Kiến An, Phù Liễn, Nam Đồ Sơn, Đồ Sơn, Hưng Đạo, Dương Kinh, An Dương, An Hải, An Phong, Hải Dương, Lê Thanh Nghị, Việt Hoà, Thành Đông, Nam Đồng, Tân Hưng, Thạch Khôi, Tứ Minh, Ái Quốc, Chu Văn An, Chí Linh, Trần Hưng Đạo, Nguyễn Trãi, Trần Nhân Tông, Lê Đại Hành, Kinh Môn, Nguyễn Đại Năng, Trần Liễu, Bắc An Phụ, Phạm Sư Mạnh, Nhị Chiểu; các xã An Hưng, An Khánh, An Quang, An Trường, An Lão, Kiến Thuỵ, Kiến Minh, Kiến Hải, Kiến Hưng, Nghi Dương, Quyết Thắng, Tiên Lãng, Tân Minh, Tiên Minh, Chấn Hưng, Hùng Thắng, Vĩnh Bảo, Nguyễn Bỉnh Khiêm, Vĩnh Am, Vĩnh Hải, Vĩnh Hoà, Vĩnh Thuận, Vĩnh Thịnh, Việt Khê, Nam An Phụ, Nam Sách, Thái Tân, Hợp Tiến, Trần Phú, An Phú, Cẩm Giang, Cẩm Giàng, Tuệ Tĩnh, Mao Điền, Kẻ Sặt, Bình Giang, Đường An, Thượng Hồng, Gia Lộc, Yết Kiêu, Gia Phúc, Trường Tân, Tứ Kỳ, Tân Kỳ, Đại Sơn, Chí Minh, Lạc Phượng, Nguyên Giáp, Nguyễn Lương Bằng, Phú Thái, Lai Khê, An Thành, Kim Thành và đặc khu Cát Hải.
+- Vùng II: các xã Thanh Hà, Hà Tây, Hà Bắc, Hà Nam, Hà Đông, Ninh Giang, Vĩnh Lại, Khúc Thừa Dụ, Tân An, Hồng Châu, Thanh Miện, Bắc Thanh Miện, Nam Thanh Miện, Hải Hưng và đặc khu Bạch Long Vĩ.
+- Phân vùng theo NĐ 293/2025/NĐ-CP (lương tối thiểu vùng). CV 7546 không có danh sách xã và không ghi ngày bắt đầu áp dụng.
 
 ## Xã, phường trên tuyến cao tốc Hà Nội – Hải Phòng
 
 `xa_phuong_tuyen_hn_hp.csv`: 32 xã, phường theo lý trình Km0-420 ÷ Km105+450 (danh sách đơn vị cung cấp 16/10/2026), chia 3 khu vực tuyến; mỗi đoạn lý trình một dòng (`tu_km`, `den_km`, `chieu` khi chỉ áp cho một chiều HN-HP hoặc HP-HN), kèm mã vùng nhân công. Tra: `dutoan.py tra --ly-trinh Km36+200`.
 
 - Tỉnh: Khu vực 1 gồm Hà Nội (Long Biên, Gia Lâm, Bát Tràng) và Hưng Yên; Khu vực 2, 3 thuộc Hải Phòng. Danh sách gốc không ghi tỉnh — skill gán theo đoạn tuyến, khớp cách chọn vùng trong hồ sơ khảo sát mẫu (Km02 Hà Nội; Km08 Hưng Yên; Km36, Km51, Km89 Hải Phòng). **Không tra vùng theo tên xã**: nhiều tên trùng giữa các tỉnh (xã Hà Đông, xã An Khánh — Hải Phòng / phường Hà Đông, xã An Khánh — Hà Nội; xã Thượng Hồng — Hải Phòng / phường Thượng Hồng — Hưng Yên; xã Chí Minh — Hải Phòng / Hưng Yên).
-- Vùng nhân công: Hà Nội — Vùng I, Khu vực 1; Hưng Yên — Phụng Công, Nghĩa Trụ, Văn Giang, Hoàn Long, Việt Yên, Yên Mỹ: Vùng II; Xuân Trúc, Phạm Ngũ Lão, Ân Thi: Vùng III; **Hải Phòng: chưa xác định** (chưa có văn bản phân vùng) — hồ sơ mẫu áp Vùng I cho Km36, Km51, Km89; ghi căn cứ khi chọn.
+- Vùng nhân công: Hà Nội — Vùng I, Khu vực 1; Hưng Yên — Phụng Công, Nghĩa Trụ, Văn Giang, Hoàn Long, Việt Yên, Yên Mỹ: Vùng II; Xuân Trúc, Phạm Ngũ Lão, Ân Thi: Vùng III; Hải Phòng theo QĐ 65: Vùng I, **trừ xã Hà Đông (Km64+900 ÷ Km72+900) là Vùng II**. Đoạn Hà Nội có thêm cột `ma_vung_nhan_cong_khac` = `HN-V1` (QĐ 2036) — `tra --ly-trinh` in cả hai phương án.
 - Cần kiểm tra trong danh sách gốc: Nguyễn Lương Bằng (đến Km42+640) và Bình Giang (từ Km42+200) chồng nhau 440 m; đoạn Km1+400 ÷ Km1+800 chiều HP-HN chưa ghi xã.
 
 ## Ghi chú đối chiếu

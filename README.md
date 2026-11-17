@@ -25,7 +25,7 @@ Skill cho Claude (claude.ai, Claude Code) để **bóc khối lượng, áp mã 
 | Việc | Cách làm | Ghi chú |
 |---|---|---|
 | Bóc khối lượng | Theo `references/do-boc-khoi-luong.md`; đo DXF theo layer: `scripts/boc_kl_dxf.py` | Mỗi dòng có diễn giải và nguồn bản vẽ; người lập duyệt từng hạng mục |
-| Áp mã định mức | `dutoan.py tra --tu-khoa "..."` / `--ma` / `--cap-phoi` | ~8.880 mã TT 38; hồ sơ sửa chữa tự áp hệ số PL VI mục 3.b; bê tông chọn mác theo cấp phối PL VII |
+| Áp mã định mức | `dutoan.py tra --tu-khoa "..."` / `--ma` / `--cap-phoi` | 9.136 mã TT 38; hồ sơ sửa chữa tự áp hệ số PL VI mục 3.b; bê tông chọn mác theo cấp phối PL VII |
 | Giá tài nguyên | `dutoan.py can-gia` lập danh sách tài nguyên cần giá × từng vùng (`--nhan-cong` điền sẵn giá nhân công theo văn bản Sở XD); `tra --tai-nguyen` dò tên trong danh mục ~2.381 tài nguyên TT 38 | Giá vật liệu, ca máy **không đóng gói** — mỗi hồ sơ lấy công bố kỳ hiện hành; giá nhân công chuyển đổi (HN, HY, HP) có sẵn để điền và đối chiếu |
 | Lập dự toán | `dutoan.py tinh` → Excel có công thức sống, làm tròn từng bước nếu cần | 4 chế độ chi phí, 2 mẫu trình bày (dưới đây) |
 | Tra tỷ lệ | `dutoan.py ty-le` | QLDA (nội suy, hệ số), quản lý chủ sở hữu TT 40, khảo sát Bảng 5.1–5.3, tư vấn Bảng 6.1, mua sắm thiết bị Bảng 2.3 |
@@ -33,7 +33,7 @@ Skill cho Claude (claude.ai, Claude Code) để **bóc khối lượng, áp mã 
 | Thẩm tra hồ sơ có sẵn | `soat_file_excel.py` (ô lỗi, liên kết ngoài, sheet ẩn, văn bản hết hiệu lực…); `nhap_du_toan_excel.py` (tính lại từng khối đơn giá, chỉ ra công thức sai); `nhap_ks_excel.py` (nhập hồ sơ khảo sát có sẵn, tính lại theo PL V, chỉ ra chênh lệch, tái lập bằng skill) | Báo cáo chênh lệch kèm căn cứ |
 | Tính giá ca máy | `scripts/gia_ca_may.py` theo PL IV TT 37/2026 (CCM = CKH + CSC + CNL + CNC + CCPK, giá chờ đợi, CCMĐC); `references/phuong-phap-gia-ca-may.md` | Mới ở v2.0 — hiện chỉ 3 máy mẫu kiểm chứng tay đến đồng; bảng đủ ~908 máy để v2.1 |
 | Chênh lệch vật tư | Sheet `CL_VT` trong file Excel xuất ra (giá gốc vs giá hiện tại) khi nhập `don_gia_goc` trong `gia_tai_nguyen.csv` | Mới ở v2.0 — chỉ mẫu `bang_3_8`; mẫu `doan_vung` chưa có (v2.1) |
-| Template Word | `templates/word/` (W1 thuyết minh/thẩm tra, W2 biên bản nghiệm thu, W3 tờ trình/quyết định/công văn), tạo bằng `scripts/tao_mau_word.py` | Mới ở v2.0 |
+| Template Word | `templates/word/` (W1 thuyết minh/thẩm tra, W2 biên bản nghiệm thu, W3 tờ trình/quyết định/công văn); tạo lại: `python scripts/tao_mau_word.py --ra templates/word` | Mới ở v2.0 |
 
 ## Phạm vi v2.0 — tính năng mới và việc chưa làm
 
@@ -109,16 +109,16 @@ Cấu trúc file dữ liệu: `references/chuan-bi-du-lieu.md`. Dữ liệu từ
 
 | File | Nội dung |
 |---|---|
-| `dinh_muc_tt38.csv.gz` | ~8.960 mã PL I–VI, từng dòng hao phí (tên tài nguyên đúng như TT 38) |
-| `danh_muc_tai_nguyen_tt38.csv.gz` | ~2.381 tài nguyên (nhân công, máy, vật liệu), đơn vị, số mã dùng, cách viết khác |
-| `cap_phoi_tt38.csv.gz`, `hao_hut_tt38.csv.gz` | 378 cấp phối vữa (PL VII), bảng hao hụt PL VII Phần 2 |
-| `danh_muc_ma_tt38.csv.gz` | Danh mục mã, phụ lục, chương, nhóm |
-| `ma_can_kiem_tra.csv.gz` | 79 mã cần đối chiếu văn bản (bảng gốc trình bày phức tạp) và 5 ghi chú — soát S18 cảnh báo khi dùng |
+| `dinh_muc_tt38_p1..p3.csv` | 9.136 mã PL I–VI, 54.190 dòng hao phí (tên tài nguyên đúng như TT 38); trên repo chia 3 phần, script đọc được cả file gộp hoặc `.csv.gz` |
+| `danh_muc_tai_nguyen_tt38.csv` | 2.433 tài nguyên (nhân công, máy, vật liệu), đơn vị, số mã dùng, cách viết khác |
+| `cap_phoi_tt38.csv`, `hao_hut_tt38.csv` | 378 cấp phối vữa (PL VII), bảng hao hụt PL VII Phần 2 |
+| `danh_muc_ma_tt38.csv` | Danh mục mã, phụ lục, chương, nhóm |
+| `ma_can_kiem_tra.csv` | 6 mã chưa kết luận (DA.50002/03, DB.10201, DB.17001/02, MS.07201) — soát S18 cảnh báo khi dùng |
 | `bao_cao_trich.md`, `bao_cao_sua_bang_khoi.md`, `bao_cao_bo_sung_luoi.md`, `so_sanh_ban_goc_cv9947.md` | Báo cáo trích, sửa lỗi trích, so sánh bản gốc và bản thay thế |
 
-**Giá nhân công tham chiếu** (`data/nhan-cong/`): giá chuyển đổi theo nhóm của Sở XD Hà Nội (CV 14502), Hưng Yên (CV 3385), Hải Phòng (CV 7546), kèm phạm vi vùng, khu vực — hiệu lực đến khi có văn bản thay thế; dùng cho `can-gia --nhan-cong` và soát S22. Kèm danh sách 32 xã, phường theo lý trình tuyến cao tốc Hà Nội – Hải Phòng: `dutoan.py tra --ly-trinh Km36+200` → xã, tỉnh, vùng nhân công.
+**Giá nhân công tham chiếu** (`data/nhan-cong/`): giá chuyển đổi theo nhóm của Sở XD Hà Nội (CV 14502), Hưng Yên (CV 3385), Hải Phòng (CV 7546, phạm vi vùng theo QĐ 65/QĐ-SXD) và giá theo phương pháp mới của Hà Nội (QĐ 2036/QĐ-SXD, 26/10/2026 — chọn văn bản theo `references/can-cu-phap-ly.md`), kèm phạm vi vùng, khu vực; dùng cho `can-gia --nhan-cong` và soát S22. Kèm danh sách 32 xã, phường theo lý trình tuyến cao tốc Hà Nội – Hải Phòng: `dutoan.py tra --ly-trinh Km36+200` → xã, tỉnh, vùng nhân công.
 
-Giới hạn: 14 khối mã chưa có trong dữ liệu (danh sách tại `references/tt38-quy-dinh-ap-dung.md` mục 6 — tra văn bản); PL VII (ngoài cấp phối bê tông, hao hụt) và các bảng tư vấn PL VIII chưa trích thành dữ liệu — PL VIII mới có Bảng 1.1 QLDA. **Trước khi dùng cho hồ sơ thật, đối chiếu ngẫu nhiên vài mã với văn bản gốc.**
+Giới hạn: 14 khối mã thiếu ở v1 đã bổ sung (16/11/2026); còn 58 mã lệch GXD chưa kết luận (`references/doi-chieu-gxd.md`). PL VII (ngoài cấp phối bê tông, hao hụt) và các bảng tư vấn PL VIII chưa trích thành dữ liệu — PL VIII mới có Bảng 1.1 QLDA. **Trước khi dùng cho hồ sơ thật, đối chiếu ngẫu nhiên vài mã với văn bản gốc.**
 
 Tạo lại khi có bộ phụ lục mới:
 

@@ -906,6 +906,9 @@ def soat(dl, kl_rows, cfg, ngay_lap=None):
             if mv not in ma_vung_tc:
                 kq.append(("S22", "CANH_BAO", f"Vùng {v}: mã vùng nhân công '{mv}' không có trong data/nhan-cong (có: {', '.join(sorted(ma_vung_tc))})"))
                 continue
+            gc = next((r["ghi_chu_soat"] for k, r in tc.items() if k[0] == mv and r.get("ghi_chu_soat")), "")
+            if gc:
+                kq.append(("S22", "THONG_TIN", f"Vùng {v} ({mv}): {gc}"))
             for ma_tn, h in dl.tai_nguyen_dung(ma_dung).items():
                 if h["loai"] != "NC":
                     continue

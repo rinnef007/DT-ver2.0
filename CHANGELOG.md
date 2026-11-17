@@ -80,4 +80,25 @@
   `tbDinhMuc` từ cơ sở dữ liệu GXD (6 dòng, trùng khớp). Xóa BA.31002 khỏi
   `ma_can_kiem_tra.csv`. Kiểm chứng sau sửa: `tra --ma BA.31002` ra đủ 7 dòng;
   6 ví dụ chạy lại khớp đúng đến đồng (vi-du 140.434.146; tt38 87.295.481; doan
-  151.531.785; tt40 104.694.588; khao-sat 13.115.401; nha-de-xe 280.339.863).
+  151.531.785; tt40 104.694.588; khao-sat 13.115.401; nha-de-xe 280.339.863 — số trước
+  khi áp đề xuất Giai đoạn 2; sau GĐ2 là 287.562.073).
+
+## [2.0.1] — 2026-11-17
+- **Giá nhân công Hà Nội theo QĐ 2036/QĐ-SXD (26/10/2026, phương pháp mới):** thêm mã vùng
+  `HN-V1`, `HN-V2` vào `data/nhan-cong/gia_nhan_cong_chuyen_doi_2026.csv` (10 loại nhân công × 2
+  vùng, nhập từ bản docx người dùng cung cấp). Giữ nguyên bộ CV 14502 (`HN-V1-KV1/KV2/V2`) vì QĐ
+  2036 không bãi bỏ CV 14502 và TT 37 Điều 2 k2 ghi mốc 01/01/2027 cho giá theo phương pháp mới
+  — câu hỏi mở chọn văn bản ghi tại `references/can-cu-phap-ly.md` mục 1. Vùng I của QĐ 2036 =
+  Vùng I KV1 ∪ KV2 của QĐ 3461 (đối chiếu 104/104 tên).
+- **Phạm vi vùng Hải Phòng theo QĐ 65/QĐ-SXD (14/01/2026):** gán vùng cho 20 xã, phường Hải
+  Phòng trên tuyến cao tốc HN–HP — 19 Vùng I, **xã Hà Đông (Km64+900 ÷ Km72+900) Vùng II**.
+  `tra --ly-trinh` không còn trả "chưa xác định" cho đoạn Hải Phòng.
+- CSV nhân công thêm cột `phuong_phap` (`chuyen_doi`/`moi`) và `ghi_chu_soat`; S22 in THÔNG TIN
+  theo `ghi_chu_soat` khi hồ sơ dùng mã vùng Hà Nội (nhắc chọn CV 14502 / QĐ 2036 và ghi căn cứ).
+  `xa_phuong_tuyen_hn_hp.csv` thêm `ma_vung_nhan_cong_khac`, `can_cu_vung_khac`; `tra --ly-trinh`
+  in thêm "Phương án khác" cho đoạn Hà Nội.
+- Tài liệu khớp dữ liệu sau Giai đoạn 2: 9.136 mã, 54.190 dòng, 2.433 tài nguyên, 6 mã cần kiểm
+  tra; bỏ ghi chú "14 khối mã chưa có" (đã kiểm chứng đủ 14 khối trong `danh_muc_ma`); bảng dữ liệu
+  README đổi `.csv.gz` → `.csv`. Commit 3 template Word W1/W2/W3 (tạo bằng `tao_mau_word.py`).
+- Ngày rà soát pháp lý: 17/11/2026 (chỉ bổ sung QĐ 2036, QĐ 65; các văn bản khác giữ kết quả 16/11).
+- Kiểm chứng: 6 ví dụ khớp baseline đến đồng (không ví dụ nào dùng mã vùng nhân công).
