@@ -1,0 +1,150 @@
+﻿muc,ma,noi_dung,phi_phan_nghin,loai_khau_tru,nhom_cha
+PL III Mục I (lắp đặt TB < 50%),1.1.1,Không có tầng hầm,"0,8",M,"Các tòa nhà chung cư, nhà ở tập thể khác cấp II trở lên"
+PL III Mục I (lắp đặt TB < 50%),1.1.2,Có 1 tới 2 tầng hầm,"1,2",M,"Các tòa nhà chung cư, nhà ở tập thể khác cấp II trở lên"
+PL III Mục I (lắp đặt TB < 50%),1.1.3,Có trên 2 tầng hầm,"1,5",M,"Các tòa nhà chung cư, nhà ở tập thể khác cấp II trở lên"
+PL III Mục I (lắp đặt TB < 50%),1.2.1.1,Không có tầng hầm,"0,8",M,"1.2.1 Công trình giáo dục, đào tạo, nghiên cứu cấp II trở lên"
+PL III Mục I (lắp đặt TB < 50%),1.2.1.2,Có 1 tới 2 tầng hầm,"1,2",M,"1.2.1 Công trình giáo dục, đào tạo, nghiên cứu cấp II trở lên"
+PL III Mục I (lắp đặt TB < 50%),1.2.1.3,Có trên 2 tầng hầm,"1,5",M,"1.2.1 Công trình giáo dục, đào tạo, nghiên cứu cấp II trở lên"
+PL III Mục I (lắp đặt TB < 50%),1.2.2.1,Không có tầng hầm,"0,8",M,1.2.2 Công trình y tế cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),1.2.2.2,Có 1 tới 2 tầng hầm,"1,2",M,1.2.2 Công trình y tế cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),1.2.2.3,Có trên 2 tầng hầm,"1,5",M,1.2.2 Công trình y tế cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),1.2.3.1,Công trình thể thao ngoài trời,"1,5",M,1.2.3 Công trình thể thao cấp II trở lên: Sân vận động; nhà thi đấu (các môn thể thao); bể bơi; sân thi đấu các môn thể thao có khán đài
+PL III Mục I (lắp đặt TB < 50%),1.2.3.2,Công trình thể thao trong nhà,"1,4",M,1.2.3 Công trình thể thao cấp II trở lên: Sân vận động; nhà thi đấu (các môn thể thao); bể bơi; sân thi đấu các môn thể thao có khán đài
+PL III Mục I (lắp đặt TB < 50%),1.2.3.3,Các công trình thể thao khác,"1,2",M,1.2.3 Công trình thể thao cấp II trở lên: Sân vận động; nhà thi đấu (các môn thể thao); bể bơi; sân thi đấu các môn thể thao có khán đài
+PL III Mục I (lắp đặt TB < 50%),1.2.4.1,Không có tầng hầm,"0,8",M,"1.2.4 Công trình văn hóa cấp II trở lên: Trung tâm hội nghị, nhà hát, nhà văn hóa, câu lạc bộ, rạp chiếu phim, rạp xiếc, vũ trường; các công trình di tích; công trình tu bổ, bảo quản, phục hồi di tích; bảo tàng, thư viện, triển lãm; nhà trưng bày; tượng đài ngoài trời; công trình vui chơi, giải trí; công trình văn hóa tập trung đông người và các công trình khác có chức năng tương đương"
+PL III Mục I (lắp đặt TB < 50%),1.2.4.2,Có 1 tới 2 tầng hầm,"1,2",M,"1.2.4 Công trình văn hóa cấp II trở lên: Trung tâm hội nghị, nhà hát, nhà văn hóa, câu lạc bộ, rạp chiếu phim, rạp xiếc, vũ trường; các công trình di tích; công trình tu bổ, bảo quản, phục hồi di tích; bảo tàng, thư viện, triển lãm; nhà trưng bày; tượng đài ngoài trời; công trình vui chơi, giải trí; công trình văn hóa tập trung đông người và các công trình khác có chức năng tương đương"
+PL III Mục I (lắp đặt TB < 50%),1.2.4.3,Có trên 2 tầng hầm,"1,5",M,"1.2.4 Công trình văn hóa cấp II trở lên: Trung tâm hội nghị, nhà hát, nhà văn hóa, câu lạc bộ, rạp chiếu phim, rạp xiếc, vũ trường; các công trình di tích; công trình tu bổ, bảo quản, phục hồi di tích; bảo tàng, thư viện, triển lãm; nhà trưng bày; tượng đài ngoài trời; công trình vui chơi, giải trí; công trình văn hóa tập trung đông người và các công trình khác có chức năng tương đương"
+PL III Mục I (lắp đặt TB < 50%),1.2.5.1,Không có tầng hầm,"1,1",M,"1.2.5 Công trình thương mại: Trung tâm thương mại, siêu thị cấp II trở lên; nhà hàng, cửa hàng ăn uống, giải khát và các cơ sở tương tự cấp II trở lên"
+PL III Mục I (lắp đặt TB < 50%),1.2.5.2,Có 1 tới 2 tầng hầm,"1,4",M,"1.2.5 Công trình thương mại: Trung tâm thương mại, siêu thị cấp II trở lên; nhà hàng, cửa hàng ăn uống, giải khát và các cơ sở tương tự cấp II trở lên"
+PL III Mục I (lắp đặt TB < 50%),1.2.5.3,Có trên 2 tầng hầm,"1,7",M,"1.2.5 Công trình thương mại: Trung tâm thương mại, siêu thị cấp II trở lên; nhà hàng, cửa hàng ăn uống, giải khát và các cơ sở tương tự cấp II trở lên"
+PL III Mục I (lắp đặt TB < 50%),1.2.6.1,Không có tầng hầm,"1,1",M,"1.2.6 Công trình dịch vụ cấp II trở lên: Khách sạn, nhà khách, nhà nghỉ; khu nghỉ dưỡng; biệt thự lưu trú; căn hộ lưu trú và các cơ sở tương tự; bưu điện, bưu cục, cơ sở cung cấp dịch vụ bưu chính, viễn thông khác"
+PL III Mục I (lắp đặt TB < 50%),1.2.6.2,Có 1 tới 2 tầng hầm,"1,4",M,"1.2.6 Công trình dịch vụ cấp II trở lên: Khách sạn, nhà khách, nhà nghỉ; khu nghỉ dưỡng; biệt thự lưu trú; căn hộ lưu trú và các cơ sở tương tự; bưu điện, bưu cục, cơ sở cung cấp dịch vụ bưu chính, viễn thông khác"
+PL III Mục I (lắp đặt TB < 50%),1.2.6.3,Có trên 2 tầng hầm,"1,7",M,"1.2.6 Công trình dịch vụ cấp II trở lên: Khách sạn, nhà khách, nhà nghỉ; khu nghỉ dưỡng; biệt thự lưu trú; căn hộ lưu trú và các cơ sở tương tự; bưu điện, bưu cục, cơ sở cung cấp dịch vụ bưu chính, viễn thông khác"
+PL III Mục I (lắp đặt TB < 50%),1.2.7.1,Không có tầng hầm,"1,1",M,"1.2.7 Công trình trụ sở, văn phòng làm việc cấp II trở lên: Các tòa nhà sử dụng làm trụ sở, văn phòng làm việc"
+PL III Mục I (lắp đặt TB < 50%),1.2.7.2,Có 1 tới 2 tầng hầm,"1,4",M,"1.2.7 Công trình trụ sở, văn phòng làm việc cấp II trở lên: Các tòa nhà sử dụng làm trụ sở, văn phòng làm việc"
+PL III Mục I (lắp đặt TB < 50%),1.2.7.3,Có trên 2 tầng hầm,"1,7",M,"1.2.7 Công trình trụ sở, văn phòng làm việc cấp II trở lên: Các tòa nhà sử dụng làm trụ sở, văn phòng làm việc"
+PL III Mục I (lắp đặt TB < 50%),1.2.8.1,Không có tầng hầm,"1,1",M,"1.2.8 Các công trình đa năng hoặc hỗn hợp cấp II trở lên: Các tòa nhà, kết cấu khác sử dụng đa năng hoặc hỗn hợp khác"
+PL III Mục I (lắp đặt TB < 50%),1.2.8.2,Có 1 tới 2 tầng hầm,"1,4",M,"1.2.8 Các công trình đa năng hoặc hỗn hợp cấp II trở lên: Các tòa nhà, kết cấu khác sử dụng đa năng hoặc hỗn hợp khác"
+PL III Mục I (lắp đặt TB < 50%),1.2.8.3,Có trên 2 tầng hầm,"1,7",M,"1.2.8 Các công trình đa năng hoặc hỗn hợp cấp II trở lên: Các tòa nhà, kết cấu khác sử dụng đa năng hoặc hỗn hợp khác"
+PL III Mục I (lắp đặt TB < 50%),1.2.9.1,Không có tầng hầm,"0,8",M,1.2.9 Công trình phục vụ dân sinh khác cấp II trở lên: Các tòa nhà hoặc kết cấu khác được xây dựng phục vụ dân sinh
+PL III Mục I (lắp đặt TB < 50%),1.2.9.2,Có 1 tới 2 tầng hầm,"1,2",M,1.2.9 Công trình phục vụ dân sinh khác cấp II trở lên: Các tòa nhà hoặc kết cấu khác được xây dựng phục vụ dân sinh
+PL III Mục I (lắp đặt TB < 50%),1.2.9.3,Có trên 2 tầng hầm,"1,5",M,1.2.9 Công trình phục vụ dân sinh khác cấp II trở lên: Các tòa nhà hoặc kết cấu khác được xây dựng phục vụ dân sinh
+PL III Mục I (lắp đặt TB < 50%),2.1.1,"Cơ sở sản xuất xi măng; sản xuất clinke công suất từ 100.000 tấn clinke/năm trở lên; cơ sở sản xuất gạch, ngói, tấm lợp fibro xi măng có công suất từ 100 triệu viên gạch, ngói quy chuẩn/năm trở lên hoặc 500.000 m2 tấm lợp fibro xi măng/năm trở lên; cơ sở sản xuất gạch ốp lát các loại có công suất từ 500.000 m2/năm trở lên; cơ sở sản xuất nguyên vật liệu xây dựng khác có công suất từ 50.000 tấn sản phẩm/năm trở lên; cơ sở sản xuất bê tông nhựa nóng, bê tông thương phẩm và các loại có công suất từ 100 tấn sản phẩm/ngày trở lên","2,6",M,"2.1 Công trình sản xuất vật liệu, sản phẩm xây dựng cấp II trở lên"
+PL III Mục I (lắp đặt TB < 50%),2.1.2,Các loại mỏ khai thác vật liệu xây dựng cấp II trở lên,"2,6",M,"2.1 Công trình sản xuất vật liệu, sản phẩm xây dựng cấp II trở lên"
+PL III Mục I (lắp đặt TB < 50%),2.1.3,Các công trình sản xuất vật liệu xây dựng cấp II trở lên khác,"2,4",M,"2.1 Công trình sản xuất vật liệu, sản phẩm xây dựng cấp II trở lên"
+PL III Mục I (lắp đặt TB < 50%),2.2.1,"Cơ sở cán, kéo kim loại có công suất từ 2.000 tấn sản phẩm/năm trở lên","1,9",M,2.2 Công trình luyện kim và cơ khí chế tạo cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.2.2,Nhà máy luyện kim có sử dụng nguyên liệu là phế liệu hoặc có công suất từ 1.000 tấn sản phẩm/năm trở lên đối với dự án sử dụng nguyên liệu khác,"2,1",M,2.2 Công trình luyện kim và cơ khí chế tạo cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.2.3,"Cơ sở sản xuất, sửa chữa, công-ten-nơ, rơ moóc có năng lực sản xuất từ 500 công-ten-nơ, rơ moóc/năm trở lên hoặc có năng lực sửa chữa từ 2.500 công-ten-nơ, rơ moóc/năm trở lên","2,1",M,2.2 Công trình luyện kim và cơ khí chế tạo cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.2.4,"Cơ sở đóng mới, sửa chữa, lắp ráp đầu máy, toa xe; cơ sở sản xuất, sửa chữa, lắp ráp xe máy, ô tô có công suất từ 5.000 xe máy/năm trở lên hoặc có công suất từ 500 ô tô/năm trở lên","1,9",M,2.2 Công trình luyện kim và cơ khí chế tạo cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.2.5,"Cơ sở đóng mới, sửa chữa tàu thủy cho tàu có trọng tải từ 1.000 DWT trở lên","2,1",N,2.2 Công trình luyện kim và cơ khí chế tạo cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.2.6,"Cơ sở chế tạo máy móc, thiết bị công cụ có công suất từ 1.000 tấn sản phẩm/năm trở lên","1,9",M,2.2 Công trình luyện kim và cơ khí chế tạo cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.2.7,"Cơ sở mạ, phun phủ và đánh bóng kim loại có công suất từ 500 tấn sản phẩm/năm trở lên","1,9",M,2.2 Công trình luyện kim và cơ khí chế tạo cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.2.8,"Cơ sở sản xuất nhôm, thép định hình có công suất từ 2.000 tấn sản phẩm/năm trở lên","2,3",N,2.2 Công trình luyện kim và cơ khí chế tạo cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.2.9,Nhà máy luyện kim và cơ khí chế tạo cấp II trở lên khác,"2,3",N,2.2 Công trình luyện kim và cơ khí chế tạo cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.3.1,"Công trình khai thác khoáng sản rắn (không sử dụng hóa chất chất độc hại, vật liệu nổ công nghiệp) có khối lượng mỏ (khoáng sản, đất đá thải) từ 50.000 m3 nguyên khai/năm trở lên hoặc có tổng khối lượng mỏ (khoáng sản, đất đá thải) từ 1.000.000 m3 nguyên khối trở lên","2,3",N,2.3 Công trình khai thác mỏ và chế biến khoáng sản cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.3.2,"Công trình khai thác cát, sỏi quy mô từ 50.000 m3 vật liệu nguyên khai/năm trở lên; công trình khai thác vật liệu san lấp mặt bằng quy mô từ 100.000 m3 vật liệu nguyên khai/năm trở lên","2,3",N,2.3 Công trình khai thác mỏ và chế biến khoáng sản cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.3.3,Công trình chế biến khoáng sản rắn không sử dụng hóa chất độc hại có công suất từ 50.000 m3 sản phẩm/năm trở lên hoặc có tổng lượng đất đá thải ra từ 500.000 m3 /năm trở lên,"2,3",N,2.3 Công trình khai thác mỏ và chế biến khoáng sản cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.3.4,"Công trình khai thác nước cấp cho hoạt động sản xuất, kinh doanh, dịch vụ và sinh hoạt có công suất khai thác từ 3.000 m3 nước/ngày đêm trở lên đối với nước dưới đất hoặc có công suất khai thác từ 50.000 m3 nước/ngày đêm trở lên đối với nước mặt","2,5",N,2.3 Công trình khai thác mỏ và chế biến khoáng sản cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.3.5,"Công trình khai thác nước khoáng thiên nhiên, nước nóng thiên nhiên (dưới đất hoặc lộ ra trên mặt đất) có công suất khai thác từ 200 m3 nước/ngày đêm trở lên đối với nước sử dụng để đóng chai hoặc có công suất khai thác từ 500 m3 nước/ngày đêm trở lên đối với nước sử dụng cho mục đích khác","2,5",N,2.3 Công trình khai thác mỏ và chế biến khoáng sản cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.3.6,Các công trình khai thác mỏ và chế biến khoáng sản cấp II trở lên khác,"4,0",N,2.3 Công trình khai thác mỏ và chế biến khoáng sản cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.4.1,"Nhà máy lọc dầu, chế biến khí cấp II trở lên; nhà máy lọc hóa dầu (trừ các dự án chiết nạp LPG, pha chế dầu nhờn), sản xuất sản phẩm hóa dầu, dung dịch khoan, hóa phẩm dầu khí có công suất từ 500 tấn sản phẩm/năm trở lên; tuyến đường ống dẫn dầu, khí có chiều dài từ 20 km trở lên; xây dựng tuyến đường ống dẫn dầu, khí; khu trung chuyển dầu, khí","5,0",M,2.4 Công trình dầu khí cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.4.2,"Kho xăng dầu, cửa hàng kinh doanh xăng dầu có dung tích chứa từ 200 m3 trở lên","3,0",M,2.4 Công trình dầu khí cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.5.1,Nhà máy nhiệt điện cấp II trở lên,"3,0",N,2.5 Công trình năng lượng cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.5.2,Nhà máy phong điện (trang trại gió) cấp II trở lên hoặc có diện tích từ 100 ha trở lên,"3,0",N,2.5 Công trình năng lượng cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.5.3,Nhà máy quang điện (trang trại điện mặt trời) cấp II trở lên hoặc có diện tích từ 100 ha trở lên,"2,6",N,2.5 Công trình năng lượng cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.5.4,Nhà máy thủy điện cấp II trở lên hoặc có dung tích hồ chứa từ 100.000 m3 nước trở lên hoặc công suất từ 10 MW trở lên,"7,5",M,2.5 Công trình năng lượng cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.5.5,Tuyến đường dây tải điện 110 kV trở lên; trạm điện công suất 500 kV,"2,5",M,2.5 Công trình năng lượng cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.5.6,"Nhà máy sản xuất, gia công các thiết bị điện tử, linh kiện điện, điện tử công suất từ 500.000 sản phẩm/năm trở lên; thiết bị điện có công suất từ 500 tấn sản phẩm/năm trở lên","1,5",M,2.5 Công trình năng lượng cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.5.7,Các công trình năng lượng khác cấp II trở lên,"2,0",M,2.5 Công trình năng lượng cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),2.6.1.1,Nhà máy sản xuất phân hóa học có công suất từ 1.000 tấn sản phẩm/năm trở lên,"1,5",M,"2.6.1 Công trình sản xuất phân bón, thuốc bảo vệ thực vật"
+PL III Mục I (lắp đặt TB < 50%),2.6.1.2,"Kho chứa thuốc bảo vệ thực vật từ 500 tấn trở lên, phân bón từ 5.000 tấn trở lên","1,5",M,"2.6.1 Công trình sản xuất phân bón, thuốc bảo vệ thực vật"
+PL III Mục I (lắp đặt TB < 50%),2.6.1.3,Cơ sở sản xuất thuốc bảo vệ thực vật,"1,2",N,"2.6.1 Công trình sản xuất phân bón, thuốc bảo vệ thực vật"
+PL III Mục I (lắp đặt TB < 50%),2.6.1.4,"Cơ sở sang chai, đóng gói thuốc bảo vệ thực vật có công suất từ 300 tấn sản phẩm/năm trở lên","1,2",N,"2.6.1 Công trình sản xuất phân bón, thuốc bảo vệ thực vật"
+PL III Mục I (lắp đặt TB < 50%),2.6.1.5,"Cơ sở sản xuất phân hữu cơ, phân vi sinh có công suất từ 10.000 tấn sản phẩm/năm trở lên","1,2",N,"2.6.1 Công trình sản xuất phân bón, thuốc bảo vệ thực vật"
+PL III Mục I (lắp đặt TB < 50%),2.6.2.1,"Cơ sở sản xuất dược phẩm; cơ sở sản xuất thuốc thú y, nguyên liệu làm thuốc (bao gồm cả nguyên liệu hóa dược và tá dược) có công suất từ 50 tấn sản phẩm/năm","2,0",N,"2.6.2 Công trình hóa chất, dược phẩm, mỹ phẩm, nhựa, chất dẻo"
+PL III Mục I (lắp đặt TB < 50%),2.6.2.2,Cơ sở sản xuất hóa mỹ phẩm có công suất từ 50 tấn sản phẩm/năm trở lên,"2,0",N,"2.6.2 Công trình hóa chất, dược phẩm, mỹ phẩm, nhựa, chất dẻo"
+PL III Mục I (lắp đặt TB < 50%),2.6.2.3,"Cơ sở sản xuất hóa chất, chất dẻo, các sản phẩm từ chất dẻo, sơn có công suất từ 100 tấn sản phẩm/năm trở lên","2,0",N,"2.6.2 Công trình hóa chất, dược phẩm, mỹ phẩm, nhựa, chất dẻo"
+PL III Mục I (lắp đặt TB < 50%),2.6.2.4,"Cơ sở sản xuất các sản phẩm nhựa, hạt nhựa có công suất từ 1.000 tấn sản phẩm/năm trở lên","2,0",N,"2.6.2 Công trình hóa chất, dược phẩm, mỹ phẩm, nhựa, chất dẻo"
+PL III Mục I (lắp đặt TB < 50%),2.6.2.5,"Cơ sở sản xuất chất tẩy rửa, phụ gia có công suất từ 1.000 tấn sản phẩm/năm trở lên","2,0",N,"2.6.2 Công trình hóa chất, dược phẩm, mỹ phẩm, nhựa, chất dẻo"
+PL III Mục I (lắp đặt TB < 50%),2.6.2.6,"Cơ sở sản xuất thuốc phóng, thuốc nổ, hỏa cụ","3,0",N,"2.6.2 Công trình hóa chất, dược phẩm, mỹ phẩm, nhựa, chất dẻo"
+PL III Mục I (lắp đặt TB < 50%),2.6.2.7,Cơ sở sản xuất thuốc nổ công nghiệp; kho chứa thuốc nổ cố định từ 5 tấn trở lên; kho chứa hóa chất từ 500 tấn trở lên,"3,0",N,"2.6.2 Công trình hóa chất, dược phẩm, mỹ phẩm, nhựa, chất dẻo"
+PL III Mục I (lắp đặt TB < 50%),2.6.2.8,Vùng sản xuất muối từ nước biển có diện tích từ 100 ha trở lên,"1,5",N,"2.6.2 Công trình hóa chất, dược phẩm, mỹ phẩm, nhựa, chất dẻo"
+PL III Mục I (lắp đặt TB < 50%),2.6.3,Các công trình hóa chất cấp II trở lên khác,"2,0",N,"2.6.2 Công trình hóa chất, dược phẩm, mỹ phẩm, nhựa, chất dẻo"
+PL III Mục I (lắp đặt TB < 50%),2.7.1.1,"Cơ sở sơ chế, chế biến lương thực, thực phẩm có công suất từ 500 tấn sản phẩm/năm trở lên","1,8",M,"2.7.1 Công trình sản xuất, chế biến thực phẩm"
+PL III Mục I (lắp đặt TB < 50%),2.7.1.2,"Cơ sở giết mổ gia súc, gia cầm tập trung có công suất từ 200 gia súc/ngày trở lên; 3.000 gia cầm/ngày trở lên","1,8",M,"2.7.1 Công trình sản xuất, chế biến thực phẩm"
+PL III Mục I (lắp đặt TB < 50%),2.7.1.3,"Cơ sở chế biến thủy sản, bột cá, các phụ phẩm thủy sản có công suất từ 100 tấn sản phẩm/năm trở lên","1,8",M,"2.7.1 Công trình sản xuất, chế biến thực phẩm"
+PL III Mục I (lắp đặt TB < 50%),2.7.1.4,Cơ sở sản xuất đường có công suất từ 10.000 tấn đường/năm trở lên,"1,8",M,"2.7.1 Công trình sản xuất, chế biến thực phẩm"
+PL III Mục I (lắp đặt TB < 50%),2.7.1.5,"Cơ sở sản xuất cồn, rượu có công suất từ 500.000 lít sản phẩm/năm trở lên","1,8",M,"2.7.1 Công trình sản xuất, chế biến thực phẩm"
+PL III Mục I (lắp đặt TB < 50%),2.7.1.6,"Cơ sở sản xuất bia, nước giải khát có công suất từ 10.000.000 lít sản phẩm/năm trở lên","1,8",M,"2.7.1 Công trình sản xuất, chế biến thực phẩm"
+PL III Mục I (lắp đặt TB < 50%),2.7.1.7,Cơ sở sản xuất bột ngọt có công suất từ 5.000 tấn sản phẩm/năm trở lên,"1,8",M,"2.7.1 Công trình sản xuất, chế biến thực phẩm"
+PL III Mục I (lắp đặt TB < 50%),2.7.1.8,"Cơ sở sản xuất, chế biến sữa có công suất từ 10.000 tấn sản phẩm/năm trở lên","1,8",M,"2.7.1 Công trình sản xuất, chế biến thực phẩm"
+PL III Mục I (lắp đặt TB < 50%),2.7.1.9,"Cơ sở sản xuất, chế biến dầu ăn có công suất từ 10.000 tấn sản phẩm/năm trở lên","1,8",M,"2.7.1 Công trình sản xuất, chế biến thực phẩm"
+PL III Mục I (lắp đặt TB < 50%),2.7.1.10,"Cơ sở sản xuất bánh, kẹo có công suất từ 5.000 tấn sản phẩm/năm trở lên","1,8",M,"2.7.1 Công trình sản xuất, chế biến thực phẩm"
+PL III Mục I (lắp đặt TB < 50%),2.7.1.11,"Cơ sở sản xuất nước lọc, nước tinh khiết đóng chai có công suất từ 2.000 m3 nước/năm trở lên","1,8",M,"2.7.1 Công trình sản xuất, chế biến thực phẩm"
+PL III Mục I (lắp đặt TB < 50%),2.7.2.1,"Cơ sở sản xuất thuốc lá điếu, cơ sở chế biến nguyên liệu thuốc lá có công suất từ 100.000.000 điếu/năm trở lên hoặc có công suất từ 1.000 tấn nguyên liệu/năm trở lên","1,5",M,2.7.2 Công trình chế biến nông sản
+PL III Mục I (lắp đặt TB < 50%),2.7.2.2,"Cơ sở sản xuất, chế biến nông sản, tinh bột các loại có công suất từ 10.000 tấn sản phẩm/năm trở lên đối với công nghệ sản xuất, chế biến khô hoặc có công suất từ 1.000 tấn sản phẩm/năm trở lên đối với công nghệ sản xuất, chế biến ướt","1,5",M,2.7.2 Công trình chế biến nông sản
+PL III Mục I (lắp đặt TB < 50%),2.7.2.3,"Cơ sở chế biến chè, hạt điều, ca cao, cà phê, hạt tiêu công suất từ 5.000 tấn sản phẩm/năm trở lên đối với công nghệ chế biến khô hoặc có công suất từ 1.000 tấn sản phẩm/năm trở lên đối với công nghệ chế biến ướt","1,5",M,2.7.2 Công trình chế biến nông sản
+PL III Mục I (lắp đặt TB < 50%),2.7.3.1,"Cơ sở chế biến gỗ, dăm gỗ từ gỗ tự nhiên có công suất từ 3.000 m3 sản phẩm/năm trở lên","2,0",M,"2.7.3 Công trình chế biến gỗ, sản xuất thủy tinh, gốm sứ"
+PL III Mục I (lắp đặt TB < 50%),2.7.3.2,Cơ sở sản xuất ván ép có công suất từ 100.000 m2 /năm trở lên,"2,0",M,"2.7.3 Công trình chế biến gỗ, sản xuất thủy tinh, gốm sứ"
+PL III Mục I (lắp đặt TB < 50%),2.7.3.3,"Cơ sở sản xuất đồ gỗ có tổng diện tích kho, bãi, nhà xưởng từ 10.000 m2 trở lên","2,0",M,"2.7.3 Công trình chế biến gỗ, sản xuất thủy tinh, gốm sứ"
+PL III Mục I (lắp đặt TB < 50%),2.7.3.4,"Nhà máy sản xuất bóng đèn, phích nước có công suất từ 1.000.000 sản phẩm/năm trở lên","1,5",M,"2.7.3 Công trình chế biến gỗ, sản xuất thủy tinh, gốm sứ"
+PL III Mục I (lắp đặt TB < 50%),2.7.3.5,"Nhà máy sản xuất đồ gốm sứ, thủy tinh có công suất từ 1.000 tấn sản phẩm/năm hoặc 10.000 sản phẩm/năm trở lên","1,2",M,"2.7.3 Công trình chế biến gỗ, sản xuất thủy tinh, gốm sứ"
+PL III Mục I (lắp đặt TB < 50%),2.7.4.1,Cơ sở sản xuất bột giấy và giấy từ nguyên liệu thô có công suất từ 300 tấn sản phẩm/năm trở lên,"2,0",M,2.7.4 Công trình sản xuất giấy và văn phòng phẩm
+PL III Mục I (lắp đặt TB < 50%),2.7.4.2,"Cơ sở sản xuất giấy, bao bì cát tông từ bột giấy hoặc phế liệu có công suất từ 5.000 tấn sản phẩm/năm trở lên","2,0",M,2.7.4 Công trình sản xuất giấy và văn phòng phẩm
+PL III Mục I (lắp đặt TB < 50%),2.7.4.3,Cơ sở sản xuất văn phòng phẩm có công suất từ 1.000 tấn sản phẩm/năm trở lên,"2,0",M,2.7.4 Công trình sản xuất giấy và văn phòng phẩm
+PL III Mục I (lắp đặt TB < 50%),2.7.5.1,"Cơ sở nhuộm, dệt có nhuộm","1,5",M,2.7.5 Công trình về dệt nhuộm và may mặc
+PL III Mục I (lắp đặt TB < 50%),2.7.5.2,Cơ sở dệt không nhuộm có công suất từ 10.000.000 m2 vải/năm trở lên,"1,2",M,2.7.5 Công trình về dệt nhuộm và may mặc
+PL III Mục I (lắp đặt TB < 50%),2.7.5.3,"Cơ sở sản xuất và gia công các sản phẩm dệt, may có công suất từ 50.000 sản phẩm/năm trở lên nếu có công đoạn giặt tẩy hoặc có công suất từ 2.000.000 sản phẩm/năm trở lên nếu không có công đoạn giặt tẩy","1,2",M,2.7.5 Công trình về dệt nhuộm và may mặc
+PL III Mục I (lắp đặt TB < 50%),2.7.5.4,Cơ sở giặt là công nghiệp công suất từ 50.000 sản phẩm/năm trở lên,"1,2",M,2.7.5 Công trình về dệt nhuộm và may mặc
+PL III Mục I (lắp đặt TB < 50%),2.7.5.5,"Cơ sở sản xuất sợi tơ tằm, sợi bông, sợi nhân tạo có công suất từ 1.000 tấn sản phẩm/năm trở lên","1,2",M,2.7.5 Công trình về dệt nhuộm và may mặc
+PL III Mục I (lắp đặt TB < 50%),2.7.6.1,Cơ sở chế biến thức ăn chăn nuôi có công suất từ 1.000 tấn sản phẩm/năm trở lên,"1,0",M,2.7.6 Cơ sở chăn nuôi và chế biến thức ăn chăn nuôi
+PL III Mục I (lắp đặt TB < 50%),2.7.6.2,"Cơ sở nuôi trồng thủy sản có diện tích mặt nước từ 10 ha trở lên, riêng các dự án nuôi quảng canh từ 50 ha trở lên","4,0",M,2.7.6 Cơ sở chăn nuôi và chế biến thức ăn chăn nuôi
+PL III Mục I (lắp đặt TB < 50%),2.7.6.3,"Cơ sở chăn nuôi gia súc, gia cầm có quy mô chuồng trại từ 1.000 m2 trở lên: Cơ sở chăn nuôi, chăm sóc động vật hoang dã tập trung có quy mô chuồng trại từ 500 m2 trở lên","1,0",M,2.7.6 Cơ sở chăn nuôi và chế biến thức ăn chăn nuôi
+PL III Mục I (lắp đặt TB < 50%),2.7.7.1,"Cơ sở chế biến cao su, mủ cao su có công suất từ 1.000 tấn sản phẩm/năm trở lên","1,5",M,2.7.7 Công trình công nghiệp nhẹ khác
+PL III Mục I (lắp đặt TB < 50%),2.7.7.2,Cơ sở sản xuất các sản phẩm trang thiết bị y tế từ nhựa và cao su y tế có công suất từ 100.000 sản phẩm/năm trở lên,"1,5",M,2.7.7 Công trình công nghiệp nhẹ khác
+PL III Mục I (lắp đặt TB < 50%),2.7.7.3,Cơ sở sản xuất giày dép có công suất từ 1.000.000 đôi/năm trở lên,"1,5",M,2.7.7 Công trình công nghiệp nhẹ khác
+PL III Mục I (lắp đặt TB < 50%),2.7.7.4,"Cơ sở sản xuất săm lốp cao su các loại (riêng cơ sở sản xuất săm lốp cao su ô tô, máy kéo có công suất từ 50.000 sản phẩm/năm trở lên; cơ sở sản xuất săm lốp cao su xe đạp, xe máy có công suất từ 100.000 sản phẩm/năm trở lên)","1,8",M,2.7.7 Công trình công nghiệp nhẹ khác
+PL III Mục I (lắp đặt TB < 50%),2.7.7.5,"Dự án xây dựng cơ sở sản xuất mực in, vật liệu ngành in khác có công suất từ 500 tấn mực in và từ 1.000 sản phẩm/năm trở lên đối với các vật liệu ngành in khác","1,8",M,2.7.7 Công trình công nghiệp nhẹ khác
+PL III Mục I (lắp đặt TB < 50%),2.7.7.6,"Cơ sở sản xuất ắc quy, pin có công suất từ 50.000 KWh/năm trở lên hoặc từ 100 tấn sản phẩm/năm trở lên","2,5",M,2.7.7 Công trình công nghiệp nhẹ khác
+PL III Mục I (lắp đặt TB < 50%),2.7.7.7,Cơ sở thuộc da,"1,8",M,2.7.7 Công trình công nghiệp nhẹ khác
+PL III Mục I (lắp đặt TB < 50%),2.7.7.8,"Cơ sở sản xuất gas CO2 chiết nạp hóa lỏng, khí công nghiệp có công suất từ 3.000 tấn sản phẩm/năm trở lên","2,5",M,2.7.7 Công trình công nghiệp nhẹ khác
+PL III Mục I (lắp đặt TB < 50%),2.7.7.9,"Cơ sở phá dỡ tàu cũ, vệ sinh súc rửa tàu","3,0",M,2.7.7 Công trình công nghiệp nhẹ khác
+PL III Mục I (lắp đặt TB < 50%),3.1.1,"Nhà máy nước, công trình xử lý nước sạch","3,0",N,3.1 Công trình cấp nước cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),3.1.2,Trạm bơm nước thô hoặc nước sạch hoặc tăng áp (gồm cả trạm bơm và bể chứa nếu trạm bơm đặt trên bể chứa),"2,0",N,3.1 Công trình cấp nước cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),3.2.1,Hồ điều hòa,"5,0",N,3.2 Công trình thoát nước cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),3.2.2,Trạm bơm nước mưa (gồm cả trạm bơm và bể chứa nếu trạm bơm đặt trên bể chứa),"3,0",N,3.2 Công trình thoát nước cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),3.2.3,Công trình xử lý nước thải,"3,0",N,3.2 Công trình thoát nước cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),3.2.4,Trạm bơm nước thải (gồm cả trạm bơm và bể chứa nếu trạm bơm đặt trên bể chứa),"3,0",N,3.2 Công trình thoát nước cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),3.2.5,Công trình xử lý bùn,"4,0",N,3.2 Công trình thoát nước cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),3.2.6,"Xây dựng mới hoặc cải tạo hệ thống thoát nước đô thị, thoát nước khu dân cư có chiều dài công trình từ 10 km trở lên","2,5",N,3.2 Công trình thoát nước cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),3.3.1,Cơ sở xử lý chất thải rắn thông thường,"2,5",N,3.3 Công trình xử lý chất thải rắn cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),3.3.2,"Cơ sở tái chế, xử lý chất thải rắn nguy hại có công suất từ 10 tấn/ngày trở lên","2,5",N,3.3 Công trình xử lý chất thải rắn cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),3.4,"Công trình hạ tầng kỹ thuật viễn thông thụ động cấp II trở lên: Nhà, trạm viễn thông, cột ăng ten, cột treo cáp","2,5",N,3.3 Công trình xử lý chất thải rắn cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),3.5,Nhà tang lễ; cơ sở hỏa táng cấp II trở lên,"1,0",N,3.3 Công trình xử lý chất thải rắn cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),3.6.1,Bãi đỗ xe ngầm,"4,5",N,"3.6 Nhà để xe (ngầm và nổi), cống, bể, hào, hầm tuy nen kỹ thuật cấp II trở lên"
+PL III Mục I (lắp đặt TB < 50%),3.6.2,Bãi đỗ xe nổi,"1,2",N,"3.6 Nhà để xe (ngầm và nổi), cống, bể, hào, hầm tuy nen kỹ thuật cấp II trở lên"
+PL III Mục I (lắp đặt TB < 50%),3.6.3,"Cống, bể, hào, hầm tuy nen kỹ thuật","1,5",N,"3.6 Nhà để xe (ngầm và nổi), cống, bể, hào, hầm tuy nen kỹ thuật cấp II trở lên"
+PL III Mục I (lắp đặt TB < 50%),4.1.1,Đường ô tô cao tốc mọi cấp,"4,0",N,4.1 Đường bộ
+PL III Mục I (lắp đặt TB < 50%),4.1.2,"Đường ô tô, đường trong đô thị cấp II trở lên","2,5",N,4.1 Đường bộ
+PL III Mục I (lắp đặt TB < 50%),4.1.3,Bến phà cấp II trở lên,"5,0",N,4.1 Đường bộ
+PL III Mục I (lắp đặt TB < 50%),4.1.4,Bến xe; cơ sở đăng kiểm phương tiện giao thông đường bộ; trạm thu phí; trạm dừng nghỉ cấp II trở lên,"2,0",N,4.1 Đường bộ
+PL III Mục I (lắp đặt TB < 50%),4.2.1,Đường sắt mọi cấp: Đường sắt quốc gia; đường sắt địa phương (Đường sắt đô thị: Đường sắt trên cao); đường sắt chuyên dùng,"4,0",N,4.2 Đường sắt
+PL III Mục I (lắp đặt TB < 50%),4.2.2,Đường sắt mọi cấp: Đường sắt địa phương (Đường sắt đô thị: Đường tàu điện ngầm/Metro),"5,9",N,4.2 Đường sắt
+PL III Mục I (lắp đặt TB < 50%),4.2.3,"Ga hành khách cấp II trở lên; Ga hàng hóa, ga kỹ thuật và ga hỗn hợp cấp II trở lên; khu tập kết bảo dưỡng, sửa chữa tàu (đề-pô) cấp II trở lên.","2,0",N,4.2 Đường sắt
+PL III Mục I (lắp đặt TB < 50%),4.3.1,Cầu đường bộ,"6,0 (đối với mỗi cấp tăng thêm cộng 0,1‰ phí bảo hiểm)",N,4.3 Cầu cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),4.3.2,Cầu bộ hành,"2,0 (đối với mỗi cấp tăng thêm cộng 0,1 ‰ phí bảo hiểm)",N,4.3 Cầu cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),4.3.3,Cầu đường sắt,"6,0 (đối với mỗi cấp tăng thêm cộng 0,1 ‰ phí bảo hiểm)",N,4.3 Cầu cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),4.3.4,Cầu phao,"6,0 (đối với mỗi cấp tăng thêm cộng 0,1 ‰ phí bảo hiểm)",N,4.3 Cầu cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),4.4.1,"Hầm cấp II trở lên: Hầm đường ô tô, hầm đường sắt, hầm cho người đi bộ","11,0",N,4.4 Hầm
+PL III Mục I (lắp đặt TB < 50%),4.4.2,Hầm tàu điện ngầm (Metro) mọi cấp,"11,0",N,4.4 Hầm
+PL III Mục I (lắp đặt TB < 50%),4.5.1,"Cảng, bến thủy nội địa (cho hành khách) cấp II trở lên","7,0",N,4.5 Công trình đường thủy nội địa cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),4.5.2,"Đường thủy có bề rộng (B) và độ sâu (H) nước chạy tàu (bao gồm cả phao tiêu, công trình chính trị) cấp II trở lên","8,0",N,4.5 Công trình đường thủy nội địa cấp II trở lên
+PL III Mục I (lắp đặt TB < 50%),4.6.1,"Bến/cảng biển, bến phà (cho hành khách) cấp II trở lên","10,0",N,4.6 Công trình hàng hải
+PL III Mục I (lắp đặt TB < 50%),4.6.2,Công trình hàng hải khác cấp II trở lên,"10,0",N,4.6 Công trình hàng hải
+PL III Mục I (lắp đặt TB < 50%),4.7.1,Nhà ga hàng không; khu bay (bao gồm cả các công trình bảo đảm hoạt động bay),"3,0",N,4.7 Công trình hàng không
+PL III Mục I (lắp đặt TB < 50%),4.8.1,Để vận chuyển người mọi cấp,"5,0",N,4.8 Tuyến cáp treo và nhà ga
+PL III Mục I (lắp đặt TB < 50%),4.8.2,Để vận chuyển hàng hóa cấp II trở lên,"4,0",N,4.8 Tuyến cáp treo và nhà ga
+PL III Mục I (lắp đặt TB < 50%),5.1.1,Công trình cấp nước cấp II trở lên,"5,0",N,5.1 Công trình thủy lợi
+PL III Mục I (lắp đặt TB < 50%),5.1.2,Hồ chứa nước cấp III trở lên,"8,0",N,5.1 Công trình thủy lợi
+PL III Mục I (lắp đặt TB < 50%),5.1.3,Đập ngăn nước và các công trình thủy lợi chịu áp khác cấp III trở lên,"10,0",N,5.1 Công trình thủy lợi
+PL III Mục I (lắp đặt TB < 50%),5.2,Công trình đê điều mọi cấp,"10,0",N,5.1 Công trình thủy lợi

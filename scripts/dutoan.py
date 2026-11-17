@@ -25,7 +25,7 @@ from collections import defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from dutoan_core import (BANG_TY_LE_TT40, DuLieu, khoa_ten, nhan_cong_tham_chieu, vung_nhan_cong, ap_cap_phoi, ap_he_so_sua_chua, bo_dau, fmt, in_soat,  # noqa: E402
+from dutoan_core import (BANG_TY_LE_TT40, DuLieu, khoa_ten, nhan_cong_tham_chieu, ngay_ap_gia, vung_nhan_cong, ap_cap_phoi, ap_he_so_sua_chua, bo_dau, fmt, in_soat,  # noqa: E402
                          kiem_tra_nac_ks, kiem_tra_nac_tt40, la_khao_sat, la_tt40, nap_config, nap_khoi_luong, noi_suy, soat, tinh_bang_3_8,
                          tinh_doan_vung)
 
@@ -84,8 +84,10 @@ def cmd_tra(a):
         if not kq:
             print(f"Km{int(km)}+{round((km - int(km)) * 1000):03d}: ngoài danh sách xã, phường tuyến cao tốc Hà Nội – Hải Phòng (Km0-420 ÷ Km105+450)")
             return 1
-        tc = nhan_cong_tham_chieu()
-        ten_vung = {k[0]: v["ten_vung"] for k, v in tc.items()}
+        from dutoan_core import nhan_cong_tat_ca
+        ten_vung = {}
+        for r in nhan_cong_tat_ca():
+            ten_vung[r["ma_vung"]] = r["ten_vung"] + (f" ({r['van_ban'].split(' Sở')[0]}, đến {r['hieu_luc_den']})" if r.get("hieu_luc_den") else f" ({r['van_ban'].split(' Sở')[0]}, từ {r.get('hieu_luc_tu') or '…'})")
         print(f"Km{int(km)}+{round((km - int(km)) * 1000):03d} — tuyến cao tốc Hà Nội – Hải Phòng:")
         for r in kq:
             mv = r["ma_vung_nhan_cong"]
@@ -301,7 +303,7 @@ def cmd_can_gia(a):
     thu_tu = {"VL": 0, "NC": 1, "M": 2}
     cot = ["ma_tn", "ten_tn", "don_vi", "loai", "vung", "don_gia", "nguon", "ngay_ap_dung", "khu_vuc", "ty_le_luong", "dung_o_ma"]
     out, thieu, dien = [], 0, 0
-    tc = nhan_cong_tham_chieu() if a.nhan_cong else {}
+    tc = nhan_cong_tham_chieu(ngay_ap_gia(cfg)[0]) if a.nhan_cong else {}
     vnc = vung_nhan_cong(cfg)
     for m, h in sorted(tn.items(), key=lambda x: (thu_tu.get(x[1]["loai"], 9), bo_dau(x[0]))):
         for v in vung:
@@ -325,7 +327,7 @@ def cmd_can_gia(a):
     print(f"{len(tn)} tài nguyên × {len(vung)} vùng = {len(out)} dòng; {thieu} dòng chưa có giá"
           + (f"; điền sẵn {dien} giá nhân công từ văn bản Sở XD (data/nhan-cong)" if dien else "") + f". Đã ghi {a.ra}")
     if a.nhan_cong and not vnc:
-        print("[CHÚ Ý] --nhan-cong: config chưa gán vùng nhân công — thêm \"nhan_cong\": \"HN-V1-KV1\" (HY-V2, HP-V1…) vào từng vùng")
+        print("[CHÚ Ý] --nhan-cong: config chưa gán vùng nhân công — thêm \"nhan_cong\": \"HN-V1\" (HY-V2, HP-V1…) vào từng vùng")
     if khong_co:
         print(f"[CHÚ Ý] {len(khong_co)} mã trong khối lượng không có trong dữ liệu định mức: " + ", ".join(khong_co[:20]))
     print("Điền don_gia (chưa GTGT), nguon (số/ngày công bố của Sở XD), ngay_ap_dung (yyyy-mm-dd) theo công bố giá kỳ hiện hành, "

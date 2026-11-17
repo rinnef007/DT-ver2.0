@@ -27,7 +27,7 @@ Khi áp mã cho hồ sơ lập trước 01/7/2026, xác định trước hồ s�
 
 - **Dự toán đã nộp thẩm định mà đến 01/7/2026 chưa có thông báo kết quả thẩm định (k5):** cơ quan chuyên môn **dừng thẩm định, trả lại hồ sơ**; chủ đầu tư tự tổ chức thẩm định, phê duyệt dự toán theo NĐ 206 — tức áp mã theo TT 38/2026, không dùng mã TT 12/2021 đã hết hiệu lực. Trường hợp đã có thông báo kết quả thẩm định thì tổng hợp ý kiến, cập nhật rồi thẩm định, phê duyệt theo NĐ 206.
 - **TMĐT đã nộp thẩm định mà đến 01/7/2026 chưa có kết quả (k3):** cơ quan chuyên môn tiếp tục thẩm định theo nội dung thẩm định của NĐ 206; chủ đầu tư cập nhật TMĐT theo NĐ 206 rồi trình thẩm định, phê duyệt.
-- **Khoảng trống:** Điều 36 không có quy định riêng cho gói thầu đã phát hành HSMT nhưng chưa ký hợp đồng — không tự điền quy tắc khi gặp trường hợp này.
+- **Khoảng trống:** Điều 36 không có quy định riêng cho gói thầu đã phát hành HSMT nhưng chưa ký hợp đồng — không tự điền quy tắc khi gặp trường hợp này (NĐ 210/2026 Điều 33 chỉ quy định chuyển tiếp cho điều khoản hợp đồng).
 
 ## Cấu trúc mã hiệu
 Mã gồm phần chữ (chương/nhóm) và phần số (công tác, quy cách), ví dụ `AB.25102` = tiền tố bảng `AB.2510` + hậu tố cột `2` (cấp đất II). 9.136 mã PL I–VI đã trích vào `data/tt38/` — tra bằng `dutoan.py tra`. Một số mã đã đổi so với TT 12/2021 (vd. bê tông móng AF.1121x → AF.11210/AF.11220 với vật liệu 'Vữa bê tông'; bê tông nền sửa chữa SB.4114x → SB.41140). Danh mục chương thực tế lấy từ dữ liệu: `python scripts/dutoan.py tra --data <dir> --chuong` liệt kê các tiền tố có trong bộ định mức đã nạp. Không đoán tên chương từ trí nhớ.

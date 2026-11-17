@@ -102,3 +102,23 @@
   README đổi `.csv.gz` → `.csv`. Commit 3 template Word W1/W2/W3 (tạo bằng `tao_mau_word.py`).
 - Ngày rà soát pháp lý: 17/11/2026 (chỉ bổ sung QĐ 2036, QĐ 65; các văn bản khác giữ kết quả 16/11).
 - Kiểm chứng: 6 ví dụ khớp baseline đến đồng (không ví dụ nào dùng mã vùng nhân công).
+
+## [2.0.2] — 2026-11-17
+- **Giá nhân công theo thời hạn hiệu lực.** `gia_nhan_cong_chuyen_doi_2026.csv` thêm `hieu_luc_tu`, `hieu_luc_den`;
+  `can-gia --nhan-cong` và S22 chọn văn bản hiệu lực tại `thoi_diem_ap_gia` (yyyy-mm-dd; yyyy-mm lấy cuối tháng và
+  cảnh báo nếu trong tháng có mốc đổi văn bản). S22 cảnh báo khi mã vùng của hồ sơ không còn văn bản hiệu lực (chỉ mã
+  thay thế), nhắc khi văn bản đang dùng quá 12 tháng. Script mới `scripts/cap_nhat_nhan_cong.py` thêm văn bản công bố
+  định kỳ (năm/quý) và đóng thời hạn văn bản cũ; test mới `tests/test_nhan_cong.py`.
+- **Hà Nội: QĐ 2036/QĐ-SXD đang áp dụng từ 26/10/2026** (người dùng xác nhận 17/11/2026); CV 14502 hiệu lực
+  01/7–25/10/2026. Tra lý trình đoạn Hà Nội trả `HN-V1` làm mã chính.
+- **Sửa lỗi v2.0.1:** mã `HN-V2` có ở cả CV 14502 và QĐ 2036; `nhan_cong_tham_chieu()` gộp theo (mã vùng, tên) nên
+  dòng nạp sau ghi đè dòng trước — Vùng II Hà Nội luôn ra giá QĐ 2036 bất kể văn bản người lập chọn. Nay phân biệt
+  bằng thời hạn hiệu lực (test chồng lấn phát hiện lỗi này).
+- **Đọc toàn văn TT 37/2026 Điều 1–4 và PL III.** Đính chính: Điều 2 k1 **không ghi ngày kết thúc** bảng chuyển đổi;
+  câu "chỉ tạm thời đến hết 31/12/2026" là suy luận — đã sửa ở `SKILL.md`, `chuan-bi-du-lieu.md`,
+  `tt38-quy-dinh-ap-dung.md`, `data/nhan-cong/README.md` (mục lịch sử CHANGELOG giữ nguyên).
+- **NĐ 209/2026** (VLXD), **NĐ 210/2026** (hợp đồng XD), **NĐ 220/2026** (bảo hiểm bắt buộc) → [ĐÃ ĐỐI CHIẾU].
+  NĐ 210 Điều 33 ghi vào mục 2 chuyển tiếp — chỉ lấp khoảng trống HSMT đã phát hành ở phần điều khoản hợp đồng.
+- Dữ liệu mới `data/bao-hiem/`: tỷ lệ phí (‰) và loại khấu trừ PL III NĐ 220 (Mục I 149 dòng, Mục II 195 dòng),
+  bảng mức khấu trừ M/N; câu hỏi mở về công tác sửa chữa, bảo trì. Chưa có lệnh tra (v2.1).
+- Kiểm chứng: 6 ví dụ khớp baseline đến đồng; 3 test dữ liệu nhân công đạt.

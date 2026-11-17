@@ -1,0 +1,8 @@
+﻿gia_tri_bao_hiem_trieu_dong,M_thien_tai,M_rui_ro_khac,N_thien_tai,N_rui_ro_khac
+Giá trị dưới 10.000,100,20,150,40
+Từ 10.000 đến dưới 20.000,150,30,200,40
+Từ 20.000 đến dưới 100.000,200,60,300,80
+Từ 100.000 đến dưới 600.000,300,80,500,150
+Từ 600.000 đến dưới 700.000,500,100,700,200
+Từ 700.000 đến dưới 1.000.000,700,200,1.000,400
+Từ 1.000.000 trở lên,"Tối thiểu 700 triệu đồng hoặc 5% giá trị tổn thất, tùy số nào lớn hơn","Tối thiểu 200 triệu đồng hoặc 5% giá trị tổn thất, tùy số nào lớn hơn","Tối thiểu 1.000 triệu đồng hoặc 5% giá trị tổn thất, tùy số nào lớn hơn","Tối thiểu 400 triệu đồng hoặc 5% giá trị tổn thất, tùy số nào lớn hơn"

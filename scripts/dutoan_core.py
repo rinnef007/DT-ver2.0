@@ -25,12 +25,53 @@ BANG_TY_LE_TT40 = os.path.join(SKILL_ROOT, "data", "bang_ty_le_tt40_2026.json")
 NHAN_CONG_TC = os.path.join(SKILL_ROOT, "data", "nhan-cong", "gia_nhan_cong_chuyen_doi_2026.csv")
 
 
-def nhan_cong_tham_chieu():
-    """Giá nhân công chuyển đổi theo nhóm (văn bản Sở XD) — {(ma_vung, khoá tên): bản ghi}."""
+def _ngay_iso(s):
+    try:
+        return datetime.strptime((s or "").strip(), "%Y-%m-%d").date()
+    except ValueError:
+        return None
+
+
+def con_hieu_luc(r, ngay):
+    """Dòng giá nhân công còn hiệu lực tại `ngay` (hieu_luc_tu <= ngay <= hieu_luc_den; trống = không giới hạn)."""
+    tu, den = _ngay_iso(r.get("hieu_luc_tu")), _ngay_iso(r.get("hieu_luc_den"))
+    return (tu is None or tu <= ngay) and (den is None or ngay <= den)
+
+
+def nhan_cong_tat_ca():
+    """Mọi dòng giá nhân công tham chiếu (mọi văn bản, mọi kỳ)."""
+    return doc_csv(NHAN_CONG_TC) or []
+
+
+def nhan_cong_tham_chieu(ngay=None):
+    """Giá nhân công theo văn bản Sở XD còn hiệu lực tại `ngay` — {(ma_vung, khoá tên): bản ghi}.
+
+    `ngay` = None: lấy dòng đang hiệu lực hôm nay; mã vùng không còn dòng nào hiệu lực hôm nay thì
+    giữ dòng có hieu_luc_tu muộn nhất (để tra cứu tên vùng, lịch sử)."""
+    rows = nhan_cong_tat_ca()
+    ngay_xet = ngay or date.today()
     out = {}
-    for r in doc_csv(NHAN_CONG_TC) or []:
-        out[(r["ma_vung"], khoa_ten(r["ten_tn"]))] = r
+    for r in sorted(rows, key=lambda r: r.get("hieu_luc_tu") or ""):
+        k = (r["ma_vung"], khoa_ten(r["ten_tn"]))
+        if con_hieu_luc(r, ngay_xet):
+            out[k] = r
+        elif ngay is None and k not in out:
+            out[k] = r
     return out
+
+
+def ngay_ap_gia(cfg):
+    """(ngày dùng để chọn văn bản giá, ghi chú). thoi_diem_ap_gia: yyyy-mm-dd, yyyy-mm (lấy ngày cuối tháng) hoặc trống (hôm nay)."""
+    s = ((cfg or {}).get("thoi_diem_ap_gia") or "").strip()
+    d = _ngay_iso(s)
+    if d:
+        return d, ""
+    m = re.fullmatch(r"(\d{4})-(\d{1,2})", s)
+    if m:
+        y, mo = int(m.group(1)), int(m.group(2))
+        nxt = date(y + (mo == 12), mo % 12 + 1, 1)
+        return date.fromordinal(nxt.toordinal() - 1), f"thoi_diem_ap_gia '{s}' chỉ có tháng — lấy ngày cuối tháng"
+    return date.today(), ("thoi_diem_ap_gia trống — lấy ngày hôm nay" if not s else f"thoi_diem_ap_gia '{s}' không đọc được (dùng yyyy-mm-dd) — lấy ngày hôm nay")
 
 
 def vung_nhan_cong(cfg):
@@ -900,13 +941,37 @@ def soat(dl, kl_rows, cfg, ngay_lap=None):
                 kq.append(("S07", "CANH_BAO", f"Giá {ma_tn}: ngày áp dụng '{g['ngay']}' sai định dạng yyyy-mm-dd"))
     vnc = vung_nhan_cong(cfg)
     if vnc:
-        tc = nhan_cong_tham_chieu()
-        ma_vung_tc = {k[0] for k in tc}
+        d_gia, gc_ngay = ngay_ap_gia(cfg)
+        tc = nhan_cong_tham_chieu(d_gia)
+        tat_ca = nhan_cong_tat_ca()
+        ma_vung_all = {r["ma_vung"] for r in tat_ca}
+        if gc_ngay:
+            kq.append(("S22", "THONG_TIN", f"Chọn văn bản giá nhân công theo ngày {d_gia:%d/%m/%Y} ({gc_ngay})"))
         for v, mv in vnc.items():
-            if mv not in ma_vung_tc:
-                kq.append(("S22", "CANH_BAO", f"Vùng {v}: mã vùng nhân công '{mv}' không có trong data/nhan-cong (có: {', '.join(sorted(ma_vung_tc))})"))
+            if mv not in ma_vung_all:
+                kq.append(("S22", "CANH_BAO", f"Vùng {v}: mã vùng nhân công '{mv}' không có trong data/nhan-cong (có: {', '.join(sorted(ma_vung_all))})"))
                 continue
-            gc = next((r["ghi_chu_soat"] for k, r in tc.items() if k[0] == mv and r.get("ghi_chu_soat")), "")
+            dong = [r for r in tat_ca if r["ma_vung"] == mv]
+            hl = [r for r in dong if con_hieu_luc(r, d_gia)]
+            if not hl:
+                tinh = dong[0]["tinh"]
+                thay = sorted({r["ma_vung"] for r in tat_ca if r["tinh"] == tinh and con_hieu_luc(r, d_gia)})
+                vb = "; ".join(sorted({f"{r['van_ban']} ({r.get('hieu_luc_tu') or '…'} → {r.get('hieu_luc_den') or '…'})" for r in dong}))
+                kq.append(("S22", "CANH_BAO", f"Vùng {v}: mã '{mv}' không có văn bản giá nhân công hiệu lực tại {d_gia:%d/%m/%Y} ({vb})"
+                           + (f" — văn bản hiệu lực của {tinh}: mã {', '.join(thay)}" if thay else "")))
+                continue
+            if "chỉ có tháng" in gc_ngay:
+                dau_thang = d_gia.replace(day=1)
+                moc = sorted({x for r in [r for r in tat_ca if r["tinh"] == dong[0]["tinh"]]
+                              for x in (_ngay_iso(r.get("hieu_luc_tu")), _ngay_iso(r.get("hieu_luc_den")))
+                              if x and dau_thang < x <= d_gia})
+                if moc:
+                    kq.append(("S22", "CANH_BAO", f"Vùng {v} ({mv}): văn bản giá nhân công {dong[0]['tinh']} thay đổi trong tháng áp giá (mốc {', '.join(f'{x:%d/%m/%Y}' for x in moc)}) — ghi thoi_diem_ap_gia đủ ngày (yyyy-mm-dd)"))
+            r0 = hl[0]
+            nvb = _ngay_iso(r0.get("ngay_van_ban"))
+            if nvb and (d_gia - nvb).days > 365:
+                kq.append(("S22", "THONG_TIN", f"Vùng {v} ({mv}): {r0['van_ban']} ngày {nvb:%d/%m/%Y} đã hơn 12 tháng — kiểm tra Sở XD đã công bố giá nhân công mới chưa"))
+            gc = next((r["ghi_chu_soat"] for r in hl if r.get("ghi_chu_soat")), "")
             if gc:
                 kq.append(("S22", "THONG_TIN", f"Vùng {v} ({mv}): {gc}"))
             for ma_tn, h in dl.tai_nguyen_dung(ma_dung).items():

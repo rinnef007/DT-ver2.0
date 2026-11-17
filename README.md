@@ -142,7 +142,8 @@ scripts/                 dutoan.py (dòng lệnh), dutoan_core.py (tính toán, 
                          nhap_tt38_doc.py, sua_tt38_bang_khoi.py, doc_bang_luoi.py, bo_sung_tt38_luoi.py, lap_danh_muc_tai_nguyen.py (dữ liệu TT 38), boc_kl_dxf.py
 data/                    tt38/ (định mức), bang_ty_le_tt36_2026.json, bang_ty_le_tt40_2026.json,
                          mau/ (mẫu file), vi-du*/ (ví dụ giá giả), gia-ca-may/ (định mức ca máy mẫu + giá ca máy mẫu),
-                         nhan-cong/ (giá nhân công chuyển đổi)
+                         nhan-cong/ (giá nhân công chuyển đổi và theo phương pháp mới),
+                         bao-hiem/ (phí, mức khấu trừ bảo hiểm công trình — PL III NĐ 220/2026)
 templates/word/          W1/W2/W3 (thuyết minh, biên bản, tờ trình/quyết định/công văn) + README cách dùng
 ```
 

@@ -52,7 +52,7 @@ Dùng cho vật liệu **không** có trong định mức dự toán (tính theo
 ## 5b. TT 37 Điều 2 k3 — chọn nhóm lao động khi định mức cũ chưa chuyển đổi; dự thảo TT sửa TT 38
 
 - **TT 37/2026 Điều 2 k3** [ĐÃ ĐỐI CHIẾU]: định mức trong bộ định mức chuyên ngành / địa phương ban hành trước 01/7/2026 chưa chuyển đổi sang nhóm lao động thì **chọn nhóm theo tính chất công việc** (Bảng 3.1 PL III TT 37). Đây là cơ chế dự phòng, không tự suy ra nhóm. Hạn chót TT 36 Điều 10 k1 (chuyển đổi định mức cũ sang nhóm lao động trước 01/9/2026) **đã qua**.
-- **Mốc 01/01/2027** (TT 37 Điều 2 k2): Sở XD tổ chức khảo sát, xác định giá nhân công XD theo phương pháp mới để công bố, **áp dụng từ 01/01/2027**; bảng chuyển đổi (k1) chỉ là tạm thời đến hết 31/12/2026. Xem `references/chuan-bi-du-lieu.md`.
+- **Mốc 01/01/2027** (TT 37 Điều 2 k2): Sở XD tổ chức khảo sát, xác định giá nhân công XD theo phương pháp mới để công bố, **áp dụng từ 01/01/2027**; bảng chuyển đổi (k1) không ghi ngày kết thúc (PL III Mục I.4 TT 37: dùng trong thời gian địa phương khảo sát). Xem `references/chuan-bi-du-lieu.md`.
 - **Dự thảo TT sửa đổi TT 38/2026** (Bộ XD lấy ý kiến, công bố 28/10/2026; chương trình soạn thảo QĐ 1759/QĐ-BXD 09/10/2026): sửa đổi định mức XD, định mức sửa chữa/bảo trì và định mức sử dụng vật liệu trong TT 38 — **chỉ là dự thảo, chưa ban hành tính đến 16/11/2026 — không áp dụng**; theo dõi lại trước khi chốt dữ liệu TT 38 (Giai đoạn 2).
 
 ## 6. Dữ liệu đã trích (`data/tt38/`)

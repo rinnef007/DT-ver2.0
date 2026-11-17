@@ -1,15 +1,25 @@
 # Giá nhân công xây dựng chuyển đổi theo nhóm — giai đoạn chuyển tiếp TT 37/2026
 
-`gia_nhan_cong_chuyen_doi_2026.csv` (tên file giữ nguyên để không đổi code; cột `phuong_phap` = `chuyen_doi` / `moi`, cột `ghi_chu_soat` là ghi chú S22 in ra khi hồ sơ dùng mã vùng đó): giá nhân công theo nhóm (Bảng 3.1 PL III TT 37/2026) do Sở Xây dựng chuyển đổi theo mục 4 Mục I PL III TT 37, áp dụng **từ 01/7/2026 đến khi có văn bản thay thế** (TT 37 Điều 2 k1; Sở XD công bố theo phương pháp mới từ 01/01/2027). Đơn vị: đồng/ngày công (8 giờ), chưa gồm các khoản bảo hiểm người sử dụng lao động nộp (đã tính trong chi phí chung), chưa gồm làm thêm giờ, ban đêm, nặng nhọc độc hại.
+`gia_nhan_cong_chuyen_doi_2026.csv` (tên file giữ nguyên để không đổi code; cột `phuong_phap` = `chuyen_doi` / `moi`, cột `ghi_chu_soat` là ghi chú S22 in ra khi hồ sơ dùng mã vùng đó): giá nhân công theo nhóm (Bảng 3.1 PL III TT 37/2026) do Sở Xây dựng chuyển đổi theo mục 4 Mục I PL III TT 37, áp dụng **từ 01/7/2026 đến khi có văn bản thay thế** (TT 37 Điều 2 k1 — không ghi ngày kết thúc; k2: Sở XD khảo sát theo phương pháp mới để công bố áp dụng từ 01/01/2027; PL III Mục I.4: chuyển đổi dùng trong thời gian địa phương khảo sát). Đơn vị: đồng/ngày công (8 giờ), chưa gồm các khoản bảo hiểm người sử dụng lao động nộp (đã tính trong chi phí chung), chưa gồm làm thêm giờ, ban đêm, nặng nhọc độc hại.
 
 Đây là dữ liệu tham chiếu, **không phải bảng giá của hồ sơ**: `can-gia --nhan-cong` dùng để điền sẵn giá nhân công; `soat` (S22) cảnh báo khi giá nhân công trong `gia_tai_nguyen.csv` khác văn bản. Khi Sở XD ban hành văn bản mới, cập nhật file này và ghi vào `references/can-cu-phap-ly.md`.
 
 | Tỉnh | Văn bản | Vùng / khu vực (`ma_vung`) |
 |---|---|---|
-| Hà Nội | CV 14502/SXD-KTXD ngày 02/7/2026 (Sở XD Hà Nội) — chuyển đổi | `HN-V1-KV1`, `HN-V1-KV2`, `HN-V2` — phạm vi khu vực theo QĐ 3461/QĐ-SXD ngày 22/12/2025 |
-| Hà Nội | QĐ 2036/QĐ-SXD ngày 26/10/2026 (Sở XD Hà Nội) — **phương pháp mới** | `HN-V1`, `HN-V2` — Vùng I = Vùng I KV1 + KV2 cũ; xem câu hỏi mở chọn văn bản tại `references/can-cu-phap-ly.md` mục 1 |
+| Hà Nội | CV 14502/SXD-KTXD ngày 02/7/2026 (Sở XD Hà Nội) — chuyển đổi, **hiệu lực 01/7–25/10/2026** | `HN-V1-KV1`, `HN-V1-KV2`, `HN-V2` — phạm vi khu vực theo QĐ 3461/QĐ-SXD ngày 22/12/2025 |
+| Hà Nội | QĐ 2036/QĐ-SXD ngày 26/10/2026 (Sở XD Hà Nội) — **phương pháp mới, đang áp dụng từ 26/10/2026** | `HN-V1`, `HN-V2` — Vùng I = Vùng I KV1 + KV2 cũ. Mã `HN-V2` dùng chung cho Vùng II của cả hai văn bản, phân biệt bằng thời hạn hiệu lực |
 | Hưng Yên | CV 3385/SXD-KT&VLXD ngày 02/7/2026 (Sở XD Hưng Yên) | `HY-V2`, `HY-V3`, `HY-V4` |
 | Hải Phòng | CV 7546/SXD-KTQLĐTXD ngày 07/7/2026 và phụ lục (Sở XD Hải Phòng) | `HP-V1`, `HP-V2` — phạm vi vùng theo QĐ 65/QĐ-SXD ngày 14/01/2026 |
+
+## Thời hạn hiệu lực và cập nhật định kỳ
+
+Mỗi dòng giá có `hieu_luc_tu`, `hieu_luc_den` (yyyy-mm-dd; trống = chưa có văn bản thay thế). `can-gia --nhan-cong`, soát S22 chọn dòng còn hiệu lực tại `thoi_diem_ap_gia` của hồ sơ (yyyy-mm-dd; chỉ ghi tháng thì lấy ngày cuối tháng và cảnh báo nếu trong tháng có mốc đổi văn bản; trống thì lấy hôm nay). Mã vùng của hồ sơ không còn văn bản hiệu lực tại ngày áp giá → S22 cảnh báo và chỉ mã vùng đang hiệu lực của tỉnh đó. Văn bản đang dùng đã quá 12 tháng → S22 nhắc kiểm tra công bố mới.
+
+Khi Sở XD công bố giá mới (theo năm, quý hoặc đột xuất):
+1. Lập `moi.csv` (ma_vung, ten_vung, ten_tn, ten_trong_van_ban, don_vi, don_gia) — `ten_tn` đúng tên TT 38; giữ mã vùng cũ nếu phạm vi vùng không đổi.
+2. `python scripts/cap_nhat_nhan_cong.py --tinh "<tỉnh>" --file moi.csv --van-ban "<số hiệu> Sở XD <tỉnh>" --ngay <ngày văn bản> --tu <ngày áp dụng>` (chạy thử), kiểm tra rồi thêm `--ghi`.
+3. Phạm vi vùng đổi → sửa mục "Phạm vi vùng" dưới đây và `xa_phuong_tuyen_hn_hp.csv`; ghi văn bản vào `references/can-cu-phap-ly.md`.
+4. `python -m unittest discover -s tests` — `test_nhan_cong` kiểm tra thời hạn không chồng lấn, mỗi tỉnh có văn bản hiệu lực hôm nay, mã vùng trên tuyến tồn tại.
 
 ## Phạm vi vùng / khu vực
 
@@ -33,7 +43,7 @@
 `xa_phuong_tuyen_hn_hp.csv`: 32 xã, phường theo lý trình Km0-420 ÷ Km105+450 (danh sách đơn vị cung cấp 16/10/2026), chia 3 khu vực tuyến; mỗi đoạn lý trình một dòng (`tu_km`, `den_km`, `chieu` khi chỉ áp cho một chiều HN-HP hoặc HP-HN), kèm mã vùng nhân công. Tra: `dutoan.py tra --ly-trinh Km36+200`.
 
 - Tỉnh: Khu vực 1 gồm Hà Nội (Long Biên, Gia Lâm, Bát Tràng) và Hưng Yên; Khu vực 2, 3 thuộc Hải Phòng. Danh sách gốc không ghi tỉnh — skill gán theo đoạn tuyến, khớp cách chọn vùng trong hồ sơ khảo sát mẫu (Km02 Hà Nội; Km08 Hưng Yên; Km36, Km51, Km89 Hải Phòng). **Không tra vùng theo tên xã**: nhiều tên trùng giữa các tỉnh (xã Hà Đông, xã An Khánh — Hải Phòng / phường Hà Đông, xã An Khánh — Hà Nội; xã Thượng Hồng — Hải Phòng / phường Thượng Hồng — Hưng Yên; xã Chí Minh — Hải Phòng / Hưng Yên).
-- Vùng nhân công: Hà Nội — Vùng I, Khu vực 1; Hưng Yên — Phụng Công, Nghĩa Trụ, Văn Giang, Hoàn Long, Việt Yên, Yên Mỹ: Vùng II; Xuân Trúc, Phạm Ngũ Lão, Ân Thi: Vùng III; Hải Phòng theo QĐ 65: Vùng I, **trừ xã Hà Đông (Km64+900 ÷ Km72+900) là Vùng II**. Đoạn Hà Nội có thêm cột `ma_vung_nhan_cong_khac` = `HN-V1` (QĐ 2036) — `tra --ly-trinh` in cả hai phương án.
+- Vùng nhân công: Hà Nội — Vùng I, Khu vực 1; Hưng Yên — Phụng Công, Nghĩa Trụ, Văn Giang, Hoàn Long, Việt Yên, Yên Mỹ: Vùng II; Xuân Trúc, Phạm Ngũ Lão, Ân Thi: Vùng III; Hải Phòng theo QĐ 65: Vùng I, **trừ xã Hà Đông (Km64+900 ÷ Km72+900) là Vùng II**. Đoạn Hà Nội: `ma_vung_nhan_cong` = `HN-V1` (QĐ 2036, từ 26/10/2026); `ma_vung_nhan_cong_khac` = `HN-V1-KV1` (CV 14502) cho hồ sơ áp giá trước 26/10/2026.
 - Cần kiểm tra trong danh sách gốc: Nguyễn Lương Bằng (đến Km42+640) và Bình Giang (từ Km42+200) chồng nhau 440 m; đoạn Km1+400 ÷ Km1+800 chiều HP-HN chưa ghi xã.
 
 ## Ghi chú đối chiếu
