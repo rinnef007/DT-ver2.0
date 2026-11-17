@@ -10,7 +10,23 @@ Trích ngày 17/11/2026 từ file đính kèm nhúng trong văn bản người d
 
 **Quy ước mã cột** (người dùng đồng ý 17/11/2026): bảng nhiều cột của CV 258 điền số cột vào 2 chữ số cuối theo hệ mã của văn bản (`10.010100.00`, cột 4 → `10.010100.04`); bảng nhiều cột CNTT thêm `_n` (`01.01.01.01_2`) vì văn bản đã có mã dạng `01.07.01.01.1`. Bảng một cột giữ nguyên mã.
 
-**Kèm theo:** `*/ghi_chu_*.csv` — ghi chú, hệ số, bảng hệ số (độ cao, dung lượng, cự ly…) và cách chọn mức độ phức tạp theo mã; `ma_can_kiem_tra_chuyen_nganh.csv` — 138 mục cần đối chiếu (công thức, mã sai trong văn bản, nhóm công, ô đơn vị trống); `anh_xa_nhan_cong.csv` — 64 tên nhân công theo cấp bậc, cột `ten_tn_gia`/`can_cu` để người lập chọn nhóm nhân công (TT 37 Điều 2 k3; skill không tự gán); `nhat_ky_trich.md` — nhật ký trích và áp QĐ 1235.
+**Kèm theo:** `*/ghi_chu_*.csv` — ghi chú, hệ số, bảng hệ số (độ cao, dung lượng, cự ly…) và cách chọn mức độ phức tạp theo mã; `ma_can_kiem_tra_chuyen_nganh.csv` — 138 mục cần đối chiếu (công thức, mã sai trong văn bản, nhóm công, ô đơn vị trống); `anh_xa_nhan_cong.csv` — 16 quy tắc chọn nhóm nhân công (người dùng yêu cầu chọn, 17/11/2026), áp khi nạp; `nhat_ky_trich.md` — nhật ký trích và áp QĐ 1235.
+
+**Nhân công — chọn nhóm (TT 37 Điều 2 k3: căn cứ tính chất công tác chọn nhóm theo Bảng 3.1 PL III; hao phí giữ nguyên, không quy đổi cấp bậc):**
+
+| Bộ / phạm vi | Công nhân, thợ | Kỹ sư |
+|---|---|---|
+| CNTT-1601 (lắp đặt, cài đặt thiết bị CNTT) | Nhóm 4 — "lắp đặt… thiết bị công nghệ, thông tin". Chương 2 (cáp mạng) cũng nhóm 4; có thể bị xem là nhóm 3 khi đi cáp trong công trình | "Kỹ sư" (III.1 — gần nhất) |
+| CNTT-1595 (tạo lập CSDL) | — | "Kỹ sư"; "nhóm công" × số người trong nhóm (vd. Nhóm 03 KS3 và 02 KS4: × 5); dòng đơn vị "công" ghi nhiều người giữ × 1 và S23 cảnh báo |
+| VT-258 Phần I, II, Chương 31 | Nhóm 1 (mặt bằng, bốc dỡ, vận chuyển, đào đắp) | — |
+| VT-258 Chương 32, 33 | Nhóm 2 (bê tông, xây, cốt thép) | — |
+| VT-258 Chương 34 | Nhóm 3 (lắp dựng cột, kết cấu thép) | — |
+| VT-258 Chương 35 | Nhóm 4 (lắp đặt cáp thông tin; có thể bị xem là nhóm 3) | — |
+| VT-258 Chương 36 | Nhóm 3 (tiếp đất, chống sét) | "Kỹ sư" |
+| VT-258 Phần IV (41–43) | Nhóm 4 (lắp đặt, cài đặt, đo thử thiết bị thông tin) | "Kỹ sư" (43 đo thử ≈ thí nghiệm) |
+| Thợ lặn (Chương 35) | "Thợ lặn" (III.2) | — |
+
+Nhiều cấp bậc trong một mã cùng về một nhóm thì cộng hao phí; tên gốc giữ ở trường `ten_goc`. Bảng 3.1 không có nhóm cho kỹ sư lắp đặt, cấu hình CNTT hay nhập liệu: dự án CNTT theo NĐ 224/2026 có thể định giá kỹ sư theo TT 07/2026/TT-BNV (phương pháp chuyên gia) hoặc báo giá — ghi căn cứ. Tắt việc đổi tên (giữ tên cấp bậc): điền giá theo tên gốc trong `gia_tai_nguyen.csv` và đặt `anh_xa_nc = False` trong mã gọi.
 
 **Cách dùng:** skill nạp các bộ này sau định mức hồ sơ và TT 38 (mã đã có ở hồ sơ hoặc TT 38 thì không ghi đè). Soát S23 nhắc nguồn, căn cứ, mã cần kiểm tra và ghi chú áp dụng. Giá nhân công: định mức ghi "Công nhân 4/7", "Kỹ sư 2/8"… — điền giá cho đúng tên đó trong `gia_tai_nguyen.csv` theo nhóm đã chọn, ghi căn cứ.
 

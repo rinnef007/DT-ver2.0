@@ -1,0 +1,61 @@
+{
+ "_ghi_chu": "VÍ DỤ - số liệu giả để kiểm thử; không dùng cho hồ sơ thật",
+ "che_do_chi_phi": "cntt_tt39",
+ "du_an": "VÍ DỤ - Nâng cấp mạng nội bộ và CSDL quản lý tài sản",
+ "loai_ho_so": "bcktkt",
+ "thoi_diem_ap_gia": "2026-11-17",
+ "vung_gia": "",
+ "kdp": 0.05,
+ "thue_gtgt_dinh_muc": 0.1,
+ "dinh_muc_chi_phi_chung": {
+  "ty_le": 0,
+  "can_cu": ""
+ },
+ "dinh_muc_thu_nhap": {
+  "ty_le": 0,
+  "can_cu": ""
+ },
+ "khoan_muc": [
+  {
+   "ma": "GMS",
+   "ten": "Switch, tường lửa, tủ rack, phần mềm",
+   "gia_tri": 850000000,
+   "phuong_phap": "bao_gia",
+   "so_bao_gia": 3,
+   "can_cu": "VÍ DỤ: 03 báo giá ngày …"
+  },
+  {
+   "ma": "GDT",
+   "ten": "Đào tạo quản trị hệ thống",
+   "gia_tri": 30000000,
+   "phuong_phap": "bao_gia",
+   "so_bao_gia": 1,
+   "can_cu": "VÍ DỤ",
+   "ly_do_mot_bao_gia": "VÍ DỤ: chỉ 01 nhà cung cấp phản hồi"
+  },
+  {
+   "ma": "GQLDA",
+   "ten": "Quản lý dự án (CĐT tự thực hiện)",
+   "gia_tri": 25000000,
+   "phuong_phap": "tu_thuc_hien",
+   "can_cu": "TT 70/2024/TT-BTC — VÍ DỤ"
+  },
+  {
+   "ma": "GK",
+   "ten": "Thẩm tra, phê duyệt quyết toán",
+   "gia_tri": 8000000,
+   "phuong_phap": "theo_quy_dinh",
+   "can_cu": "VÍ DỤ"
+  }
+ ],
+ "chuyen_gia": [
+  {
+   "ma": "GTV",
+   "ten": "Lập báo cáo kinh tế - kỹ thuật",
+   "ccg": 60000000,
+   "ck": 5000000,
+   "vat": 0.1,
+   "can_cu": "VÍ DỤ: 2 chuyên gia × 1,5 tháng"
+  }
+ ]
+}

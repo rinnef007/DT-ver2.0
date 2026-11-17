@@ -238,3 +238,6 @@ Bảng hệ số/ghi chú (không phải bảng hao phí): Dung lượng trướ
 Bảng hệ số/ghi chú (không phải bảng hao phí): Dung lượng trước mở rộng | ≤ 128 số | ≤ 256 số | ≤ 512 số | ≤ 768 số | ≤ 1024 số | ≤ 2048 số | >2048 số
 Bảng hệ số/ghi chú (không phải bảng hao phí): Dung lượng trước mở rộng | ≤ 512 số | ≤ 1024 số | ≤ 2048 số | ≤ 3072 số | ≤ 4096 số | ≤ 5120 số | > 5120 số
 Bảng hệ số/ghi chú (không phải bảng hao phí): Dung lượng tổng đài HOST | ≤ 30.000 số | ≤ 40.000 số | ≤ 60.000 số | ≤ 80.000 số | ≤ 100.000 số | > 100.000 số
+
+## Sửa sau trích (17/11/2026)
+- VT-258: 6 dòng thiết bị đo (Máy đo…, Đồng hồ…) bị xếp vào nhân công do bảng gốc thiếu dòng nhóm "+ Máy thi công" — đổi loại sang M.

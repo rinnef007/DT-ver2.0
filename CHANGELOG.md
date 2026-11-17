@@ -135,3 +135,15 @@
 - Căn cứ pháp lý: NĐ 224/2026/NĐ-CP (Điều 49 k4 đ: định mức chuyên ngành là một phương pháp xác định chi phí CNTT;
   NĐ 45/2026 hết hiệu lực từ 01/7/2026, chuyển tiếp Điều 91), TT 39/2026/TT-BKHCN, QĐ 1601/1235/1595, CV 258,
   QĐ 23/2005/QĐ-BBCVT hết hiệu lực. Chế độ chi phí dự án CNTT theo TT 39 chưa làm (v2.2).
+
+## [2.2.0] — 2026-11-17
+- **Chọn nhóm nhân công cho định mức chuyên ngành** (người dùng yêu cầu): `data/chuyen-nganh/anh_xa_nhan_cong.csv` thành
+  16 quy tắc theo bộ và chương (TT 37 Điều 2 k3, Bảng 3.1 PL III), áp khi nạp: tên cấp bậc → "Nhân công nhóm 1–4",
+  "Kỹ sư", "Thợ lặn"; hao phí giữ nguyên, cộng dồn khi nhiều cấp bậc về một nhóm; "nhóm công" QĐ 1595 × số người.
+  Toàn bộ tên nhân công (6 nhóm đích) đều có quy tắc; cột `can_xem_xet` ghi điểm có thể bị thẩm định khác (cáp mạng
+  nhóm 3/4, cáp thông tin, kỹ sư CNTT). S23 cảnh báo dòng "nhóm" có đơn vị "công".
+- VT-258: 6 dòng thiết bị đo bị xếp vào nhân công (bảng gốc thiếu dòng "+ Máy thi công") → loại M.
+- **Chế độ chi phí dự án chuyển đổi số theo TT 39/2026/TT-BKHCN** — `scripts/cntt_tt39.py`, `references/cntt-tt39.md`,
+  ví dụ `data/vi-du-cntt/`: G = GTB + GQLDA + GTV + GK + GDP; GLĐ, GCSDL bằng định mức (NĐ 224 Điều 49 k4 đ); khoản
+  khác theo phương pháp Điều 49 k4–k6 kèm căn cứ; phương pháp chuyên gia (CQL Bảng 3.2, TN 6 %); Kdp tối đa
+  10/7/5 %; soát phương pháp, căn cứ, số báo giá, thời hạn LCNT, Kdp; xuất Excel 4 sheet.

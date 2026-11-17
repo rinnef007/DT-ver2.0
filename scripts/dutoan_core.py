@@ -165,6 +165,61 @@ def xround(x, n=0):
     return math.copysign(r / k, x) if r else 0.0
 
 
+def quy_tac_nhan_cong_cn(cn_dir):
+    out = []
+    for r in doc_csv(os.path.join(cn_dir, "anh_xa_nhan_cong.csv")) or []:
+        out.append(dict(r, re=re.compile(r["mau_ten"], re.I)))
+    return out
+
+
+def anh_xa_mot(qt, bo, ma, ten):
+    """Quy tắc áp cho tên nhân công `ten` của mã `ma` thuộc bộ `bo` (tiền tố mã dài nhất thắng)."""
+    ten0 = re.sub(r"\s+", " ", ten.replace(":", " ")).strip()
+    ten0 = re.sub(r"^nhân công\s*[-–]\s*", "", ten0, flags=re.I)
+    hop = [q for q in qt if q["bo"] == bo and ma.startswith(q["tien_to_ma"]) and q["re"].search(ten0)]
+    if not hop:
+        return None, None
+    q = max(hop, key=lambda q: len(q["tien_to_ma"]))
+    return q, q["re"].search(ten0)
+
+
+def anh_xa_nhan_cong_cn(dl, cn_dir):
+    """Đổi tên nhân công theo cấp bậc (định mức chuyên ngành) sang nhóm nhân công TT 37 Bảng 3.1.
+
+    Hao phí giữ nguyên (TT 37 Điều 2 k3: chọn nhóm theo tính chất công tác, không quy đổi cấp bậc);
+    "nhóm công" của QĐ 1595 nhân với số người trong nhóm. Nhiều cấp bậc cùng về một nhóm trong một mã thì cộng dồn."""
+    qt = quy_tac_nhan_cong_cn(cn_dir)
+    loi = []
+    if not qt:
+        return loi
+    for ma in dl.bo_cn:
+        d = dl.dinh_muc[ma]
+        bo = d.get("phu_luc", "")
+        moi = []
+        for h in d["hao_phi"]:
+            if h["loai"] != "NC":
+                moi.append(h); continue
+            q, m = anh_xa_mot(qt, bo, ma, h["ten_tn"])
+            if not q:
+                loi.append(f"{ma}: chưa có quy tắc nhóm cho '{h['ten_tn']}'"); moi.append(h); continue
+            hs = 1.0
+            if q["he_so"] == "n":
+                so = sum(int(x) for x in m.groups() if x)
+                if "nhóm" in h["don_vi_tn"].lower():
+                    hs = float(so)
+                elif so > 1:
+                    loi.append(f"{ma}: '{h['ten_tn']}' ghi {so} người nhưng đơn vị '{h['don_vi_tn']}' — giữ hệ số 1")
+            h2 = dict(h, ma_tn=q["ten_tn_gia"], ten_tn=q["ten_tn_gia"], don_vi_tn="công", hao_phi=h["hao_phi"] * hs,
+                      ten_goc=h["ten_tn"], can_cu_nhom=q["can_cu"])
+            cu = next((x for x in moi if x["loai"] == "NC" and x["ma_tn"] == h2["ma_tn"]), None)
+            if cu:
+                cu["hao_phi"] += h2["hao_phi"]; cu["ten_goc"] += " + " + h2["ten_goc"]
+            else:
+                moi.append(h2)
+        d["hao_phi"] = moi
+    return loi
+
+
 def doc_csv(path):
     """Đọc CSV (hoặc CSV.gz nếu chỉ có bản nén)."""
     import gzip
@@ -273,6 +328,7 @@ class DuLieu:
                                                       "phu_luc": r.get("phu_luc", "")})
                     d["hao_phi"].append({"loai": r["loai"], "ma_tn": r["ma_tn"], "ten_tn": r["ten_tn"], "don_vi_tn": r["don_vi_tn"],
                                          "hao_phi": float(r["hao_phi"]), "he_so": 1.0, "can_cu_he_so": ""})
+            self.anh_xa_nc_loi = anh_xa_nhan_cong_cn(self, cn_dir) if getattr(self, "anh_xa_nc", True) else []
             for r in doc_csv(os.path.join(cn_dir, "ma_can_kiem_tra_chuyen_nganh.csv")) or []:
                 self.ma_kt_cn.setdefault(r["ma_hieu"], []).append(r["ly_do"])
             for f in sorted(glob.glob(os.path.join(cn_dir, "*", "ghi_chu_*.csv"))):
@@ -1007,11 +1063,15 @@ def soat(dl, kl_rows, cfg, ngay_lap=None):
         bo = sorted({dl.bo_cn[m.split("+")[0]] for m in cn_dung})
         kq.append(("S23", "THONG_TIN", f"{len(cn_dung)} mã dùng định mức chuyên ngành ({'; '.join(bo)}): chỉ dùng khi TT 38 không có công tác tương ứng, ghi căn cứ "
                    "(CNTT: NĐ 224/2026 Điều 49 k4 điểm đ — định mức chuyên ngành là một trong các phương pháp; xem references/can-cu-phap-ly.md). "
-                   "Nhân công ghi theo cấp bậc thợ/kỹ sư — chọn nhóm nhân công theo tính chất công tác (TT 37 Điều 2 k3), ghi vào data/chuyen-nganh/anh_xa_nhan_cong.csv hoặc gia_tai_nguyen.csv"))
+                   "Nhân công theo cấp bậc đã đổi sang nhóm TT 37 Bảng 3.1 theo tính chất công tác (TT 37 Điều 2 k3; quy tắc data/chuyen-nganh/anh_xa_nhan_cong.csv, cột can_xem_xet nêu điểm có thể bị thẩm định khác); "
+                   "kỹ sư CNTT xếp vào 'Kỹ sư' (mục III.1) là gần nhất — dự án CNTT có thể định giá theo TT 07/2026/TT-BNV hoặc báo giá"))
         for m in cn_dung:
             g = m.split("+")[0]; goc = g.split("_")[0]
             for ld in dl.ma_kt_cn.get(g, []) + dl.ma_kt_cn.get(goc, []):
                 kq.append(("S23", "CANH_BAO", f"Mã {m}: {ld}"))
+            for ld in getattr(dl, "anh_xa_nc_loi", []):
+                if ld.startswith(g + ":"):
+                    kq.append(("S23", "CANH_BAO", f"Nhân công {ld}"))
             n = len(dl.ghi_chu_cn.get(goc, []) or dl.ghi_chu_cn.get(g[:-2] + "00", []))
             if n:
                 kq.append(("S23", "THONG_TIN", f"Mã {m}: có {n} dòng ghi chú áp dụng (hệ số, điều kiện) trong data/chuyen-nganh — kiểm tra trước khi dùng"))
