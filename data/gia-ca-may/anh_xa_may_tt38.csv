@@ -1,0 +1,887 @@
+﻿ten_tn,don_vi_tn,so_dong,ma_may,trang_thai,de_xuat_tu_dong,ten_de_xuat,diem,ma_theo_gxd,ten_theo_gxd,ung_vien_khac
+"Biến thế hàn 7,0 kW",ca,1,M112.4001,khop_tu_dong,M112.4001,Máy hàn xoay chiều - công suất 7 kW,0.60,,,"M112.3501 Máy phay - công suất 7 kW (0.40); M112.0104 Máy bơm nước, động cơ điện - công suất 7 kW ÷ 7,5 kW (0.30)"
+Biến thế thắp sáng,ca,1,M201.0014,khop_tu_dong,M201.0014,Biến thế thắp sáng,1.30,,,M202.0028 Máy cắt ứng biến (0.17); M202.0097 Đồng hồ đo biến dạng (0.12)
+Bàn dằn,ca,6,M202.0070,khop_doi_chieu,M202.0070,Bàn dằn,1.30,,,M202.0071 Bàn rung (0.63); M202.0011 Cân bàn (0.33)
+Bàn rung,ca,5,M202.0071,khop_tu_dong,M202.0071,Bàn rung,1.30,,,M202.0070 Bàn dằn (0.63); M202.0011 Cân bàn (0.33)
+Bình hút ẩm,ca,2,M202.0093,khop_tu_dong,M202.0093,Bình hút ẩm,1.30,,,M202.0018 Máy hút ẩm OASIS-America (0.50); M202.0167 Bình thử bọt khí (0.47)
+Bình thử bọt khí,ca,1,M202.0167,khop_tu_dong,M202.0167,Bình thử bọt khí,1.30,,,M202.0093 Bình hút ẩm (0.47); M202.0205 Thiết bị thử tải trọng (0.25)
+Búa căn MO-10,ca,1,,can_xac_nhan,M201.0006,Búa căn MO - 10 (chưa tính khí nén),0.55,,,"M112.2901 Búa căn khí nén (chưa tính khí nén) - tiêu hao khí nén 1,5 m3/ph (0.48); M112.2902 Búa căn khí nén (chưa tính khí nén) - tiêu hao khí nén 3,0 m3/ph (0.48)"
+Búa căn khí nén 3 m3/ph,ca,8,M112.2902,khop_doi_chieu,M112.2902,"Búa căn khí nén (chưa tính khí nén) - tiêu hao khí nén 3,0 m3/ph",1.10,,,"M110.0201 Máy cào đá, động cơ điện - năng suất 3 m3/ph (0.38)"
+Búa căn khí nén 3m3/ph,ca,9,M112.2902,khop_doi_chieu,M112.2902,"Búa căn khí nén (chưa tính khí nén) - tiêu hao khí nén 3,0 m3/ph",1.10,,,"M110.0201 Máy cào đá, động cơ điện - năng suất 3 m3/ph (0.38)"
+Búa khoan tay P30,ca,1,M201.0007,khop_tu_dong,M201.0007,Búa khoan tay P30,1.30,,,M201.0001 Bộ khoan tay (0.40); M201.0006 Búa căn MO - 10 (chưa tính khí nén) (0.40)
+Búa rung 170 kW,ca,5,M103.0403,khop_tu_dong,M103.0403,Đầu Búa rung - công suất 170 kW,0.95,,,
+Búa rung 170kW,ca,9,M103.0403,khop_tu_dong,M103.0403,Đầu Búa rung - công suất 170 kW,0.95,,,
+Búa rung 50 kW,ca,6,M103.0402,khop_tu_dong,M103.0402,Đầu Búa rung - công suất 50 kW,0.95,,,M112.3901 Máy hàn một chiều - công suất 50 kW (0.40)
+Búa rung 60kW,ca,12,,can_xac_nhan,M103.0402a,Đầu Búa rung - công suất 60 kW,0.95,,,"M103.0301 Máy búa rung tự hành, bánh xích - công suất 60 kW (0.80)"
+"Bơm chân không 7,5 kW",ca,30,M112.0401,khop_tu_dong,M112.0401,"Máy bơm chân không 7,5 kW",1.20,,,"M112.0104 Máy bơm nước, động cơ điện - công suất 7 kW ÷ 7,5 kW (0.42); M112.3401 Máy bào thép - công suất 7,5 kW (0.37)"
+Bếp cát,ca,1,M202.0020,khop_tu_dong,M202.0020,Bếp cát,1.30,,,M202.0019 Bếp điện (0.63); M202.0166 Bếp gas công nghiệp (0.55)
+Bếp ga công nghiệp,ca,5,M202.0166,khop_tu_dong,M202.0166,Bếp gas công nghiệp,0.80,,,M202.0019 Bếp điện (0.55); M202.0020 Bếp cát (0.55)
+Bếp điện,ca,55,M202.0019,khop_tu_dong,M202.0019,Bếp điện,1.30,,,M202.0020 Bếp cát (0.63); M202.0166 Bếp gas công nghiệp (0.55)
+Bể ổn nhiệt,ca,1,M202.0165,khop_tu_dong,M202.0165,Bể ổn nhiệt,1.30,,,M202.0060 Máy ghi nhiệt ổn định (0.40); M202.0203 Thiết bị đo nhiệt lượng (0.25)
+Bộ dụng cụ thí nghiệm SPT,ca,2,M201.0013,khop_doi_chieu,M201.0013,Bộ dụng cụ thí nghiệm SPT,1.30,,,M202.0094 Bộ dụng cụ xác định thấm nước (0.60); M202.0168 Bộ dụng cụ xác định hàm lượng cát (0.60)
+Bộ dụng cụ xác định,ca,2,,can_xac_nhan,M202.0094,Bộ dụng cụ xác định thấm nước,1.01,,,M202.0168 Bộ dụng cụ xác định hàm lượng cát (1.01); M201.0013 Bộ dụng cụ thí nghiệm SPT (0.68)
+Bộ dụng cụ xác định thấm nước,ca,1,M202.0094,khop_tu_dong,M202.0094,Bộ dụng cụ xác định thấm nước,1.30,,,M202.0168 Bộ dụng cụ xác định hàm lượng cát (0.86); M201.0013 Bộ dụng cụ thí nghiệm SPT (0.60)
+Bộ dụng cụ đo độ xuyên động hình côn DCP,ca,4,M202.0068,khop_doi_chieu,M202.0068,Bộ dụng cụ đo độ xuyên động hình côn DCP,1.30,,,M201.0013 Bộ dụng cụ thí nghiệm SPT (0.53); M202.0094 Bộ dụng cụ xác định thấm nước (0.51)
+Bộ khoan tay,ca,4,M201.0001,khop_doi_chieu,M201.0001,Bộ khoan tay,1.30,,,M202.0008 Bộ thiết bị siêu âm (0.50); M203.0002 Bộ nguồn AC-DC (0.50)
+Bộ kích 10 t,ca,4,M102.1302,khop_tu_dong,M102.1302,Kích nâng - sức nâng 10 t,0.87,,,M102.0601 Cổng trục - sức nâng 10 t (0.40); M101.1103 Máy lu bánh thép tự hành - trọng lượng tĩnh 10 t (0.37)
+Bộ kích 50 t,ca,4,M102.1304,khop_tu_dong,M102.1304,Kích nâng - sức nâng 50 t,0.87,,,M102.0604 Cổng trục - sức nâng 50 t (0.40); M102.0803 Cầu trục - sức nâng 50 t (0.40)
+Bộ nén ngang GA hoặc tương tự,ca,2,M201.0005,khop_doi_chieu,M201.0005,Bộ nén ngang GA,0.97,,,M201.0001 Bộ khoan tay (0.42); M202.0008 Bộ thiết bị siêu âm (0.42)
+Bộ phận cần ép mẫu thử gạch chịu lửa,ca,1,M202.0081,khop_tu_dong,M202.0081,Cần ép mẫu thử gạch chịu lửa,0.78,,,M201.0001 Bộ khoan tay (0.39); M202.0008 Bộ thiết bị siêu âm (0.39)
+Bộ thiết bị CBR hiện trường,ca,1,,can_xac_nhan,M201.0001,Bộ khoan tay,0.47,M202.0038,Máy CBR,M202.0008 Bộ thiết bị siêu âm (0.47); M203.0002 Bộ nguồn AC-DC (0.47)
+Bộ thiết bị GPS G3100-R2 hoặc loại tương tự (3 máy),ca,30,,can_xac_nhan,M201.0022,Bộ thiết bị khống chế mặt bằng GPS (3 máy),0.55,,,M201.0001 Bộ khoan tay (0.47); M202.0008 Bộ thiết bị siêu âm (0.47)
+Bộ thiết bị siêu âm,ca,1,M202.0008,khop_tu_dong,M202.0008,Bộ thiết bị siêu âm,1.30,,,M201.0001 Bộ khoan tay (0.50); M203.0002 Bộ nguồn AC-DC (0.50)
+Bộ thiết bị thí nghiệm điểm hóa mềm (ELE),ca,1,M202.0169,khop_tu_dong,M202.0169,Bộ thiết bị thí nghiệm điểm hóa mềm (ELE),1.30,,,"M201.0013 Bộ dụng cụ thí nghiệm SPT (0.60); M202.0067 Bộ thí nghiệm độ co ngót, trương nở (0.55)"
+Bộ thiết bị trượt,ca,3,M112.4701,khop_tu_dong,M112.4701,Bộ thiết bị trượt (60 kích loại 6 t),0.80,,,M201.0001 Bộ khoan tay (0.55); M202.0008 Bộ thiết bị siêu âm (0.55)
+Ca nô 12 cv,ca,1,M109.0501,khop_tu_dong,M109.0501,Ca nô - công suất 12 cv,1.50,,,M112.2202 Máy cắt bê tông - công suất 12 cv (MCD 218) (0.34)
+Ca nô 150 cv,ca,9,M109.0507,khop_doi_chieu,M109.0507,Ca nô - công suất 150 cv,1.50,,,"M106.0301 Ô tô đầu kéo - công suất 150 cv (0.34); M109.0702 Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 150 cv (0.28)"
+Ca nô 23 cv,ca,31,M109.0502,khop_doi_chieu,M109.0502,Ca nô - công suất 23 cv,1.50,,,
+Ca nô 30 cv,ca,2,M109.0503,khop_doi_chieu,M109.0503,Ca nô - công suất 30 cv,1.50,,,"M112.0206 Máy bơm nước, động cơ diezel - công suất 30 cv (0.33)"
+Ca nô 54 cv,ca,7,M109.0504,khop_doi_chieu,M109.0504,Ca nô - công suất 54 cv,1.50,,,M112.4601 Máy khoan xoay - công suất 54 cv (0.40)
+Ca nô 75 cv,ca,5,M109.0505,khop_tu_dong,M109.0505,Ca nô - công suất 75 cv,1.50,,,"M101.0501 Máy ủi - công suất 75 cv (0.45); M112.0208 Máy bơm nước, động cơ diezel - công suất 75 cv (0.33)"
+Ca nô 90cv,ca,2,M109.0506,khop_doi_chieu,M109.0506,Ca nô - công suất 90 cv,1.50,,,
+Cano 23 cv,ca,2,,can_xac_nhan,M109.0502,Ca nô - công suất 23 cv,0.45,,,
+Canô 150 cv,ca,2,M109.0507,khop_doi_chieu,M109.0507,Ca nô - công suất 150 cv,1.50,,,"M106.0301 Ô tô đầu kéo - công suất 150 cv (0.34); M109.0702 Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 150 cv (0.28)"
+Canô 23 cv,ca,32,M109.0502,khop_tu_dong,M109.0502,Ca nô - công suất 23 cv,1.50,,,
+Canô 30 cv,ca,3,M109.0503,khop_tu_dong,M109.0503,Ca nô - công suất 30 cv,1.50,,,"M112.0206 Máy bơm nước, động cơ diezel - công suất 30 cv (0.33)"
+Canô 75 cv,ca,5,M109.0505,khop_tu_dong,M109.0505,Ca nô - công suất 75 cv,1.50,,,"M101.0501 Máy ủi - công suất 75 cv (0.45); M112.0208 Máy bơm nước, động cơ diezel - công suất 75 cv (0.33)"
+Chén bạch kim,ca,15,M202.0085,khop_tu_dong,M202.0085,Chén bạch kim,1.30,,,"M112.3201 Máy cưa kim loại - công suất 1,7 kW (0.20); M112.3202 Máy cưa kim loại - công suất 2,7 kW (0.20)"
+Cân kỹ thuật,ca,137,,can_xac_nhan,M202.0010,Cân phân tích,0.55,,,M202.0011 Cân bàn (0.55); M202.0012 Cân thủy tĩnh (0.55)
+Cân kỹ thuật,công,2,,can_xac_nhan,M202.0010,Cân phân tích,0.55,,,M202.0011 Cân bàn (0.55); M202.0012 Cân thủy tĩnh (0.55)
+Cân phân tích,ca,65,M202.0010,khop_doi_chieu,M202.0010,Cân phân tích,1.30,,,M202.0011 Cân bàn (0.63); M202.0012 Cân thủy tĩnh (0.63)
+Cân thủy tĩnh,ca,7,M202.0012,khop_tu_dong,M202.0012,Cân thủy tĩnh,1.30,,,M202.0010 Cân phân tích (0.63); M202.0011 Cân bàn (0.63)
+Côn thử độ sụt,ca,1,M202.0082,khop_doi_chieu,M202.0082,Côn thử độ sụt,1.30,,,M202.0145 Máy thử độ rơi côn (0.60); M202.0144 Máy thử độ bục (0.40)
+Cần Belkenman,ca,1,M202.0001,khop_tu_dong,M202.0001,Cần Belkenman,1.30,,,M102.0401 Cần trục tháp - sức nâng 5 t (0.50); M102.0402 Cần trục tháp - sức nâng 10 t (0.50)
+Cần cẩu 10 t,ca,178,M102.0302,khop_doi_chieu,M102.0302,Cần cẩu bánh xích - sức nâng 10 t,1.10,,,M102.0402 Cần trục tháp - sức nâng 10 t (0.90); M102.0105 Cần trục ô tô - sức nâng 10 t (0.83)
+Cần cẩu 10 t phục vụ đầm chùm,ca,2,,can_xac_nhan,M102.0302,Cần cẩu bánh xích - sức nâng 10 t,0.83,M102.0302a,,M102.0402 Cần trục tháp - sức nâng 10 t (0.72); M102.0105 Cần trục ô tô - sức nâng 10 t (0.70)
+Cần cẩu 100T,ca,7,M102.0502,khop_tu_dong,M102.0502,Cần cẩu nổi Tự hành - sức nâng 100 t,1.25,,,M102.0208 Cần cẩu bánh hơi - sức nâng 100 t (1.10); M102.0311 Cần cẩu bánh xích - sức nâng 100 t (1.10)
+Cần cẩu 10T,ca,39,M102.0302,khop_tu_dong,M102.0302,Cần cẩu bánh xích - sức nâng 10 t,1.10,,,M102.0402 Cần trục tháp - sức nâng 10 t (0.90); M102.0105 Cần trục ô tô - sức nâng 10 t (0.83)
+Cần cẩu 10T phục vụ đầm chùm,ca,1,,can_xac_nhan,M102.0302,Cần cẩu bánh xích - sức nâng 10 t,0.83,M112.1302,"Máy đầm bê tông, dầm dùi - công suất 3,5 kW",M102.0402 Cần trục tháp - sức nâng 10 t (0.72); M102.0105 Cần trục ô tô - sức nâng 10 t (0.70)
+Cần cẩu 10t,ca,2,M102.0302,khop_doi_chieu,M102.0302,Cần cẩu bánh xích - sức nâng 10 t,1.10,,,M102.0402 Cần trục tháp - sức nâng 10 t (0.90); M102.0105 Cần trục ô tô - sức nâng 10 t (0.83)
+Cần cẩu 125T,ca,9,,can_xac_nhan,M102.0210,Cần cẩu bánh hơi - sức nâng 125 t ÷ 130 t,1.00,,,M102.0313 Cần cẩu bánh xích - sức nâng 125 t ÷ 130 t (1.00); M102.0807 Cầu trục - sức nâng 125 t (0.40)
+Cần cẩu 150T,ca,29,M102.0314,khop_tu_dong,M102.0314,Cần cẩu bánh xích - sức nâng 150 t,1.10,,,M102.1402 Kích thông tâm YCW - 150 t (0.34); M103.0703 Máy ép cọc trước - lực ép 150 t (0.34)
+Cần cẩu 15T,ca,3,M102.0404,khop_tu_dong,M102.0404,Cần trục tháp - sức nâng 15 t,0.90,,,"M111.0101 Máy nâng TO-12-24, sức nâng 15t (0.45); M101.1003 Máy lu rung tự hành - trọng lượng tĩnh 15 t (0.40)"
+Cần cẩu 16 t,ca,137,,can_xac_nhan,M102.0202,Cần cẩu bánh hơi - sức nâng 16 t,1.10,M102.0303,Cần cẩu bánh xích - sức nâng 16 t,M102.0303 Cần cẩu bánh xích - sức nâng 16 t (1.10); M102.0106 Cần trục ô tô - sức nâng 16 t (0.83)
+Cần cẩu 16T,ca,52,,can_xac_nhan,M102.0202,Cần cẩu bánh hơi - sức nâng 16 t,1.10,M102.0303,Cần cẩu bánh xích - sức nâng 16 t,M102.0303 Cần cẩu bánh xích - sức nâng 16 t (1.10); M102.0106 Cần trục ô tô - sức nâng 16 t (0.83)
+Cần cẩu 16t,ca,9,,can_xac_nhan,M102.0202,Cần cẩu bánh hơi - sức nâng 16 t,1.10,M102.0303,Cần cẩu bánh xích - sức nâng 16 t,M102.0303 Cần cẩu bánh xích - sức nâng 16 t (1.10); M102.0106 Cần trục ô tô - sức nâng 16 t (0.83)
+Cần cẩu 180T,ca,4,,can_xac_nhan,M102.0808,Cầu trục - sức nâng 180 t,0.40,,,
+Cần cẩu 200T,ca,2,,can_xac_nhan,M102.1306,Kích nâng - sức nâng 200 t,0.45,,,M109.0111 Sà lan - trọng tải 200 t (0.40); M109.0102 Sà lan - trọng tải 200 t (0.40)
+Cần cẩu 20T,ca,2,,can_xac_nhan,M102.0405,Cần trục tháp - sức nâng 20 t,0.90,,,M102.0107 Cần trục ô tô - sức nâng 20 t (0.83); M202.0048 Máy gia tải - 20 t (0.45)
+Cần cẩu 25 t,ca,279,,can_xac_nhan,M102.0203,Cần cẩu bánh hơi - sức nâng 25 t,1.10,M102.0304,Cần cẩu bánh xích - sức nâng 25 t,M102.0304 Cần cẩu bánh xích - sức nâng 25 t (1.10); M102.0406 Cần trục tháp - sức nâng 25 t (0.90)
+Cần cẩu 250T,ca,16,M102.0315,khop_tu_dong,M102.0315,Cần cẩu bánh xích - sức nâng 250t,1.10,,,M102.1307 Kích nâng - sức nâng 250 t (0.45); M102.0809 Cầu trục - sức nâng 250 t (0.40)
+Cần cẩu 25T,ca,32,,can_xac_nhan,M102.0203,Cần cẩu bánh hơi - sức nâng 25 t,1.10,,,M102.0304 Cần cẩu bánh xích - sức nâng 25 t (1.10); M102.0406 Cần trục tháp - sức nâng 25 t (0.90)
+Cần cẩu 30 t,ca,1,,can_xac_nhan,M102.0501,Cần cẩu nổi Kéo theo - sức nâng 30 t,1.00,,,M102.0407 Cần trục tháp - sức nâng 30 t (0.90); M102.0109 Cần trục ô tô - sức nâng 30 t (0.83)
+Cần cẩu 30T,ca,59,,can_xac_nhan,M102.0501,Cần cẩu nổi Kéo theo - sức nâng 30 t,1.00,,,M102.0407 Cần trục tháp - sức nâng 30 t (0.90); M102.0109 Cần trục ô tô - sức nâng 30 t (0.83)
+Cần cẩu 40 t,ca,85,,can_xac_nhan,M102.0204,Cần cẩu bánh hơi - sức nâng 40 t,1.10,M102.0306,Cần cẩu bánh xích - sức nâng 40 t,M102.0306 Cần cẩu bánh xích - sức nâng 40 t (1.10); M102.0408 Cần trục tháp - sức nâng 40 t (0.90)
+Cần cẩu 40T,ca,11,,can_xac_nhan,M102.0204,Cần cẩu bánh hơi - sức nâng 40 t,1.10,,,M102.0306 Cần cẩu bánh xích - sức nâng 40 t (1.10); M102.0408 Cần trục tháp - sức nâng 40 t (0.90)
+Cần cẩu 5 t,ca,3,M102.0301,khop_doi_chieu,M102.0301,Cần cẩu bánh xích - sức nâng 5 t,1.10,,,M102.0401 Cần trục tháp - sức nâng 5 t (0.90); M102.0103 Cần trục ô tô - sức nâng 5 t (0.83)
+Cần cẩu 50 t,ca,75,M102.0307,khop_tu_dong,M102.0307,Cần cẩu bánh xích - sức nâng 50 t,1.10,,,M102.0409 Cần trục tháp - sức nâng 50 t (0.90); M102.0111 Cần trục ô tô - sức nâng 50 t (0.83)
+Cần cẩu 500T,ca,6,,can_xac_nhan,M102.1308,Kích nâng - sức nâng 500 t,0.45,,,M102.1404 Kích thông tâm YCW - 500 t (0.34); M102.1601 Kích sợi đơn YDC - 500 t (0.34)
+Cần cẩu 50T,ca,27,M102.0307,khop_tu_dong,M102.0307,Cần cẩu bánh xích - sức nâng 50 t,1.10,,,M102.0409 Cần trục tháp - sức nâng 50 t (0.90); M102.0111 Cần trục ô tô - sức nâng 50 t (0.83)
+Cần cẩu 50t,ca,16,M102.0307,khop_tu_dong,M102.0307,Cần cẩu bánh xích - sức nâng 50 t,1.10,,,M102.0409 Cần trục tháp - sức nâng 50 t (0.90); M102.0111 Cần trục ô tô - sức nâng 50 t (0.83)
+Cần cẩu 5T,ca,50,M102.0301,khop_doi_chieu,M102.0301,Cần cẩu bánh xích - sức nâng 5 t,1.10,,,M102.0401 Cần trục tháp - sức nâng 5 t (0.90); M102.0103 Cần trục ô tô - sức nâng 5 t (0.83)
+Cần cẩu 5t,ca,1,M102.0301,khop_doi_chieu,M102.0301,Cần cẩu bánh xích - sức nâng 5 t,1.10,,,M102.0401 Cần trục tháp - sức nâng 5 t (0.90); M102.0103 Cần trục ô tô - sức nâng 5 t (0.83)
+Cần cẩu 6 t,ca,260,M102.0201,khop_doi_chieu,M102.0201,Cần cẩu bánh hơi - sức nâng 6t,1.10,,,"M102.0104 Cần trục ô tô - sức nâng 6 t (0.83); M101.1101 Máy lu bánh thép tự hành - trọng lượng tĩnh 6,0 t (0.37)"
+Cần cẩu 60 t,ca,2,M102.0308,khop_doi_chieu,M102.0308,Cần cẩu bánh xích - sức nâng 60 t,1.10,,,M102.0410 Cần trục tháp - sức nâng 60 t (0.90); M102.0605 Cổng trục - sức nâng 60 t (0.40)
+Cần cẩu 63 t,ca,12,,can_xac_nhan,M102.0205,Cần cẩu bánh hơi - sức nâng 63 t ÷ 65 t,1.00,,,M102.0309 Cần cẩu bánh xích - sức nâng 63 t ÷ 65 t (1.00)
+Cần cẩu 63T,ca,7,,can_xac_nhan,M102.0205,Cần cẩu bánh hơi - sức nâng 63 t ÷ 65 t,1.00,,,M102.0309 Cần cẩu bánh xích - sức nâng 63 t ÷ 65 t (1.00)
+Cần cẩu 6t,ca,5,M102.0201,khop_doi_chieu,M102.0201,Cần cẩu bánh hơi - sức nâng 6t,1.10,,,"M102.0104 Cần trục ô tô - sức nâng 6 t (0.83); M101.1101 Máy lu bánh thép tự hành - trọng lượng tĩnh 6,0 t (0.37)"
+Cần cẩu 80 t,ca,3,,can_xac_nhan,M102.0206,Cần cẩu bánh hơi - sức nâng 80t,1.10,,,M102.0310 Cần cẩu bánh xích - sức nâng 80 t (1.10)
+Cần cẩu 90T,ca,33,M102.0207,khop_tu_dong,M102.0207,Cần cẩu bánh hơi - sức nâng 90 t,1.10,,,M102.0606 Cổng trục - sức nâng 90 t (0.40); M102.0702 Thiết bị nâng hạ dầm 90 t (0.40)
+Cần cẩu bánh xích 16t,cái,1,M102.0303,khop_doi_chieu,M102.0303,Cần cẩu bánh xích - sức nâng 16 t,1.50,,,M102.0202 Cần cẩu bánh hơi - sức nâng 16 t (1.17); M102.0106 Cần trục ô tô - sức nâng 16 t (0.75)
+Cần cẩu nổi 100T,ca,1,M102.0502,khop_tu_dong,M102.0502,Cần cẩu nổi Tự hành - sức nâng 100 t,1.50,,,M102.0208 Cần cẩu bánh hơi - sức nâng 100 t (1.00); M102.0311 Cần cẩu bánh xích - sức nâng 100 t (1.00)
+Cần cẩu nổi 30 t,ca,13,M102.0501,khop_doi_chieu,M102.0501,Cần cẩu nổi Kéo theo - sức nâng 30 t,1.17,,,M102.0407 Cần trục tháp - sức nâng 30 t (0.83); M102.0109 Cần trục ô tô - sức nâng 30 t (0.79)
+Cần cẩu nổi 50T,ca,1,M102.0307,khop_tu_dong,M102.0307,Cần cẩu bánh xích - sức nâng 50 t,1.00,,,M102.0409 Cần trục tháp - sức nâng 50 t (0.83); M102.0111 Cần trục ô tô - sức nâng 50 t (0.79)
+Cần cẩu tháp 50T,ca,6,,can_xac_nhan,M102.0409,Cần trục tháp - sức nâng 50 t,1.10,,,M102.0307 Cần cẩu bánh xích - sức nâng 50 t (1.00); M102.0111 Cần trục ô tô - sức nâng 50 t (0.79)
+Cần trục 5T,ca,2,M102.0401,khop_tu_dong,M102.0401,Cần trục tháp - sức nâng 5 t,1.25,,,M102.0103 Cần trục ô tô - sức nâng 5 t (1.10); M102.0301 Cần cẩu bánh xích - sức nâng 5 t (0.83)
+Cần trục bánh xích 16 t,ca,3,M102.0303,khop_tu_dong,M102.0303,Cần cẩu bánh xích - sức nâng 16 t,1.17,,,M102.0106 Cần trục ô tô - sức nâng 16 t (0.93); M102.0202 Cần cẩu bánh hơi - sức nâng 16 t (0.93)
+Cần trục bánh xích 16T,ca,2,M102.0303,khop_tu_dong,M102.0303,Cần cẩu bánh xích - sức nâng 16 t,1.17,,,M102.0106 Cần trục ô tô - sức nâng 16 t (0.93); M102.0202 Cần cẩu bánh hơi - sức nâng 16 t (0.93)
+Cần trục bánh xích 25T,ca,4,M102.0304,khop_tu_dong,M102.0304,Cần cẩu bánh xích - sức nâng 25 t,1.17,,,M102.0406 Cần trục tháp - sức nâng 25 t (1.00); M102.0108 Cần trục ô tô - sức nâng 25 t (0.93)
+Cần trục bánh xích 40T,ca,1,M102.0306,khop_tu_dong,M102.0306,Cần cẩu bánh xích - sức nâng 40 t,1.17,,,M102.0408 Cần trục tháp - sức nâng 40 t (1.00); M102.0110 Cần trục ô tô - sức nâng 40 t (0.93)
+Cần trục bánh xích 5T,ca,1,M102.0301,khop_tu_dong,M102.0301,Cần cẩu bánh xích - sức nâng 5 t,1.17,,,M102.0401 Cần trục tháp - sức nâng 5 t (1.00); M102.0103 Cần trục ô tô - sức nâng 5 t (0.93)
+Cần trục tháp 15 t,ca,6,M102.0404,khop_doi_chieu,M102.0404,Cần trục tháp - sức nâng 15 t,1.50,,,"M111.0101 Máy nâng TO-12-24, sức nâng 15t (0.40); M101.1003 Máy lu rung tự hành - trọng lượng tĩnh 15 t (0.37)"
+Cần trục tháp 25 t,ca,437,M102.0406,khop_doi_chieu,M102.0406,Cần trục tháp - sức nâng 25 t,1.50,,,M102.0108 Cần trục ô tô - sức nâng 25 t (1.00); M102.0203 Cần cẩu bánh hơi - sức nâng 25 t (0.79)
+Cần trục tháp 40 t,ca,214,M102.0408,khop_doi_chieu,M102.0408,Cần trục tháp - sức nâng 40 t,1.50,,,M102.0110 Cần trục ô tô - sức nâng 40 t (1.00); M102.0204 Cần cẩu bánh hơi - sức nâng 40 t (0.79)
+Cần trục tháp 50 t,ca,14,M102.0409,khop_doi_chieu,M102.0409,Cần trục tháp - sức nâng 50 t,1.50,,,M102.0111 Cần trục ô tô - sức nâng 50 t (1.00); M102.0307 Cần cẩu bánh xích - sức nâng 50 t (0.79)
+Cần trục ô tô 10T,ca,1,M102.0105,khop_tu_dong,M102.0105,Cần trục ô tô - sức nâng 10 t,1.50,,,M102.0402 Cần trục tháp - sức nâng 10 t (1.00); M102.0302 Cần cẩu bánh xích - sức nâng 10 t (0.75)
+Cần trục ô tô 3 t,ca,5,M102.0101,khop_doi_chieu,M102.0101,Cần trục ô tô - sức nâng 3 t,1.50,,,M102.0903 Máy vận thăng - sức nâng 3 t (0.34); M102.1001 Máy vận thăng lồng - sức nâng 3 t (0.33)
+Cần trục ô tô loại 3 tấn,ca,4,M102.0101,khop_doi_chieu,M102.0101,Cần trục ô tô - sức nâng 3 t,1.50,,,M102.0903 Máy vận thăng - sức nâng 3 t (0.34); M102.1001 Máy vận thăng lồng - sức nâng 3 t (0.33)
+Cần trục ôtô 5t,ca,1,M102.0103,khop_doi_chieu,M102.0103,Cần trục ô tô - sức nâng 5 t,1.50,,,M102.0401 Cần trục tháp - sức nâng 5 t (1.00); M102.0301 Cần cẩu bánh xích - sức nâng 5 t (0.75)
+Cầu cẩu 20T,ca,2,,can_xac_nhan,M202.0048,Máy gia tải - 20 t,0.45,,,M101.1005 Máy lu rung tự hành - trọng lượng tĩnh 20t (0.40); M102.0602 Cổng trục - sức nâng 20 t (0.40)
+Cầu cẩu 50T,ca,2,M102.0803,khop_tu_dong,M102.0803,Cầu trục - sức nâng 50 t,1.00,,,M102.0307 Cần cẩu bánh xích - sức nâng 50 t (0.53); M102.1304 Kích nâng - sức nâng 50 t (0.45)
+Cầu nổi 30 t,ca,2,M102.0801,khop_tu_dong,M102.0801,Cầu trục - sức nâng 30 t,1.00,,,M102.0501 Cần cẩu nổi Kéo theo - sức nâng 30 t (0.49); M102.1303 Kích nâng - sức nâng 30 t (0.45)
+Cầu trục 100T (V. hành),ca,1,,can_xac_nhan,M102.1305,Kích nâng - sức nâng 100 t,0.45,,,M106.0806 Rơ mooc - trọng tải 100 t (0.40); M109.0101 Sà lan - trọng tải 100 t (0.40)
+Cầu trục 150T (V. hành),ca,1,,can_xac_nhan,M102.0314,Cần cẩu bánh xích - sức nâng 150 t,0.34,,,M102.1402 Kích thông tâm YCW - 150 t (0.34); M103.0703 Máy ép cọc trước - lực ép 150 t (0.34)
+Cầu trục 20T (V.hành),ca,1,,can_xac_nhan,M102.0602,Cổng trục - sức nâng 20 t,0.70,,,M102.0405 Cần trục tháp - sức nâng 20 t (0.60); M102.0107 Cần trục ô tô - sức nâng 20 t (0.53)
+Cầu trục 250T (V.hành),ca,4,M102.0809,khop_tu_dong,M102.0809,Cầu trục - sức nâng 250 t,1.50,,,M102.1307 Kích nâng - sức nâng 250 t (0.45); M109.0103 Sà lan - trọng tải 250 t (0.40)
+Cầu trục 350T (V. hành),ca,3,,khong_khop,,,,,,
+Cầu trục 350T (V.hành),ca,2,,khong_khop,,,,,,
+Cầu trục 50T,ca,3,M102.0803,khop_tu_dong,M102.0803,Cầu trục - sức nâng 50 t,1.50,,,M102.0604 Cổng trục - sức nâng 50 t (0.70); M102.0409 Cần trục tháp - sức nâng 50 t (0.60)
+Cầu trục 50T (V.hành),ca,2,M102.0803,khop_tu_dong,M102.0803,Cầu trục - sức nâng 50 t,1.50,,,M102.0604 Cổng trục - sức nâng 50 t (0.70); M102.0409 Cần trục tháp - sức nâng 50 t (0.60)
+Cầu trục 70T (V.hành),ca,5,,khong_khop,,,,,,
+Cầu trục 75T (V. hành),ca,1,,khong_khop,,,,,,
+Cẩu cẩu 50 t,ca,8,M102.0307,khop_tu_dong,M102.0307,Cần cẩu bánh xích - sức nâng 50 t,1.10,,,M102.0409 Cần trục tháp - sức nâng 50 t (0.90); M102.0111 Cần trục ô tô - sức nâng 50 t (0.83)
+Cẩu lao dầm,ca,3,M102.0701,khop_tu_dong,M102.0701,Cẩu lao dầm K33-60,1.05,,,M102.0702 Thiết bị nâng hạ dầm 90 t (0.20); M102.0502 Cần cẩu nổi Tự hành - sức nâng 100 t (0.17)
+Cẩu long môn 30T,ca,1,,can_xac_nhan,M102.0501,Cần cẩu nổi Kéo theo - sức nâng 30 t,0.45,,,M102.1303 Kích nâng - sức nâng 30 t (0.40); M102.0603 Cổng trục - sức nâng 30 t (0.37)
+Cẩu nổi 30 t,ca,15,M102.0501,khop_tu_dong,M102.0501,Cần cẩu nổi Kéo theo - sức nâng 30 t,0.70,,,M102.1303 Kích nâng - sức nâng 30 t (0.45); M102.0603 Cổng trục - sức nâng 30 t (0.40)
+Cẩu tháp 50 t,ca,1,,can_xac_nhan,M102.0409,Cần trục tháp - sức nâng 50 t,0.60,,,M102.0307 Cần cẩu bánh xích - sức nâng 50 t (0.53); M102.1304 Kích nâng - sức nâng 50 t (0.45)
+Cẩu trục ôtô 5T,ca,4,M102.0103,khop_tu_dong,M102.0103,Cần trục ô tô - sức nâng 5 t,1.50,,,M102.0401 Cần trục tháp - sức nâng 5 t (1.00); M102.0301 Cần cẩu bánh xích - sức nâng 5 t (0.75)
+Cổng trục 10T,ca,2,M102.0601,khop_tu_dong,M102.0601,Cổng trục - sức nâng 10 t,1.50,,,M102.0402 Cần trục tháp - sức nâng 10 t (0.60); M102.0105 Cần trục ô tô - sức nâng 10 t (0.53)
+Cổng trục 20T,ca,4,M102.0602,khop_tu_dong,M102.0602,Cổng trục - sức nâng 20 t,1.50,,,M102.0405 Cần trục tháp - sức nâng 20 t (0.60); M102.0107 Cần trục ô tô - sức nâng 20 t (0.53)
+Cổng trục 30 t,ca,2,M102.0603,khop_tu_dong,M102.0603,Cổng trục - sức nâng 30 t,1.50,,,M102.0801 Cầu trục - sức nâng 30 t (0.70); M102.0407 Cần trục tháp - sức nâng 30 t (0.60)
+Cổng trục 30T,ca,2,M102.0603,khop_tu_dong,M102.0603,Cổng trục - sức nâng 30 t,1.50,,,M102.0801 Cầu trục - sức nâng 30 t (0.70); M102.0407 Cần trục tháp - sức nâng 30 t (0.60)
+Cổng trục 50T,ca,10,M102.0604,khop_tu_dong,M102.0604,Cổng trục - sức nâng 50 t,1.50,,,M102.0803 Cầu trục - sức nâng 50 t (0.70); M102.0409 Cần trục tháp - sức nâng 50 t (0.60)
+Cổng trục 60 t,ca,3,M102.0605,khop_tu_dong,M102.0605,Cổng trục - sức nâng 60 t,1.50,,,M102.0804 Cầu trục - sức nâng 60 t (0.70); M102.0410 Cần trục tháp - sức nâng 60 t (0.60)
+Cổng trục 90t,ca,1,M102.0606,khop_doi_chieu,M102.0606,Cổng trục - sức nâng 90 t,1.50,,,M102.0805 Cầu trục - sức nâng 90 t (0.70); M102.0702 Thiết bị nâng hạ dầm 90 t (0.40)
+Cổng trục 90t,cái,1,M102.0606,khop_doi_chieu,M102.0606,Cổng trục - sức nâng 90 t,1.50,,,M102.0805 Cầu trục - sức nâng 90 t (0.70); M102.0702 Thiết bị nâng hạ dầm 90 t (0.40)
+Dụng cụ Vicat,ca,3,,can_xac_nhan,M202.0105,Dụng cụ Vica,0.80,,,M202.0170 Dụng cụ đo nhám (0.70); M202.0173 Dụng cụ thử xuyên (0.70)
+Dụng cụ phá vỡ mẫu kính,ca,1,M202.0103,khop_tu_dong,M202.0103,Dụng cụ phá vỡ mẫu kính,1.30,,,M202.0105 Dụng cụ Vica (0.63); M202.0170 Dụng cụ đo nhám (0.59)
+Dụng cụ thử thấm mực,ca,1,M202.0104,khop_tu_dong,M202.0104,Dụng cụ thử thấm mực,1.30,,,M202.0173 Dụng cụ thử xuyên (0.80); M202.0105 Dụng cụ Vica (0.63)
+Dụng cụ thử va đập bi rơi,ca,1,M202.0171,khop_tu_dong,M202.0171,Dụng cụ thử va đập bi rơi,1.30,,,M202.0172 Dụng cụ thử va đập con lắc (0.86); M202.0101 Dụng cụ đo độ bền va đập (0.70)
+Dụng cụ thử va đập con lắc,ca,1,M202.0172,khop_tu_dong,M202.0172,Dụng cụ thử va đập con lắc,1.30,,,M202.0171 Dụng cụ thử va đập bi rơi (0.86); M202.0101 Dụng cụ đo độ bền va đập (0.70)
+Dụng cụ thử xuyên,ca,2,M202.0173,khop_tu_dong,M202.0173,Dụng cụ thử xuyên,1.30,,,M202.0104 Dụng cụ thử thấm mực (0.80); M202.0105 Dụng cụ Vica (0.70)
+Dụng cụ vòng và bi,ca,1,M202.0210,khop_tu_dong,M202.0210,Dụng cụ vòng và bi,1.30,,,M202.0105 Dụng cụ Vica (0.70); M202.0171 Dụng cụ thử va đập bi rơi (0.68)
+Dụng cụ xác định sự thay đổi chiều dài của mẫu vữa,ca,1,M202.0174,khop_tu_dong,M202.0174,Dụng cụ xác định sự thay đổi chiều dài của mẫu vữa,1.30,,,M202.0106 Dụng cụ xác định độ bền va đập (0.59); M202.0107 Dụng cụ xác định độ bền va uốn (0.59)
+Dụng cụ xác định thời gian bắt đầu đông kết,ca,1,M202.0175,khop_tu_dong,M202.0175,Dụng cụ xác định thời gian bắt đầu đông kết,1.30,,,M202.0084 Dụng cụ xác định giới hạn bền liên kết (0.66); M202.0106 Dụng cụ xác định độ bền va đập (0.59)
+Dụng cụ xác định độ bền va uốn,ca,1,M202.0107,khop_tu_dong,M202.0107,Dụng cụ xác định độ bền va uốn,1.30,,,M202.0106 Dụng cụ xác định độ bền va đập (1.08); M202.0101 Dụng cụ đo độ bền va đập (0.80)
+Dụng cụ xác định độ bền va đập,ca,1,M202.0106,khop_tu_dong,M202.0106,Dụng cụ xác định độ bền va đập,1.30,,,M202.0107 Dụng cụ xác định độ bền va uốn (1.08); M202.0101 Dụng cụ đo độ bền va đập (0.97)
+Dụng cụ xác định độ chịu lực va đập xung kích gạch lát xi măng,ca,1,M202.0083,khop_tu_dong,M202.0083,Dụng cụ xác định độ chịu lực va đập xung kích gạch lát xi măng (viên bi sắt),1.13,,,M202.0106 Dụng cụ xác định độ bền va đập (0.74); M202.0107 Dụng cụ xác định độ bền va uốn (0.65)
+Dụng cụ đo hệ số giãn nở ẩm,ca,1,M202.0102,khop_tu_dong,M202.0102,Dụng cụ đo hệ số giãn nở ẩm,1.30,,,M202.0170 Dụng cụ đo nhám (0.63); M202.0058 Dụng cụ đo độ cháy của than (0.55)
+Dụng cụ đo nhám,ca,1,M202.0170,khop_tu_dong,M202.0170,Dụng cụ đo nhám,1.30,,,M202.0105 Dụng cụ Vica (0.70); M202.0058 Dụng cụ đo độ cháy của than (0.68)
+Dụng cụ đo độ bền va đập,ca,2,M202.0101,khop_tu_dong,M202.0101,Dụng cụ đo độ bền va đập,1.30,,,M202.0106 Dụng cụ xác định độ bền va đập (0.97); M202.0107 Dụng cụ xác định độ bền va uốn (0.80)
+Dụng cụ đo độ cháy của than,ca,1,M202.0058,khop_tu_dong,M202.0058,Dụng cụ đo độ cháy của than,1.30,,,M202.0101 Dụng cụ đo độ bền va đập (0.70); M202.0170 Dụng cụ đo nhám (0.68)
+Gầu đào,ca,8,,can_xac_nhan,M103.1105,"Gầu đào (thi công móng cọc, tường Barrette)",0.59,,,"M101.0301 Máy đào gầu dây - dung tích gầu 0,40 m3 (0.50); M101.0302 Máy đào gầu dây - dung tích gầu 0,65 m3 (0.50)"
+Hệ kích thủy lực 25 t,ca,1,M102.1309,khop_tu_dong,M102.1309,Kích nâng - sức nâng Hệ kích nâng 25t (máy bơm dầu thủy lực 3 kW),0.82,,,M202.0046 Máy kéo nén uốn thuỷ lực 25 t (0.57); M101.1006 Máy lu rung tự hành - trọng lượng tĩnh 25 t (0.34)
+Hệ thống STS,ca,3,,can_xac_nhan,M102.0703,"Hệ thống xe goong di chuyển dầm (gồm mô tơ điện 3,5 kW và con lăn)",0.43,M111.0202,Máy và thiết bị khoan đặt đường cáp ngầm Hệ thống STS (phục vụ khoan ngầm có định hướng khi khoan qua sông nước),M103.1312 Máy khoan cọc đất Hệ thống kiểm soát khoan RAS (0.22); M111.0202 Máy và thiết bị khoan đặt đường cáp ngầm Hệ thống STS (phục vụ khoan ngầm có định hướng khi khoan qua sông nước) (0.20)
+Hệ thống kiểm soát khoan RAS,ca,1,M103.1312,khop_tu_dong,M103.1312,Máy khoan cọc đất Hệ thống kiểm soát khoan RAS,0.75,,,"M102.0703 Hệ thống xe goong di chuyển dầm (gồm mô tơ điện 3,5 kW và con lăn) (0.41); M111.0202 Máy và thiết bị khoan đặt đường cáp ngầm Hệ thống STS (phục vụ khoan ngầm có định hướng khi khoan qua sông nước) (0.17)"
+Hệ thống xe goòng,ca,3,M102.0703,khop_doi_chieu,M102.0703,"Hệ thống xe goong di chuyển dầm (gồm mô tơ điện 3,5 kW và con lăn)",0.50,,,M102.1801 Xe nâng - chiều cao nâng 9 m (0.20); M102.1802 Xe nâng - chiều cao nâng 12 m (0.20)
+Khoáng chuẩn,ca,1,M202.0176,khop_tu_dong,M202.0176,Khoáng chuẩn,1.30,,,M202.0025 Máy đầm tiêu chuẩn (đầm rung) (0.20)
+Khung giá máy & Máy gia tải 50T kỹ thuật số,ca,1,M202.0177,khop_tu_dong,M202.0177,Khung giá máy & Máy gia tải 50 tấn kỹ thuật số,1.50,,,M102.1304 Kích nâng - sức nâng 50 t (0.31); M102.0604 Cổng trục - sức nâng 50 t (0.30)
+Khuôn Capping mẫu,ca,1,M202.0108,khop_tu_dong,M202.0108,Khuôn Capping mẫu,1.30,,,M202.0109 Khuôn dập mẫu (0.80); M202.0031 Kích tháo mẫu (0.20)
+Kích 100T,ca,5,M102.1305,khop_tu_dong,M102.1305,Kích nâng - sức nâng 100 t,1.50,,,M102.1401 Kích thông tâm RRH - 100 t (0.90); M106.0806 Rơ mooc - trọng tải 100 t (0.45)
+Kích 200 t,ca,1,M102.1306,khop_tu_dong,M102.1306,Kích nâng - sức nâng 200 t,1.50,,,M109.0111 Sà lan - trọng tải 200 t (0.45); M109.0102 Sà lan - trọng tải 200 t (0.45)
+Kích 250 t,ca,8,M102.1307,khop_tu_dong,M102.1307,Kích nâng - sức nâng 250 t,1.50,,,M102.1403 Kích thông tâm YCW - 250 t (0.90); M102.0809 Cầu trục - sức nâng 250 t (0.45)
+Kích 250T,ca,1,M102.1307,khop_tu_dong,M102.1307,Kích nâng - sức nâng 250 t,1.50,,,M102.1403 Kích thông tâm YCW - 250 t (0.90); M102.0809 Cầu trục - sức nâng 250 t (0.45)
+Kích 30 t,ca,1,M102.1303,khop_tu_dong,M102.1303,Kích nâng - sức nâng 30 t,1.50,,,M102.0603 Cổng trục - sức nâng 30 t (0.45); M102.0801 Cầu trục - sức nâng 30 t (0.45)
+Kích 500 t,ca,8,M102.1308,khop_tu_dong,M102.1308,Kích nâng - sức nâng 500 t,1.50,,,M102.1404 Kích thông tâm YCW - 500 t (0.90); M102.1601 Kích sợi đơn YDC - 500 t (0.90)
+Kích 500T,ca,3,M102.1308,khop_tu_dong,M102.1308,Kích nâng - sức nâng 500 t,1.50,,,M102.1404 Kích thông tâm YCW - 500 t (0.90); M102.1601 Kích sợi đơn YDC - 500 t (0.90)
+Kích nâng 100T,ca,1,M102.1305,khop_tu_dong,M102.1305,Kích nâng - sức nâng 100 t,1.50,,,M102.1401 Kích thông tâm RRH - 100 t (0.90); M106.0806 Rơ mooc - trọng tải 100 t (0.45)
+Kích nâng 50T,ca,2,M102.1304,khop_doi_chieu,M102.1304,Kích nâng - sức nâng 50 t,1.50,,,M102.0604 Cổng trục - sức nâng 50 t (0.45); M102.0803 Cầu trục - sức nâng 50 t (0.45)
+Kích rút,ca,8,,can_xac_nhan,M102.1301,Kích nâng - sức nâng 5 t,0.63,,,M102.1302 Kích nâng - sức nâng 10 t (0.63); M102.1303 Kích nâng - sức nâng 30 t (0.63)
+Kích rút (bộ),ca,1,,can_xac_nhan,M102.1301,Kích nâng - sức nâng 5 t,0.55,,,M102.1302 Kích nâng - sức nâng 10 t (0.55); M102.1303 Kích nâng - sức nâng 30 t (0.55)
+Kích tháo mẫu,ca,4,M202.0031,khop_tu_dong,M202.0031,Kích tháo mẫu,1.30,,,M102.1301 Kích nâng - sức nâng 5 t (0.55); M102.1302 Kích nâng - sức nâng 10 t (0.55)
+Kích thủy lực 100T,ca,24,M102.1305,khop_tu_dong,M102.1305,Kích nâng - sức nâng 100 t,1.00,,,M102.1401 Kích thông tâm RRH - 100 t (0.79); M202.0045 Máy kéo nén thủy lực 100 t (0.70)
+Kích thủy lực 50T,ca,1,M102.1304,khop_tu_dong,M102.1304,Kích nâng - sức nâng 50 t,1.00,,,"M202.0042 Máy nén thuỷ lực 50 t (0.80); M202.0189 Máy kéo, nén thủy lực 50 tấn (0.70)"
+Kích thủy lực 5t,ca,4,M102.1301,khop_tu_dong,M102.1301,Kích nâng - sức nâng 5 t,1.00,,,"M102.0401 Cần trục tháp - sức nâng 5 t (0.34); M102.1107 Tời điện - sức kéo 5,0 t (0.34)"
+Kính hiển vi,ca,21,M201.0024,khop_tu_dong,M201.0024,Kính hiển vi,1.30,,,M201.0025 Kính hiển vi điện tử quét (0.70); M202.0160 Vi kế (0.33)
+Kính hiển vi điện tử quét,ca,1,M201.0025,khop_tu_dong,M201.0025,Kính hiển vi điện tử quét,1.30,,,M201.0024 Kính hiển vi (0.70); M202.0009 Cân điện tử (0.33)
+Kính phóng đại đo lường,ca,5,M202.0112,khop_tu_dong,M202.0112,Kính phóng đại đo lường,1.30,,,M203.0005 Hợp bộ đo lường (0.33); M202.0051 Máy đo PH (0.20)
+Kẹp niken,ca,15,M202.0086,khop_tu_dong,M202.0086,Kẹp niken,1.30,,,"M101.0115 Máy đào 1,25 m3 gắn đầu búa thủy lực/hàm kẹp (0.10)"
+Lò nung,ca,37,M202.0013,khop_tu_dong,M202.0013,Lò nung,1.30,,,"M105.0701 Lò nấu sơn YHK 3A, lò nung keo (0.59)"
+Lò nung keo,ca,4,,can_xac_nhan,M202.0013,Lò nung,0.97,M105.0701,"Lò nấu sơn YHK 3A, lò nung keo","M105.0701 Lò nấu sơn YHK 3A, lò nung keo (0.73)"
+Lò nấu sơn YHK 3A,ca,3,M105.0701,khop_tu_dong,M105.0701,"Lò nấu sơn YHK 3A, lò nung keo",1.01,,,M202.0013 Lò nung (0.47); M105.0601 Thiết bị sơn kẻ vạch YHK 10A (0.43)
+Lò nấu sơn YHK3A,ca,5,M105.0701,khop_tu_dong,M105.0701,"Lò nấu sơn YHK 3A, lò nung keo",1.01,,,M202.0013 Lò nung (0.47); M105.0601 Thiết bị sơn kẻ vạch YHK 10A (0.43)
+Moóc kéo 60T,ca,6,,can_xac_nhan,M202.0110,Kích kéo thủy lực 60 t,0.53,M106.0805,Rơ mooc - trọng tải 60 t,M102.0605 Cổng trục - sức nâng 60 t (0.40); M102.0804 Cầu trục - sức nâng 60 t (0.40)
+"Mày đầm dùi 1,5 kW",ca,1,M112.1301,khop_tu_dong,M112.1301,"Máy đầm bê tông, dầm dùi - công suất 1,5 kW",0.63,,,"M112.2101 Máy cắt gạch đá - công suất 1,5 kW (0.34); M112.1705 Máy khoan bê tông cầm tay - công suất 1,50 kW (0.31)"
+Máy FWD,ca,1,M202.0004,khop_doi_chieu,M202.0004,Máy FWD,1.30,,,
+Máy Gigarang,ca,1,M202.0178,khop_tu_dong,M202.0178,Máy Gigarang,1.30,,,
+Máy Hveem,ca,1,M202.0128,khop_tu_dong,M202.0128,Máy Hveem,1.30,,,
+Máy MF-2-100,ca,2,,can_xac_nhan,M201.0016,Máy thăm dò địa vật lý MF-2-100,0.47,,,
+Máy PDA,ca,3,,can_xac_nhan,M202.0007,Bộ thiết bị đo PDA (đo biến dạng lớn),0.17,,,
+Máy SHWD,ca,1,M202.0179,khop_doi_chieu,M202.0179,Máy SHWD,1.30,,,
+Máy Scaner,ca,32,,khong_khop,,,,,,
+Máy UJ- 18,ca,6,,can_xac_nhan,M201.0015,Máy thăm dò địa vật lý UJ-18,0.47,,,
+Máy bào,ca,1,M202.0180,khop_tu_dong,M202.0180,Máy bào gỗ,0.80,,,"M112.3401 Máy bào thép - công suất 7,5 kW (0.63)"
+Máy bào gỗ,ca,1,M202.0180,khop_tu_dong,M202.0180,Máy bào gỗ,1.30,,,"M112.3401 Máy bào thép - công suất 7,5 kW (0.55); M112.3801 Máy cưa gỗ cầm tay - công suất 1,3 kW (0.47)"
+"Máy bào thép 7,5kW",ca,1,M112.3401,khop_tu_dong,M112.3401,"Máy bào thép - công suất 7,5 kW",1.50,,,"M112.0401 Máy bơm chân không 7,5 kW (0.67); M112.2201 Máy cắt bê tông - công suất 7,5 kW (0.67)"
+Máy búa rung 90 kW,ca,12,M103.0302,khop_tu_dong,M103.0302,"Máy búa rung tự hành, bánh xích - công suất 90 kW",1.10,,,
+Máy búa rung tự hành 60kW,ca,4,,can_xac_nhan,M103.0301,"Máy búa rung tự hành, bánh xích - công suất 60 kW",1.10,,,M103.0402a Đầu Búa rung - công suất 60 kW (0.95)
+Máy búa rung tự hành 90kW,ca,4,M103.0302,khop_tu_dong,M103.0302,"Máy búa rung tự hành, bánh xích - công suất 90 kW",1.10,,,
+Máy bơm 200m3/h,ca,5,M103.1702,khop_doi_chieu,M103.1702,Máy bơm dung dịch - năng suất 200 m3/h,1.25,,,"M112.0210 Máy bơm nước, động cơ diezel - công suất 200 m3/h (0.93); M104.0702 Máy nghiền đá thô - năng suất 200 m3/h (0.83)"
+Máy bơm 25 cv,ca,28,M112.0205,khop_doi_chieu,M112.0205,"Máy bơm nước, động cơ diezel - công suất 25 cv",0.83,,,
+Máy bơm 75 cv,ca,1,,can_xac_nhan,M101.0501,Máy ủi - công suất 75 cv,0.83,,,"M112.0208 Máy bơm nước, động cơ diezel - công suất 75 cv (0.83); M109.0505 Ca nô - công suất 75 cv (0.45)"
+Máy bơm bê tông 50 m3/h,ca,37,,can_xac_nhan,M112.0801,"Xe bơm bê tông, tự hành - năng suất 50 m3/h",1.03,,,M112.0603 Máy bơm vữa - năng suất 32 - 50 m3/h (1.00); M104.0404 Trạm trộn bê tông - năng suất 50 m3/h (0.77)
+Máy bơm bê tông 50m3/h,ca,44,,can_xac_nhan,M112.0801,"Xe bơm bê tông, tự hành - năng suất 50 m3/h",1.03,,,M112.0603 Máy bơm vữa - năng suất 32 - 50 m3/h (1.00); M104.0404 Trạm trộn bê tông - năng suất 50 m3/h (0.77)
+Máy bơm cát động cơ diesel - công suất 250cv,ca,1,,can_xac_nhan,M109.0703,"Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 250 cv",0.26,M112.0702a,,
+Máy bơm cát động cơ diesel - công suất 25cv,ca,1,,can_xac_nhan,M112.0205,"Máy bơm nước, động cơ diezel - công suất 25 cv",1.00,M112.0205a,,
+Máy bơm cát động cơ diesel - công suất 350cv,ca,1,M112.0702,khop_doi_chieu,M112.0702,"Máy bơm cát, động cơ diezel - công suất 350 cv",1.21,,,
+Máy bơm cát động cơ diezel công suất 126 cv,ca,1,M112.0701,khop_doi_chieu,M112.0701,"Máy bơm cát, động cơ diezel - công suất 126 cv",1.50,,,
+Máy bơm cát động cơ diezel công suất 350 cv,ca,1,M112.0702,khop_doi_chieu,M112.0702,"Máy bơm cát, động cơ diezel - công suất 350 cv",1.50,,,
+Máy bơm cát động cơ diezel công suất 380 cv,ca,1,M112.0703,khop_doi_chieu,M112.0703,"Máy bơm cát, động cơ diezel - công suất 380 cv",1.50,,,
+Máy bơm cát động cơ diezel công suất 480 cv,ca,2,M112.0704,khop_doi_chieu,M112.0704,"Máy bơm cát, động cơ diezel - công suất 480 cv",1.50,,,
+Máy bơm dung dịch 15m3/h,ca,6,M103.1701,khop_tu_dong,M103.1701,Máy bơm dung dịch - năng suất 15 m3/h,1.50,,,M112.0605 Máy bơm vữa - năng suất 15 m3/h (1.10)
+Máy bơm dung dịch 200 m3/h,ca,7,M103.1702,khop_doi_chieu,M103.1702,Máy bơm dung dịch - năng suất 200 m3/h,1.50,,,"M112.0210 Máy bơm nước, động cơ diezel - công suất 200 m3/h (0.88); M104.0702 Máy nghiền đá thô - năng suất 200 m3/h (0.79)"
+"Máy bơm nước 1,1 kW",ca,4,M112.0101,khop_tu_dong,M112.0101,"Máy bơm nước, động cơ điện - công suất 1,1 kW",1.00,,,"M112.3601 Máy ghép mí - công suất 1,1 kW (0.70)"
+Máy bơm nước 120 cv,ca,1,M112.0209,khop_tu_dong,M112.0209,"Máy bơm nước, động cơ diezel - công suất 120 cv",1.00,,,
+Máy bơm nước 14 kW,ca,2,M112.0105,khop_doi_chieu,M112.0105,"Máy bơm nước, động cơ điện - công suất 14 kW",1.00,,,M112.4002 Máy hàn xoay chiều - công suất 14 kW ÷ 15 kW (0.67)
+Máy bơm nước 2 kW,ca,184,M112.0102,khop_doi_chieu,M112.0102,"Máy bơm nước, động cơ điện - công suất 2 kW",1.00,,,
+"Máy bơm nước 2,8kW",ca,3,M112.0103,khop_tu_dong,M112.0103,"Máy bơm nước, động cơ điện - công suất 2,8 kW",1.00,,,"M112.2501 Máy cắt đột - công suất 2,8 kW (0.70); M112.3001 Máy uốn ống - công suất 2,0 kW÷2,8 kW (0.67)"
+Máy bơm nước 20 KW,ca,3,M112.0106,khop_tu_dong,M112.0106,"Máy bơm nước, động cơ điện - công suất 20 kW",1.00,,,
+Máy bơm nước 20 cv,ca,4,M112.0204,khop_tu_dong,M112.0204,"Máy bơm nước, động cơ diezel - công suất 20 cv",1.00,,,
+Máy bơm nước 20 kW,ca,4,M112.0106,khop_tu_dong,M112.0106,"Máy bơm nước, động cơ điện - công suất 20 kW",1.00,,,
+Máy bơm nước 20cv,ca,4,M112.0204,khop_tu_dong,M112.0204,"Máy bơm nước, động cơ diezel - công suất 20 cv",1.00,,,
+Máy bơm nước 20kW,ca,3,M112.0106,khop_doi_chieu,M112.0106,"Máy bơm nước, động cơ điện - công suất 20 kW",1.00,,,
+Máy bơm nước 5 cv,ca,91,M112.0201,khop_doi_chieu,M112.0201,"Máy bơm nước, động cơ diezel - công suất 5 cv",1.00,,,
+"Máy bơm nước 5,5 cv",ca,3,M112.0202,khop_doi_chieu,M112.0202,"Máy bơm nước, động cơ diezel - công suất 5,5 cv",1.00,,,
+"Máy bơm nước 7,0kW",ca,1,M112.0104,khop_tu_dong,M112.0104,"Máy bơm nước, động cơ điện - công suất 7 kW ÷ 7,5 kW",0.93,,,M112.3501 Máy phay - công suất 7 kW (0.75); M112.4001 Máy hàn xoay chiều - công suất 7 kW (0.70)
+"Máy bơm nước 7,5kW",ca,1,,can_xac_nhan,M112.0104,"Máy bơm nước, động cơ điện - công suất 7 kW ÷ 7,5 kW",0.93,,,"M112.0401 Máy bơm chân không 7,5 kW (0.90); M112.3401 Máy bào thép - công suất 7,5 kW (0.70)"
+Máy bơm nước áp lực xói nước đầu cọc 300 cv,ca,6,M112.0501,khop_tu_dong,M112.0501,Máy bơm áp lực xói nước đầu cọc (300 cv),1.50,,,M112.4602 Máy khoan xoay - công suất 300 cv (0.60)
+Máy bơm nước động cơ diesel - công suất 250cv,ca,2,,can_xac_nhan,M109.0703,"Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 250 cv",0.26,M112.0702a,,
+Máy bơm nước động cơ diezel công suất 120 cv,ca,2,M112.0209,khop_doi_chieu,M112.0209,"Máy bơm nước, động cơ diezel - công suất 120 cv",1.50,,,
+Máy bơm nước động cơ diezel công suất 30 cv,ca,1,M112.0206,khop_doi_chieu,M112.0206,"Máy bơm nước, động cơ diezel - công suất 30 cv",1.50,,,M109.0503 Ca nô - công suất 30 cv (0.33)
+Máy bơm nước động cơ diezel công suất 40 cv,ca,1,M112.0207,khop_doi_chieu,M112.0207,"Máy bơm nước, động cơ diezel - công suất 40 cv",1.50,,,
+Máy bơm nước động cơ diezel công suất 75 cv,ca,1,M112.0208,khop_doi_chieu,M112.0208,"Máy bơm nước, động cơ diezel - công suất 75 cv",1.50,,,M101.0501 Máy ủi - công suất 75 cv (0.64); M109.0505 Ca nô - công suất 75 cv (0.33)
+Máy bơm vữa 15-24m3/h,ca,1,M104.0312,khop_tu_dong,M104.0312,Máy trộn vữa xi măng - dung tích 24 m3/h,0.93,,,
+Máy bơm vữa 32-50 m3/h,ca,4,M112.0603,khop_doi_chieu,M112.0603,Máy bơm vữa - năng suất 32 - 50 m3/h,1.50,,,"M105.0401 Máy rải cấp phối đá dăm, năng suất 50 m3/h - 60 m3/h (0.72); M112.0801 Xe bơm bê tông, tự hành - năng suất 50 m3/h (0.63)"
+Máy bơm vữa 32-50m3/h,ca,1,M112.0603,khop_tu_dong,M112.0603,Máy bơm vữa - năng suất 32 - 50 m3/h,1.50,,,"M105.0401 Máy rải cấp phối đá dăm, năng suất 50 m3/h - 60 m3/h (0.72); M112.0801 Xe bơm bê tông, tự hành - năng suất 50 m3/h (0.63)"
+Máy bơm vữa 6 m3,ca,1,,can_xac_nhan,M106.0503,Ô tô tưới nước - dung tích 6 m3,0.34,,,M106.0401 Ô tô chuyển trộn bê tông - dung tích thùng trộn 6 m3 (0.30)
+Máy bơm vữa 6 m3/h,ca,21,M112.0601,khop_tu_dong,M112.0601,Máy bơm vữa - năng suất 6 m3/h,1.50,,,
+Máy bơm vữa 9 m3/h,ca,4,M112.0602,khop_doi_chieu,M112.0602,Máy bơm vữa - năng suất 9 m3/h,1.50,,,M112.1001 Máy phun vẩy - năng suất 9 m3/h (AL 285) (0.79)
+Máy bơm vữa xi măng 32-50 m3/h,ca,4,M112.0603,khop_doi_chieu,M112.0603,Máy bơm vữa - năng suất 32 - 50 m3/h,1.17,,,"M105.0401 Máy rải cấp phối đá dăm, năng suất 50 m3/h - 60 m3/h (0.68); M112.0801 Xe bơm bê tông, tự hành - năng suất 50 m3/h (0.53)"
+Máy bơm vữa xi măng 32-50m3/h,ca,4,M112.0603,khop_tu_dong,M112.0603,Máy bơm vữa - năng suất 32 - 50 m3/h,1.17,,,"M105.0401 Máy rải cấp phối đá dăm, năng suất 50 m3/h - 60 m3/h (0.68); M112.0801 Xe bơm bê tông, tự hành - năng suất 50 m3/h (0.53)"
+Máy bơm vữa xi măng 9m3/h,ca,2,M112.0602,khop_doi_chieu,M112.0602,Máy bơm vữa - năng suất 9 m3/h,1.17,,,M112.1001 Máy phun vẩy - năng suất 9 m3/h (AL 285) (0.72)
+Máy bơm xói 4MC,ca,2,M112.0402,khop_doi_chieu,M112.0402,Máy bơm xói 4MC (75 kW),1.05,,,M112.0501 Máy bơm áp lực xói nước đầu cọc (300 cv) (0.52); M103.1701 Máy bơm dung dịch - năng suất 15 m3/h (0.47)
+Máy bơm áp lực cao,ca,1,M112.0501,khop_tu_dong,M112.0501,Máy bơm áp lực xói nước đầu cọc (300 cv),0.68,,,M103.1701 Máy bơm dung dịch - năng suất 15 m3/h (0.47); M103.1702 Máy bơm dung dịch - năng suất 200 m3/h (0.47)
+Máy bộ đàm,ca,5,M202.0114,khop_doi_chieu,M202.0114,Máy bộ đàm,1.30,,,M201.0001 Bộ khoan tay (0.25); M202.0008 Bộ thiết bị siêu âm (0.25)
+Máy chiết nhựa (Xốc lét),ca,1,M202.0066,khop_tu_dong,M202.0066,Máy chiết nhựa (Xốc lét),1.30,,,M105.0101 Máy phun nhựa đường - công suất 190 cv (0.47); M105.0204 Máy rải nhựa đường Micro- Asphalt tự hành (0.44)
+Máy chưng cất nước,ca,9,M202.0021,khop_tu_dong,M202.0021,Máy chưng cất nước,1.30,,,M112.4201 Máy hàn cắt dưới nước (0.47); M202.0191 Máy khuấy và làm mát nước (0.47)
+Máy chổi sắt cầm tay,ca,1,,can_xac_nhan,M112.1601,"Máy khoan sắt cầm tay, đường kính khoan 1,7 kW",0.80,,,"M112.2001 Máy cắt sắt cầm tay - công suất 1,7 kW (0.80); M112.4301 Máy hàn nhiệt cầm tay (0.63)"
+Máy chụp X quang,ca,2,,can_xac_nhan,M203.0020,Máy chụp sóng,0.55,,,M202.0064 Máy so màu quang điện (0.47); M202.0027 Máy cắt mẫu lớn (30x30) cm (0.44)
+Máy cào bóc Wirtgen C1000,ca,5,M105.0501,khop_doi_chieu,M105.0501,Máy cào bóc đường Wirtgen - 1000C,1.30,,,"M105.0502 Máy cào bóc tái sinh, Wigent 2400 (0.59); M105.0503 Máy cào bóc tái sinh, công suất > 450 HP (0.55)"
+"Máy cào bóc tái sinh PM550s, công suất > 450HP",ca,2,M105.0503,khop_tu_dong,M105.0503,"Máy cào bóc tái sinh, công suất > 450 HP",1.25,,,
+Máy cào bóc tái sinh Wirtgen 2400,ca,4,,can_xac_nhan,M105.0502,"Máy cào bóc tái sinh, Wigent 2400",0.97,,,"M105.0503 Máy cào bóc tái sinh, công suất > 450 HP (0.87); M105.0501 Máy cào bóc đường Wirtgen - 1000C (0.80)"
+Máy cào vơ 3 m3/ph,ca,2,M110.0201,khop_doi_chieu,M110.0201,"Máy cào đá, động cơ điện - năng suất 3 m3/ph",0.88,,,"M112.2902 Búa căn khí nén (chưa tính khí nén) - tiêu hao khí nén 3,0 m3/ph (0.37)"
+"Máy cưa 2,7 kW",ca,2,M112.3202,khop_tu_dong,M112.3202,"Máy cưa kim loại - công suất 2,7 kW",1.17,,,"M112.3703 Máy mài - công suất 2,7 kW (0.83)"
+Máy cưa gỗ,ca,1,,can_xac_nhan,M112.3801,"Máy cưa gỗ cầm tay - công suất 1,3 kW",0.70,,,"M202.0180 Máy bào gỗ (0.63); M112.3201 Máy cưa kim loại - công suất 1,7 kW (0.55)"
+"Máy cưa gỗ cầm tay 1,3 kW",ca,14,M112.3801,khop_doi_chieu,M112.3801,"Máy cưa gỗ cầm tay - công suất 1,3 kW",1.50,,,
+"Máy cưa kim loại 1,7 kW",ca,2,M112.3201,khop_tu_dong,M112.3201,"Máy cưa kim loại - công suất 1,7 kW",1.50,,,"M112.3702 Máy mài - công suất 1,6 kW - 1,7 kW (0.75); M112.2102 Máy cắt gạch đá - công suất 1,7 kW (0.67)"
+"Máy cưa kim loại 2,7 kW",ca,1,M112.3202,khop_tu_dong,M112.3202,"Máy cưa kim loại - công suất 2,7 kW",1.50,,,"M112.3703 Máy mài - công suất 2,7 kW (0.75)"
+Máy cưa thép,ca,1,,can_xac_nhan,M112.2801,Máy cắt thép Plasma,0.55,,,"M112.3201 Máy cưa kim loại - công suất 1,7 kW (0.55); M112.3202 Máy cưa kim loại - công suất 2,7 kW (0.55)"
+Máy cạp 16m3,ca,20,M101.0602,khop_doi_chieu,M101.0602,Máy cạp tự hành - dung tích thùng 16 m3,1.17,,,M105.0402 Máy rải xi măng SW16TC (16m3) (0.64); M106.0507 Ô tô tưới nước - dung tích 16 m3 (0.37)
+Máy cạp 9m3,ca,20,M101.0601,khop_doi_chieu,M101.0601,Máy cạp tự hành - dung tích thùng 9 m3,1.17,,,M106.0505 Ô tô tưới nước - dung tích 9 m3 (0.37)
+Máy cấp xi măng,ca,4,M103.1401,khop_tu_dong,M103.1401,Máy cấp xi măng,1.30,,,"M202.0023 Máy trộn xi măng, dung tích 5lít (0.70); M104.0301 Máy trộn vữa xi măng - dung tích 1200 lít (0.63)"
+Máy cấy bấc thấm,ca,1,M103.1001,khop_doi_chieu,M103.1001,Máy cấy bấc thấm,1.30,,,M202.0142 Máy thấm (0.63); M202.0193 Máy thử độ chống thấm (0.47)
+"Máy cắt 1,7 kW",ca,1,,can_xac_nhan,M112.2102,"Máy cắt gạch đá - công suất 1,7 kW",1.00,M112.2001,"Máy cắt sắt cầm tay - công suất 1,7 kW","M112.2001 Máy cắt sắt cầm tay - công suất 1,7 kW (0.90); M112.3702 Máy mài - công suất 1,6 kW - 1,7 kW (0.83)"
+Máy cắt Makita,ca,2,M202.0181,khop_tu_dong,M202.0181,Máy cắt Makita,1.30,,,M202.0026 Máy cắt đất (0.63); M202.0182 Máy cắt phẳng (0.63)
+"Máy cắt bê tông 1,5kW",ca,12,,can_xac_nhan,M112.1301,"Máy đầm bê tông, dầm dùi - công suất 1,5 kW",0.93,M112.2101,"Máy cắt gạch đá - công suất 1,5 kW","M112.1705 Máy khoan bê tông cầm tay - công suất 1,50 kW (0.93); M112.2101 Máy cắt gạch đá - công suất 1,5 kW (0.83)"
+Máy cắt bê tông 12 cv,ca,24,M112.2202,khop_doi_chieu,M112.2202,Máy cắt bê tông - công suất 12 cv (MCD 218),1.30,,,M109.0501 Ca nô - công suất 12 cv (0.37)
+Máy cắt bê tông 12cv,ca,1,M112.2202,khop_tu_dong,M112.2202,Máy cắt bê tông - công suất 12 cv (MCD 218),1.30,,,M109.0501 Ca nô - công suất 12 cv (0.37)
+"Máy cắt bê tông 7,5 kW",ca,4,M112.2201,khop_tu_dong,M112.2201,"Máy cắt bê tông - công suất 7,5 kW",1.50,,,"M112.3401 Máy bào thép - công suất 7,5 kW (0.67); M112.0401 Máy bơm chân không 7,5 kW (0.64)"
+"Máy cắt bê tông 7,5kW",ca,6,M112.2201,khop_tu_dong,M112.2201,"Máy cắt bê tông - công suất 7,5 kW",1.50,,,"M112.3401 Máy bào thép - công suất 7,5 kW (0.67); M112.0401 Máy bơm chân không 7,5 kW (0.64)"
+Máy cắt cáp 10 kW,ca,10,M112.1901,khop_tu_dong,M112.1901,Máy cắt cáp - công suất 10 kW,1.50,,,M112.3301 Máy tiện - công suất 10 kW (0.75)
+Máy cắt gạch,ca,4,,can_xac_nhan,M112.2101,"Máy cắt gạch đá - công suất 1,5 kW",0.80,,,"M112.2102 Máy cắt gạch đá - công suất 1,7 kW (0.80); M202.0026 Máy cắt đất (0.63)"
+"Máy cắt gạch 1,7 kW",ca,54,M112.2102,khop_doi_chieu,M112.2102,"Máy cắt gạch đá - công suất 1,7 kW",1.25,,,"M112.2001 Máy cắt sắt cầm tay - công suất 1,7 kW (0.83); M112.3702 Máy mài - công suất 1,6 kW - 1,7 kW (0.75)"
+"Máy cắt gạch 1,7kW",ca,23,M112.2102,khop_doi_chieu,M112.2102,"Máy cắt gạch đá - công suất 1,7 kW",1.25,,,"M112.2001 Máy cắt sắt cầm tay - công suất 1,7 kW (0.83); M112.3702 Máy mài - công suất 1,6 kW - 1,7 kW (0.75)"
+"Máy cắt gạch đá 1,7 kW",ca,12,M112.2102,khop_doi_chieu,M112.2102,"Máy cắt gạch đá - công suất 1,7 kW",1.50,,,"M112.2001 Máy cắt sắt cầm tay - công suất 1,7 kW (0.79); M112.3702 Máy mài - công suất 1,6 kW - 1,7 kW (0.70)"
+Máy cắt khe tạo nhám 75 cv,ca,1,,can_xac_nhan,M101.0501,Máy ủi - công suất 75 cv,0.67,,,"M112.0208 Máy bơm nước, động cơ diezel - công suất 75 cv (0.60); M109.0505 Ca nô - công suất 75 cv (0.34)"
+Máy cắt phẳng,ca,1,M202.0182,khop_tu_dong,M202.0182,Máy cắt phẳng,1.30,,,M202.0026 Máy cắt đất (0.63); M202.0181 Máy cắt Makita (0.63)
+Máy cắt thép Plasma,ca,2,M112.2801,khop_tu_dong,M112.2801,Máy cắt thép Plasma,1.30,,,M112.2601 Máy cắt uốn cốt thép - công suất 5 kW (0.63); M202.0026 Máy cắt đất (0.55)
+Máy cắt tôn 15 kW,ca,8,M112.2402,khop_tu_dong,M112.2402,Máy cắt tôn - công suất 15 kW,1.50,,,M112.1801 Máy luồn cáp - công suất 15 kW (0.70); M112.4002 Máy hàn xoay chiều - công suất 14 kW ÷ 15 kW (0.67)
+Máy cắt uốn,ca,6,,can_xac_nhan,M112.2601,Máy cắt uốn cốt thép - công suất 5 kW,0.70,,,M202.0026 Máy cắt đất (0.63); M202.0146 Máy uốn gạch (0.63)
+Máy cắt uốn 5 kW,ca,290,M112.2601,khop_doi_chieu,M112.2601,Máy cắt uốn cốt thép - công suất 5 kW,1.10,,,M112.2301 Máy cắt ống - công suất 5 kW (1.00); M112.2401 Máy cắt tôn - công suất 5 kW (1.00)
+Máy cắt uốn 5kW,ca,16,M112.2601,khop_doi_chieu,M112.2601,Máy cắt uốn cốt thép - công suất 5 kW,1.10,,,M112.2301 Máy cắt ống - công suất 5 kW (1.00); M112.2401 Máy cắt tôn - công suất 5 kW (1.00)
+Máy cắt uốn thép 5 kW,ca,4,M112.2601,khop_doi_chieu,M112.2601,Máy cắt uốn cốt thép - công suất 5 kW,1.30,,,M112.2301 Máy cắt ống - công suất 5 kW (0.90); M112.2401 Máy cắt tôn - công suất 5 kW (0.90)
+"Máy cắt vát 20,5 cv",ca,1,M112.2203,khop_tu_dong,M112.2203,"Máy cắt vát 20,5cv",1.50,,,
+"Máy cắt đá 1,7 kW",ca,5,M112.2102,khop_tu_dong,M112.2102,"Máy cắt gạch đá - công suất 1,7 kW",1.25,,,"M112.2001 Máy cắt sắt cầm tay - công suất 1,7 kW (0.83); M112.3702 Máy mài - công suất 1,6 kW - 1,7 kW (0.75)"
+"Máy cắt đột 2,8 kW",ca,3,M112.2501,khop_tu_dong,M112.2501,"Máy cắt đột - công suất 2,8 kW",1.50,,,"M112.3001 Máy uốn ống - công suất 2,0 kW÷2,8 kW (0.67); M112.0103 Máy bơm nước, động cơ điện - công suất 2,8 kW (0.62)"
+Máy cắt ống 5 kW,ca,3,M112.2301,khop_tu_dong,M112.2301,Máy cắt ống - công suất 5 kW,1.50,,,M112.2401 Máy cắt tôn - công suất 5 kW (1.00); M112.2601 Máy cắt uốn cốt thép - công suất 5 kW (0.83)
+Máy cắt ống 5kW,ca,6,M112.2301,khop_doi_chieu,M112.2301,Máy cắt ống - công suất 5 kW,1.50,,,M112.2401 Máy cắt tôn - công suất 5 kW (1.00); M112.2601 Máy cắt uốn cốt thép - công suất 5 kW (0.83)
+"Máy cắt, mài mẫu vật liệu",ca,20,M202.0116,khop_tu_dong,M202.0116,"Máy cắt, mài mẫu vật liệu",1.30,,,"M202.0033 Máy cắt mẫu vật liệu (bê tông, gạch, đá) (0.74); M202.0027 Máy cắt mẫu lớn (30x30) cm (0.55)"
+Máy dán băng tải,ca,5,,khong_khop,,,,,,
+Máy dò khuyết tật,ca,1,M202.0123,khop_tu_dong,M202.0123,Máy dò khuyết tật,1.30,,,M202.0088 Máy dò vị trí cốt thép (0.44); M201.0015 Máy thăm dò địa vật lý UJ-18 (0.42)
+Máy dò siêu âm,ca,2,,can_xac_nhan,M202.0087,Máy siêu âm đo chiều dầy kim loại,0.63,,,M202.0133 Máy làm sạch bằng siêu âm (0.63); M202.0140 Máy siêu âm đo vết nứt (0.63)
+Máy dò vị trí cốt thép,ca,1,M202.0088,khop_tu_dong,M202.0088,Máy dò vị trí cốt thép,1.30,,,M112.2601 Máy cắt uốn cốt thép - công suất 5 kW (0.55); M202.0184 Máy đo chiều dày lớp bê tông bảo vệ và đo đường kính cốt thép (0.47)
+"Máy dầm dùi 1,5kW",ca,2,M112.1301,khop_tu_dong,M112.1301,"Máy đầm bê tông, dầm dùi - công suất 1,5 kW",1.00,,,"M112.2101 Máy cắt gạch đá - công suất 1,5 kW (0.67); M112.1705 Máy khoan bê tông cầm tay - công suất 1,50 kW (0.62)"
+Máy gia nhiệt D1200,ca,75,,can_xac_nhan,M112.4302,Máy gia nhiệt D315mm,1.05,M112.4304,Máy gia nhiệt D1200mm,M112.4303 Máy gia nhiệt D630mm (1.05); M112.4304 Máy gia nhiệt D1200mm (1.05)
+Máy gia nhiệt D315,ca,162,M112.4302,khop_doi_chieu,M112.4302,Máy gia nhiệt D315mm,1.05,,,M112.4303 Máy gia nhiệt D630mm (1.05); M112.4304 Máy gia nhiệt D1200mm (1.05)
+Máy gia nhiệt D630,ca,107,,can_xac_nhan,M112.4302,Máy gia nhiệt D315mm,1.05,M112.4303,Máy gia nhiệt D630mm,M112.4303 Máy gia nhiệt D630mm (1.05); M112.4304 Máy gia nhiệt D1200mm (1.05)
+Máy gia tải 20T,ca,1,M202.0048,khop_tu_dong,M202.0048,Máy gia tải - 20 t,1.50,,,M101.1005 Máy lu rung tự hành - trọng lượng tĩnh 20t (0.75); M101.1202 Máy lu chân cừu tự hành - trọng lượng tĩnh 20 t (0.70)
+Máy gấp mép,ca,2,,can_xac_nhan,,,,M203.0029,,
+Máy hiện sóng 2 tia (Oscilograf),ca,1,M112.4803,khop_doi_chieu,M112.4803,Máy hiện sóng 2 tia (Oscilograf),1.30,,,M201.0033 Máy bù sóng (0.50); M203.0020 Máy chụp sóng (0.50)
+Máy hàn 14 kW,ca,12,M112.4002,khop_doi_chieu,M112.4002,Máy hàn xoay chiều - công suất 14 kW ÷ 15 kW,1.00,,,"M112.0105 Máy bơm nước, động cơ điện - công suất 14 kW (0.64)"
+Máy hàn 23 Kw,ca,1,M112.4003,khop_tu_dong,M112.4003,Máy hàn xoay chiều - công suất 23 kW,1.17,,,
+Máy hàn 23 kW,ca,646,M112.4003,khop_doi_chieu,M112.4003,Máy hàn xoay chiều - công suất 23 kW,1.17,,,
+Máy hàn 23KW,ca,3,M112.4003,khop_tu_dong,M112.4003,Máy hàn xoay chiều - công suất 23 kW,1.17,,,
+Máy hàn 23kW,ca,80,M112.4003,khop_doi_chieu,M112.4003,Máy hàn xoay chiều - công suất 23 kW,1.17,,,
+Máy hàn 23kW,cái,1,M112.4003,khop_doi_chieu,M112.4003,Máy hàn xoay chiều - công suất 23 kW,1.17,,,
+Máy hàn 50 kW,ca,19,M112.3901,khop_tu_dong,M112.3901,Máy hàn một chiều - công suất 50 kW,1.17,,,M103.0402 Đầu Búa rung - công suất 50 kW (0.40)
+Máy hàn TIG,ca,10,M112.4202,khop_tu_dong,M112.4202,Máy hàn TIG,1.30,,,M112.3901 Máy hàn một chiều - công suất 50 kW (0.55); M112.4001 Máy hàn xoay chiều - công suất 7 kW (0.55)
+Máy hàn hơi,ca,3,,can_xac_nhan,M112.4101,Máy hàn hơi - công suất 1000 l/h,0.80,,,M112.4102 Máy hàn hơi - công suất 2000 l/h (0.80); M112.4202 Máy hàn TIG (0.63)
+Máy hàn hơi 1000 l/h,ca,243,M112.4101,khop_tu_dong,M112.4101,Máy hàn hơi - công suất 1000 l/h,1.50,,,
+Máy hàn hơi 1000l/h,ca,4,M112.4101,khop_tu_dong,M112.4101,Máy hàn hơi - công suất 1000 l/h,1.50,,,
+Máy hàn hơi 2000 l/h,ca,14,M112.4102,khop_doi_chieu,M112.4102,Máy hàn hơi - công suất 2000 l/h,1.50,,,
+Máy hàn hơi 2000L/h,ca,3,M112.4102,khop_doi_chieu,M112.4102,Máy hàn hơi - công suất 2000 l/h,1.50,,,
+Máy hàn nhiệt cầm tay,ca,140,M112.4301,khop_doi_chieu,M112.4301,Máy hàn nhiệt cầm tay,1.30,,,M202.0073 Máy khuấy cầm tay NAG-2 (0.63); M101.0801 Máy đầm đất cầm tay - trọng lượng 50 kg (0.59)
+Máy hàn điện 23 kW,ca,7,M112.4003,khop_tu_dong,M112.4003,Máy hàn xoay chiều - công suất 23 kW,1.00,,,
+Máy hàn điện 23kW,ca,55,M112.4003,khop_tu_dong,M112.4003,Máy hàn xoay chiều - công suất 23 kW,1.00,,,
+Máy hàn điện 50 kW,ca,268,M112.3901,khop_doi_chieu,M112.3901,Máy hàn một chiều - công suất 50 kW,1.00,,,M103.0402 Đầu Búa rung - công suất 50 kW (0.37)
+Máy hàn điện 50kW,ca,2,M112.3901,khop_tu_dong,M112.3901,Máy hàn một chiều - công suất 50 kW,1.00,,,M103.0402 Đầu Búa rung - công suất 50 kW (0.37)
+Máy hút chân không,ca,16,M202.0017,khop_tu_dong,M202.0017,Máy hút chân không,1.30,,,"M112.0401 Máy bơm chân không 7,5 kW (0.70); M202.0018 Máy hút ẩm OASIS-America (0.50)"
+Máy hút ẩm,ca,40,M202.0018,khop_tu_dong,M202.0018,Máy hút ẩm OASIS-America,0.97,,,M202.0093 Bình hút ẩm (0.67); M202.0017 Máy hút chân không (0.55)
+Máy khoan,ca,3,,can_xac_nhan,M201.0003,Máy khoan XY-3,0.80,M112.4501,Máy khoan khoan đập cáp - công suất 40 kW,M201.0004 Máy khoan GK-250 (0.80); M202.0119 Máy khoan HILTI hoặc loại tương tự (0.80)
+Máy khoan 1 kW,ca,9,M112.1704,khop_doi_chieu,M112.1704,"Máy khoan bê tông cầm tay - công suất 1,00 kW",0.83,,,"M112.3701 Máy mài - công suất 1,0 kW (0.83); M112.1101 Máy đầm bê tông, đầm bàn - công suất 1,0 kW (0.67)"
+"Máy khoan 1,7 kW",ca,3,,can_xac_nhan,M112.1601,"Máy khoan sắt cầm tay, đường kính khoan 1,7 kW",0.90,,,"M112.3702 Máy mài - công suất 1,6 kW - 1,7 kW (0.83); M112.3201 Máy cưa kim loại - công suất 1,7 kW (0.75)"
+Máy khoan 150KNm÷200KNm,ca,8,,can_xac_nhan,M103.1101,Máy khoan xoay 80kNm÷125kNm,1.05,,,M103.1102 Máy khoan xoay 150kNm÷200kNm (1.05); M103.1103 Máy khoan xoay > 200kNm÷300kNm (0.90)
+Máy khoan 1kW,ca,2,M112.1704,khop_doi_chieu,M112.1704,"Máy khoan bê tông cầm tay - công suất 1,00 kW",0.83,,,"M112.3701 Máy mài - công suất 1,0 kW (0.83); M112.1101 Máy đầm bê tông, đầm bàn - công suất 1,0 kW (0.67)"
+"Máy khoan 2,5 kW",ca,7,M112.1501,khop_tu_dong,M112.1501,"Máy khoan đứng - công suất 2,5 kW",1.17,,,"M112.4401 Máy quạt gió - công suất 2,5 kW (0.75)"
+"Máy khoan 4,5 kW",ca,41,M112.1502,khop_doi_chieu,M112.1502,"Máy khoan đứng - công suất 4,5 kW",1.17,,,"M112.3301a Máy tiện - công suất 4,5kW (0.83); M112.4402 Máy quạt gió - công suất 4,5 kW (0.75)"
+"Máy khoan 4,5kW",ca,4,M112.1502,khop_doi_chieu,M112.1502,"Máy khoan đứng - công suất 4,5 kW",1.17,,,"M112.3301a Máy tiện - công suất 4,5kW (0.83); M112.4402 Máy quạt gió - công suất 4,5 kW (0.75)"
+Máy khoan 750W,ca,3,,can_xac_nhan,M201.0003,Máy khoan XY-3,0.63,,,M201.0004 Máy khoan GK-250 (0.63); M202.0119 Máy khoan HILTI hoặc loại tương tự (0.63)
+Máy khoan 80KNm÷125KNm,ca,24,,can_xac_nhan,M103.1101,Máy khoan xoay 80kNm÷125kNm,1.05,,,M103.1102 Máy khoan xoay 150kNm÷200kNm (1.05); M103.1103 Máy khoan xoay > 200kNm÷300kNm (0.90)
+Máy khoan > 200KNm÷300KNm,ca,48,,can_xac_nhan,M103.1103,Máy khoan xoay > 200kNm÷300kNm,1.10,,,M103.1104 Máy khoan xoay > 300kNm÷400kNm (1.10); M103.1101 Máy khoan xoay 80kNm÷125kNm (0.90)
+Máy khoan > 300KNm÷400KNm,ca,32,,can_xac_nhan,M103.1103,Máy khoan xoay > 200kNm÷300kNm,1.10,,,M103.1104 Máy khoan xoay > 300kNm÷400kNm (1.10); M103.1101 Máy khoan xoay 80kNm÷125kNm (0.90)
+Máy khoan GK-250 hoặc loại tương tự,ca,15,M201.0004,khop_tu_dong,M201.0004,Máy khoan GK-250,1.30,,,M201.0003 Máy khoan XY-3 (0.63); M202.0119 Máy khoan HILTI hoặc loại tương tự (0.63)
+Máy khoan ROBBIN,ca,2,,can_xac_nhan,M107.0501,"Máy khoan ROBBIN, đường kính khoan D 2,4 m (250 kW)",0.70,,,M201.0003 Máy khoan XY-3 (0.63); M201.0004 Máy khoan GK-250 (0.63)
+Máy khoan XY- 1A hoặc loại tương tự,ca,5,M201.0002,khop_tu_dong,M201.0002,Máy khoan XY-1A,1.30,,,M201.0003 Máy khoan XY-3 (0.97); M107.0803 Máy khoan XY-1A (phục vụ công tác xây dựng) (0.68)
+Máy khoan XY-1A hoặc loại tương tự,ca,28,M201.0002,khop_tu_dong,M201.0002,Máy khoan XY-1A,1.30,,,M201.0003 Máy khoan XY-3 (0.97); M107.0803 Máy khoan XY-1A (phục vụ công tác xây dựng) (0.68)
+Máy khoan XY-3 hoặc loại tương tự,ca,8,M201.0003,khop_doi_chieu,M201.0003,Máy khoan XY-3,1.30,,,M201.0002 Máy khoan XY-1A (0.97); M201.0004 Máy khoan GK-250 (0.63)
+Máy khoan YG60,ca,2,,can_xac_nhan,M201.0003,Máy khoan XY-3,0.63,,,M201.0004 Máy khoan GK-250 (0.63); M202.0119 Máy khoan HILTI hoặc loại tương tự (0.63)
+Máy khoan bê tông,ca,16,,can_xac_nhan,M112.1701,"Máy khoan bê tông cầm tay - công suất 0,62 kW",0.80,M104.0102,Máy trộn bê tông - dung tích 250 lít,"M112.1702 Máy khoan bê tông cầm tay - công suất 0,75 kW (0.80); M112.1703 Máy khoan bê tông cầm tay - công suất 0,85 kW (0.80)"
+"Máy khoan bê tông 0,62kW",ca,12,M112.1701,khop_doi_chieu,M112.1701,"Máy khoan bê tông cầm tay - công suất 0,62 kW",1.17,,,
+"Máy khoan bê tông 0,75 kW",ca,1,M112.1702,khop_doi_chieu,M112.1702,"Máy khoan bê tông cầm tay - công suất 0,75 kW",1.17,,,
+"Máy khoan bê tông 0,85kW",ca,5,M112.1703,khop_doi_chieu,M112.1703,"Máy khoan bê tông cầm tay - công suất 0,85 kW",1.17,,,
+"Máy khoan bê tông 1,5 kW",ca,8,M112.1705,khop_doi_chieu,M112.1705,"Máy khoan bê tông cầm tay - công suất 1,50 kW",1.17,,,"M112.1301 Máy đầm bê tông, dầm dùi - công suất 1,5 kW (0.93); M112.2101 Máy cắt gạch đá - công suất 1,5 kW (0.64)"
+"Máy khoan bê tông 1,5kW",ca,6,M112.1705,khop_doi_chieu,M112.1705,"Máy khoan bê tông cầm tay - công suất 1,50 kW",1.17,,,"M112.1301 Máy đầm bê tông, dầm dùi - công suất 1,5 kW (0.93); M112.2101 Máy cắt gạch đá - công suất 1,5 kW (0.64)"
+"Máy khoan bê tông cầm tay 0,62 kW",Ca,2,M112.1701,khop_doi_chieu,M112.1701,"Máy khoan bê tông cầm tay - công suất 0,62 kW",1.50,,,
+"Máy khoan bê tông cầm tay 0,62 kW",ca,80,M112.1701,khop_doi_chieu,M112.1701,"Máy khoan bê tông cầm tay - công suất 0,62 kW",1.50,,,
+"Máy khoan bê tông cầm tay 0,62kW",ca,60,M112.1701,khop_tu_dong,M112.1701,"Máy khoan bê tông cầm tay - công suất 0,62 kW",1.50,,,
+"Máy khoan bê tông cầm tay 0,75 kW",ca,27,M112.1702,khop_doi_chieu,M112.1702,"Máy khoan bê tông cầm tay - công suất 0,75 kW",1.50,,,
+Máy khoan cầm tay,ca,2,,can_xac_nhan,M112.1601,"Máy khoan sắt cầm tay, đường kính khoan 1,7 kW",0.90,,,"M112.1701 Máy khoan bê tông cầm tay - công suất 0,62 kW (0.80); M112.1702 Máy khoan bê tông cầm tay - công suất 0,75 kW (0.80)"
+Máy khoan cầm tay Φ42mm,ca,64,,can_xac_nhan,M107.0101,"Máy khoan đất đá, cầm tay - đường kính khoan D ≤ 42 mm (động cơ điện-1,2 kW)",0.81,M107.0102,"Máy khoan đất đá, cầm tay - đường kính khoan D ≤ 42 mm (truyền động khí nén - chưa tính khí nén)","M107.0103 Máy khoan đất đá, cầm tay - đường kính khoan D ≤ 42 mm (khoan SIG - chưa tính khí nén) (0.79); M107.0102 Máy khoan đất đá, cầm tay - đường kính khoan D ≤ 42 mm (truyền động khí nén - chưa tính khí nén) (0.77)"
+Máy khoan cọc xi măng đất (2 cần),ca,12,,can_xac_nhan,M103.1301,Máy khoan cọc đất (1 cần),0.97,M103.1302,Máy khoan cọc đất (2 cần),"M103.1302 Máy khoan cọc đất (2 cần) (0.97); M103.1311 Máy khoan cọc xi măng đất 120 tấn, đầu khoan RAS 180kW (0.80)"
+"Máy khoan cọc xi măng đất 120 tấn, đầu khoan RAS 180kW",ca,1,M103.1311,khop_tu_dong,M103.1311,"Máy khoan cọc xi măng đất 120 tấn, đầu khoan RAS 180kW",1.50,,,
+Máy khoan lấy mẫu chuyên dụng,ca,1,M202.0190,khop_tu_dong,M202.0190,Máy khoan lấy mẫu chuyên dụng,1.30,,,M107.0801 Máy khoan dẫn chuyên dụng HCR1200-EDII (0.68); M202.0034 Máy khoan mẫu đá (0.63)
+Máy khoan mẫu đá,ca,2,M202.0034,khop_tu_dong,M202.0034,Máy khoan mẫu đá,1.30,,,"M202.0032 Máy ép mẫu đá, bê tông (0.63); M202.0190 Máy khoan lấy mẫu chuyên dụng (0.63)"
+Máy khoan ngang UĐB4,ca,4,M111.0102,khop_tu_dong,M111.0102,Máy khoan ngang UĐB-4,0.80,,,M201.0003 Máy khoan XY-3 (0.55); M201.0004 Máy khoan GK-250 (0.55)
+Máy khoan ngầm có định hướng,ca,8,M111.0201,khop_doi_chieu,M111.0201,Máy khoan ngầm có định hướng,1.30,,,M111.0202 Máy và thiết bị khoan đặt đường cáp ngầm Hệ thống STS (phục vụ khoan ngầm có định hướng khi khoan qua sông nước) (0.57); M201.0003 Máy khoan XY-3 (0.50)
+"Máy khoan sắt cầm tay 1,7 kW",ca,2,M112.1601,khop_doi_chieu,M112.1601,"Máy khoan sắt cầm tay, đường kính khoan 1,7 kW",1.50,,,"M112.2001 Máy cắt sắt cầm tay - công suất 1,7 kW (1.17); M112.3702 Máy mài - công suất 1,6 kW - 1,7 kW (0.67)"
+"Máy khoan sắt cầm tay 1,7 kW Tời điện 5T",ca,1,,can_xac_nhan,,,,M102.1107,"Tời điện - sức kéo 5,0 t",
+"Máy khoan sắt cầm tay 1,7kW",ca,2,M112.1601,khop_doi_chieu,M112.1601,"Máy khoan sắt cầm tay, đường kính khoan 1,7 kW",1.50,,,"M112.2001 Máy cắt sắt cầm tay - công suất 1,7 kW (1.17); M112.3702 Máy mài - công suất 1,6 kW - 1,7 kW (0.67)"
+Máy khoan tường sét (khoan trộn đất),ca,6,M103.1201,khop_tu_dong,M103.1201,Máy khoan tường sét,0.90,,,M202.0022 Máy trộn đất (0.70); M103.1301 Máy khoan cọc đất (1 cần) (0.59)
+Máy khoan tự hành 2 cần,ca,29,,can_xac_nhan,M103.1301,Máy khoan cọc đất (1 cần),0.80,M107.0301,"Máy khoan hầm tự hành, động cơ diezel - đường kính khoan D 45 mm (2 cần - 147 cv)",M103.1302 Máy khoan cọc đất (2 cần) (0.80); M201.0003 Máy khoan XY-3 (0.63)
+Máy khoan xoay 300 cv,ca,84,M112.4602,khop_doi_chieu,M112.4602,Máy khoan xoay - công suất 300 cv,1.50,,,M112.0501 Máy bơm áp lực xói nước đầu cọc (300 cv) (0.60)
+Máy khoan xoay 54 cv,ca,41,M112.4601,khop_tu_dong,M112.4601,Máy khoan xoay - công suất 54 cv,1.50,,,M109.0504 Ca nô - công suất 54 cv (0.40)
+Máy khoan xoay đập tự hành Φ105,ca,12,,can_xac_nhan,M112.4601,Máy khoan xoay - công suất 54 cv,0.70,M107.0202,"Máy khoan xoay đập tự hành, khí nén (chưa tính khí nén) - đường kính khoan D105-110 mm",M112.4602 Máy khoan xoay - công suất 300 cv (0.70); M103.1101 Máy khoan xoay 80kNm÷125kNm (0.63)
+Máy khoan xoay đập tự hành Φ105 mm,ca,2,,khong_khop,,,,,,
+Máy khoan xoay đập tự hành Φ105mm,ca,17,,can_xac_nhan,,,,M107.0202,"Máy khoan xoay đập tự hành, khí nén (chưa tính khí nén) - đường kính khoan D105-110 mm",
+Máy khoan xoay đập tự hành Φ76,ca,5,,can_xac_nhan,M112.4601,Máy khoan xoay - công suất 54 cv,0.70,,,M112.4602 Máy khoan xoay - công suất 300 cv (0.70); M103.1101 Máy khoan xoay 80kNm÷125kNm (0.63)
+Máy khoan xoay đập tự hành Φ76mm,ca,24,,can_xac_nhan,,,,M107.0201,"Máy khoan xoay đập tự hành, khí nén (chưa tính khí nén) - đường kính khoan D75-95 mm",
+"Máy khoan điện 0,62 kW",ca,8,M112.1701,khop_tu_dong,M112.1701,"Máy khoan bê tông cầm tay - công suất 0,62 kW",0.79,,,
+Máy khoan đá cầm tay Φ42mm,ca,8,,can_xac_nhan,M107.0101,"Máy khoan đất đá, cầm tay - đường kính khoan D ≤ 42 mm (động cơ điện-1,2 kW)",0.88,M107.0102,"Máy khoan đất đá, cầm tay - đường kính khoan D ≤ 42 mm (truyền động khí nén - chưa tính khí nén)","M107.0103 Máy khoan đất đá, cầm tay - đường kính khoan D ≤ 42 mm (khoan SIG - chưa tính khí nén) (0.86); M107.0102 Máy khoan đất đá, cầm tay - đường kính khoan D ≤ 42 mm (truyền động khí nén - chưa tính khí nén) (0.83)"
+Máy khoan đập cáp 40 kW,ca,103,M112.4501,khop_doi_chieu,M112.4501,Máy khoan khoan đập cáp - công suất 40 kW,1.50,,,M103.0401 Đầu Búa rung - công suất 40 kW (0.34)
+Máy khoan đập cáp 40kW (hoặc tương tự),ca,30,M112.4501,khop_doi_chieu,M112.4501,Máy khoan khoan đập cáp - công suất 40 kW,1.17,,,M103.0401 Đầu Búa rung - công suất 40 kW (0.31)
+"Máy khoan đứng 4,5 kW",ca,10,M112.1502,khop_tu_dong,M112.1502,"Máy khoan đứng - công suất 4,5 kW",1.50,,,"M112.3301a Máy tiện - công suất 4,5kW (0.75); M112.4402 Máy quạt gió - công suất 4,5 kW (0.70)"
+Máy khuấy bằng từ,ca,5,M202.0072,khop_tu_dong,M202.0072,Máy khuấy bằng từ,1.30,,,M202.0073 Máy khuấy cầm tay NAG-2 (0.47); M202.0191 Máy khuấy và làm mát nước (0.47)
+Máy khuấy cầm tay,ca,2,M202.0073,khop_tu_dong,M202.0073,Máy khuấy cầm tay NAG-2,1.05,,,M112.4301 Máy hàn nhiệt cầm tay (0.70); M101.0801 Máy đầm đất cầm tay - trọng lượng 50 kg (0.63)
+Máy khuấy cầm tay NAG-2,ca,2,M202.0073,khop_tu_dong,M202.0073,Máy khuấy cầm tay NAG-2,1.30,,,M112.4301 Máy hàn nhiệt cầm tay (0.63); M101.0801 Máy đầm đất cầm tay - trọng lượng 50 kg (0.59)
+Máy khuấy sơn,ca,6,,can_xac_nhan,M202.0072,Máy khuấy bằng từ,0.55,,,"M112.1401 Máy phun sơn 400 m2/h (0.50); M112.4802 Máy xóa vạch sơn, công suất 13HP (0.50)"
+Máy khuấy và làm mát nước,ca,2,M202.0191,khop_tu_dong,M202.0191,Máy khuấy và làm mát nước,1.30,,,M202.0021 Máy chưng cất nước (0.47); M202.0072 Máy khuấy bằng từ (0.47)
+Máy kiểm tra độ cứng,ca,4,M202.0132,khop_tu_dong,M202.0132,Máy kiểm tra độ cứng,1.30,,,M203.0021 Máy kiểm tra độ ổn định oxy hoá dầu (0.63); M202.0089 Máy siêu âm kiểm tra chất lượng mối hàn (0.52)
+Máy kéo nén thủy lực 100 tấn,ca,1,M202.0045,khop_tu_dong,M202.0045,Máy kéo nén thủy lực 100 t,1.50,,,M202.0047 Máy kéo nén uốn thuỷ lực 100 t (1.33); M103.0702 Máy ép cọc trước - lực ép 100 t (0.75)
+Máy kéo vải địa kỹ thuật,ca,1,M202.0129,khop_tu_dong,M202.0129,Máy kéo vải địa kỹ thuật,1.30,,,"M202.0130 Máy kéo, nén WDW-100 (0.44); M202.0045 Máy kéo nén thủy lực 100 t (0.41)"
+"Máy kéo, nén WDW-100",ca,2,M202.0130,khop_tu_dong,M202.0130,"Máy kéo, nén WDW-100",1.30,,,"M202.0045 Máy kéo nén thủy lực 100 t (0.63); M202.0186 Máy kéo, nén thủy lực 0,5 tấn (0.63)"
+"Máy kéo, nén thuỷ lực 100 tấn",ca,24,M202.0045,khop_tu_dong,M202.0045,Máy kéo nén thủy lực 100 t,1.50,,,M202.0047 Máy kéo nén uốn thuỷ lực 100 t (1.33); M103.0702 Máy ép cọc trước - lực ép 100 t (0.75)
+"Máy kéo, nén thuỷ lực 200 tấn",ca,1,M202.0188,khop_tu_dong,M202.0188,"Máy kéo, nén thủy lực 200 tấn",1.50,,,M202.0044 Máy nén thuỷ lực 200 t (1.30); M103.0704 Máy ép cọc trước - lực ép 200 t (0.75)
+"Máy kéo, nén thủy lực 0,5 tấn",ca,1,M202.0186,khop_tu_dong,M202.0186,"Máy kéo, nén thủy lực 0,5 tấn",1.50,,,"M102.1101 Tời điện - sức kéo 0,5 t (0.49); M106.0101 Ô tô vận tải thùng - trọng tải 0,5 t (0.31)"
+"Máy kéo, nén thủy lực 10 tấn",ca,15,M202.0041,khop_tu_dong,M202.0041,Máy nén thuỷ lực 10 t,1.30,,,M101.1103 Máy lu bánh thép tự hành - trọng lượng tĩnh 10 t (0.62); M102.1109 Tời điện - sức kéo 10t (0.49)
+"Máy kéo, nén thủy lực 100 tấn",ca,7,M202.0045,khop_tu_dong,M202.0045,Máy kéo nén thủy lực 100 t,1.50,,,M202.0047 Máy kéo nén uốn thuỷ lực 100 t (1.33); M103.0702 Máy ép cọc trước - lực ép 100 t (0.75)
+"Máy kéo, nén thủy lực 125 tấn",ca,3,M202.0043,khop_tu_dong,M202.0043,Máy nén thuỷ lực 125 t,1.30,,,M102.0807 Cầu trục - sức nâng 125 t (0.34); M106.0807 Rơ mooc - trọng tải 125 t (0.34)
+"Máy kéo, nén thủy lực 20 tấn",ca,3,M202.0187,khop_tu_dong,M202.0187,"Máy kéo, nén thủy lực 20 tấn",1.50,,,M202.0048 Máy gia tải - 20 t (0.67); M101.1005 Máy lu rung tự hành - trọng lượng tĩnh 20t (0.64)
+"Máy kéo, nén thủy lực 200 tấn",ca,10,M202.0188,khop_doi_chieu,M202.0188,"Máy kéo, nén thủy lực 200 tấn",1.50,,,M202.0044 Máy nén thuỷ lực 200 t (1.30); M103.0704 Máy ép cọc trước - lực ép 200 t (0.75)
+"Máy kéo, nén thủy lực 50 tấn",ca,15,M202.0189,khop_doi_chieu,M202.0189,"Máy kéo, nén thủy lực 50 tấn",1.50,,,M202.0042 Máy nén thuỷ lực 50 t (1.30); M102.1304 Kích nâng - sức nâng 50 t (0.37)
+"Máy kéo, thuỷ lực 50 tấn",ca,1,M202.0189,khop_tu_dong,M202.0189,"Máy kéo, nén thủy lực 50 tấn",1.30,,,M202.0042 Máy nén thuỷ lực 50 t (1.10); M102.1304 Kích nâng - sức nâng 50 t (0.40)
+Máy lu 10T,ca,8,M101.1103,khop_tu_dong,M101.1103,Máy lu bánh thép tự hành - trọng lượng tĩnh 10 t,1.00,,,M202.0041 Máy nén thuỷ lực 10 t (0.70); M102.1302 Kích nâng - sức nâng 10 t (0.53)
+"Máy lu 8,5T",ca,13,M101.1102,khop_doi_chieu,M101.1102,"Máy lu bánh thép tự hành - trọng lượng tĩnh 8,5 t ÷ 9 t",0.90,,,
+Máy lu bánh hơi 16 t,ca,18,M101.0902,khop_tu_dong,M101.0902,Máy lu bánh hơi tự hành - trọng lượng tĩnh 16 t,1.50,,,M101.1105 Máy lu bánh thép tự hành - trọng lượng tĩnh 16 t (1.10); M102.0202 Cần cẩu bánh hơi - sức nâng 16 t (0.70)
+Máy lu bánh hơi 16t,ca,4,M101.0902,khop_tu_dong,M101.0902,Máy lu bánh hơi tự hành - trọng lượng tĩnh 16 t,1.50,,,M101.1105 Máy lu bánh thép tự hành - trọng lượng tĩnh 16 t (1.10); M102.0202 Cần cẩu bánh hơi - sức nâng 16 t (0.70)
+Máy lu bánh hơi 25 t,ca,12,M101.0904,khop_tu_dong,M101.0904,Máy lu bánh hơi tự hành - trọng lượng tĩnh 25 t,1.50,,,M101.1106 Máy lu bánh thép tự hành - trọng lượng tĩnh 25 t (1.10); M101.1006 Máy lu rung tự hành - trọng lượng tĩnh 25 t (0.90)
+Máy lu bánh hơi 25t,ca,17,M101.0904,khop_tu_dong,M101.0904,Máy lu bánh hơi tự hành - trọng lượng tĩnh 25 t,1.50,,,M101.1106 Máy lu bánh thép tự hành - trọng lượng tĩnh 25 t (1.10); M101.1006 Máy lu rung tự hành - trọng lượng tĩnh 25 t (0.90)
+Máy lu bánh hơi tự hành 16 t,ca,1,M101.0902,khop_tu_dong,M101.0902,Máy lu bánh hơi tự hành - trọng lượng tĩnh 16 t,1.50,,,M101.1105 Máy lu bánh thép tự hành - trọng lượng tĩnh 16 t (1.10); M102.0202 Cần cẩu bánh hơi - sức nâng 16 t (0.70)
+Máy lu bánh hơi tự hành 18 t,ca,4,M101.0903,khop_tu_dong,M101.0903,Máy lu bánh hơi tự hành - trọng lượng tĩnh 18 t,1.50,,,M101.1004 Máy lu rung tự hành - trọng lượng tĩnh 18 t (0.90)
+Máy lu bánh thép 10 t,ca,30,M101.1103,khop_doi_chieu,M101.1103,Máy lu bánh thép tự hành - trọng lượng tĩnh 10 t,1.50,,,M202.0041 Máy nén thuỷ lực 10 t (0.64); M102.0302 Cần cẩu bánh xích - sức nâng 10 t (0.49)
+Máy lu bánh thép 10T,ca,16,M101.1103,khop_tu_dong,M101.1103,Máy lu bánh thép tự hành - trọng lượng tĩnh 10 t,1.50,,,M202.0041 Máy nén thuỷ lực 10 t (0.64); M102.0302 Cần cẩu bánh xích - sức nâng 10 t (0.49)
+Máy lu bánh thép 10t,ca,32,M101.1103,khop_tu_dong,M101.1103,Máy lu bánh thép tự hành - trọng lượng tĩnh 10 t,1.50,,,M202.0041 Máy nén thuỷ lực 10 t (0.64); M102.0302 Cần cẩu bánh xích - sức nâng 10 t (0.49)
+Máy lu bánh thép 16 t,ca,18,M101.1105,khop_doi_chieu,M101.1105,Máy lu bánh thép tự hành - trọng lượng tĩnh 16 t,1.50,,,M101.0902 Máy lu bánh hơi tự hành - trọng lượng tĩnh 16 t (1.10); M102.0202 Cần cẩu bánh hơi - sức nâng 16 t (0.49)
+Máy lu bánh thép 16t,ca,6,M101.1105,khop_doi_chieu,M101.1105,Máy lu bánh thép tự hành - trọng lượng tĩnh 16 t,1.50,,,M101.0902 Máy lu bánh hơi tự hành - trọng lượng tĩnh 16 t (1.10); M102.0202 Cần cẩu bánh hơi - sức nâng 16 t (0.49)
+Máy lu bánh thép 25 t,ca,18,M101.1106,khop_doi_chieu,M101.1106,Máy lu bánh thép tự hành - trọng lượng tĩnh 25 t,1.50,,,M101.0904 Máy lu bánh hơi tự hành - trọng lượng tĩnh 25 t (1.10); M101.1006 Máy lu rung tự hành - trọng lượng tĩnh 25 t (0.90)
+Máy lu bánh thép 25t,ca,4,M101.1106,khop_tu_dong,M101.1106,Máy lu bánh thép tự hành - trọng lượng tĩnh 25 t,1.50,,,M101.0904 Máy lu bánh hơi tự hành - trọng lượng tĩnh 25 t (1.10); M101.1006 Máy lu rung tự hành - trọng lượng tĩnh 25 t (0.90)
+Máy lu bánh thép 6 t,ca,4,M101.1101,khop_doi_chieu,M101.1101,"Máy lu bánh thép tự hành - trọng lượng tĩnh 6,0 t",1.50,,,M102.0201 Cần cẩu bánh hơi - sức nâng 6t (0.49); M112.4701 Bộ thiết bị trượt (60 kích loại 6 t) (0.34)
+Máy lu bánh thép 6t,ca,3,M101.1101,khop_tu_dong,M101.1101,"Máy lu bánh thép tự hành - trọng lượng tĩnh 6,0 t",1.50,,,M102.0201 Cần cẩu bánh hơi - sức nâng 6t (0.49); M112.4701 Bộ thiết bị trượt (60 kích loại 6 t) (0.34)
+"Máy lu bánh thép 8,5 t",ca,51,M101.1102,khop_doi_chieu,M101.1102,"Máy lu bánh thép tự hành - trọng lượng tĩnh 8,5 t ÷ 9 t",1.30,,,
+"Máy lu bánh thép 8,5T",ca,4,M101.1102,khop_doi_chieu,M101.1102,"Máy lu bánh thép tự hành - trọng lượng tĩnh 8,5 t ÷ 9 t",1.30,,,
+Máy lu bánh thép tự hành 12 t,ca,4,M101.1104,khop_tu_dong,M101.1104,Máy lu bánh thép tự hành - trọng lượng tĩnh 12 t,1.50,,,M101.1002 Máy lu rung tự hành - trọng lượng tĩnh 12 t (0.90); M101.1201 Máy lu chân cừu tự hành - trọng lượng tĩnh 12 t (0.83)
+Máy lu chân cừu 25t,ca,1,M101.1203,khop_tu_dong,M101.1203,Máy lu chân cừu tự hành - trọng lượng tĩnh 25t,1.50,,,M101.1006 Máy lu rung tự hành - trọng lượng tĩnh 25 t (0.90); M101.0904 Máy lu bánh hơi tự hành - trọng lượng tĩnh 25 t (0.83)
+Máy lu rung 12 t,ca,2,M101.1002,khop_tu_dong,M101.1002,Máy lu rung tự hành - trọng lượng tĩnh 12 t,1.50,,,M101.1104 Máy lu bánh thép tự hành - trọng lượng tĩnh 12 t (0.90); M101.1201 Máy lu chân cừu tự hành - trọng lượng tĩnh 12 t (0.90)
+Máy lu rung 15 t,ca,6,M101.1003,khop_tu_dong,M101.1003,Máy lu rung tự hành - trọng lượng tĩnh 15 t,1.50,,,"M111.0101 Máy nâng TO-12-24, sức nâng 15t (0.75); M106.0801 Rơ mooc - trọng tải 15 t (0.40)"
+Máy lu rung 18 t,ca,5,M101.1004,khop_tu_dong,M101.1004,Máy lu rung tự hành - trọng lượng tĩnh 18 t,1.50,,,M101.0903 Máy lu bánh hơi tự hành - trọng lượng tĩnh 18 t (0.90)
+Máy lu rung 25 t,ca,1,M101.1006,khop_tu_dong,M101.1006,Máy lu rung tự hành - trọng lượng tĩnh 25 t,1.50,,,M101.0904 Máy lu bánh hơi tự hành - trọng lượng tĩnh 25 t (0.90); M101.1106 Máy lu bánh thép tự hành - trọng lượng tĩnh 25 t (0.90)
+Máy lu rung 25t (tải trọng tĩnh 12t),ca,10,,khong_khop,,,,,,
+Máy lu rung chân cừu 12 t,ca,2,M101.1201,khop_tu_dong,M101.1201,Máy lu chân cừu tự hành - trọng lượng tĩnh 12 t,1.30,,,M101.1002 Máy lu rung tự hành - trọng lượng tĩnh 12 t (1.10); M101.1104 Máy lu bánh thép tự hành - trọng lượng tĩnh 12 t (0.79)
+Máy lu rung chân cừu 20 t (lực rung 20-35T),ca,4,,khong_khop,,,,,,
+Máy lu rung tự hành 20 t (lực rung 20-35T),ca,4,,khong_khop,,,,,,
+Máy luồn cáp 15 kW,ca,7,M112.1801,khop_tu_dong,M112.1801,Máy luồn cáp - công suất 15 kW,1.50,,,M112.2402 Máy cắt tôn - công suất 15 kW (0.70); M112.4002 Máy hàn xoay chiều - công suất 14 kW ÷ 15 kW (0.67)
+Máy làm sạch bằng siêu âm,ca,1,M202.0133,khop_tu_dong,M202.0133,Máy làm sạch bằng siêu âm,1.30,,,M202.0087 Máy siêu âm đo chiều dầy kim loại (0.55); M202.0140 Máy siêu âm đo vết nứt (0.55)
+Máy lốc tôn 5 kW,ca,18,M112.3101,khop_doi_chieu,M112.3101,Máy lốc tôn - công suất 5 kW,1.50,,,M112.2401 Máy cắt tôn - công suất 5 kW (1.00); M112.2301 Máy cắt ống - công suất 5 kW (0.70)
+Máy mài 1 kW,ca,85,M112.3701,khop_tu_dong,M112.3701,"Máy mài - công suất 1,0 kW",1.50,,,"M112.1101 Máy đầm bê tông, đầm bàn - công suất 1,0 kW (0.67); M112.1201 Máy đầm bê tông, đầm cạnh - công suất 1,0 kW (0.67)"
+"Máy mài 1,0 kW",ca,37,M112.3701,khop_tu_dong,M112.3701,"Máy mài - công suất 1,0 kW",1.50,,,"M112.1101 Máy đầm bê tông, đầm bàn - công suất 1,0 kW (0.67); M112.1201 Máy đầm bê tông, đầm cạnh - công suất 1,0 kW (0.67)"
+"Máy mài 1,7 kW",ca,3,M112.3702,khop_tu_dong,M112.3702,"Máy mài - công suất 1,6 kW - 1,7 kW",1.50,,,"M112.3201 Máy cưa kim loại - công suất 1,7 kW (0.75); M112.2102 Máy cắt gạch đá - công suất 1,7 kW (0.70)"
+Máy mài 1kW,ca,17,M112.3701,khop_doi_chieu,M112.3701,"Máy mài - công suất 1,0 kW",1.50,,,"M112.1101 Máy đầm bê tông, đầm bàn - công suất 1,0 kW (0.67); M112.1201 Máy đầm bê tông, đầm cạnh - công suất 1,0 kW (0.67)"
+"Máy mài 2,7 kW",ca,149,M112.3703,khop_tu_dong,M112.3703,"Máy mài - công suất 2,7 kW",1.50,,,"M112.3202 Máy cưa kim loại - công suất 2,7 kW (0.75)"
+"Máy mài 2,7 kw",ca,2,M112.3703,khop_tu_dong,M112.3703,"Máy mài - công suất 2,7 kW",1.50,,,"M112.3202 Máy cưa kim loại - công suất 2,7 kW (0.75)"
+"Máy mài 2,7kW",ca,27,M112.3703,khop_doi_chieu,M112.3703,"Máy mài - công suất 2,7 kW",1.50,,,"M112.3202 Máy cưa kim loại - công suất 2,7 kW (0.75)"
+Máy mài chổi sắt,ca,1,,can_xac_nhan,M112.3701,"Máy mài - công suất 1,0 kW",0.55,M112.3701a,,"M112.3702 Máy mài - công suất 1,6 kW - 1,7 kW (0.55); M112.3703 Máy mài - công suất 2,7 kW (0.55)"
+Máy mài cầm tay 1kW,ca,1,M112.3701,khop_doi_chieu,M112.3701,"Máy mài - công suất 1,0 kW",1.00,,,"M112.1704 Máy khoan bê tông cầm tay - công suất 1,00 kW (0.93); M112.1101 Máy đầm bê tông, đầm bàn - công suất 1,0 kW (0.62)"
+Máy mài mòn bề mặt kính,ca,1,M202.0134,khop_tu_dong,M202.0134,Máy mài mòn bề mặt,1.30,,,M202.0135 Máy mài mòn sâu (0.70); M202.0035 Máy mài thử độ mài mòn (0.63)
+Máy nghiền,ca,1,,can_xac_nhan,M202.0074,Máy nghiền bi sứ LE1,0.55,,,M104.0701 Máy nghiền đá thô - năng suất 14 m3/h (0.50); M104.0702 Máy nghiền đá thô - năng suất 200 m3/h (0.50)
+Máy nghiền bi sứ LE 1,ca,1,M202.0074,khop_tu_dong,M202.0074,Máy nghiền bi sứ LE1,1.30,,,M112.1404 Máy phun bi 235 kW (0.47); M104.0701 Máy nghiền đá thô - năng suất 14 m3/h (0.42)
+Máy nghiền rung,ca,2,,can_xac_nhan,M101.1001,Máy lu rung tự hành - trọng lượng tĩnh 8 t,0.55,,,M101.1002 Máy lu rung tự hành - trọng lượng tĩnh 12 t (0.55); M101.1003 Máy lu rung tự hành - trọng lượng tĩnh 15 t (0.55)
+Máy nhiễu xạ Rơn ghen (phân tích thành phần hóa lý của vật liệu),ca,1,M202.0080,khop_tu_dong,M202.0080,Máy nhiễu xạ Rơn ghen (phân tích thành phần hoá lý của vật liệu),1.15,,,"M202.0137 Máy phân tích thành phần kim loại (0.53); M202.0116 Máy cắt, mài mẫu vật liệu (0.43)"
+Máy nhiễu xạ Rơnghen,ca,1,,can_xac_nhan,M202.0080,Máy nhiễu xạ Rơn ghen (phân tích thành phần hoá lý của vật liệu),0.45,,,M202.0138 Máy quang phổ đo hệ số phản xạ ánh sáng (0.39); M202.0002 Thiết bị đếm phóng xạ (0.20)
+Máy nâng 5T,ca,1,M102.1301,khop_tu_dong,M102.1301,Kích nâng - sức nâng 5 t,0.70,,,"M102.0401 Cần trục tháp - sức nâng 5 t (0.45); M102.1107 Tời điện - sức kéo 5,0 t (0.45)"
+Máy nâng T0-12-24,ca,31,M111.0101,khop_doi_chieu,M111.0101,"Máy nâng TO-12-24, sức nâng 15t",0.80,,,M202.0048 Máy gia tải - 20 t (0.80); M101.1001 Máy lu rung tự hành - trọng lượng tĩnh 8 t (0.63)
+Máy nâng thuỷ lực 135 cv,ca,30,M110.0401,khop_doi_chieu,M110.0401,Máy nâng phục vụ thi công hầm - công suất 135 cv,0.64,,,
+Máy nâng thuỷ lực 135cv,ca,10,M110.0401,khop_doi_chieu,M110.0401,Máy nâng phục vụ thi công hầm - công suất 135 cv,0.64,,,
+Máy nâng thủy lực 135 cv,ca,8,M110.0401,khop_tu_dong,M110.0401,Máy nâng phục vụ thi công hầm - công suất 135 cv,0.64,,,
+Máy nén 1 trục,ca,2,M202.0029,khop_tu_dong,M202.0029,Máy nén 3 trục,1.30,,,M202.0036 Máy nén một trục (0.97); M202.0037 Máy nén Marshall (0.63)
+Máy nén 3 trục,ca,3,M202.0029,khop_tu_dong,M202.0029,Máy nén 3 trục,1.30,,,M202.0036 Máy nén một trục (0.97); M202.0037 Máy nén Marshall (0.63)
+Máy nén CBR,ca,2,M202.0038,khop_tu_dong,M202.0038,Máy CBR,0.80,,,M202.0029 Máy nén 3 trục (0.63); M202.0037 Máy nén Marshall (0.63)
+Máy nén Marshall,ca,2,M202.0037,khop_tu_dong,M202.0037,Máy nén Marshall,1.30,,,M202.0029 Máy nén 3 trục (0.63); M202.0036 Máy nén một trục (0.55)
+Máy nén cố kết,ca,1,M202.0136,khop_tu_dong,M202.0136,Máy nén cố kết,1.30,,,M202.0029 Máy nén 3 trục (0.55); M202.0037 Máy nén Marshall (0.55)
+Máy nén khí,ca,2,,can_xac_nhan,M112.1403,Máy phun (chưa tính khí nén) Máy phun cát,0.63,,,M202.0029 Máy nén 3 trục (0.63); M202.0037 Máy nén Marshall (0.63)
+Máy nén khí 120 m3/h,ca,1,,can_xac_nhan,M108.0201,"Máy nén khí, động cơ xăng - năng suất 120 m3/h",1.07,,,"M108.0301 Máy nén khí, động cơ diezel - năng suất 120 m3/h (1.07)"
+Máy nén khí 1200 m3/h,ca,13,M108.0308,khop_doi_chieu,M108.0308,"Máy nén khí, động cơ diezel - năng suất 1200 m3/h",1.07,,,
+Máy nén khí 1200m3/h,ca,42,M108.0308,khop_doi_chieu,M108.0308,"Máy nén khí, động cơ diezel - năng suất 1200 m3/h",1.07,,,
+Máy nén khí 120m3/h,ca,1,,can_xac_nhan,M108.0201,"Máy nén khí, động cơ xăng - năng suất 120 m3/h",1.07,M108.0301,"Máy nén khí, động cơ diezel - năng suất 120 m3/h","M108.0301 Máy nén khí, động cơ diezel - năng suất 120 m3/h (1.07)"
+Máy nén khí 240 m3/h,ca,19,M108.0302,khop_tu_dong,M108.0302,"Máy nén khí, động cơ diezel - năng suất 240 m3/h",1.07,,,
+Máy nén khí 240m3/h,ca,9,M108.0302,khop_doi_chieu,M108.0302,"Máy nén khí, động cơ diezel - năng suất 240 m3/h",1.07,,,
+Máy nén khí 360 m3/h,ca,6,M108.0303,khop_doi_chieu,M108.0303,"Máy nén khí, động cơ diezel - năng suất 360 m3/h",1.07,,,
+Máy nén khí 360m3/h,ca,12,M108.0303,khop_doi_chieu,M108.0303,"Máy nén khí, động cơ diezel - năng suất 360 m3/h",1.07,,,
+Máy nén khí 420 m3/h,ca,5,M108.0304,khop_doi_chieu,M108.0304,"Máy nén khí, động cơ diezel - năng suất 420 m3/h",1.07,,,
+Máy nén khí 540 m3/h,ca,3,M108.0305,khop_doi_chieu,M108.0305,"Máy nén khí, động cơ diezel - năng suất 540 m3/h",1.07,,,
+Máy nén khí 540m3/h,ca,7,M108.0305,khop_doi_chieu,M108.0305,"Máy nén khí, động cơ diezel - năng suất 540 m3/h",1.07,,,
+Máy nén khí 600 m3/h,ca,78,,can_xac_nhan,M108.0202,"Máy nén khí, động cơ xăng - năng suất 600 m3/h",1.07,M108.0306,"Máy nén khí, động cơ diezel - năng suất 600 m3/h","M108.0306 Máy nén khí, động cơ diezel - năng suất 600 m3/h (1.07); M108.0403 Máy nén khí, động cơ điện - năng suất 600 m3/h (1.07)"
+Máy nén khí 600m3/h,ca,22,,can_xac_nhan,M108.0202,"Máy nén khí, động cơ xăng - năng suất 600 m3/h",1.07,M108.0306,"Máy nén khí, động cơ diezel - năng suất 600 m3/h","M108.0306 Máy nén khí, động cơ diezel - năng suất 600 m3/h (1.07); M108.0403 Máy nén khí, động cơ điện - năng suất 600 m3/h (1.07)"
+Máy nén khí 660 m3/h,ca,34,M108.0307,khop_doi_chieu,M108.0307,"Máy nén khí, động cơ diezel - năng suất 660 m3/h",1.07,,,
+Máy nén khí 660m3/h,ca,63,M108.0307,khop_doi_chieu,M108.0307,"Máy nén khí, động cơ diezel - năng suất 660 m3/h",1.07,,,
+Máy nén khí diezel 600m3/h,ca,1,M108.0306,khop_doi_chieu,M108.0306,"Máy nén khí, động cơ diezel - năng suất 600 m3/h",1.21,,,"M108.0202 Máy nén khí, động cơ xăng - năng suất 600 m3/h (1.00); M108.0403 Máy nén khí, động cơ điện - năng suất 600 m3/h (1.00)"
+Máy nén khí diezen 1260m3/h,ca,5,M108.0309,khop_doi_chieu,M108.0309,"Máy nén khí, động cơ diezel - năng suất 1260 m3/h",1.00,,,
+Máy nén khí diezen 660m3/h,ca,12,M108.0307,khop_doi_chieu,M108.0307,"Máy nén khí, động cơ diezel - năng suất 660 m3/h",1.00,,,
+Máy nén khí điện 5 m3/h,ca,5,M108.0401,khop_doi_chieu,M108.0401,"Máy nén khí, động cơ điện - năng suất 5 m3/h",1.21,,,
+Máy nén thủy lực 50 tấn,ca,4,M202.0042,khop_tu_dong,M202.0042,Máy nén thuỷ lực 50 t,1.50,,,"M202.0189 Máy kéo, nén thủy lực 50 tấn (1.30); M102.1304 Kích nâng - sức nâng 50 t (0.40)"
+Máy phay bào 7 kW,ca,2,M112.3501,khop_tu_dong,M112.3501,Máy phay - công suất 7 kW,1.17,,,"M112.4001 Máy hàn xoay chiều - công suất 7 kW (0.70); M112.0104 Máy bơm nước, động cơ điện - công suất 7 kW ÷ 7,5 kW (0.61)"
+Máy phun bê tông,ca,3,,can_xac_nhan,M104.0101,Máy trộn bê tông - dung tích 100 lít,0.70,M112.0901,Máy bơm bê tông - năng suất 40 - 60 m3/h,M104.0102 Máy trộn bê tông - dung tích 250 lít (0.70); M105.1001 Máy rải bê tông SP500 (0.70)
+"Máy phun chất tạo màng 5,5 Hp",ca,1,M112.1402,khop_doi_chieu,M112.1402,"Máy phun chất tạo màng 5,5Hp",1.50,,,
+Máy phun nhựa đường 190cv,ca,30,M105.0101,khop_doi_chieu,M105.0101,Máy phun nhựa đường - công suất 190 cv,1.50,,,
+Máy phun sơn 400 m2/h,ca,6,M112.1401,khop_tu_dong,M112.1401,Máy phun sơn 400 m2/h,1.50,,,
+Máy phun vẩy 16 m3/h,ca,10,M112.1002,khop_doi_chieu,M112.1002,Máy phun vẩy - năng suất 16 m3/h (AL 500),1.30,,,M104.0401 Trạm trộn bê tông - năng suất 16 m3/h (0.45)
+Máy phun vẩy 9 m3/h,ca,15,M112.1001,khop_doi_chieu,M112.1001,Máy phun vẩy - năng suất 9 m3/h (AL 285),1.30,,,M112.0602 Máy bơm vữa - năng suất 9 m3/h (0.83)
+"Máy phát điện 2,5 kW",ca,1,,can_xac_nhan,M112.1501,"Máy khoan đứng - công suất 2,5 kW",0.70,M108.0101,"Máy phát điện lưu động - công suất 3,75 kVA","M112.4401 Máy quạt gió - công suất 2,5 kW (0.70)"
+"Máy phát điện 37,5 kVA",ca,22,M108.0103,khop_doi_chieu,M108.0103,"Máy phát điện lưu động - công suất 37,5 kVA",1.10,,,
+Máy phát điện 5kW,ca,5,,can_xac_nhan,M112.2301,Máy cắt ống - công suất 5 kW,0.70,M108.0102,"Máy phát điện lưu động - công suất 6,25 kVA",M112.2401 Máy cắt tôn - công suất 5 kW (0.70); M112.3101 Máy lốc tôn - công suất 5 kW (0.70)
+"Máy phát điện 62,5 kVA",ca,15,M108.0104,khop_tu_dong,M108.0104,"Máy phát điện lưu động - công suất 62,5 kVA",1.10,,,
+"Máy phát điện 93,75kVA",ca,5,M108.0105,khop_tu_dong,M108.0105,"Máy phát điện lưu động - công suất 93,75 kVA",1.10,,,
+Máy phân tích hạt LAZER,ca,3,M202.0075,khop_tu_dong,M202.0075,Máy phân tích hạt Lazer,1.30,,,M202.0076 Máy phân tích vi nhiệt (0.50); M202.0137 Máy phân tích thành phần kim loại (0.47)
+Máy phân tích thành phần kim loại,ca,1,M202.0137,khop_tu_dong,M202.0137,Máy phân tích thành phần kim loại,1.30,,,"M202.0080 Máy nhiễu xạ Rơn ghen (phân tích thành phần hoá lý của vật liệu) (0.53); M112.3201 Máy cưa kim loại - công suất 1,7 kW (0.47)"
+Máy phân tích vi nhiệt,ca,2,M202.0076,khop_tu_dong,M202.0076,Máy phân tích vi nhiệt,1.30,,,M202.0163 Máy vi tính (0.55); M202.0075 Máy phân tích hạt Lazer (0.50)
+Máy quang phổ đo hệ số phản xạ ánh sáng,ca,2,M202.0138,khop_tu_dong,M202.0138,Máy quang phổ đo hệ số phản xạ ánh sáng,1.30,,,M202.0139 Máy quang phổ đo hệ số truyền sáng (0.90); M202.0079 Máy đo hệ số dẫn nhiệt (0.57)
+Máy quang phổ đo hệ số truyền sáng,ca,6,M202.0139,khop_doi_chieu,M202.0139,Máy quang phổ đo hệ số truyền sáng,1.30,,,M202.0138 Máy quang phổ đo hệ số phản xạ ánh sáng (0.90); M202.0079 Máy đo hệ số dẫn nhiệt (0.63)
+Máy rót mastic,ca,2,M105.0801,khop_doi_chieu,M105.0801,Máy rót mastic,1.30,,,
+Máy rải 130-140 cv,ca,14,,can_xac_nhan,M101.0504,Máy ủi - công suất 140 cv,0.83,M105.0203,Máy rải hỗn hợp bê tông nhựa - năng suất 130 cv - 140 cv,M101.0702 Máy san tự hành - công suất 140 cv (0.83); M105.0203 Máy rải hỗn hợp bê tông nhựa - năng suất 130 cv - 140 cv (0.79)
+Máy rải 130-140cv,ca,17,,can_xac_nhan,M101.0504,Máy ủi - công suất 140 cv,0.83,,,M101.0702 Máy san tự hành - công suất 140 cv (0.83); M105.0203 Máy rải hỗn hợp bê tông nhựa - năng suất 130 cv - 140 cv (0.79)
+Máy rải 50-60 m3/h,ca,7,,can_xac_nhan,M105.0401,"Máy rải cấp phối đá dăm, năng suất 50 m3/h - 60 m3/h",0.93,,,M112.0901 Máy bơm bê tông - năng suất 40 - 60 m3/h (0.83); M104.0405 Trạm trộn bê tông - năng suất 60 m3/h (0.49)
+Máy rải 50-60m3/h,ca,6,,can_xac_nhan,M105.0401,"Máy rải cấp phối đá dăm, năng suất 50 m3/h - 60 m3/h",0.93,,,M112.0901 Máy bơm bê tông - năng suất 40 - 60 m3/h (0.83); M104.0405 Trạm trộn bê tông - năng suất 60 m3/h (0.49)
+Máy rải Novachip 170 cv,ca,1,M105.0301,khop_tu_dong,M105.0301,Máy rải Novachip 170 cv,1.50,,,
+Máy rải SP500,ca,2,M105.1001,khop_tu_dong,M105.1001,Máy rải bê tông SP500,0.80,,,M105.0301 Máy rải Novachip 170 cv (0.55); M105.0204 Máy rải nhựa đường Micro- Asphalt tự hành (0.50)
+Máy rải bê tông SP500,ca,2,M105.1001,khop_tu_dong,M105.1001,Máy rải bê tông SP500,1.30,,,M105.0203 Máy rải hỗn hợp bê tông nhựa - năng suất 130 cv - 140 cv (0.68); M104.0101 Máy trộn bê tông - dung tích 100 lít (0.63)
+Máy rải nhựa đường Micro - Asphalt tự hành,ca,2,M105.0204,khop_tu_dong,M105.0204,Máy rải nhựa đường Micro- Asphalt tự hành,0.90,,,M105.0203 Máy rải hỗn hợp bê tông nhựa - năng suất 130 cv - 140 cv (0.52); M105.0201 Máy rải hỗn hợp bê tông nhựa - năng suất 65 t/h (0.50)
+Máy rải xi măng SW16TC (16m3),ca,6,M105.0402,khop_tu_dong,M105.0402,Máy rải xi măng SW16TC (16m3),1.50,,,M101.0602 Máy cạp tự hành - dung tích thùng 16 m3 (0.62); M106.0507 Ô tô tưới nước - dung tích 16 m3 (0.30)
+Máy san 110 cv,ca,21,M101.0701,khop_tu_dong,M101.0701,Máy san tự hành - công suất 110 cv,1.50,,,M101.0503 Máy ủi - công suất 110 cv (0.83)
+Máy siêu âm,ca,6,,can_xac_nhan,M202.0087,Máy siêu âm đo chiều dầy kim loại,0.70,,,M202.0133 Máy làm sạch bằng siêu âm (0.70); M202.0140 Máy siêu âm đo vết nứt (0.70)
+Máy siêu âm kiểm tra chất lượng mối hàn,ca,1,M202.0089,khop_tu_dong,M202.0089,Máy siêu âm kiểm tra chất lượng mối hàn,1.30,,,"M202.0132 Máy kiểm tra độ cứng (0.52); M202.0090 Máy siêu âm kiểm tra cường độ bê tông của cấu kiện bê tông, bê tông cốt thép tại hiện trường (0.51)"
+"Máy siêu âm kiểm tra cường độ bê tông của cấu kiện bê tông, bê tông cốt thép tại hiện trường",ca,2,M202.0090,khop_tu_dong,M202.0090,"Máy siêu âm kiểm tra cường độ bê tông của cấu kiện bê tông, bê tông cốt thép tại hiện trường",1.30,,,M202.0056 Máy đo tốc độ ăn mòn cốt thép trong bê tông (0.54); M202.0089 Máy siêu âm kiểm tra chất lượng mối hàn (0.51)
+Máy siêu âm đo chiều dày kim loại,ca,1,M202.0087,khop_tu_dong,M202.0087,Máy siêu âm đo chiều dầy kim loại,0.97,,,M202.0140 Máy siêu âm đo vết nứt (0.73); M202.0052 Máy đo âm thanh (0.63)
+Máy so màu ngọn lửa,ca,3,M202.0063,khop_tu_dong,M202.0063,Máy so màu ngọn lửa,1.30,,,M202.0064 Máy so màu quang điện (0.63); M202.0081 Cần ép mẫu thử gạch chịu lửa (0.10)
+Máy soi kim tương,ca,1,M202.0141,khop_tu_dong,M202.0141,Máy soi kim tương,1.30,,,"M112.3201 Máy cưa kim loại - công suất 1,7 kW (0.50); M112.3202 Máy cưa kim loại - công suất 2,7 kW (0.50)"
+Máy sàng,ca,1,,can_xac_nhan,M103.1601,Máy sàng lọc - năng suất 100 m3/h,0.55,,,"M104.0501 Máy sàng rửa đá, sỏi - năng suất 35 m3/h (0.47); M104.0502 Máy sàng rửa đá, sỏi - năng suất 45 m3/h (0.47)"
+Máy sàng lọc 100 m3/h,ca,2,M103.1601,khop_tu_dong,M103.1601,Máy sàng lọc - năng suất 100 m3/h,1.50,,,
+Máy sấy 2 kW,ca,3,M112.0102,khop_tu_dong,M112.0102,"Máy bơm nước, động cơ điện - công suất 2 kW",0.64,,,
+Máy thi công Cần cẩu 25 t,ca,4,,can_xac_nhan,M102.0203,Cần cẩu bánh hơi - sức nâng 25 t,0.70,M102.0304,Cần cẩu bánh xích - sức nâng 25 t,M102.0304 Cần cẩu bánh xích - sức nâng 25 t (0.70); M101.1006 Máy lu rung tự hành - trọng lượng tĩnh 25 t (0.67)
+Máy thuỷ bình điện tử,ca,4,M201.0020,khop_tu_dong,M201.0020,Máy thuỷ bình điện tử,1.30,,,M201.0021 Máy toàn đạc điện tử (0.63); M202.0127 Máy đo ứng suất điện tử (0.63)
+Máy thuỷ bình điện tử PLP- 110 hoặc loại tương tự,ca,5,M201.0020,khop_tu_dong,M201.0020,Máy thuỷ bình điện tử,1.10,,,M201.0021 Máy toàn đạc điện tử (0.59); M202.0127 Máy đo ứng suất điện tử (0.59)
+Máy thuỷ bình điện tử PLP-110 hoặc loại tương tự,ca,164,M201.0020,khop_tu_dong,M201.0020,Máy thuỷ bình điện tử,1.10,,,M201.0021 Máy toàn đạc điện tử (0.59); M202.0127 Máy đo ứng suất điện tử (0.59)
+Máy thấm,ca,2,M202.0142,khop_tu_dong,M202.0142,Máy thấm,1.30,,,M103.1001 Máy cấy bấc thấm (0.63); M202.0193 Máy thử độ chống thấm (0.55)
+Máy thủy bình,ca,1,M201.0020,khop_tu_dong,M201.0020,Máy thuỷ bình điện tử,0.80,,,M202.0041 Máy nén thuỷ lực 10 t (0.50); M202.0042 Máy nén thuỷ lực 50 t (0.50)
+Máy thủy bình điện tử,ca,9,M201.0020,khop_tu_dong,M201.0020,Máy thuỷ bình điện tử,1.30,,,M201.0021 Máy toàn đạc điện tử (0.63); M202.0127 Máy đo ứng suất điện tử (0.63)
+Máy thủy bình điện tử PLP- 110 hoặc loại tương tự,ca,22,M201.0020,khop_tu_dong,M201.0020,Máy thuỷ bình điện tử,1.10,,,M201.0021 Máy toàn đạc điện tử (0.59); M202.0127 Máy đo ứng suất điện tử (0.59)
+Máy thủy bình điện tử PLP-110 hoặc loại tương tự,ca,2,M201.0020,khop_tu_dong,M201.0020,Máy thuỷ bình điện tử,1.10,,,M201.0021 Máy toàn đạc điện tử (0.59); M202.0127 Máy đo ứng suất điện tử (0.59)
+Máy thử bền uốn,ca,1,M202.0143,khop_tu_dong,M202.0143,"Máy thử độ bền nén, uốn",0.90,,,M202.0146 Máy uốn gạch (0.55); M202.0144 Máy thử độ bục (0.50)
+Máy thử cơ lý thạch cao,ca,3,M202.0131,khop_tu_dong,M202.0131,Máy thử cơ lý thạch cao,1.30,,,M202.0144 Máy thử độ bục (0.47); M202.0035 Máy mài thử độ mài mòn (0.44)
+Máy thử cường độ bám dính,ca,5,M202.0192,khop_tu_dong,M202.0192,Máy thử cường độ bám dính,1.30,,,M202.0194 Máy thử kéo xác định cường độ bám dính (0.93); M202.0144 Máy thử độ bục (0.63)
+Máy thử độ bục,ca,1,M202.0144,khop_tu_dong,M202.0144,Máy thử độ bục,1.30,,,M202.0035 Máy mài thử độ mài mòn (0.70); M202.0145 Máy thử độ rơi côn (0.70)
+Máy thử độ chống thấm,ca,1,M202.0193,khop_tu_dong,M202.0193,Máy thử độ chống thấm,1.30,,,M202.0144 Máy thử độ bục (0.70); M202.0035 Máy mài thử độ mài mòn (0.63)
+Máy thử độ mài mòn,ca,5,M202.0035,khop_tu_dong,M202.0035,Máy mài thử độ mài mòn,1.30,,,M202.0135 Máy mài mòn sâu (0.70); M202.0144 Máy thử độ bục (0.70)
+Máy thử độ mài mòn Los Angeles,ca,1,M202.0035,khop_tu_dong,M202.0035,Máy mài thử độ mài mòn,0.97,,,M202.0135 Máy mài mòn sâu (0.59); M202.0144 Máy thử độ bục (0.59)
+Máy thử độ rơi côn,ca,1,M202.0145,khop_tu_dong,M202.0145,Máy thử độ rơi côn,1.30,,,M202.0144 Máy thử độ bục (0.70); M202.0035 Máy mài thử độ mài mòn (0.63)
+Máy tiện,ca,1,,can_xac_nhan,M112.3301a,"Máy tiện - công suất 4,5kW",0.80,,,M112.3301 Máy tiện - công suất 10 kW (0.80)
+Máy tiện 10 kW,ca,2,M112.3301,khop_tu_dong,M112.3301,Máy tiện - công suất 10 kW,1.50,,,M112.1901 Máy cắt cáp - công suất 10 kW (0.75)
+"Máy tiện 4,5 kW",ca,2,M112.3301a,khop_tu_dong,M112.3301a,"Máy tiện - công suất 4,5kW",1.50,,,"M112.1502 Máy khoan đứng - công suất 4,5 kW (0.75); M112.4402 Máy quạt gió - công suất 4,5 kW (0.75)"
+Máy toàn đạc điện tử,ca,9,M201.0021,khop_tu_dong,M201.0021,Máy toàn đạc điện tử,1.30,,,M201.0020 Máy thuỷ bình điện tử (0.63); M202.0127 Máy đo ứng suất điện tử (0.63)
+Máy toàn đạc điện tử TS06 hoặc loại tương tự,ca,192,M201.0021,khop_tu_dong,M201.0021,Máy toàn đạc điện tử,1.10,,,M201.0020 Máy thuỷ bình điện tử (0.59); M202.0127 Máy đo ứng suất điện tử (0.59)
+Máy trộn 100 lít,ca,3,M104.0101,khop_doi_chieu,M104.0101,Máy trộn bê tông - dung tích 100 lít,1.00,,,
+Máy trộn 150 l,ca,31,M104.0202,khop_doi_chieu,M104.0202,Máy trộn vữa - dung tích 150 lít,1.17,,,
+Máy trộn 150L,ca,10,M104.0202,khop_tu_dong,M104.0202,Máy trộn vữa - dung tích 150 lít,1.17,,,
+Máy trộn 150l,ca,4,M104.0202,khop_doi_chieu,M104.0202,Máy trộn vữa - dung tích 150 lít,1.17,,,
+Máy trộn 250 l,ca,33,,can_xac_nhan,M104.0203,Máy trộn vữa - dung tích 250 lít,1.17,M104.0102,Máy trộn bê tông - dung tích 250 lít,M104.0102 Máy trộn bê tông - dung tích 250 lít (1.00)
+Máy trộn 250 lít,ca,4,M104.0203,khop_tu_dong,M104.0203,Máy trộn vữa - dung tích 250 lít,1.17,,,M104.0102 Máy trộn bê tông - dung tích 250 lít (1.00)
+Máy trộn 250l,ca,41,,can_xac_nhan,M104.0203,Máy trộn vữa - dung tích 250 lít,1.17,M104.0102,Máy trộn bê tông - dung tích 250 lít,M104.0102 Máy trộn bê tông - dung tích 250 lít (1.00)
+Máy trộn dung dịch 1000 lít,ca,6,M103.1502,khop_tu_dong,M103.1502,Máy trộn dung dịch - dung tích 1000 lít,1.50,,,
+Máy trộn dung dịch 750 l,ca,12,M103.1501,khop_doi_chieu,M103.1501,Máy trộn dung dịch - dung tích 750 lít,1.50,,,
+Máy trộn dung dịch 750 lít,ca,188,M103.1501,khop_doi_chieu,M103.1501,Máy trộn dung dịch - dung tích 750 lít,1.50,,,
+Máy trộn vữa 150 l,ca,2,M104.0202,khop_tu_dong,M104.0202,Máy trộn vữa - dung tích 150 lít,1.50,,,
+Máy trộn vữa 150l,ca,550,M104.0202,khop_doi_chieu,M104.0202,Máy trộn vữa - dung tích 150 lít,1.50,,,
+Máy trộn vữa 80 lít,ca,1,M104.0201,khop_doi_chieu,M104.0201,Máy trộn vữa - dung tích 80 lít,1.50,,,
+Máy trộn vữa 80l,ca,2,M104.0201,khop_doi_chieu,M104.0201,Máy trộn vữa - dung tích 80 lít,1.50,,,
+Máy trộn vữa xi măng 1200 lít,ca,8,M104.0301,khop_doi_chieu,M104.0301,Máy trộn vữa xi măng - dung tích 1200 lít,1.50,,,
+Máy trộn vữa xi măng 1600 lít,ca,9,M104.0302,khop_doi_chieu,M104.0302,Máy trộn vữa xi măng - dung tích 1600 lít,1.50,,,
+Máy trộn vữa150l,ca,4,M104.0202,khop_tu_dong,M104.0202,Máy trộn vữa - dung tích 150 lít,1.50,,,
+Máy trộn xi măng 5L,ca,5,M202.0023,khop_tu_dong,M202.0023,"Máy trộn xi măng, dung tích 5lít",1.50,,,
+Máy trộn xi măng 5l,ca,5,M202.0023,khop_tu_dong,M202.0023,"Máy trộn xi măng, dung tích 5lít",1.50,,,
+Máy tính xách tay,ca,1,M202.0164,khop_doi_chieu,M202.0164,Máy tính xách tay,1.30,,,M202.0163 Máy vi tính (0.55); M202.0115 Máy cắt quay tay (0.50)
+"Máy uốn ống 2,8 kW",ca,1,M112.3001,khop_tu_dong,M112.3001,"Máy uốn ống - công suất 2,0 kW÷2,8 kW",1.25,,,"M112.2501 Máy cắt đột - công suất 2,8 kW (0.70); M112.0103 Máy bơm nước, động cơ điện - công suất 2,8 kW (0.62)"
+Máy uốn ống 2000W,ca,1,,can_xac_nhan,M112.3001,"Máy uốn ống - công suất 2,0 kW÷2,8 kW",0.70,,,M202.0146 Máy uốn gạch (0.55); M112.2301 Máy cắt ống - công suất 5 kW (0.50)
+Máy vi tính,ca,51,M202.0163,khop_doi_chieu,M202.0163,Máy vi tính,1.30,,,M202.0076 Máy phân tích vi nhiệt (0.55); M202.0164 Máy tính xách tay (0.55)
+Máy vi tính chuyên dụng,ca,1,M202.0163,khop_tu_dong,M202.0163,Máy vi tính,0.80,,,M202.0190 Máy khoan lấy mẫu chuyên dụng (0.59); M107.0801 Máy khoan dẫn chuyên dụng HCR1200-EDII (0.55)
+Máy vi áp kế,ca,3,,can_xac_nhan,M202.0160,Vi kế,0.67,,,M202.0163 Máy vi tính (0.55); M202.0076 Máy phân tích vi nhiệt (0.50)
+Máy vẽ Ploter,ca,32,M202.0162,khop_tu_dong,M202.0162,Máy vẽ plotter,0.63,,,
+Máy xiết bu lông,ca,1,M112.4801,khop_doi_chieu,M112.4801,Máy xiết bu lông,1.30,,,
+Máy xiết bulông,ca,12,M112.4801,khop_tu_dong,M112.4801,Máy xiết bu lông,0.55,,,
+Máy xuyên tĩnh Gouđa hoặc loại tương tự,ca,1,M201.0011,khop_doi_chieu,M201.0011,Máy xuyên tĩnh Gouda,0.63,,,M201.0010 Máy xuyên động RA-50 (0.55); M203.0013 Máy đo điện áp xuyên thủng (0.47)
+Máy xuyên động RA-50 hoặc tương tự,ca,1,M201.0010,khop_doi_chieu,M201.0010,Máy xuyên động RA-50,0.90,,,M201.0011 Máy xuyên tĩnh Gouda (0.47); M202.0141 Máy soi kim tương (0.44)
+Máy xác định hệ số thấm,ca,1,M202.0050,khop_tu_dong,M202.0050,Máy xác định hệ số thấm,1.30,,,M202.0062 Máy xác định môđun (0.63); M202.0079 Máy đo hệ số dẫn nhiệt (0.55)
+Máy xác định độ thấm nước của bê tông kiểu C430 (hoặc C431) của hãng Matest (Italia),ca,1,M202.0195,khop_tu_dong,M202.0195,Máy xác định độ thấm nước của bê tông kiểu C430 (hoặc C431),1.09,,,M202.0050 Máy xác định hệ số thấm (0.49); M202.0057 Máy đo độ thấm của I-on Clo (0.48)
+Máy xáng cạp 1,ca,1,M109.1301,khop_doi_chieu,M109.1301,"Máy xáng cạp - dung tích gầu 1,25 m3",0.80,,,M101.0601 Máy cạp tự hành - dung tích thùng 9 m3 (0.55); M101.0602 Máy cạp tự hành - dung tích thùng 16 m3 (0.55)
+"Máy xáng cạp 1,25m3",ca,1,M109.1301,khop_doi_chieu,M109.1301,"Máy xáng cạp - dung tích gầu 1,25 m3",1.25,,,"M101.0403 Máy xúc lật - dung tích gầu 1,25 m3 (0.67); M101.0105 Máy đào một gầu, bánh xích - dung tích gầu 1,25 m3 (0.62)"
+"Máy xóa vạch sơn, công suất 13HP",ca,1,M112.4802,khop_doi_chieu,M112.4802,"Máy xóa vạch sơn, công suất 13HP",1.50,,,
+"Máy xúc chuyên dùng trong hầm 0,90 m3",ca,2,,can_xac_nhan,M110.0101,"Máy xúc chuyên dùng trong hầm - dung tích gầu 0,9 m3",1.36,M110.0302,Thiết bị phục vụ vận chuyển đá nổ mìn trong hầm Xe goòng 3 t,"M101.0402 Máy xúc lật - dung tích gầu 0,9 m3 (0.75)"
+"Máy xúc lật 0,65 m3",ca,6,M101.0401,khop_tu_dong,M101.0401,"Máy xúc lật - dung tích gầu 0,65 m3",1.25,,,"M101.0302 Máy đào gầu dây - dung tích gầu 0,65 m3 (0.67); M101.0103 Máy đào một gầu, bánh xích - dung tích gầu 0,65 m3 (0.62)"
+"Máy xúc lật 1,25 m3",ca,10,M101.0403,khop_tu_dong,M101.0403,"Máy xúc lật - dung tích gầu 1,25 m3",1.25,,,"M109.1301 Máy xáng cạp - dung tích gầu 1,25 m3 (0.67); M101.0105 Máy đào một gầu, bánh xích - dung tích gầu 1,25 m3 (0.62)"
+"Máy xúc lật 1,25m3",ca,8,M101.0403,khop_tu_dong,M101.0403,"Máy xúc lật - dung tích gầu 1,25 m3",1.25,,,"M109.1301 Máy xáng cạp - dung tích gầu 1,25 m3 (0.67); M101.0105 Máy đào một gầu, bánh xích - dung tích gầu 1,25 m3 (0.62)"
+"Máy xúc lật 1,65 m3",ca,8,,can_xac_nhan,M101.0404,"Máy xúc lật - dung tích gầu 1,6m3 ÷ 1,65 m3",1.10,M110.0102,"Máy xúc chuyên dùng trong hầm - dung tích gầu 1,65 m3","M110.0102 Máy xúc chuyên dùng trong hầm - dung tích gầu 1,65 m3 (0.75)"
+"Máy xúc lật 2,3 m3",ca,1,M101.0405,khop_tu_dong,M101.0405,"Máy xúc lật - dung tích gầu 2,30 m3",1.25,,,"M101.0305 Máy đào gầu dây - dung tích gầu 2,30 m3 (0.67); M101.0107 Máy đào một gầu, bánh xích - dung tích gầu 2,30 m3 (0.62)"
+"Máy xúc lật 2,3m3",ca,5,M101.0405,khop_tu_dong,M101.0405,"Máy xúc lật - dung tích gầu 2,30 m3",1.25,,,"M101.0305 Máy đào gầu dây - dung tích gầu 2,30 m3 (0.67); M101.0107 Máy đào một gầu, bánh xích - dung tích gầu 2,30 m3 (0.62)"
+"Máy xúc lật 3,2 m3",ca,4,M101.0406,khop_tu_dong,M101.0406,"Máy xúc lật - dung tích gầu 3,20 m3",1.25,,,
+"Máy xúc lật 3,2m3",ca,7,M101.0406,khop_doi_chieu,M101.0406,"Máy xúc lật - dung tích gầu 3,20 m3",1.25,,,
+Máy ép cọc 200 t,ca,12,M103.0704,khop_tu_dong,M103.0704,Máy ép cọc trước - lực ép 200 t,1.10,,,"M202.0044 Máy nén thuỷ lực 200 t (0.67); M202.0188 Máy kéo, nén thủy lực 200 tấn (0.64)"
+Máy ép cọc Robot thủy lực tự hành 860 t,ca,8,M103.0801,khop_tu_dong,M103.0801,Máy ép cọc Robot thủy lực tự hành 860t,1.50,,,
+Máy ép cọc thuỷ lực 45Hp,ca,1,M103.0902,khop_doi_chieu,M103.0902,Máy ép cọc thủy lực 45 Hp,1.50,,,
+Máy ép cọc thủy lực 45 Hp,ca,1,M103.0902,khop_doi_chieu,M103.0902,Máy ép cọc thủy lực 45 Hp,1.50,,,
+Máy ép cọc trước 150T,ca,12,M103.0703,khop_tu_dong,M103.0703,Máy ép cọc trước - lực ép 150 t,1.30,,,M102.0314 Cần cẩu bánh xích - sức nâng 150 t (0.33); M102.1402 Kích thông tâm YCW - 150 t (0.33)
+Máy đo chiều dày lớp bê tông bảo vệ và đo đường kính cốt thép,ca,2,M202.0184,khop_tu_dong,M202.0184,Máy đo chiều dày lớp bê tông bảo vệ và đo đường kính cốt thép,1.30,,,M202.0056 Máy đo tốc độ ăn mòn cốt thép trong bê tông (0.66); M202.0054 Máy đo điện thế thí nghiệm ăn mòn cốt thép trong bê tông (0.61)
+Máy đo chiều dày màng sơn,ca,1,M202.0053,khop_tu_dong,M202.0053,Máy đo chiều dày màng sơn,1.30,,,M202.0125 Máy đo thời gian khô màng sơn (0.73); M202.0051 Máy đo PH (0.50)
+Máy đo chuyển vị,ca,4,M202.0061,khop_tu_dong,M202.0061,Máy đo chuyển vị,1.30,,,M202.0148 Thiết bị đo chuyển vị Indicator (0.75); M202.0051 Máy đo PH (0.55)
+Máy đo dao động điện tử (kèm đầu đo dao động 3 chiều),ca,2,M202.0117,khop_tu_dong,M202.0117,Máy đo dao động điện tử (kèm đầu đo dao động 3 chiều),1.30,,,M202.0127 Máy đo ứng suất điện tử (0.68); M201.0020 Máy thuỷ bình điện tử (0.52)
+Máy đo gia tốc,ca,1,M202.0059,khop_tu_dong,M202.0059,Máy đo gia tốc,1.30,,,M201.0032 Máy đo tốc độ sóng âm (0.63); M202.0048 Máy gia tải - 20 t (0.55)
+Máy đo hệ số dẫn nhiệt,ca,8,M202.0079,khop_tu_dong,M202.0079,Máy đo hệ số dẫn nhiệt,1.30,,,M202.0139 Máy quang phổ đo hệ số truyền sáng (0.63); M202.0138 Máy quang phổ đo hệ số phản xạ ánh sáng (0.57)
+Máy đo kích thước,ca,1,M202.0124,khop_tu_dong,M202.0124,Máy đo kích thước,1.30,,,M202.0051 Máy đo PH (0.55); M203.0018 Máy đo tỷ trọng (0.55)
+Máy đo pH,ca,3,M202.0051,khop_tu_dong,M202.0051,Máy đo PH,1.30,,,M203.0018 Máy đo tỷ trọng (0.63); M203.0019 Máy đo vạn năng (0.63)
+Máy đo thời gian khô màng sơn,ca,1,M202.0125,khop_tu_dong,M202.0125,Máy đo thời gian khô màng sơn,1.30,,,M202.0053 Máy đo chiều dày màng sơn (0.73); M202.0051 Máy đo PH (0.44)
+Máy đo tốc độ ăn mòn của cốt thép trong bê tông,ca,1,M202.0056,khop_tu_dong,M202.0056,Máy đo tốc độ ăn mòn cốt thép trong bê tông,1.21,,,M202.0054 Máy đo điện thế thí nghiệm ăn mòn cốt thép trong bê tông (0.83); M202.0184 Máy đo chiều dày lớp bê tông bảo vệ và đo đường kính cốt thép (0.63)
+Máy đo vạn năng,ca,3,M203.0019,khop_tu_dong,M203.0019,Máy đo vạn năng,1.30,,,M202.0051 Máy đo PH (0.63); M203.0018 Máy đo tỷ trọng (0.63)
+Máy đo vết nứt,ca,1,M202.0055,khop_tu_dong,M202.0055,Máy đo vết nứt,1.30,,,M202.0140 Máy siêu âm đo vết nứt (0.90); M202.0159 Thước đo vết nứt (0.75)
+Máy đo âm thanh,ca,1,M202.0052,khop_tu_dong,M202.0052,Máy đo âm thanh,1.30,,,M201.0032 Máy đo tốc độ sóng âm (0.63); M202.0087 Máy siêu âm đo chiều dầy kim loại (0.63)
+Máy đo điện trở tiếp địa,ca,1,M203.0015,khop_doi_chieu,M203.0015,Máy đo điện trở tiếp địa,1.30,,,M203.0016 Máy đo điện trở tiếp xúc (0.97); M203.0014 Máy đo điện trở một chiều (0.80)
+Máy đo độ bóng,ca,1,M202.0118,khop_tu_dong,M202.0118,Máy đo độ bóng,1.30,,,M203.0012 Máy đo độ nhớt (0.80); M202.0065 Máy đo độ dãn dài Bitum (0.70)
+Máy đo độ dãn dài bitum,ca,1,M202.0065,khop_tu_dong,M202.0065,Máy đo độ dãn dài Bitum,1.30,,,M202.0118 Máy đo độ bóng (0.70); M203.0012 Máy đo độ nhớt (0.70)
+Máy đo độ giãn nở bê tông,ca,1,M202.0078,khop_tu_dong,M202.0078,Máy đo độ giãn nở bê tông,1.30,,,M202.0122 Máy đo độ giãn nở nhiệt dài (0.87); M202.0056 Máy đo tốc độ ăn mòn cốt thép trong bê tông (0.63)
+Máy đo độ giãn nở nhiệt dài,ca,2,M202.0122,khop_tu_dong,M202.0122,Máy đo độ giãn nở nhiệt dài,1.30,,,M202.0078 Máy đo độ giãn nở bê tông (0.87); M202.0118 Máy đo độ bóng (0.63)
+Máy đo độ nhớt Brookfield,ca,1,M203.0012,khop_tu_dong,M203.0012,Máy đo độ nhớt,1.05,,,M202.0118 Máy đo độ bóng (0.70); M202.0065 Máy đo độ dãn dài Bitum (0.63)
+Máy đo độ thấm ion CL- vào trong bê tông,ca,1,,can_xac_nhan,M202.0078,Máy đo độ giãn nở bê tông,0.66,,,M202.0056 Máy đo tốc độ ăn mòn cốt thép trong bê tông (0.66); M202.0057 Máy đo độ thấm của I-on Clo (0.55)
+Máy đo độ thấm ion Cl- vào trong bê tông,ca,2,,can_xac_nhan,M202.0078,Máy đo độ giãn nở bê tông,0.66,,,M202.0056 Máy đo tốc độ ăn mòn cốt thép trong bê tông (0.66); M202.0057 Máy đo độ thấm của I-on Clo (0.55)
+Máy đo độ đàn hồi,ca,1,M202.0185,khop_tu_dong,M202.0185,Máy đo độ đàn hồi,1.30,,,M202.0118 Máy đo độ bóng (0.70); M203.0012 Máy đo độ nhớt (0.70)
+Máy đo ứng suất bề mặt,ca,1,M202.0126,khop_tu_dong,M202.0126,Máy đo ứng suất bề mặt,1.30,,,M202.0127 Máy đo ứng suất điện tử (0.63); M202.0134 Máy mài mòn bề mặt (0.63)
+Máy đo ứng suất điện tử,ca,2,M202.0127,khop_doi_chieu,M202.0127,Máy đo ứng suất điện tử,1.30,,,M202.0117 Máy đo dao động điện tử (kèm đầu đo dao động 3 chiều) (0.68); M201.0020 Máy thuỷ bình điện tử (0.63)
+Máy đào,ca,7,,can_xac_nhan,M101.0301,"Máy đào gầu dây - dung tích gầu 0,40 m3",0.55,M101.0105,"Máy đào một gầu, bánh xích - dung tích gầu 1,25 m3","M101.0302 Máy đào gầu dây - dung tích gầu 0,65 m3 (0.55); M101.0303 Máy đào gầu dây - dung tích gầu 1,20 m3 (0.55)"
+"Máy đào 0,4m3",ca,20,,can_xac_nhan,M101.0301,"Máy đào gầu dây - dung tích gầu 0,40 m3",1.00,M101.0101,"Máy đào một gầu, bánh xích - dung tích gầu 0,40 m3","M101.0101 Máy đào một gầu, bánh xích - dung tích gầu 0,40 m3 (0.83)"
+"Máy đào 0,5 m3",ca,38,M101.0102,khop_doi_chieu,M101.0102,"Máy đào một gầu, bánh xích - dung tích gầu 0,50 m3",0.83,,,"M201.0008 Thùng trục 0,5 m3 (0.45)"
+"Máy đào 0,5m3",ca,16,M101.0102,khop_doi_chieu,M101.0102,"Máy đào một gầu, bánh xích - dung tích gầu 0,50 m3",0.83,,,"M201.0008 Thùng trục 0,5 m3 (0.45)"
+"Máy đào 0,65m3",ca,2,M101.0302,khop_tu_dong,M101.0302,"Máy đào gầu dây - dung tích gầu 0,65 m3",1.00,,,"M101.0103 Máy đào một gầu, bánh xích - dung tích gầu 0,65 m3 (0.83); M101.0401 Máy xúc lật - dung tích gầu 0,65 m3 (0.70)"
+"Máy đào 0,8m3",ca,53,M101.0104,khop_doi_chieu,M101.0104,"Máy đào một gầu, bánh xích - dung tích gầu 0,80 m3",0.83,,,"M101.0201 Máy đào một gầu, bánh hơi - dung tích gầu 0,80 m3 (0.83)"
+"Máy đào 1,25 m3",ca,2,,can_xac_nhan,M101.0105,"Máy đào một gầu, bánh xích - dung tích gầu 1,25 m3",0.83,M101.0504,Máy ủi - công suất 140 cv,"M101.0202 Máy đào một gầu, bánh hơi - dung tích gầu 1,25 m3 (0.83); M101.0115 Máy đào 1,25 m3 gắn đầu búa thủy lực/hàm kẹp (0.72)"
+"Máy đào 1,25 m3 gắn đầu búa thủy lực",ca,2,M101.0115,khop_doi_chieu,M101.0115,"Máy đào 1,25 m3 gắn đầu búa thủy lực/hàm kẹp",1.28,,,"M101.0105 Máy đào một gầu, bánh xích - dung tích gầu 1,25 m3 (0.68); M101.0202 Máy đào một gầu, bánh hơi - dung tích gầu 1,25 m3 (0.68)"
+"Máy đào 1,25m3",ca,49,M101.0105,khop_doi_chieu,M101.0105,"Máy đào một gầu, bánh xích - dung tích gầu 1,25 m3",0.83,,,"M101.0202 Máy đào một gầu, bánh hơi - dung tích gầu 1,25 m3 (0.83); M101.0115 Máy đào 1,25 m3 gắn đầu búa thủy lực/hàm kẹp (0.72)"
+"Máy đào 1,25m3 gắn hàm kẹp",ca,1,M101.0115,khop_doi_chieu,M101.0115,"Máy đào 1,25 m3 gắn đầu búa thủy lực/hàm kẹp",1.06,,,"M101.0105 Máy đào một gầu, bánh xích - dung tích gầu 1,25 m3 (0.72); M101.0202 Máy đào một gầu, bánh hơi - dung tích gầu 1,25 m3 (0.72)"
+"Máy đào 1,25m3 gắn đầu búa thủy lực",ca,1,M101.0115,khop_doi_chieu,M101.0115,"Máy đào 1,25 m3 gắn đầu búa thủy lực/hàm kẹp",1.28,,,"M101.0105 Máy đào một gầu, bánh xích - dung tích gầu 1,25 m3 (0.68); M101.0202 Máy đào một gầu, bánh hơi - dung tích gầu 1,25 m3 (0.68)"
+"Máy đào 1,6m3",ca,46,,can_xac_nhan,M101.0304,"Máy đào gầu dây - dung tích gầu 1,60 m3",1.00,M101.0106,"Máy đào một gầu, bánh xích - dung tích gầu 1,60 m3","M101.0106 Máy đào một gầu, bánh xích - dung tích gầu 1,60 m3 (0.83); M101.0116 Máy đào 1,60 m3 gắn đầu búa thủy lực (0.79)"
+"Máy đào 1,6m3 gắn đầu búa thủy lực",ca,1,M101.0116,khop_doi_chieu,M101.0116,"Máy đào 1,60 m3 gắn đầu búa thủy lực",1.50,,,"M101.0304 Máy đào gầu dây - dung tích gầu 1,60 m3 (0.72); M101.0106 Máy đào một gầu, bánh xích - dung tích gầu 1,60 m3 (0.68)"
+Máy đào 2,ca,4,,can_xac_nhan,M101.0301,"Máy đào gầu dây - dung tích gầu 0,40 m3",0.55,M101.0107,"Máy đào một gầu, bánh xích - dung tích gầu 2,30 m3","M101.0302 Máy đào gầu dây - dung tích gầu 0,65 m3 (0.55); M101.0303 Máy đào gầu dây - dung tích gầu 1,20 m3 (0.55)"
+"Máy đào 2,3m3",ca,44,,can_xac_nhan,M101.0305,"Máy đào gầu dây - dung tích gầu 2,30 m3",1.00,M101.0107,"Máy đào một gầu, bánh xích - dung tích gầu 2,30 m3","M101.0107 Máy đào một gầu, bánh xích - dung tích gầu 2,30 m3 (0.83); M101.0405 Máy xúc lật - dung tích gầu 2,30 m3 (0.70)"
+"Máy đào 3,6m3",ca,31,M101.0108,khop_doi_chieu,M101.0108,"Máy đào một gầu, bánh xích - dung tích gầu 3,60 m3",0.83,,,
+"Máy đào gầu dây 0,4m3",ca,8,M101.0301,khop_tu_dong,M101.0301,"Máy đào gầu dây - dung tích gầu 0,40 m3",1.50,,,"M101.0101 Máy đào một gầu, bánh xích - dung tích gầu 0,40 m3 (0.93)"
+"Máy đào gầu dây 0,65m3",ca,8,M101.0302,khop_tu_dong,M101.0302,"Máy đào gầu dây - dung tích gầu 0,65 m3",1.50,,,"M101.0103 Máy đào một gầu, bánh xích - dung tích gầu 0,65 m3 (0.93); M101.0401 Máy xúc lật - dung tích gầu 0,65 m3 (0.83)"
+"Máy đào gầu dây 1,2m3",ca,9,M101.0303,khop_doi_chieu,M101.0303,"Máy đào gầu dây - dung tích gầu 1,20 m3",1.50,,,
+"Máy đào gầu dây 1,6m3",ca,10,M101.0304,khop_doi_chieu,M101.0304,"Máy đào gầu dây - dung tích gầu 1,60 m3",1.50,,,"M101.0106 Máy đào một gầu, bánh xích - dung tích gầu 1,60 m3 (0.93); M101.0404 Máy xúc lật - dung tích gầu 1,6m3 ÷ 1,65 m3 (0.79)"
+"Máy đào gầu dây 2,3m3",ca,8,M101.0305,khop_tu_dong,M101.0305,"Máy đào gầu dây - dung tích gầu 2,30 m3",1.50,,,"M101.0107 Máy đào một gầu, bánh xích - dung tích gầu 2,30 m3 (0.93); M101.0405 Máy xúc lật - dung tích gầu 2,30 m3 (0.83)"
+"Máy đào gầu dây 2,5m3",ca,1,M101.0306,khop_tu_dong,M101.0306,"Máy đào gầu dây - dung tích gầu 2,50 m3",1.50,,,
+"Máy đào gầu dây 3,5m3",ca,1,M101.0307,khop_tu_dong,M101.0307,"Máy đào gầu dây - dung tích gầu 3,50 m3",1.50,,,
+"Máy đóng cọc 1,2 t",ca,16,,can_xac_nhan,M103.0101,"Máy đóng cọc tự hành, bánh xích - trọng lượng đầu búa 1,2 t",0.93,,,"M103.0201 Máy đóng cọc chạy trên ray - trọng lượng đầu búa 1,2 t (0.88); M103.0501 Tàu đóng cọc - trọng lượng đầu búa 1,2 t (0.70)"
+"Máy đóng cọc 1,8 t",ca,20,,can_xac_nhan,M103.0102,"Máy đóng cọc tự hành, bánh xích - trọng lượng đầu búa 1,8 t",0.93,,,"M103.0202 Máy đóng cọc chạy trên ray - trọng lượng đầu búa 1,8 t (0.88); M103.0502 Tàu đóng cọc - trọng lượng đầu búa 1,8 t (0.70)"
+"Máy đóng cọc 1,8T",ca,4,,can_xac_nhan,M103.0102,"Máy đóng cọc tự hành, bánh xích - trọng lượng đầu búa 1,8 t",0.93,,,"M103.0202 Máy đóng cọc chạy trên ray - trọng lượng đầu búa 1,8 t (0.88); M103.0502 Tàu đóng cọc - trọng lượng đầu búa 1,8 t (0.70)"
+"Máy đóng cọc 2,5 t",ca,16,M103.0203,khop_tu_dong,M103.0203,"Máy đóng cọc chạy trên ray - trọng lượng đầu búa 2,5 t",0.88,,,"M103.0503 Tàu đóng cọc - trọng lượng đầu búa 2,5 t (0.70); M106.0201 Ô tô tự đổ - trọng tải 2,5 t (0.37)"
+"Máy đóng cọc 3,5 t",ca,13,,can_xac_nhan,M103.0103,"Máy đóng cọc tự hành, bánh xích - trọng lượng đầu búa 3,5 t",0.93,,,"M103.0204 Máy đóng cọc chạy trên ray - trọng lượng đầu búa 3,5 t (0.88); M103.0504 Tàu đóng cọc - trọng lượng đầu búa 3,5 t (0.70)"
+"Máy đóng cọc 4,5 t",ca,4,,can_xac_nhan,M103.0104,"Máy đóng cọc tự hành, bánh xích - trọng lượng đầu búa 4,5 t",0.93,,,"M103.0205 Máy đóng cọc chạy trên ray - trọng lượng đầu búa 4,5 t (0.88); M103.0505 Tàu đóng cọc - trọng lượng đầu búa 4,5 t (0.70)"
+Máy đóng cọc 8 t,ca,4,M103.0105,khop_tu_dong,M103.0105,"Máy đóng cọc tự hành, bánh xích - trọng lượng đầu búa 8,0 t",0.93,,,M101.1001 Máy lu rung tự hành - trọng lượng tĩnh 8 t (0.70)
+Máy đầm,ca,5,M202.0183,khop_tu_dong,M202.0183,Máy đầm xoay,0.80,,,M202.0025 Máy đầm tiêu chuẩn (đầm rung) (0.55); M101.0801 Máy đầm đất cầm tay - trọng lượng 50 kg (0.50)
+Máy đầm bàn 1 kW,ca,21,M112.1101,khop_doi_chieu,M112.1101,"Máy đầm bê tông, đầm bàn - công suất 1,0 kW",1.10,,,"M112.1201 Máy đầm bê tông, đầm cạnh - công suất 1,0 kW (0.83); M112.3701 Máy mài - công suất 1,0 kW (0.75)"
+Máy đầm cóc,ca,8,,can_xac_nhan,M202.0183,Máy đầm xoay,0.63,M101.0802a,,M202.0025 Máy đầm tiêu chuẩn (đầm rung) (0.50); M101.0801 Máy đầm đất cầm tay - trọng lượng 50 kg (0.47)
+Máy đầm cạnh 1 kW,ca,3,M112.1201,khop_tu_dong,M112.1201,"Máy đầm bê tông, đầm cạnh - công suất 1,0 kW",1.10,,,"M112.1101 Máy đầm bê tông, đầm bàn - công suất 1,0 kW (0.83); M112.3701 Máy mài - công suất 1,0 kW (0.75)"
+"Máy đầm dùi 1,5 kW",ca,222,M112.1301,khop_doi_chieu,M112.1301,"Máy đầm bê tông, dầm dùi - công suất 1,5 kW",1.00,,,"M112.2101 Máy cắt gạch đá - công suất 1,5 kW (0.67); M112.1705 Máy khoan bê tông cầm tay - công suất 1,50 kW (0.62)"
+"Máy đầm dùi 1,5kW",ca,43,M112.1301,khop_doi_chieu,M112.1301,"Máy đầm bê tông, dầm dùi - công suất 1,5 kW",1.00,,,"M112.2101 Máy cắt gạch đá - công suất 1,5 kW (0.67); M112.1705 Máy khoan bê tông cầm tay - công suất 1,50 kW (0.62)"
+"Máy đầm dùi 3,5 kW",ca,2,M112.1302,khop_doi_chieu,M112.1302,"Máy đầm bê tông, dầm dùi - công suất 3,5 kW",1.00,,,"M102.0703 Hệ thống xe goong di chuyển dầm (gồm mô tơ điện 3,5 kW và con lăn) (0.26)"
+"Máy đầm dùi 3,5kW",ca,1,M112.1302,khop_doi_chieu,M112.1302,"Máy đầm bê tông, dầm dùi - công suất 3,5 kW",1.00,,,"M102.0703 Hệ thống xe goong di chuyển dầm (gồm mô tơ điện 3,5 kW và con lăn) (0.26)"
+Máy đầm rung bê tông,ca,2,,can_xac_nhan,M112.1101,"Máy đầm bê tông, đầm bàn - công suất 1,0 kW",0.80,,,"M112.1201 Máy đầm bê tông, đầm cạnh - công suất 1,0 kW (0.80); M112.1301 Máy đầm bê tông, dầm dùi - công suất 1,5 kW (0.73)"
+Máy đầm xoay,ca,1,M202.0183,khop_tu_dong,M202.0183,Máy đầm xoay,1.30,,,M112.4001 Máy hàn xoay chiều - công suất 7 kW (0.55); M112.4003 Máy hàn xoay chiều - công suất 23 kW (0.55)
+Máy đầm đất cầm tay 70 kg,ca,8,M101.0803,khop_doi_chieu,M101.0803,Máy đầm đất cầm tay - trọng lượng 70 kg,1.50,,,
+Máy địa chấn ES-125,ca,2,,can_xac_nhan,M201.0017,"Máy, thiết bị thăm dò địa chấn - loại 1 mạch (ES-125)",0.50,,,M202.0129 Máy kéo vải địa kỹ thuật (0.44); M203.0015 Máy đo điện trở tiếp địa (0.44)
+Máy ảnh,ca,27,M201.0026,khop_tu_dong,M201.0026,Máy ảnh,1.30,,,
+Máy ổn nhiệt,ca,3,,can_xac_nhan,M202.0060,Máy ghi nhiệt ổn định,0.80,,,M202.0165 Bể ổn nhiệt (0.67); M202.0076 Máy phân tích vi nhiệt (0.55)
+Máy ủi,ca,2,,can_xac_nhan,M101.0501,Máy ủi - công suất 75 cv,0.80,M101.0505,Máy ủi - công suất 180 cv,M101.0502 Máy ủi - công suất 100 cv (0.80); M101.0503 Máy ủi - công suất 110 cv (0.80)
+Máy ủi 100 CV,ca,6,M101.0502,khop_tu_dong,M101.0502,Máy ủi - công suất 100 cv,1.50,,,
+Máy ủi 110 cv,ca,303,M101.0503,khop_doi_chieu,M101.0503,Máy ủi - công suất 110 cv,1.50,,,M101.0701 Máy san tự hành - công suất 110 cv (0.83)
+Máy ủi 110cv,ca,8,M101.0503,khop_doi_chieu,M101.0503,Máy ủi - công suất 110 cv,1.50,,,M101.0701 Máy san tự hành - công suất 110 cv (0.83)
+Máy ủi 140 cv,ca,67,M101.0504,khop_doi_chieu,M101.0504,Máy ủi - công suất 140 cv,1.50,,,M101.0702 Máy san tự hành - công suất 140 cv (0.83); M105.0203 Máy rải hỗn hợp bê tông nhựa - năng suất 130 cv - 140 cv (0.62)
+Máy ủi 180 cv,ca,30,M101.0505,khop_doi_chieu,M101.0505,Máy ủi - công suất 180 cv,1.50,,,M101.0703 Máy san tự hành - công suất 180 cv (0.83)
+Máy ủi 240 cv,ca,27,M101.0506,khop_doi_chieu,M101.0506,Máy ủi - công suất 240 cv,1.50,,,
+Máy ủi 320 cv,ca,23,M101.0507,khop_doi_chieu,M101.0507,Máy ủi - công suất 320 cv,1.50,,,
+Máy ủi 75 cv,ca,20,M101.0501,khop_doi_chieu,M101.0501,Máy ủi - công suất 75 cv,1.50,,,"M112.0208 Máy bơm nước, động cơ diezel - công suất 75 cv (0.64); M109.0505 Ca nô - công suất 75 cv (0.45)"
+"Máy, thiết bị thăm dò địa chấn loại 12 mạch (TRIOSX, 12)",ca,2,,can_xac_nhan,M201.0017,"Máy, thiết bị thăm dò địa chấn - loại 1 mạch (ES-125)",1.01,,,"M201.0018 Máy, thiết bị thăm dò địa chấn - loại 12 mạch (Triosx-12) (1.01); M201.0019 Máy, thiết bị thăm dò địa chấn - loại 24 mạch (Triosx-24) (1.01)"
+"Máy, thiết bị thăm dò địa chấn loại 24 mạch (TRIOSX, 24)",ca,2,,can_xac_nhan,M201.0017,"Máy, thiết bị thăm dò địa chấn - loại 1 mạch (ES-125)",1.01,,,"M201.0018 Máy, thiết bị thăm dò địa chấn - loại 12 mạch (Triosx-12) (1.01); M201.0019 Máy, thiết bị thăm dò địa chấn - loại 24 mạch (Triosx-24) (1.01)"
+Nhớt kế,ca,1,M202.0196,khop_tu_dong,M202.0196,Nhớt kế,1.30,,,M202.0197 Nhớt kế Suttard (0.97); M202.0198 Nhớt kế Vebe (0.97)
+Nhớt kế Suttard,ca,1,M202.0197,khop_tu_dong,M202.0197,Nhớt kế Suttard,1.30,,,M202.0196 Nhớt kế (0.97); M202.0198 Nhớt kế Vebe (0.80)
+Nhớt kế Vebe,ca,1,M202.0198,khop_tu_dong,M202.0198,Nhớt kế Vebe,1.30,,,M202.0196 Nhớt kế (0.97); M202.0197 Nhớt kế Suttard (0.80)
+Nồi hấp áp suất cao (Autoclave),ca,2,M202.0147,khop_tu_dong,M202.0147,Nồi hấp áp suất cao (Autoclave),1.30,,,M202.0092 Thiết bị hấp mẫu xi măng (0.14); M203.0026 Thiết bị kiểm tra áp lực (0.14)
+PLP-110 hoặc loại tương tự,ca,32,,khong_khop,,,,,,
+Pa lăng (tời) 1T,ca,1,M102.1201a,khop_tu_dong,M102.1201a,Pa lăng xích - sức nâng 1t,1.10,,,"M102.1102 Tời điện - sức kéo 1,0 t (0.53)"
+Pa lăng 1T,ca,2,M102.1201a,khop_tu_dong,M102.1201a,Pa lăng xích - sức nâng 1t,1.25,,,"M102.1102 Tời điện - sức kéo 1,0 t (0.37)"
+Pa lăng 20T,ca,4,M102.1203,khop_tu_dong,M102.1203,Pa lăng xích - sức nâng 20t,1.25,,,M202.0048 Máy gia tải - 20 t (0.45); M101.1005 Máy lu rung tự hành - trọng lượng tĩnh 20t (0.40)
+Pa lăng xích 3 t,ca,5,M102.1201,khop_tu_dong,M102.1201,Pa lăng xích - sức nâng 3 t,1.50,,,M102.0903 Máy vận thăng - sức nâng 3 t (0.37); M102.1001 Máy vận thăng lồng - sức nâng 3 t (0.34)
+Pa lăng xích 3 tấn,ca,4,M102.1201,khop_tu_dong,M102.1201,Pa lăng xích - sức nâng 3 t,1.50,,,M102.0903 Máy vận thăng - sức nâng 3 t (0.37); M102.1001 Máy vận thăng lồng - sức nâng 3 t (0.34)
+Pa lăng xích 3T,ca,3,M102.1201,khop_tu_dong,M102.1201,Pa lăng xích - sức nâng 3 t,1.50,,,M102.0903 Máy vận thăng - sức nâng 3 t (0.37); M102.1001 Máy vận thăng lồng - sức nâng 3 t (0.34)
+Pa lăng xích 5T,ca,1,M102.1202,khop_tu_dong,M102.1202,Pa lăng xích - sức nâng 5 t,1.50,,,M102.0301 Cần cẩu bánh xích - sức nâng 5 t (0.49); M102.1301 Kích nâng - sức nâng 5 t (0.40)
+Palăng 5T,ca,3,M102.1202,khop_tu_dong,M102.1202,Pa lăng xích - sức nâng 5 t,1.25,,,M102.1301 Kích nâng - sức nâng 5 t (0.45); M102.0401 Cần trục tháp - sức nâng 5 t (0.37)
+Palăng xích 3 t,ca,2,M102.1201,khop_tu_dong,M102.1201,Pa lăng xích - sức nâng 3 t,1.50,,,M102.0903 Máy vận thăng - sức nâng 3 t (0.37); M102.1001 Máy vận thăng lồng - sức nâng 3 t (0.34)
+Palăng xích 3T,ca,2,M102.1201,khop_tu_dong,M102.1201,Pa lăng xích - sức nâng 3 t,1.50,,,M102.0903 Máy vận thăng - sức nâng 3 t (0.37); M102.1001 Máy vận thăng lồng - sức nâng 3 t (0.34)
+Palăng xích 5 t,ca,2,M102.1202,khop_tu_dong,M102.1202,Pa lăng xích - sức nâng 5 t,1.50,,,M102.0301 Cần cẩu bánh xích - sức nâng 5 t (0.49); M102.1301 Kích nâng - sức nâng 5 t (0.40)
+Palăng xích 5T,ca,10,M102.1202,khop_tu_dong,M102.1202,Pa lăng xích - sức nâng 5 t,1.50,,,M102.0301 Cần cẩu bánh xích - sức nâng 5 t (0.49); M102.1301 Kích nâng - sức nâng 5 t (0.40)
+Palăng xích 5t,ca,15,M102.1202,khop_tu_dong,M102.1202,Pa lăng xích - sức nâng 5 t,1.50,,,M102.0301 Cần cẩu bánh xích - sức nâng 5 t (0.49); M102.1301 Kích nâng - sức nâng 5 t (0.40)
+Phao 250 t,ca,4,M109.0203,khop_doi_chieu,M109.0203,Phao thép - trọng tải 250 t,1.17,,,M102.1307 Kích nâng - sức nâng 250 t (0.53); M102.0809 Cầu trục - sức nâng 250 t (0.45)
+Phao thép 200 t,ca,1,M109.0202,khop_tu_dong,M109.0202,Phao thép - trọng tải 200 t,1.50,,,M102.1306 Kích nâng - sức nâng 200 t (0.45); M109.0111 Sà lan - trọng tải 200 t (0.40)
+Phao thép 60T,ca,2,M109.0201,khop_tu_dong,M109.0201,Phao thép - trọng tải 60 t,1.50,,,M102.0605 Cổng trục - sức nâng 60 t (0.40); M102.0804 Cầu trục - sức nâng 60 t (0.40)
+Pông tông,ca,3,M109.0301,khop_tu_dong,M109.0301,Pông tông,1.30,,,M104.0101 Máy trộn bê tông - dung tích 100 lít (0.20); M104.0102 Máy trộn bê tông - dung tích 250 lít (0.20)
+Quang lật 360 t/h,ca,2,,can_xac_nhan,M110.0304,Quang lật 360 t/h,1.50,M110.0303,Thiết bị phục vụ vận chuyển đá nổ mìn trong hầm Đầu kéo 30 t,
+"Quạt gió 2,5 kW",ca,4,M112.4401,khop_tu_dong,M112.4401,"Máy quạt gió - công suất 2,5 kW",1.20,,,"M112.1501 Máy khoan đứng - công suất 2,5 kW (0.40)"
+"Quạt thông gió 7,5 kW",ca,1,,can_xac_nhan,M112.3401,"Máy bào thép - công suất 7,5 kW",0.37,M203.0031,,"M112.0401 Máy bơm chân không 7,5 kW (0.34); M112.2201 Máy cắt bê tông - công suất 7,5 kW (0.34)"
+Rơ mooc 15 tấn,ca,2,M106.0801,khop_tu_dong,M106.0801,Rơ mooc - trọng tải 15 t,1.50,,,"M111.0101 Máy nâng TO-12-24, sức nâng 15t (0.45); M101.1003 Máy lu rung tự hành - trọng lượng tĩnh 15 t (0.40)"
+Rơ moóc 100 t,ca,1,M106.0806,khop_doi_chieu,M106.0806,Rơ mooc - trọng tải 100 t,1.00,,,M102.1305 Kích nâng - sức nâng 100 t (0.45); M109.0101 Sà lan - trọng tải 100 t (0.40)
+Rơ moóc 21T,ca,1,M106.0802,khop_tu_dong,M106.0802,Rơ mooc - trọng tải 21t,1.00,,,
+Rơ moóc 30 t,ca,1,M106.0803,khop_doi_chieu,M106.0803,Rơ mooc - trọng tải 30 t,1.00,,,M102.1303 Kích nâng - sức nâng 30 t (0.45); M102.0603 Cổng trục - sức nâng 30 t (0.40)
+Rơ moóc 60 t,ca,1,M106.0805,khop_doi_chieu,M106.0805,Rơ mooc - trọng tải 60 t,1.00,,,M102.0605 Cổng trục - sức nâng 60 t (0.40); M102.0804 Cầu trục - sức nâng 60 t (0.40)
+Sà lan (chứa vật liệu) 200 t,ca,12,,can_xac_nhan,M109.0111,Sà lan - trọng tải 200 t,1.00,M109.0102,Sà lan - trọng tải 200 t,M109.0102 Sà lan - trọng tải 200 t (1.00); M102.1306 Kích nâng - sức nâng 200 t (0.34)
+Sà lan (chứa vật liệu) 200t,ca,3,,can_xac_nhan,M109.0111,Sà lan - trọng tải 200 t,1.00,M109.0102,Sà lan - trọng tải 200 t,M109.0102 Sà lan - trọng tải 200 t (1.00); M102.1306 Kích nâng - sức nâng 200 t (0.34)
+Sà lan (đặt máy) 200 t,ca,12,,can_xac_nhan,M109.0111,Sà lan - trọng tải 200 t,1.25,M109.0102,Sà lan - trọng tải 200 t,M109.0102 Sà lan - trọng tải 200 t (1.25); M102.1306 Kích nâng - sức nâng 200 t (0.40)
+Sà lan (đặt máy) 200t,ca,3,,can_xac_nhan,M109.0111,Sà lan - trọng tải 200 t,1.25,M109.0102,Sà lan - trọng tải 200 t,M109.0102 Sà lan - trọng tải 200 t (1.25); M102.1306 Kích nâng - sức nâng 200 t (0.40)
+Sà lan 1000T,ca,7,M109.0107,khop_tu_dong,M109.0107,Sà lan - trọng tải 1000 t,1.50,,,
+Sà lan 100T,ca,1,M109.0101,khop_tu_dong,M109.0101,Sà lan - trọng tải 100 t,1.50,,,M102.1305 Kích nâng - sức nâng 100 t (0.45); M106.0806 Rơ mooc - trọng tải 100 t (0.40)
+Sà lan 200 t,ca,158,,can_xac_nhan,M109.0111,Sà lan - trọng tải 200 t,1.50,M109.0102,Sà lan - trọng tải 200 t,M109.0102 Sà lan - trọng tải 200 t (1.50); M102.1306 Kích nâng - sức nâng 200 t (0.45)
+Sà lan 200t,ca,9,,can_xac_nhan,M109.0111,Sà lan - trọng tải 200 t,1.50,M109.0102,Sà lan - trọng tải 200 t,M109.0102 Sà lan - trọng tải 200 t (1.50); M102.1306 Kích nâng - sức nâng 200 t (0.45)
+Sà lan 250 t,ca,51,M109.0103,khop_tu_dong,M109.0103,Sà lan - trọng tải 250 t,1.50,,,M102.1307 Kích nâng - sức nâng 250 t (0.45); M102.0809 Cầu trục - sức nâng 250 t (0.40)
+Sà lan 400 t,ca,108,,can_xac_nhan,M109.0112,Sà lan - trọng tải 400 t,1.50,M109.0104,Sà lan - trọng tải 400 t,M109.0104 Sà lan - trọng tải 400 t (1.50)
+Sà lan 400T,ca,1,,can_xac_nhan,M109.0112,Sà lan - trọng tải 400 t,1.50,M109.0104,Sà lan - trọng tải 400 t,M109.0104 Sà lan - trọng tải 400 t (1.50)
+Sà lan 600 t,ca,1,M109.0105,khop_tu_dong,M109.0105,Sà lan - trọng tải 600 t,1.50,,,
+Sà lan 800 t,ca,7,,can_xac_nhan,M109.0113,Sà lan - trọng tải 800 t,1.50,,,M109.0106 Sà lan - trọng tải 800 t (1.50); M202.0111 Kích thủy lực 800 t (0.37)
+Sà lan 800t÷1000t,ca,4,,can_xac_nhan,M109.0107,Sà lan - trọng tải 1000 t,1.25,M109.0106,Sà lan - trọng tải 800 t,
+Sà lan chở dầu 250 t,ca,5,M109.0103,khop_tu_dong,M109.0103,Sà lan - trọng tải 250 t,1.10,,,M102.1307 Kích nâng - sức nâng 250 t (0.37); M102.0809 Cầu trục - sức nâng 250 t (0.34)
+Sà lan chở dầu 250t,ca,2,M109.0103,khop_tu_dong,M109.0103,Sà lan - trọng tải 250 t,1.10,,,M102.1307 Kích nâng - sức nâng 250 t (0.37); M102.0809 Cầu trục - sức nâng 250 t (0.34)
+Sà lan chở nước 250 t,ca,5,M109.0103,khop_tu_dong,M109.0103,Sà lan - trọng tải 250 t,1.10,,,M102.1307 Kích nâng - sức nâng 250 t (0.37); M102.0809 Cầu trục - sức nâng 250 t (0.34)
+Sà lan chở nước 250t,ca,2,M109.0103,khop_tu_dong,M109.0103,Sà lan - trọng tải 250 t,1.10,,,M102.1307 Kích nâng - sức nâng 250 t (0.37); M102.0809 Cầu trục - sức nâng 250 t (0.34)
+Sà lan chở vật liệu 200 t,ca,3,,can_xac_nhan,M109.0111,Sà lan - trọng tải 200 t,1.00,,,M109.0102 Sà lan - trọng tải 200 t (1.00); M102.1306 Kích nâng - sức nâng 200 t (0.34)
+Sà lan công tác 250 t,ca,16,M109.0103,khop_tu_dong,M109.0103,Sà lan - trọng tải 250 t,1.25,,,M102.1307 Kích nâng - sức nâng 250 t (0.40); M102.0809 Cầu trục - sức nâng 250 t (0.37)
+Sà lan mở đáy 400t,ca,4,,can_xac_nhan,M109.0112,Sà lan - trọng tải 400 t,1.10,M109.0104,Sà lan - trọng tải 400 t,M109.0104 Sà lan - trọng tải 400 t (1.10)
+Sà lan tự hành 1200 t,ca,1,M109.0115,khop_doi_chieu,M109.0115,Sà lan - trọng tải 1200 t,1.50,,,
+Sà lan tự hành 1200t,ca,7,M109.0115,khop_doi_chieu,M109.0115,Sà lan - trọng tải 1200 t,1.50,,,
+Sà lan tự hành 200t,ca,4,M109.0111,khop_doi_chieu,M109.0111,Sà lan - trọng tải 200 t,1.50,,,M109.0102 Sà lan - trọng tải 200 t (1.50); M102.1306 Kích nâng - sức nâng 200 t (0.45)
+Sà lan tự hành 400t,ca,4,M109.0112,khop_doi_chieu,M109.0112,Sà lan - trọng tải 400 t,1.50,,,M109.0104 Sà lan - trọng tải 400 t (1.50)
+Sà lan tự hành 800t,ca,4,M109.0113,khop_doi_chieu,M109.0113,Sà lan - trọng tải 800 t,1.50,,,M109.0106 Sà lan - trọng tải 800 t (1.50); M202.0111 Kích thủy lực 800 t (0.37)
+Súng bi,ca,2,M202.0091,khop_tu_dong,M202.0091,Súng bi,1.30,,,M202.0199 Súng bật nẩy (0.55); M112.1404 Máy phun bi 235 kW (0.25)
+Súng bật nẩy,ca,2,M202.0199,khop_tu_dong,M202.0199,Súng bật nẩy,1.30,,,M202.0091 Súng bi (0.55)
+TS06 hoặc loại tương tự,ca,6,,khong_khop,,,,,,
+Tenxomet,ca,1,,khong_khop,,,,,,
+Thiết bị TRL Profile Beam,ca,1,M202.0003,khop_doi_chieu,M202.0003,TRL Profile Beam,1.00,,,
+Thiết bị Wheel tracking,ca,1,M202.0206,khop_tu_dong,M202.0206,Thiết bị wheel tracking,1.30,,,
+Thiết bị gia nhiệt vòng và bi,ca,1,M202.0204,khop_tu_dong,M202.0204,Thiết bị gia nhiệt vòng và bi,1.30,,,M202.0203 Thiết bị đo nhiệt lượng (0.50); M202.0202 Thiết bị đo nhiệt độ bê tông (0.42)
+Thiết bị hấp mẫu xi măng,ca,1,M202.0092,khop_tu_dong,M202.0092,Thiết bị hấp mẫu xi măng,1.30,,,"M103.1401 Máy cấp xi măng (0.40); M202.0023 Máy trộn xi măng, dung tích 5lít (0.33)"
+Thiết bị nâng hạ dầm 90 t,ca,1,M102.0702,khop_tu_dong,M102.0702,Thiết bị nâng hạ dầm 90 t,1.50,,,M102.0606 Cổng trục - sức nâng 90 t (0.40); M102.0805 Cầu trục - sức nâng 90 t (0.40)
+Thiết bị nấu nhựa,ca,32,M105.0901,khop_doi_chieu,M105.0901,Thiết bị nấu nhựa 500 lít,0.97,,,M105.0101 Máy phun nhựa đường - công suất 190 cv (0.25); M105.0204 Máy rải nhựa đường Micro- Asphalt tự hành (0.20)
+Thiết bị phun bi,ca,1,M112.1404,khop_tu_dong,M112.1404,Máy phun bi 235 kW,0.67,,,M202.0204 Thiết bị gia nhiệt vòng và bi (0.50); M202.0091 Súng bi (0.33)
+Thiết bị phun cát,ca,1,,can_xac_nhan,M202.0200,Thiết bị đo góc nghỉ của cát,0.47,,,M112.1403 Máy phun (chưa tính khí nén) Máy phun cát (0.33); M202.0020 Bếp cát (0.33)
+Thiết bị phun sơn YHK10A,ca,9,M105.0601,khop_doi_chieu,M105.0601,Thiết bị sơn kẻ vạch YHK 10A,0.80,,,"M202.0151 Thiết bị đo độ cứng màng sơn (0.42); M105.0701 Lò nấu sơn YHK 3A, lò nung keo (0.38)"
+Thiết bị thử tính năng sử dụng của sứ vệ sinh,ca,1,M202.0155,khop_tu_dong,M202.0155,Thiết bị thử tính năng sử dụng của sứ vệ sinh,1.30,,,M202.0205 Thiết bị thử tải trọng (0.42); M202.0069 Thiết bị thử tỷ diện (0.40)
+Thiết bị thử tải trọng,ca,1,M202.0205,khop_tu_dong,M202.0205,Thiết bị thử tải trọng,1.30,,,M202.0069 Thiết bị thử tỷ diện (0.63); M202.0154 Thiết bị đo thử độ kín (0.55)
+Thiết bị thử tỷ diện,ca,1,M202.0069,khop_tu_dong,M202.0069,Thiết bị thử tỷ diện,1.30,,,M202.0205 Thiết bị thử tải trọng (0.63); M202.0154 Thiết bị đo thử độ kín (0.47)
+Thiết bị thử va đập phản hồi,ca,1,M202.0156,khop_tu_dong,M202.0156,Thiết bị thử va đập phản hồi,1.30,,,M202.0205 Thiết bị thử tải trọng (0.50); M202.0069 Thiết bị thử tỷ diện (0.44)
+Thiết bị xác định thay đổi chiều cao cột vữa,ca,1,M202.0208,khop_tu_dong,M202.0208,Thiết bị xác định thay đổi chiều cao cột vữa,1.30,,,M202.0207 Thiết bị xác định độ bền cọ rửa (0.50); M202.0174 Dụng cụ xác định sự thay đổi chiều dài của mẫu vữa (0.45)
+Thiết bị xác định độ bền cọ rửa,ca,1,M202.0207,khop_tu_dong,M202.0207,Thiết bị xác định độ bền cọ rửa,1.30,,,M202.0150 Thiết bị đo độ bền ẩm (0.55); M202.0208 Thiết bị xác định thay đổi chiều cao cột vữa (0.50)
+Thiết bị đo biến dạng,ca,1,,can_xac_nhan,M202.0097,Đồng hồ đo biến dạng,0.60,,,M202.0203 Thiết bị đo nhiệt lượng (0.55); M201.0012 Thiết bị đo ngẫu lực (0.50)
+Thiết bị đo chuyển vị Indicator,ca,1,M202.0148,khop_tu_dong,M202.0148,Thiết bị đo chuyển vị Indicator,1.30,,,M202.0061 Máy đo chuyển vị (0.75); M202.0203 Thiết bị đo nhiệt lượng (0.50)
+Thiết bị đo góc nghỉ của cát,ca,1,M202.0200,khop_tu_dong,M202.0200,Thiết bị đo góc nghỉ của cát,1.30,,,M202.0201 Thiết bị đo góc nghỉ tự nhiên của đất rời (0.80); M202.0203 Thiết bị đo nhiệt lượng (0.47)
+Thiết bị đo góc nghỉ tự nhiên của đất rời,ca,1,M202.0201,khop_tu_dong,M202.0201,Thiết bị đo góc nghỉ tự nhiên của đất rời,1.30,,,M202.0200 Thiết bị đo góc nghỉ của cát (0.80); M202.0203 Thiết bị đo nhiệt lượng (0.42)
+Thiết bị đo hệ số ma sát,ca,1,M202.0153,khop_tu_dong,M202.0153,Thiết bị đo hệ số ma sát,1.30,,,M202.0203 Thiết bị đo nhiệt lượng (0.47); M201.0012 Thiết bị đo ngẫu lực (0.44)
+Thiết bị đo ngẫu lực,ca,1,M201.0012,khop_tu_dong,M201.0012,Thiết bị đo ngẫu lực,1.30,,,M202.0203 Thiết bị đo nhiệt lượng (0.55); M202.0121 Thiết bị đo độ dày (0.50)
+Thiết bị đo nhiệt lượng,ca,1,M202.0203,khop_tu_dong,M202.0203,Thiết bị đo nhiệt lượng,1.30,,,M202.0202 Thiết bị đo nhiệt độ bê tông (0.70); M201.0012 Thiết bị đo ngẫu lực (0.55)
+Thiết bị đo nhiệt độ bê tông,ca,1,M202.0202,khop_tu_dong,M202.0202,Thiết bị đo nhiệt độ bê tông,1.30,,,M202.0203 Thiết bị đo nhiệt lượng (0.70); M202.0121 Thiết bị đo độ dày (0.63)
+Thiết bị đo phản ứng Romdas,ca,2,M202.0005,khop_doi_chieu,M202.0005,Thiết bị đo phản ứng Romdas,1.30,,,M202.0203 Thiết bị đo nhiệt lượng (0.50); M201.0012 Thiết bị đo ngẫu lực (0.47)
+Thiết bị đo thử độ kín,ca,1,M202.0154,khop_tu_dong,M202.0154,Thiết bị đo thử độ kín,1.30,,,M202.0121 Thiết bị đo độ dày (0.70); M202.0152 Thiết bị đo độ dày (0.70)
+Thiết bị đo điểm sương,ca,1,M202.0149,khop_tu_dong,M202.0149,Thiết bị đo điểm sương,1.30,,,M202.0203 Thiết bị đo nhiệt lượng (0.55); M201.0012 Thiết bị đo ngẫu lực (0.50)
+Thiết bị đo độ bền ẩm,ca,2,M202.0150,khop_tu_dong,M202.0150,Thiết bị đo độ bền ẩm,1.30,,,M202.0121 Thiết bị đo độ dày (0.70); M202.0152 Thiết bị đo độ dày (0.70)
+Thiết bị đo độ côn lún,ca,2,,can_xac_nhan,M202.0121,Thiết bị đo độ dày,0.70,,,M202.0152 Thiết bị đo độ dày (0.70); M202.0120 Thiết bị đo độ dẫn nước (0.63)
+Thiết bị đo độ cứng màng sơn,ca,1,M202.0151,khop_tu_dong,M202.0151,Thiết bị đo độ cứng màng sơn,1.30,,,M202.0121 Thiết bị đo độ dày (0.63); M202.0152 Thiết bị đo độ dày (0.63)
+Thiết bị đo độ dày,ca,2,,can_xac_nhan,M202.0121,Thiết bị đo độ dày,1.30,,,M202.0152 Thiết bị đo độ dày (1.30); M202.0120 Thiết bị đo độ dẫn nước (0.70)
+Thiết bị đo độ dẫn nước,ca,2,M202.0120,khop_tu_dong,M202.0120,Thiết bị đo độ dẫn nước,1.30,,,M202.0121 Thiết bị đo độ dày (0.70); M202.0152 Thiết bị đo độ dày (0.70)
+Thiết bị đếm phóng xạ,ca,1,M202.0002,khop_doi_chieu,M202.0002,Thiết bị đếm phóng xạ,1.30,,,M202.0112 Kính phóng đại đo lường (0.17); M202.0138 Máy quang phổ đo hệ số phản xạ ánh sáng (0.09)
+Thuyền (ghe 40T) đặt máy bơm,ca,5,M109.0402,khop_doi_chieu,M109.0402,Thuyền (ghe) đặt máy bơm - trọng tải 40 t,1.50,,,M102.0802 Cầu trục - sức nâng 40 t (0.34); M106.0804 Rơ mooc - trọng tải 40 t (0.34)
+Thuyền (ghe 5T) đặt máy bơm,ca,1,M109.0401,khop_doi_chieu,M109.0401,Thuyền (ghe) đặt máy bơm - trọng tải 5 t,1.50,,,M102.1301 Kích nâng - sức nâng 5 t (0.37); M102.0401 Cần trục tháp - sức nâng 5 t (0.33)
+"Thùng trục 0,5m3",ca,1,M201.0008,khop_tu_dong,M201.0008,"Thùng trục 0,5 m3",1.50,,,"M101.0102 Máy đào một gầu, bánh xích - dung tích gầu 0,50 m3 (0.33)"
+Trạm lặn,ca,10,M109.1401,khop_doi_chieu,M109.1401,Trạm lặn,1.30,,,M104.0310 Trạm trộn vữa - năng suất: (0.55); M104.0710 Trạm nghiền đá - năng suất: (0.55)
+Trạm lặn,giờ,3,M109.1401,khop_doi_chieu,M109.1401,Trạm lặn,1.30,,,M104.0310 Trạm trộn vữa - năng suất: (0.55); M104.0710 Trạm nghiền đá - năng suất: (0.55)
+Trạm nghiền công suất 250T/h,ca,7,M104.0714,khop_doi_chieu,M104.0714,Máy nghiền đá thô - năng suất 250 T/h,0.70,,,
+Trạm trộn,ca,29,M104.0310,khop_tu_dong,M104.0310,Trạm trộn vữa - năng suất:,0.97,,,M104.0401 Trạm trộn bê tông - năng suất 16 m3/h (0.63); M104.0402 Trạm trộn bê tông - năng suất 25 m3/h (0.63)
+Trạm trộn bê tông,ca,12,,can_xac_nhan,M104.0401,Trạm trộn bê tông - năng suất 16 m3/h,0.97,,,M104.0402 Trạm trộn bê tông - năng suất 25 m3/h (0.97); M104.0403 Trạm trộn bê tông - năng suất 30 m3/h (0.97)
+Trạm trộn vữa xi măng 24m3/h,ca,1,M104.0312,khop_tu_dong,M104.0312,Máy trộn vữa xi măng - dung tích 24 m3/h,1.06,,,
+Tàu cuốc biển công suất 2085CV (hoặc tương tự),ca,5,M109.0901,khop_tu_dong,M109.0901,Tàu cuốc biển - công suất 2085 cv,1.17,,,
+Tàu cuốc sông TC82 495cv (hoặc tương tự),ca,5,M109.0801,khop_tu_dong,M109.0801,Tàu cuốc sông- công suất 495 cv,0.88,,,
+Tàu cấp dầu 360 cv,ca,10,,can_xac_nhan,M109.0704,"Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 360 cv",0.45,,,M106.0305 Ô tô đầu kéo - công suất 360 cv (0.33)
+Tàu cấp dầu 600cv,ca,5,,can_xac_nhan,M109.0705,"Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 600 cv",0.45,,,
+Tàu cấp nước 360 cv,ca,10,,can_xac_nhan,M109.0704,"Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 360 cv",0.35,,,M106.0305 Ô tô đầu kéo - công suất 360 cv (0.33)
+Tàu cấp nước 360cv,ca,5,,can_xac_nhan,M109.0704,"Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 360 cv",0.35,,,M106.0305 Ô tô đầu kéo - công suất 360 cv (0.33)
+Tàu hút 1200 cv (hoặc tương tự),ca,5,M109.1002,khop_tu_dong,M109.1002,Tàu hút - công suất 1200 cv,1.10,,,"M109.0706 Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 1200 cv (tầu kéo biển) (0.26)"
+Tàu hút 585 cv (hoặc tương tự),ca,5,M109.1001,khop_tu_dong,M109.1001,Tàu hút - công suất 585 cv,1.10,,,
+Tàu hút 600CV,ca,2,,can_xac_nhan,M109.0705,"Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 600 cv",0.28,M109.1001a,,
+Tàu hút HA97 4170CV (hoặc tương tự),ca,15,M109.1003,khop_doi_chieu,M109.1003,Tàu hút - công suất 3958 cv ÷ 4170 cv,0.93,,,
+Tàu hút bụng tự hành 5945cv (hoặc tương tự),ca,5,M109.1102,khop_tu_dong,M109.1102,Tàu hút bụng tự hành - công suất 5945 cv,1.17,,,
+Tàu hút bụng tự hành HB88 1390cv (hoặc tương tự),ca,6,M109.1101,khop_doi_chieu,M109.1101,Tàu hút bụng tự hành - công suất 1390 cv,1.07,,,
+Tàu hút bụng tự hành công suất 5945 cv (hoặc tương tự),ca,1,M109.1102,khop_doi_chieu,M109.1102,Tàu hút bụng tự hành - công suất 5945 cv,1.17,,,
+Tàu hút công suất 280cv,ca,1,M109.1004,khop_tu_dong,M109.1004,Tàu hút - công suất 280 cv,1.50,,,
+Tàu hút công suất 400cv,ca,1,M109.1005,khop_tu_dong,M109.1005,Tàu hút - công suất 400 cv,1.50,,,
+Tàu kéo 1200 cv,ca,12,,can_xac_nhan,M109.1002,Tàu hút - công suất 1200 cv,1.00,M109.0706,"Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 1200 cv (tầu kéo biển)","M109.0706 Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 1200 cv (tầu kéo biển) (0.35)"
+Tàu kéo 150 cv,ca,148,,can_xac_nhan,M106.0301,Ô tô đầu kéo - công suất 150 cv,0.53,M109.0702,"Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 150 cv","M109.0507 Ca nô - công suất 150 cv (0.40); M109.0702 Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 150 cv (0.37)"
+Tàu kéo 150CV,ca,6,,can_xac_nhan,M106.0301,Ô tô đầu kéo - công suất 150 cv,0.53,M109.0702,"Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 150 cv","M109.0507 Ca nô - công suất 150 cv (0.40); M109.0702 Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 150 cv (0.37)"
+Tàu kéo 150cv,ca,9,,can_xac_nhan,M106.0301,Ô tô đầu kéo - công suất 150 cv,0.53,M109.0702,"Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 150 cv","M109.0507 Ca nô - công suất 150 cv (0.40); M109.0702 Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 150 cv (0.37)"
+Tàu kéo 250 cv,ca,10,M109.0703,khop_doi_chieu,M109.0703,"Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 250 cv",0.37,,,
+Tàu kéo 360 cv,ca,22,,can_xac_nhan,M106.0305,Ô tô đầu kéo - công suất 360 cv,0.53,M109.0704,"Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 360 cv","M109.0704 Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 360 cv (0.37)"
+Tàu kéo 75 cv,ca,15,,can_xac_nhan,M101.0501,Máy ủi - công suất 75 cv,0.45,M109.0701,"Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 75 cv","M109.0505 Ca nô - công suất 75 cv (0.40); M109.0701 Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 75 cv (0.37)"
+Tàu phục vụ 360 cv,ca,37,,can_xac_nhan,M109.0704,"Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 360 cv",0.45,,,M106.0305 Ô tô đầu kéo - công suất 360 cv (0.33)
+Tàu phục vụ 360cv,ca,5,,can_xac_nhan,M109.0704,"Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 360 cv",0.45,,,M106.0305 Ô tô đầu kéo - công suất 360 cv (0.33)
+Tàu đào 3170 cv,ca,2,,can_xac_nhan,M109.1201,"Tầu ngoạm (có tính năng phá đá ngầm), công suất 3170 CV - dung tích gầu 17 m3",0.29,,,
+Tàu đào gầu ngoạm 3170 cv,ca,6,,can_xac_nhan,M109.1201,"Tầu ngoạm (có tính năng phá đá ngầm), công suất 3170 CV - dung tích gầu 17 m3",0.47,,,
+"Tàu đóng cọc búa 1,2 t",ca,4,M103.0501,khop_tu_dong,M103.0501,"Tàu đóng cọc - trọng lượng đầu búa 1,2 t",1.33,,,"M103.0101 Máy đóng cọc tự hành, bánh xích - trọng lượng đầu búa 1,2 t (0.70); M103.0201 Máy đóng cọc chạy trên ray - trọng lượng đầu búa 1,2 t (0.64)"
+"Tàu đóng cọc búa 1,8 t",ca,6,M103.0502,khop_tu_dong,M103.0502,"Tàu đóng cọc - trọng lượng đầu búa 1,8 t",1.33,,,"M103.0102 Máy đóng cọc tự hành, bánh xích - trọng lượng đầu búa 1,8 t (0.70); M103.0202 Máy đóng cọc chạy trên ray - trọng lượng đầu búa 1,8 t (0.64)"
+"Tàu đóng cọc búa 1,8t",ca,4,M103.0502,khop_tu_dong,M103.0502,"Tàu đóng cọc - trọng lượng đầu búa 1,8 t",1.33,,,"M103.0102 Máy đóng cọc tự hành, bánh xích - trọng lượng đầu búa 1,8 t (0.70); M103.0202 Máy đóng cọc chạy trên ray - trọng lượng đầu búa 1,8 t (0.64)"
+"Tàu đóng cọc búa 2,5 t",ca,6,M103.0503,khop_tu_dong,M103.0503,"Tàu đóng cọc - trọng lượng đầu búa 2,5 t",1.33,,,"M103.0203 Máy đóng cọc chạy trên ray - trọng lượng đầu búa 2,5 t (0.64); M106.0201 Ô tô tự đổ - trọng tải 2,5 t (0.33)"
+"Tàu đóng cọc búa 3,5 t",ca,7,M103.0504,khop_tu_dong,M103.0504,"Tàu đóng cọc - trọng lượng đầu búa 3,5 t",1.33,,,"M103.0103 Máy đóng cọc tự hành, bánh xích - trọng lượng đầu búa 3,5 t (0.70); M103.0204 Máy đóng cọc chạy trên ray - trọng lượng đầu búa 3,5 t (0.64)"
+"Tàu đóng cọc búa 4,5 t",ca,2,M103.0505,khop_tu_dong,M103.0505,"Tàu đóng cọc - trọng lượng đầu búa 4,5 t",1.33,,,"M103.0104 Máy đóng cọc tự hành, bánh xích - trọng lượng đầu búa 4,5 t (0.70); M103.0205 Máy đóng cọc chạy trên ray - trọng lượng đầu búa 4,5 t (0.64)"
+"Tàu đóng cọc búa thuỷ lực 7,5 t",ca,6,M103.0601,khop_tu_dong,M103.0601,"Tàu đóng cọc C 96 - búa thuỷ lực, trọng lượng đầu búa 7,5 t",1.28,,,"M102.1108 Tời điện - sức kéo 7,5t (0.30)"
+Tầu kéo 150CV,ca,4,M109.0702,khop_tu_dong,M109.0702,"Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 150 cv",0.77,,,M106.0301 Ô tô đầu kéo - công suất 150 cv (0.53); M109.0507 Ca nô - công suất 150 cv (0.40)
+Tổ hợp dàn khoan leo,ca,8,M107.0601,khop_tu_dong,M107.0601,"Tổ hợp dàn khoan neo, công suất 9 kW",0.87,,,M201.0003 Máy khoan XY-3 (0.17); M201.0004 Máy khoan GK-250 (0.17)
+Tời ma nơ 13Kw,ca,2,,can_xac_nhan,M110.0301,Tời ma nơ - 13 kW,1.50,M110.0304,Quang lật 360 t/h,
+"Tời điện 0,5T",ca,1,M102.1101,khop_tu_dong,M102.1101,"Tời điện - sức kéo 0,5 t",1.25,,,"M106.0101 Ô tô vận tải thùng - trọng tải 0,5 t (0.34); M202.0186 Máy kéo, nén thủy lực 0,5 tấn (0.34)"
+"Tời điện 1,5 t",ca,21,M102.1103,khop_doi_chieu,M102.1103,"Tời điện - sức kéo 1,5 t",1.25,,,"M106.0701 Ô tô bán tải - trọng tải 1,5 t (0.37); M106.0102 Ô tô vận tải thùng - trọng tải 1,5 t (0.34)"
+Tời điện 10T,ca,13,M102.1109,khop_tu_dong,M102.1109,Tời điện - sức kéo 10t,1.25,,,M102.1302 Kích nâng - sức nâng 10 t (0.45); M102.0601 Cổng trục - sức nâng 10 t (0.40)
+Tời điện 15T,ca,4,M102.1110,khop_tu_dong,M102.1110,Tời điện - sức kéo 15t,1.25,,,"M111.0101 Máy nâng TO-12-24, sức nâng 15t (0.45); M101.1003 Máy lu rung tự hành - trọng lượng tĩnh 15 t (0.40)"
+Tời điện 1T,ca,23,M102.1102,khop_tu_dong,M102.1102,"Tời điện - sức kéo 1,0 t",1.25,,,M102.1201a Pa lăng xích - sức nâng 1t (0.37)
+Tời điện 2 t,ca,8,M102.1104,khop_doi_chieu,M102.1104,"Tời điện - sức kéo 2,0 t",1.25,,,M102.0902 Máy vận thăng - sức nâng 2 t (0.40); M102.1805 Xe nâng hàng - sức nâng 2t (0.40)
+Tời điện 2T,ca,2,M102.1104,khop_doi_chieu,M102.1104,"Tời điện - sức kéo 2,0 t",1.25,,,M102.0902 Máy vận thăng - sức nâng 2 t (0.40); M102.1805 Xe nâng hàng - sức nâng 2t (0.40)
+Tời điện 3 t,ca,12,M102.1105,khop_tu_dong,M102.1105,"Tời điện - sức kéo 3,0 t",1.25,,,M102.0903 Máy vận thăng - sức nâng 3 t (0.40); M102.1001 Máy vận thăng lồng - sức nâng 3 t (0.37)
+"Tời điện 3,5 t",ca,2,M102.1106,khop_tu_dong,M102.1106,"Tời điện - sức kéo 3,5 t",1.25,,,"M103.0504 Tàu đóng cọc - trọng lượng đầu búa 3,5 t (0.33); M103.0103 Máy đóng cọc tự hành, bánh xích - trọng lượng đầu búa 3,5 t (0.31)"
+Tời điện 3T,ca,7,M102.1105,khop_tu_dong,M102.1105,"Tời điện - sức kéo 3,0 t",1.25,,,M102.0903 Máy vận thăng - sức nâng 3 t (0.40); M102.1001 Máy vận thăng lồng - sức nâng 3 t (0.37)
+Tời điện 3t,ca,1,M102.1105,khop_tu_dong,M102.1105,"Tời điện - sức kéo 3,0 t",1.25,,,M102.0903 Máy vận thăng - sức nâng 3 t (0.40); M102.1001 Máy vận thăng lồng - sức nâng 3 t (0.37)
+Tời điện 5 t,ca,21,M102.1107,khop_doi_chieu,M102.1107,"Tời điện - sức kéo 5,0 t",1.25,,,M102.1301 Kích nâng - sức nâng 5 t (0.45); M102.0401 Cần trục tháp - sức nâng 5 t (0.37)
+Tời điện 5T,ca,43,M102.1107,khop_doi_chieu,M102.1107,"Tời điện - sức kéo 5,0 t",1.25,,,M102.1301 Kích nâng - sức nâng 5 t (0.45); M102.0401 Cần trục tháp - sức nâng 5 t (0.37)
+Tời điện 5t,ca,9,M102.1107,khop_tu_dong,M102.1107,"Tời điện - sức kéo 5,0 t",1.25,,,M102.1301 Kích nâng - sức nâng 5 t (0.45); M102.0401 Cần trục tháp - sức nâng 5 t (0.37)
+"Tời điện 7,5T",ca,4,M102.1108,khop_tu_dong,M102.1108,"Tời điện - sức kéo 7,5t",1.25,,,"M103.0601 Tàu đóng cọc C 96 - búa thuỷ lực, trọng lượng đầu búa 7,5 t (0.29)"
+Tủ chiếu UV,ca,1,M202.0157,khop_tu_dong,M202.0157,Tủ chiếu UV,1.30,,,M202.0014 Tủ sấy (0.55); M202.0016 Tủ lạnh (0.55)
+Tủ hút khí độc,ca,20,M202.0015,khop_tu_dong,M202.0015,Tủ hút khí độc,1.30,,,M202.0158 Tủ khí hậu (0.70); M202.0014 Tủ sấy (0.50)
+Tủ khí hậu,ca,7,M202.0158,khop_tu_dong,M202.0158,Tủ khí hậu,1.30,,,M202.0015 Tủ hút khí độc (0.70); M202.0014 Tủ sấy (0.55)
+Tủ lạnh,ca,7,M202.0016,khop_tu_dong,M202.0016,Tủ lạnh,1.30,,,M202.0014 Tủ sấy (0.63); M202.0157 Tủ chiếu UV (0.55)
+Tủ sấy,ca,177,M202.0014,khop_tu_dong,M202.0014,Tủ sấy,1.30,,,M202.0016 Tủ lạnh (0.63); M202.0157 Tủ chiếu UV (0.55)
+Tủ sấy 3kW,ca,4,,can_xac_nhan,M102.1309,Kích nâng - sức nâng Hệ kích nâng 25t (máy bơm dầu thủy lực 3 kW),0.30,M202.0014,Tủ sấy,
+Vi kế,ca,1,M202.0160,khop_tu_dong,M202.0160,Vi kế,1.30,,,M201.0024 Kính hiển vi (0.33); M202.0163 Máy vi tính (0.33)
+Vôn mét điện tử,ca,6,M112.4804,khop_doi_chieu,M112.4804,Vôn mét điện tử,1.30,,,M202.0009 Cân điện tử (0.40); M201.0020 Máy thuỷ bình điện tử (0.33)
+"Vận thăng 0,8 t",ca,9,M102.0901,khop_doi_chieu,M102.0901,"Máy vận thăng - sức nâng 0,8 t",1.20,,,
+Vận thăng 2 t,ca,5,M102.0902,khop_doi_chieu,M102.0902,Máy vận thăng - sức nâng 2 t,1.20,,,M106.0103 Ô tô vận tải thùng - trọng tải 2 t (0.53); M102.1805 Xe nâng hàng - sức nâng 2t (0.40)
+Vận thăng 3 t,ca,12,M102.0903,khop_doi_chieu,M102.0903,Máy vận thăng - sức nâng 3 t,1.20,,,"M102.1001 Máy vận thăng lồng - sức nâng 3 t (0.95); M102.1105 Tời điện - sức kéo 3,0 t (0.37)"
+Vận thăng lồng 3 t,ca,660,M102.1001,khop_doi_chieu,M102.1001,Máy vận thăng lồng - sức nâng 3 t,1.20,,,"M102.0903 Máy vận thăng - sức nâng 3 t (0.95); M102.1105 Tời điện - sức kéo 3,0 t (0.34)"
+Xe bơm bê tông 50 m3/h,ca,27,M112.0801,khop_tu_dong,M112.0801,"Xe bơm bê tông, tự hành - năng suất 50 m3/h",1.50,,,M104.0404 Trạm trộn bê tông - năng suất 50 m3/h (0.70); M112.0603 Máy bơm vữa - năng suất 32 - 50 m3/h (0.63)
+Xe bồn (13-14m3) chở bitum,ca,4,M106.0902,khop_tu_dong,M106.0902,"Xe bồn 13-14m3 (chở bitum, polymer)",1.33,,,
+Xe bồn 30 t,ca,3,M106.0901,khop_doi_chieu,M106.0901,Xe bồn chuyên dụng 30 t,1.10,,,M102.1303 Kích nâng - sức nâng 30 t (0.45); M102.0603 Cổng trục - sức nâng 30 t (0.40)
+"Xe bồn hút mùn, dung tích - 3 m3",ca,11,M106.0602,khop_doi_chieu,M106.0602,"Ô tô hút bùn, hút mùn khoan, dung tích 3 m3",0.53,,,
+Xe chuyên dùng,ca,4,M202.0209,khop_doi_chieu,M202.0209,Xe chuyên dùng,1.30,,,M106.0901 Xe bồn chuyên dụng 30 t (0.63); M102.1801 Xe nâng - chiều cao nâng 9 m (0.55)
+Xe goòng 3 t,ca,2,,can_xac_nhan,M110.0302,Thiết bị phục vụ vận chuyển đá nổ mìn trong hầm Xe goòng 3 t,0.45,M110.0301,Tời ma nơ - 13 kW,M102.0903 Máy vận thăng - sức nâng 3 t (0.40); M102.1001 Máy vận thăng lồng - sức nâng 3 t (0.37)
+Xe nâng 12m,ca,24,M102.1802,khop_doi_chieu,M102.1802,Xe nâng - chiều cao nâng 12 m,1.50,,,M102.1902 Xe thang - chiều dài thang 12 m (1.17)
+Xe nâng 18m,ca,2,M102.1803,khop_doi_chieu,M102.1803,Xe nâng - chiều cao nâng 18 m,1.50,,,M102.1903 Xe thang - chiều dài thang 18 m (1.17)
+Xe nâng 2T,ca,2,M102.1805,khop_doi_chieu,M102.1805,Xe nâng hàng - sức nâng 2t,1.17,,,"M102.0902 Máy vận thăng - sức nâng 2 t (0.45); M102.1104 Tời điện - sức kéo 2,0 t (0.40)"
+Xe nâng 9m,ca,1,M102.1801,khop_doi_chieu,M102.1801,Xe nâng - chiều cao nâng 9 m,1.50,,,M102.1901 Xe thang - chiều dài thang 9 m (1.17)
+Xà lan 200T,ca,9,,can_xac_nhan,M109.0111,Sà lan - trọng tải 200 t,0.70,M109.0102,Sà lan - trọng tải 200 t,M109.0102 Sà lan - trọng tải 200 t (0.70); M102.1306 Kích nâng - sức nâng 200 t (0.45)
+Xà lan 400T,ca,2,,can_xac_nhan,M109.0112,Sà lan - trọng tải 400 t,0.70,,,M109.0104 Sà lan - trọng tải 400 t (0.70)
+hàm lượng cát,ca,1,,can_xac_nhan,M202.0020,Bếp cát,0.33,,,M202.0168 Bộ dụng cụ xác định hàm lượng cát (0.29); M202.0200 Thiết bị đo góc nghỉ của cát (0.17)
+"Ô tô 2,5T",ca,3,M106.0201,khop_tu_dong,M106.0201,"Ô tô tự đổ - trọng tải 2,5 t",1.25,,,"M106.0104 Ô tô vận tải thùng - trọng tải 2,5 t (1.10); M103.0503 Tàu đóng cọc - trọng lượng đầu búa 2,5 t (0.33)"
+Ô tô 5T,ca,37,,can_xac_nhan,M106.0202,Ô tô tự đổ - trọng tải 5 t,1.25,M106.0105,Ô tô vận tải thùng - trọng tải 5 t,M106.0105 Ô tô vận tải thùng - trọng tải 5 t (1.10); M102.0103 Cần trục ô tô - sức nâng 5 t (0.80)
+Ô tô chuyển trộn,ca,61,M106.0401,khop_doi_chieu,M106.0401,Ô tô chuyển trộn bê tông - dung tích thùng trộn 6 m3,0.80,,,"M106.0402 Ô tô chuyển trộn bê tông - dung tích thùng trộn 10,7 m3 (0.80); M106.0403 Ô tô chuyển trộn bê tông - dung tích thùng trộn 14,5 m3 (0.80)"
+Ô tô cấp nhũ tương 5m3,ca,1,M106.0903,khop_tu_dong,M106.0903,Ô tô cấp nhũ tương 5 m3,1.50,,,M106.0502 Ô tô tưới nước - dung tích 5 m3 (0.88)
+Ô tô thùng 12T,ca,3,M106.0108,khop_doi_chieu,M106.0108,Ô tô vận tải thùng - trọng tải 12 t,1.30,,,M106.0205 Ô tô tự đổ - trọng tải 12 t (1.10); M101.1002 Máy lu rung tự hành - trọng lượng tĩnh 12 t (0.37)
+Ô tô tưới nước 10 m3,ca,1,M106.0506,khop_tu_dong,M106.0506,Ô tô tưới nước - dung tích 10 m3,1.50,,,
+Ô tô tưới nước 16 m3,ca,3,M106.0507,khop_tu_dong,M106.0507,Ô tô tưới nước - dung tích 16 m3,1.50,,,M101.0602 Máy cạp tự hành - dung tích thùng 16 m3 (0.34); M105.0402 Máy rải xi măng SW16TC (16m3) (0.30)
+Ô tô tưới nước 16m3,ca,1,M106.0507,khop_tu_dong,M106.0507,Ô tô tưới nước - dung tích 16 m3,1.50,,,M101.0602 Máy cạp tự hành - dung tích thùng 16 m3 (0.34); M105.0402 Máy rải xi măng SW16TC (16m3) (0.30)
+Ô tô tưới nước 5 m3,ca,2,M106.0502,khop_doi_chieu,M106.0502,Ô tô tưới nước - dung tích 5 m3,1.50,,,M106.0903 Ô tô cấp nhũ tương 5 m3 (0.88)
+Ô tô tưới nước 5m3,ca,12,M106.0502,khop_doi_chieu,M106.0502,Ô tô tưới nước - dung tích 5 m3,1.50,,,M106.0903 Ô tô cấp nhũ tương 5 m3 (0.88)
+Ô tô tự đổ,ca,36,,can_xac_nhan,M106.0201,"Ô tô tự đổ - trọng tải 2,5 t",1.05,M106.0203,Ô tô tự đổ - trọng tải 7 t,M106.0202 Ô tô tự đổ - trọng tải 5 t (1.05); M106.0203 Ô tô tự đổ - trọng tải 7 t (1.05)
+Ô tô tự đổ 5 t,ca,8,M106.0202,khop_doi_chieu,M106.0202,Ô tô tự đổ - trọng tải 5 t,1.50,,,M106.0105 Ô tô vận tải thùng - trọng tải 5 t (1.00); M102.0103 Cần trục ô tô - sức nâng 5 t (0.70)
+"Ô tô vận tải thùng 1,5T",ca,12,M106.0102,khop_tu_dong,M106.0102,"Ô tô vận tải thùng - trọng tải 1,5 t",1.50,,,"M106.0701 Ô tô bán tải - trọng tải 1,5 t (1.00); M102.1103 Tời điện - sức kéo 1,5 t (0.33)"
+Ô tô vận tải thùng 12T,ca,4,M106.0108,khop_doi_chieu,M106.0108,Ô tô vận tải thùng - trọng tải 12 t,1.50,,,M106.0205 Ô tô tự đổ - trọng tải 12 t (1.00); M101.1002 Máy lu rung tự hành - trọng lượng tĩnh 12 t (0.34)
+Ô tô đầu kéo 272 CV,ca,4,M106.0304,khop_doi_chieu,M106.0304,Ô tô đầu kéo - công suất 272 cv,1.50,,,
+Ô tô đầu kéo 272CV,ca,2,M106.0304,khop_doi_chieu,M106.0304,Ô tô đầu kéo - công suất 272 cv,1.50,,,
+Ôtô 0,ca,2,,can_xac_nhan,M106.0201,"Ô tô tự đổ - trọng tải 2,5 t",0.80,M106.0101,"Ô tô vận tải thùng - trọng tải 0,5 t",M106.0202 Ô tô tự đổ - trọng tải 5 t (0.80); M106.0203 Ô tô tự đổ - trọng tải 7 t (0.80)
+Ôtô 2,ca,2,,can_xac_nhan,M106.0201,"Ô tô tự đổ - trọng tải 2,5 t",0.80,M106.0104,"Ô tô vận tải thùng - trọng tải 2,5 t",M106.0202 Ô tô tự đổ - trọng tải 5 t (0.80); M106.0203 Ô tô tự đổ - trọng tải 7 t (0.80)
+Ôtô 5 tấn,ca,2,,can_xac_nhan,M106.0202,Ô tô tự đổ - trọng tải 5 t,1.25,M106.0105,Ô tô vận tải thùng - trọng tải 5 t,M106.0105 Ô tô vận tải thùng - trọng tải 5 t (1.10); M102.0103 Cần trục ô tô - sức nâng 5 t (0.80)
+Ôtô 7 tấn,ca,2,,can_xac_nhan,M106.0203,Ô tô tự đổ - trọng tải 7 t,1.25,M106.0106,Ô tô vận tải thùng - trọng tải 7 t,M106.0106 Ô tô vận tải thùng - trọng tải 7 t (1.10)
+Ôtô chở nước 5 m3,ca,5,M106.0502,khop_doi_chieu,M106.0502,Ô tô tưới nước - dung tích 5 m3,1.17,,,M106.0903 Ô tô cấp nhũ tương 5 m3 (0.88)
+"Ôtô chứa nhiên liệu 2,5 t",ca,5,,can_xac_nhan,M106.0201,"Ô tô tự đổ - trọng tải 2,5 t",0.93,M106.0104a,,"M106.0104 Ô tô vận tải thùng - trọng tải 2,5 t (0.88); M103.0503 Tàu đóng cọc - trọng lượng đầu búa 2,5 t (0.29)"
+Ôtô thùng 10 t,ca,3,M106.0107,khop_doi_chieu,M106.0107,Ô tô vận tải thùng - trọng tải 10 t,1.30,,,M106.0204 Ô tô tự đổ - trọng tải 10 t (1.10); M102.0105 Cần trục ô tô - sức nâng 10 t (0.70)
+Ôtô thùng 12 t,ca,30,M106.0108,khop_doi_chieu,M106.0108,Ô tô vận tải thùng - trọng tải 12 t,1.30,,,M106.0205 Ô tô tự đổ - trọng tải 12 t (1.10); M101.1002 Máy lu rung tự hành - trọng lượng tĩnh 12 t (0.37)
+"Ôtô thùng 2,5 t",ca,11,M106.0104,khop_doi_chieu,M106.0104,"Ô tô vận tải thùng - trọng tải 2,5 t",1.30,,,"M106.0201 Ô tô tự đổ - trọng tải 2,5 t (1.10); M103.0503 Tàu đóng cọc - trọng lượng đầu búa 2,5 t (0.31)"
+Ôtô thùng 20 t,ca,33,M106.0110,khop_doi_chieu,M106.0110,Ô tô vận tải thùng - trọng tải 20 t,1.30,,,M106.0207 Ô tô tự đổ - trọng tải 20 t (1.10); M102.0107 Cần trục ô tô - sức nâng 20 t (0.70)
+Ôtô thùng 32 t,ca,3,M106.0111,khop_doi_chieu,M106.0111,Ô tô vận tải thùng - trọng tải 32 t,1.30,,,
+Ôtô thùng 7 t,ca,30,M106.0106,khop_doi_chieu,M106.0106,Ô tô vận tải thùng - trọng tải 7 t,1.30,,,M106.0203 Ô tô tự đổ - trọng tải 7 t (1.10)
+Ôtô tưới nước 5 m3,ca,30,M106.0502,khop_doi_chieu,M106.0502,Ô tô tưới nước - dung tích 5 m3,1.50,,,M106.0903 Ô tô cấp nhũ tương 5 m3 (0.88)
+Ôtô tưới nước 5m3,ca,9,M106.0502,khop_doi_chieu,M106.0502,Ô tô tưới nước - dung tích 5 m3,1.50,,,M106.0903 Ô tô cấp nhũ tương 5 m3 (0.88)
+Ôtô tải 2T,ca,1,M106.0103,khop_doi_chieu,M106.0103,Ô tô vận tải thùng - trọng tải 2 t,1.10,,,M102.0902 Máy vận thăng - sức nâng 2 t (0.40); M102.1805 Xe nâng hàng - sức nâng 2t (0.40)
+Ôtô tự đổ,ca,15,,can_xac_nhan,M106.0201,"Ô tô tự đổ - trọng tải 2,5 t",1.05,M106.0203,Ô tô tự đổ - trọng tải 7 t,M106.0202 Ô tô tự đổ - trọng tải 5 t (1.05); M106.0203 Ô tô tự đổ - trọng tải 7 t (1.05)
+Ôtô tự đổ 10 t,ca,47,M106.0204,khop_doi_chieu,M106.0204,Ô tô tự đổ - trọng tải 10 t,1.50,,,M106.0107 Ô tô vận tải thùng - trọng tải 10 t (1.00); M102.0105 Cần trục ô tô - sức nâng 10 t (0.70)
+Ôtô tự đổ 10T,ca,5,M106.0204,khop_doi_chieu,M106.0204,Ô tô tự đổ - trọng tải 10 t,1.50,,,M106.0107 Ô tô vận tải thùng - trọng tải 10 t (1.00); M102.0105 Cần trục ô tô - sức nâng 10 t (0.70)
+Ôtô tự đổ 12 t,ca,65,M106.0205,khop_doi_chieu,M106.0205,Ô tô tự đổ - trọng tải 12 t,1.50,,,M106.0108 Ô tô vận tải thùng - trọng tải 12 t (1.00); M101.1002 Máy lu rung tự hành - trọng lượng tĩnh 12 t (0.37)
+Ôtô tự đổ 15 t,ca,48,M106.0206,khop_doi_chieu,M106.0206,Ô tô tự đổ - trọng tải 15 t,1.50,,,"M106.0109 Ô tô vận tải thùng - trọng tải 15 t (1.00); M111.0101 Máy nâng TO-12-24, sức nâng 15t (0.40)"
+Ôtô tự đổ 20 t,ca,3,M106.0207,khop_doi_chieu,M106.0207,Ô tô tự đổ - trọng tải 20 t,1.50,,,M106.0110 Ô tô vận tải thùng - trọng tải 20 t (1.00); M102.0107 Cần trục ô tô - sức nâng 20 t (0.70)
+Ôtô tự đổ 22 t,ca,65,M106.0208,khop_doi_chieu,M106.0208,Ô tô tự đổ - trọng tải 22 t,1.50,,,
+Ôtô tự đổ 27 t,ca,51,M106.0210,khop_doi_chieu,M106.0210,Ô tô tự đổ - trọng tải 27 t,1.50,,,
+Ôtô tự đổ 5 t,ca,33,M106.0202,khop_doi_chieu,M106.0202,Ô tô tự đổ - trọng tải 5 t,1.50,,,M106.0105 Ô tô vận tải thùng - trọng tải 5 t (1.00); M102.0103 Cần trục ô tô - sức nâng 5 t (0.70)
+Ôtô tự đổ 7 t,ca,55,M106.0203,khop_doi_chieu,M106.0203,Ô tô tự đổ - trọng tải 7 t,1.50,,,M106.0106 Ô tô vận tải thùng - trọng tải 7 t (1.00)
+Ôtô đầu kéo 150 cv,ca,3,M106.0301,khop_doi_chieu,M106.0301,Ô tô đầu kéo - công suất 150 cv,1.50,,,"M109.0507 Ca nô - công suất 150 cv (0.34); M109.0702 Tầu kéo và phục vụ thi công thuỷ (làm neo, cấp dầu,...) - công suất 150 cv (0.34)"
+Ôtô đầu kéo 200 cv,ca,1,M106.0302,khop_doi_chieu,M106.0302,Ô tô đầu kéo - công suất 200 cv,1.50,,,
+Ôtô đầu kéo 255 cv,ca,1,M106.0303,khop_tu_dong,M106.0303,Ô tô đầu kéo - công suất 255 cv,1.50,,,"M107.0302 Máy khoan hầm tự hành, động cơ diezel - đường kính khoan D 45 mm (3 cần - 255 cv) (0.28)"
+Ôtô đầu kéo 272 cv,ca,1,M106.0304,khop_doi_chieu,M106.0304,Ô tô đầu kéo - công suất 272 cv,1.50,,,
+Đầm cóc,ca,1,,can_xac_nhan,M202.0183,Máy đầm xoay,0.33,M101.0802a,,M202.0025 Máy đầm tiêu chuẩn (đầm rung) (0.20); M101.0801 Máy đầm đất cầm tay - trọng lượng 50 kg (0.17)
+"Đầm dùi 1,5 kW",ca,1,M112.1301,khop_doi_chieu,M112.1301,"Máy đầm bê tông, dầm dùi - công suất 1,5 kW",0.70,,,"M112.2101 Máy cắt gạch đá - công suất 1,5 kW (0.37); M112.1705 Máy khoan bê tông cầm tay - công suất 1,50 kW (0.33)"
+Đầm đất cầm tay 70kg,ca,2,M101.0803,khop_tu_dong,M101.0803,Máy đầm đất cầm tay - trọng lượng 70 kg,1.20,,,
+Đầu kéo 30 t,ca,2,,can_xac_nhan,M102.0501,Cần cẩu nổi Kéo theo - sức nâng 30 t,0.49,M110.0101,"Máy xúc chuyên dùng trong hầm - dung tích gầu 0,9 m3",M102.1303 Kích nâng - sức nâng 30 t (0.45); M110.0303 Thiết bị phục vụ vận chuyển đá nổ mìn trong hầm Đầu kéo 30 t (0.45)
+Đồng hồ vạn năng,ca,7,,can_xac_nhan,M112.4805,Đồng hồ vạn năng,1.30,M203.0019,Máy đo vạn năng,M202.0098 Đồng hồ đo nước (0.70); M202.0099 Đồng hồ đo lún (0.70)
+Đồng hồ áp lực,ca,1,M202.0096,khop_doi_chieu,M202.0096,Đồng hồ đo áp lực,1.10,,,M112.4805 Đồng hồ vạn năng (0.70); M202.0098 Đồng hồ đo nước (0.63)
+Đồng hồ đo biến dạng,ca,1,M202.0097,khop_tu_dong,M202.0097,Đồng hồ đo biến dạng,1.30,,,M202.0098 Đồng hồ đo nước (0.80); M202.0099 Đồng hồ đo lún (0.80)
+Đồng hồ đo co ngót,ca,2,,can_xac_nhan,M202.0098,Đồng hồ đo nước,0.80,,,M202.0099 Đồng hồ đo lún (0.80); M202.0096 Đồng hồ đo áp lực (0.73)
+Ống nhòm,ca,27,M201.0023,khop_tu_dong,M201.0023,Ống nhòm,1.30,,,"M112.2301 Máy cắt ống - công suất 5 kW (0.25); M112.3001 Máy uốn ống - công suất 2,0 kW÷2,8 kW (0.20)"

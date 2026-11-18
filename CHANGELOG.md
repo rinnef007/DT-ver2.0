@@ -163,3 +163,10 @@
   trống Vùng II. Bản PDF chưa ghi số, ngày — ghi chú trong README.
 - **Kiểm chứng công thức PL IV** của `gia_ca_may.py`: với giá nhiên liệu, nhân công của QĐ 2075 ra đúng giá công bố sau
   làm tròn 100 đ (M101.0101, M105.0202, M108.0103) — test `test_gia_ca_may_cong_bo`.
+
+## [2.5.0] — 2026-11-18
+- **Danh mục máy Mục V PL IV TT 37** đủ 787 máy (`data/gia-ca-may/danh_muc_may_pl4_tt37.csv`): định mức hao phí, nhiên
+  liệu, nhân công vận hành, nguyên giá — dùng được cho `gia_ca_may.py` ở tỉnh chưa công bố. Đính chính "908 máy" → 787.
+- **Tên đầy đủ** cho cả 778 máy của bảng giá ca máy QĐ 2075 (cột `ten_day_du`, trước đây 181 máy chỉ có thông số).
+- **Ánh xạ tên máy TT 38 → mã PL IV** (`anh_xa_may_tt38.csv`, 886 tên): 686 tên có mã (261 trùng đối chứng GXD, 425 tự
+  động), 187 cần xác nhận (kèm đề xuất và mã GXD), 13 không khớp. `can-gia --ca-may` điền giá ca máy công bố theo vùng.

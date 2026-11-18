@@ -14,4 +14,8 @@
 
 **Chênh lệch khi lập dự toán:** QĐ 2075 Phần IV mục 2 cho bổ sung chênh lệch giá nhiên liệu và nhân công giữa thời điểm lập dự toán và thời điểm công bố — tính lại bằng `gia_ca_may.py` với giá tại thời điểm lập.
 
-**Chưa có:** QĐ 2037 (26/10–30/10/2026); giá ca máy Hải Phòng, Hưng Yên theo TT 37; nối tên máy trong định mức TT 38 với mã PL IV để điền tự động vào `can-gia`.
+Cột `ten_day_du`: tên đầy đủ theo Mục V PL IV TT 37 (tên nhóm + thông số), đủ 778/778 máy.
+
+**Điền vào hồ sơ:** `dutoan.py can-gia … --ca-may` điền giá ca máy công bố cho máy trong định mức TT 38 theo vùng nhân công khai trong config (`nhan_cong`: HN-V1/HN-V2), qua bảng ánh xạ `../anh_xa_may_tt38.csv` — chỉ dùng cột `ma_may` (đã khớp); máy chưa xác nhận được liệt kê để người lập điền mã.
+
+**Chưa có:** QĐ 2037 (26/10–30/10/2026); giá ca máy Hải Phòng, Hưng Yên theo TT 37.

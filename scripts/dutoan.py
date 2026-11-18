@@ -303,6 +303,7 @@ def cmd_can_gia(a):
     thu_tu = {"VL": 0, "NC": 1, "M": 2}
     cot = ["ma_tn", "ten_tn", "don_vi", "loai", "vung", "don_gia", "nguon", "ngay_ap_dung", "khu_vuc", "ty_le_luong", "dung_o_ma"]
     out, thieu, dien = [], 0, 0
+    chua_may = []
     tc = nhan_cong_tham_chieu(ngay_ap_gia(cfg)[0]) if a.nhan_cong else {}
     vnc = vung_nhan_cong(cfg)
     for m, h in sorted(tn.items(), key=lambda x: (thu_tu.get(x[1]["loai"], 9), bo_dau(x[0]))):
@@ -313,6 +314,14 @@ def cmd_can_gia(a):
                 g = {"don_gia": float(r["don_gia"]), "nguon": f"{r['van_ban']} ngày {r['ngay_van_ban']} — {r['ten_vung']}",
                      "ngay": r["ngay_van_ban"], "khu_vuc": r["ten_vung"], "ty_le_luong": None}
                 dien += 1
+            if (not g or not g["don_gia"]) and h["loai"] == "M" and getattr(a, "ca_may", False) and v in vnc:
+                import anh_xa_may
+                gm, ng = anh_xa_may.gia_may(m, vnc[v], ngay_ap_gia(cfg)[0])
+                if gm:
+                    g = {"don_gia": gm, "nguon": ng, "ngay": "", "khu_vuc": vnc[v], "ty_le_luong": None}
+                    dien += 1
+                else:
+                    chua_may.append(f"{m}: {ng}")
             if not g or not g["don_gia"]:
                 thieu += 1
             out.append({"ma_tn": m, "ten_tn": h["ten_tn"] or m, "don_vi": h["don_vi_tn"], "loai": h["loai"], "vung": v,
@@ -326,6 +335,10 @@ def cmd_can_gia(a):
         w.writerows(out)
     print(f"{len(tn)} tài nguyên × {len(vung)} vùng = {len(out)} dòng; {thieu} dòng chưa có giá"
           + (f"; điền sẵn {dien} giá nhân công từ văn bản Sở XD (data/nhan-cong)" if dien else "") + f". Đã ghi {a.ra}")
+    if chua_may:
+        print(f"[CHÚ Ý] --ca-may: {len(chua_may)} máy chưa điền được giá (xác nhận cột ma_may trong data/gia-ca-may/anh_xa_may_tt38.csv):")
+        for x in sorted(set(chua_may))[:30]:
+            print("   -", x)
     if a.nhan_cong and not vnc:
         print("[CHÚ Ý] --nhan-cong: config chưa gán vùng nhân công — thêm \"nhan_cong\": \"HN-V1\" (HY-V2, HP-V1…) vào từng vùng")
     if khong_co:
@@ -414,6 +427,7 @@ def main():
     s.add_argument("--nhap", action="store_true", help="Xuất bản nháp dù còn mục chặn"); s.set_defaults(f=cmd_tinh)
     s = sp.add_parser("can-gia"); s.add_argument("--data", required=True); s.add_argument("--khoi-luong", required=True)
     s.add_argument("--config"); s.add_argument("--ra", required=True)
+    s.add_argument("--ca-may", action="store_true", help="Điền giá ca máy công bố (data/gia-ca-may/cong-bo) qua bảng ánh xạ tên máy TT 38 → mã PL IV, theo vùng nhân công của config")
     s.add_argument("--nhan-cong", action="store_true", help="Điền sẵn giá nhân công từ văn bản chuyển đổi của Sở XD (data/nhan-cong) theo vùng khai trong config")
     s.set_defaults(f=cmd_can_gia)
     s = sp.add_parser("ty-le"); s.add_argument("--bang", required=True, choices=["qlda", "ql-chu-so-huu"] + list(BAC_TT36))
