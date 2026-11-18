@@ -147,3 +147,11 @@
   ví dụ `data/vi-du-cntt/`: G = GTB + GQLDA + GTV + GK + GDP; GLĐ, GCSDL bằng định mức (NĐ 224 Điều 49 k4 đ); khoản
   khác theo phương pháp Điều 49 k4–k6 kèm căn cứ; phương pháp chuyên gia (CQL Bảng 3.2, TN 6 %); Kdp tối đa
   10/7/5 %; soát phương pháp, căn cứ, số báo giá, thời hạn LCNT, Kdp; xuất Excel 4 sheet.
+
+## [2.3.0] — 2026-11-17
+- **Tra giá vật liệu theo CBG** Hà Nội, Hải Phòng, Hưng Yên: `scripts/gia_vat_lieu.py` (ds, tra, goi-y), đọc thư viện
+  GVT của Dự toán GXD trên máy người dùng (mặc định `D:\GXD\Dulieu`) hoặc tệp tự lập cùng định dạng; không chép dữ
+  liệu GXD vào repo. So khớp có dấu (tránh "cáp"/"cấp", "cắt"/"cát"); `goi-y` chỉ đề xuất 3 dòng/vật liệu, không điền
+  giá. Đã thử trên dữ liệu thật: HN 14 kỳ (đến Q3/2026), HP 22 kỳ (T8/2026), HY 23 kỳ (T08/2026). Test bằng dữ liệu giả.
+- Căn cứ: QĐ 2075/QĐ-SXD Hà Nội (giá ca máy, 31/10/2026, thay QĐ 2037 ngày 26/10/2026) — ghi nhận, chờ bản gốc để
+  trích; QĐ 5268/QĐ-UBND Hà Nội 2023 (đơn giá bảo trì hạ tầng GTĐB) — chỉ tham khảo, không dùng cho cao tốc HN–HP.
