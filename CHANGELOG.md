@@ -155,3 +155,11 @@
   giá. Đã thử trên dữ liệu thật: HN 14 kỳ (đến Q3/2026), HP 22 kỳ (T8/2026), HY 23 kỳ (T08/2026). Test bằng dữ liệu giả.
 - Căn cứ: QĐ 2075/QĐ-SXD Hà Nội (giá ca máy, 31/10/2026, thay QĐ 2037 ngày 26/10/2026) — ghi nhận, chờ bản gốc để
   trích; QĐ 5268/QĐ-UBND Hà Nội 2023 (đơn giá bảo trì hạ tầng GTĐB) — chỉ tham khảo, không dùng cho cao tốc HN–HP.
+
+## [2.4.0] — 2026-11-17
+- **Giá ca máy Hà Nội QĐ 2075/QĐ-SXD** (31/10/2026, thay QĐ 2037): 778 máy × 2 vùng trích từ PDF người dùng cung cấp vào
+  `data/gia-ca-may/cong-bo/gia_ca_may_cong_bo.csv` theo thời hạn hiệu lực; lệnh tra `scripts/gia_ca_may_cong_bo.py`.
+  Đối chiếu với CSDL GXD trên máy người dùng: 771 khớp, 6 lệch đúng 100 đ (giữ số công bố), M203.0021 bản công bố để
+  trống Vùng II. Bản PDF chưa ghi số, ngày — ghi chú trong README.
+- **Kiểm chứng công thức PL IV** của `gia_ca_may.py`: với giá nhiên liệu, nhân công của QĐ 2075 ra đúng giá công bố sau
+  làm tròn 100 đ (M101.0101, M105.0202, M108.0103) — test `test_gia_ca_may_cong_bo`.
