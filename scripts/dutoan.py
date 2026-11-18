@@ -316,7 +316,7 @@ def cmd_can_gia(a):
                 dien += 1
             if (not g or not g["don_gia"]) and h["loai"] == "M" and getattr(a, "ca_may", False) and v in vnc:
                 import anh_xa_may
-                gm, ng = anh_xa_may.gia_may(m, vnc[v], ngay_ap_gia(cfg)[0])
+                gm, ng = anh_xa_may.gia_may(m, vnc[v], ngay_ap_gia(cfg)[0], thu_muc=dl.thu_muc)
                 if gm:
                     g = {"don_gia": gm, "nguon": ng, "ngay": "", "khu_vuc": vnc[v], "ty_le_luong": None}
                     dien += 1
@@ -336,7 +336,7 @@ def cmd_can_gia(a):
     print(f"{len(tn)} tài nguyên × {len(vung)} vùng = {len(out)} dòng; {thieu} dòng chưa có giá"
           + (f"; điền sẵn {dien} giá nhân công từ văn bản Sở XD (data/nhan-cong)" if dien else "") + f". Đã ghi {a.ra}")
     if chua_may:
-        print(f"[CHÚ Ý] --ca-may: {len(chua_may)} máy chưa điền được giá (xác nhận cột ma_may trong data/gia-ca-may/anh_xa_may_tt38.csv):")
+        print(f"[CHÚ Ý] --ca-may: {len(chua_may)} máy chưa điền được giá (xác nhận trong <hồ sơ>/anh_xa_may.csv: ten_tn, ma_may, can_cu):")
         for x in sorted(set(chua_may))[:30]:
             print("   -", x)
     if a.nhan_cong and not vnc:

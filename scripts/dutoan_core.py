@@ -1075,6 +1075,14 @@ def soat(dl, kl_rows, cfg, ngay_lap=None):
             n = len(dl.ghi_chu_cn.get(goc, []) or dl.ghi_chu_cn.get(g[:-2] + "00", []))
             if n:
                 kq.append(("S23", "THONG_TIN", f"Mã {m}: có {n} dòng ghi chú áp dụng (hệ số, điều kiện) trong data/chuyen-nganh — kiểm tra trước khi dùng"))
+    # S24 — xác nhận mã máy (ánh xạ tên máy TT 38 → mã PL IV) theo hồ sơ
+    try:
+        import anh_xa_may
+        ten_m = {m for m, h in dl.tai_nguyen_dung(ma_dung).items() if h["loai"] == "M"}
+        vung_ds = [v["id"] for v in (cfg or {}).get("vung", []) or []] or [""]
+        kq.extend(anh_xa_may.soat_ho_so(dl, ten_m, lambda t: all((dl.gia_cua(t, v) or {}).get("don_gia") for v in vung_ds)))
+    except ImportError:
+        pass
     sua_chua = (cfg or {}).get("loai_ho_so") == "sua_chua"
     for ma in ma_dung:
         goc0 = ma.split("+")[0]

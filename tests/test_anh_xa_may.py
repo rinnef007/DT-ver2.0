@@ -23,3 +23,21 @@ class TestAnhXa(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestXacNhanHoSo(unittest.TestCase):
+    def test_uu_tien_va_soat(self):
+        import tempfile, shutil
+        from dutoan_core import DuLieu
+        d = tempfile.mkdtemp()
+        for f in os.listdir(os.path.join(ROOT, "data", "vi-du-tt38")):
+            shutil.copy(os.path.join(ROOT, "data", "vi-du-tt38", f), d)
+        open(os.path.join(d, "anh_xa_may.csv"), "w", encoding="utf-8-sig").write(
+            "ten_tn,ma_may,can_cu\nCần cẩu 25 t,M102.0304,BPTC-03 cần cẩu bánh xích\nCần cẩu 16 t,M999.9999,\n")
+        self.assertEqual(a.nap(d)["Cần cẩu 25 t"]["ma_may"], "M102.0304")
+        self.assertEqual(a.nap()["Cần cẩu 25 t"]["ma_may"], "")          # bảng chung không đổi
+        g, ng = a.gia_may("Cần cẩu 25 t", "HN-V1", date(2026, 11, 17), thu_muc=d)
+        self.assertEqual(g, 3638400.0); self.assertIn("BPTC-03", ng)
+        kq = a.soat_ho_so(DuLieu(d), {"Cần cẩu 40 t"}, lambda t: False)
+        self.assertTrue(any(m == "CHAN" and "M999.9999" in t for _, m, t in kq))
+        self.assertTrue(any(m == "CANH_BAO" and "Cần cẩu 40 t" in t for _, m, t in kq))

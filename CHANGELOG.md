@@ -170,3 +170,9 @@
 - **Tên đầy đủ** cho cả 778 máy của bảng giá ca máy QĐ 2075 (cột `ten_day_du`, trước đây 181 máy chỉ có thông số).
 - **Ánh xạ tên máy TT 38 → mã PL IV** (`anh_xa_may_tt38.csv`, 886 tên): 686 tên có mã (261 trùng đối chứng GXD, 425 tự
   động), 187 cần xác nhận (kèm đề xuất và mã GXD), 13 không khớp. `can-gia --ca-may` điền giá ca máy công bố theo vùng.
+
+## [2.5.1] — 2026-11-18
+- **Xác nhận mã máy theo hồ sơ** (người dùng quyết định: 187 tên chưa xác nhận để người lập dự toán xác nhận, không chốt
+  hàng loạt): tệp `<hồ sơ>/anh_xa_may.csv` (ten_tn, ma_may, can_cu) ưu tiên hơn bảng chung; `can-gia --ca-may` ghi căn
+  cứ chọn máy vào nguồn giá. Soát mới **S24**: mã ngoài PL IV → chặn; thiếu căn cứ → cảnh báo; máy chưa có mã và chưa có
+  giá → cảnh báo kèm mã đề xuất và mã GXD. Bảng chung `anh_xa_may_tt38.csv` giữ nguyên.

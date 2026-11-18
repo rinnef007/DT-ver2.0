@@ -13,4 +13,15 @@
 
 686 tên có mã, phủ 11.503/14.440 dòng hao phí. Đối chứng GXD: ghép theo mã định mức có cùng số máy (341 tên); khớp tự động "chắc" trùng GXD 244/261 trường hợp có đối chứng (17 lệch → chuyển sang can_xac_nhan). Mã GXD chỉ ghi ở dòng can_xac_nhan để tham khảo — không thay thế quyết định của người lập. **Lưu ý:** đối chứng ghép máy theo thứ tự trong cùng mã định mức, nên khi thứ tự máy của GXD khác TT 38 thì mã GXD có thể sai hẳn (vd. "Máy đào 1,25 m3" ra M101.0504 là máy ủi 140 cv) — luôn đọc tên ở cột `ten_theo_gxd` trước khi chọn.
 
-**Xác nhận:** sửa cột `ma_may` (và có thể `trang_thai` = `xac_nhan`) trong tệp; `can-gia --ca-may` dùng ngay. Nên xác nhận trước các tên dùng nhiều: "Cần cẩu 16/25/40 t" (GXD chọn bánh xích), "Máy nén khí 600 m3/h" (GXD chọn động cơ diesel), "Máy gia nhiệt D630/D1200".
+**Xác nhận — theo từng hồ sơ, do người lập dự toán thực hiện** (người dùng quyết định 18/11/2026: bảng chung giữ nguyên trạng thái `can_xac_nhan`, không chốt hàng loạt). Lý do: cùng một tên trong TT 38 ("Cần cẩu 25 t") có thể là máy khác nhau tùy biện pháp thi công của công trình.
+
+Tạo tệp `anh_xa_may.csv` trong thư mục hồ sơ:
+
+```
+ten_tn,ma_may,can_cu
+Cần cẩu 25 t,M102.0304,Biện pháp thi công bản vẽ BPTC-03: cẩu lắp dầm trên nền yếu dùng cần cẩu bánh xích
+```
+
+- Tệp hồ sơ ưu tiên hơn bảng chung (kể cả với tên đã khớp tự động); `can-gia --ca-may` điền giá theo mã đã xác nhận, nguồn ghi kèm căn cứ.
+- Soát **S24**: mã không có trong PL IV → chặn; thiếu căn cứ → cảnh báo; máy hồ sơ dùng chưa có mã và chưa có giá → cảnh báo, kèm mã đề xuất và mã GXD để chọn.
+- Không sửa `anh_xa_may_tt38.csv` cho một hồ sơ riêng.
